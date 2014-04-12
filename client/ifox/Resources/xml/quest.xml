@@ -1,0 +1,64 @@
+<quest>
+	
+	
+    <q id="1" story="1" next="2" rank="C" img="MI004" name="【探索】精灵森林" owner="【工匠协会】" time="" des="【工匠协会】的最终试炼，需要监督官陪同接受委托" cdes="探索【精灵森林】的【平静的森林】" ci0="" ci1="" cserch="101" cserchper="0.1" calchemy="" cgroundlv="" cshoplv="" chomelv="" cworklv="" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="100" comi0="" cominum0="" comi1="" comi2="" comi3=""/>
+    <q id="2" rank="C" story="10" img="MI004" name="【探索】精灵森林" owner="【工匠协会】" des="精灵森林的试炼" cdes="探索【精灵森林】的【不归的黑暗空洞】" cserch="105" cserchper="1.0" comGold="10000" comi0="20312" cominum0="1" comi1="20280" cominum1="1" />
+    <q id="3" rank="C" workRank="1" img="MI003" name="【探索】斯塞提卡湖" owner="【工匠协会】" des="斯塞提卡湖的试炼" cdes="探索【斯塞提卡湖】的【卡伦契约的河道】" cserch="205" cserchper="1.0" comGold="20000" comi0="20311" cominum0="1" comi1="20279" cominum1="1" />
+    <q id="4" rank="C" workRank="2" img="MI006" name="【探索】忏悔森林" owner="【工匠协会】" des="忏悔森林的试炼" cdes="探索【忏悔森林】的【睡魔的藏身处】" cserch="305" cserchper="1.0" comGold="30000" comi0="20310" cominum0="1" comi1="20278" cominum1="1" />
+    <q id="5" rank="C" workRank="3" img="MI010" name="【探索】废弃教堂" owner="【工匠协会】" des="废弃教堂的试炼" cdes="探索【废弃教堂】的【圣天兽的山路】" cserch="405" cserchper="1.0" comGold="40000" comi0="20309" cominum0="1" comi1="20277" cominum1="1" />
+    <q id="6" rank="C" workRank="4" img="MI008" name="【探索】言语树林" owner="【工匠协会】" des="言语树林的试炼" cdes="探索【言语树林】的【追忆之乡】】" cserch="505" cserchper="1.0" comGold="50000" comi0="20308" cominum0="1" comi1="20276" cominum1="1" />
+    <q id="7" rank="C" workRank="5" img="MI013" name="【探索】神龙湖" owner="【工匠协会】" des="神龙湖的试炼" cdes="探索【神龙湖】的【清澈的西湖畔】" cserch="605" cserchper="1.0" comGold="60000" comi0="20307" cominum0="1" comi1="20275" cominum1="1" />
+    <q id="8" rank="C" workRank="6" img="MI011" name="【探索】Rosean山脉" owner="【工匠协会】" des="Rosean山脉的试炼" cdes="探索【Rosean山脉】的【巨人族矿床】" cserch="705" cserchper="1.0" comGold="70000" comi0="20306" cominum0="1" comi1="20274" cominum1="1" />
+    <q id="9" rank="C" workRank="7" img="MI007" name="【探索】塞尔塔的树海" owner="【工匠协会】" des="塞尔塔的树海的试炼" cdes="探索【塞尔塔的树海】的【秘境的封印遗迹】" cserch="805" cserchper="1.0" comGold="80000" comi0="20305" cominum0="1" comi1="20273" cominum1="1" />
+    <q id="10" rank="C" workRank="8" img="MI019" name="【探索】卡尼亚荒地" owner="【工匠协会】" des="卡尼亚荒地的试炼" cdes="探索【卡尼亚荒地】的【灵魇的异界Ⅱ】" cserch="905" cserchper="1.0" comGold="90000" comi0="20304" cominum0="1" comi1="20272" cominum1="1" />
+    <q id="11" rank="C" workRank="9" img="MI015" name="【探索】钟乳洞穴" owner="【工匠协会】" des="钟乳洞穴的试炼" cdes="探索【钟乳洞穴】的【土匪的巢穴】" cserch="1005" cserchper="1.0" comGold="100000" comi0="20303" cominum0="1" comi1="20271" cominum1="1" />
+    <q id="12" rank="C" workRank="10" img="MI020" name="【探索】丘陵地带" owner="【工匠协会】" des="丘陵地带的试炼" cdes="探索【丘陵地带】的【巨人的巢穴Ⅲ】" cserch="1105" cserchper="1.0" comGold="110000" comi0="20301" cominum0="1" comi1="20270" cominum1="1" />
+    <q id="13" rank="C" workRank="11" img="MI024" name="【探索】天空之城" owner="【工匠协会】" des="天空之城的试炼" cdes="探索【天空之城】的【古老的圣域Ⅲ】" cserch="1205" cserchper="1.0" comGold="120000" comi0="20300" cominum0="1" comi1="20269" cominum1="1" />
+    <q id="14" rank="C" workRank="12" img="MI014" name="【探索】混乱之地" owner="【工匠协会】" des="混乱之地的试炼" cdes="探索【混乱之地】的【狂乱的蛇行道Ⅲ】" cserch="1305" cserchper="1.0" comGold="130000" comi0="20299" cominum0="1" comi1="20268" cominum1="1" />
+    <q id="15" rank="C" workRank="13" img="MI016" name="【探索】彩虹瀑布" owner="【工匠协会】" des="彩虹瀑布的试炼" cdes="探索【彩虹瀑布】的【被封印的黑暗之根Ⅲ】" cserch="1405" cserchper="1.0" comGold="140000" comi0="20298" cominum0="1" comi1="20267" cominum1="1" />
+    <q id="16" rank="C" workRank="14" img="MI012" name="【探索】火焰神殿" owner="【工匠协会】" des="火焰神殿的试炼" cdes="探索【火焰神殿】的【进攻火焰山Ⅱ】" cserch="1505" cserchper="1.0" comGold="150000" comi0="20016" cominum0="1" comi1="20266" cominum1="1" />
+    <q id="17" rank="C" workRank="15" img="MI029" name="【探索】宏伟宫殿" owner="【工匠协会】" des="宏伟宫殿的试炼" cdes="探索【宏伟宫殿】的【淑琳的圣宫Ⅴ】" cserch="1605" cserchper="1.0" comGold="160000" comi0="20015" cominum0="1" comi1="20265" cominum1="1" />
+    <q id="18" rank="C" workRank="16" img="MI027" name="【探索】祭奠神社" owner="【工匠协会】" des="祭奠神社的试炼" cdes="探索【祭奠神社】的【邪魔的封印洞Ⅲ】" cserch="1705" cserchper="1.0" comGold="170000" comi0="20014" cominum0="1" comi1="20048" cominum1="1" />
+    <q id="19" rank="C" workRank="17" img="MI026" name="【探索】遗迹群" owner="【工匠协会】" des="遗迹群的试炼" cdes="探索【遗迹群】的【遥远的故乡Ⅴ】" cserch="1805" cserchper="1.0" comGold="180000" comi0="20013" cominum0="1" comi1="20047" cominum1="1" />
+    <q id="20" rank="C" workRank="18" img="MI023" name="【探索】炎热河床" owner="【工匠协会】" des="炎热河床的试炼" cdes="探索【炎热河床】的【光之溪谷Ⅴ】" cserch="1905" cserchper="1.0" comGold="190000" comi0="20012" cominum0="1" comi1="20046" cominum1="1" />
+    <q id="21" rank="C" workRank="18" img="MI009" name="【探索】阳光山谷" owner="【工匠协会】" des="阳光山谷的试炼" cdes="探索【阳光山谷】的【决战魔王】" cserch="2005" cserchper="1.0" comGold="200000" comi0="20011" cominum0="1" comi1="20045" cominum1="1" />
+    <q id="22" rank="C" workRank="18" img="MI018" name="【探索】魔王宫殿" owner="【工匠协会】" des="魔王宫殿的试炼" cdes="探索【魔王宫殿】的【漂泊的遇难船】" cserch="2105" cserchper="1.0" comGold="210000" comi0="20010" cominum0="1" comi1="20044" cominum1="1" />
+    <q id="23" rank="C" workRank="18" img="MI031" name="【探索】死亡海岸" owner="【工匠协会】" des="死亡海岸的试炼" cdes="探索【死亡海岸】的【进击吧！炼金师】" cserch="2205" cserchper="1.0" comGold="220000" comi0="20009" cominum0="1" comi1="20043" cominum1="1" />
+    <q id="24" rank="C" workRank="18" img="MI033" name="【探索】海拉尔迷宫" owner="【工匠协会】" des="海拉尔迷宫的试炼" cdes="探索【海拉尔迷宫】的【雷鸣之顶】" cserch="2305" cserchper="1.0" comGold="230000" comi0="20042" cominum0="1" comi1="20041" cominum1="1" />
+    <q id="25" rank="C" workRank="18" img="MI034" name="【探索】管理局山脉" owner="【工匠协会】" des="管理局山脉的试炼" cdes="探索【管理局山脉】的【河床下的秘密Ⅳ】" cserch="2405" cserchper="1.0" comGold="240000" comi0="20080" cominum0="1" comi1="20079" cominum1="1" />
+    <q id="26" rank="C" workRank="18" img="MI035" name="【探索】管理局水闸" owner="【工匠协会】" des="管理局水闸的试炼" cdes="探索【管理局水闸】的【河床下的秘密Ⅲ】" cserch="2505" cserchper="1.0" comGold="250000" comi0="20078" cominum0="1" comi1="20077" cominum1="1" />
+    <q id="27" rank="C" workRank="18" img="MI036" name="【探索】虚幻树海" owner="【工匠协会】" des="虚幻树海的试炼" cdes="探索【虚幻树海】的【河床下的秘密Ⅳ】" cserch="2605" cserchper="1.0" comGold="260000" comi0="20076" cominum0="1" comi1="20075" cominum1="1" />
+    <q id="28" rank="C" workRank="18" img="MI037" name="【探索】女神瀑布" owner="【工匠协会】" des="女神瀑布的试炼" cdes="探索【女神瀑布】的【河床下的秘密Ⅲ】" cserch="2705" cserchper="1.0" comGold="270000" comi0="20074" cominum0="1" comi1="20073" cominum1="1" />
+    <q id="29" rank="C" workRank="18" img="MI039" name="【探索】降临弯" owner="【工匠协会】" des="降临弯的试炼" cdes="探索【降临弯】的【河床下的秘密Ⅳ】" cserch="2805" cserchper="1.0" comGold="280000" comi0="20077" cominum0="1" comi1="20075" cominum1="1" />
+
+
+
+    <q id="100" story="14" next="101" rank="C" img="IC0004" name="【发展】工房增筑1级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部1级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="1" cshoplv="1" chomelv="1" cworklv="1" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="1000"/>
+    <q id="101" next="102" rank="C" img="IC0004" name="【发展】工房增筑2级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部2级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="2" cshoplv="2" chomelv="2" cworklv="2" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="2000"/>
+    <q id="102" next="103" rank="C" img="IC0004" name="【发展】工房增筑3级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部3级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="3" cshoplv="3" chomelv="3" cworklv="3" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="3000"/>
+    <q id="103" next="104" rank="C" img="IC0004" name="【发展】工房增筑4级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部4级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="4" cshoplv="4" chomelv="4" cworklv="4" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="4000"/>
+    <q id="104" next="105" rank="C" img="IC0004" name="【发展】工房增筑5级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部5级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="5" cshoplv="5" chomelv="5" cworklv="5" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="5000"/>
+    <q id="105" next="106" rank="C" img="IC0004" name="【发展】工房增筑6级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部6级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="6" cshoplv="6" chomelv="6" cworklv="6" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="6000"/>
+    <q id="106" next="107" rank="B" img="IC0004" name="【发展】工房增筑7级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部7级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="7" cshoplv="7" chomelv="7" cworklv="7" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="7000"/>
+    <q id="107" next="108" rank="B" img="IC0004" name="【发展】工房增筑8级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部8级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="8" cshoplv="8" chomelv="8" cworklv="8" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="8000"/>
+    <q id="108" next="109" rank="B" img="IC0004" name="【发展】工房增筑9级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部9级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="9" cshoplv="9" chomelv="9" cworklv="9" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="9000"/>
+    <q id="109" next="110" rank="B" img="IC0004" name="【发展】工房增筑10级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部10级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="10" cshoplv="10" chomelv="10" cworklv="10" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="10000"/>
+    <q id="110" next="111" rank="B" img="IC0004" name="【发展】工房增筑11级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部11级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="11" cshoplv="11" chomelv="11" cworklv="11" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="11000"/>
+    <q id="111" next="112" rank="B" img="IC0004" name="【发展】工房增筑12级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部12级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="12" cshoplv="12" chomelv="12" cworklv="12" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="12000"/>
+    <q id="112" next="113" rank="A" img="IC0004" name="【发展】工房增筑13级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部13级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="13" cshoplv="13" chomelv="13" cworklv="13" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="13000"/>
+    <q id="113" next="114" rank="A" img="IC0004" name="【发展】工房增筑14级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部14级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="14" cshoplv="14" chomelv="14" cworklv="14" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="14000"/>
+    <q id="114" next="115" rank="A" img="IC0004" name="【发展】工房增筑15级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部15级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="15" cshoplv="15" chomelv="15" cworklv="15" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="15000"/>
+    <q id="115" next="116" rank="A" img="IC0004" name="【发展】工房增筑16级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部16级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="16" cshoplv="16" chomelv="16" cworklv="16" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="16000"/>
+    <q id="116" next="117" rank="A" img="IC0004" name="【发展】工房增筑17级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部17级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="17" cshoplv="17" chomelv="17" cworklv="17" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="17000"/>
+    <q id="117" next="118" rank="A" img="IC0004" name="【发展】工房增筑18级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部18级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="18" cshoplv="18" chomelv="18" cworklv="18" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="18000"/>
+    <q id="118" next="119" rank="S" img="IC0004" name="【发展】工房增筑19级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部19级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="19" cshoplv="19" chomelv="19" cworklv="19" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="19000"/>
+    <q id="119" next="120" rank="S" img="IC0004" name="【发展】工房增筑20级" owner="【工匠协会】" time="" des="工匠协会的发展委员会的委托" cdes="增筑【工房】【庭院】【部务】【店铺】全部20级" ci0="" ci1="" cserch="" calchemy="" cgroundlv="20" cshoplv="20" chomelv="20" cworklv="20" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="20000"/>
+
+
+
+
+
+
+
+
+</quest>

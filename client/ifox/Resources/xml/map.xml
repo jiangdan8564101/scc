@@ -1,0 +1,4650 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<map>
+<m id="1" name="工房都市多拉" story="5" workRank="0" >
+    <s id="99" name="小狐狸的宝藏" lv="1" >
+    <t id="301" num="1" per="100" />
+<t id="302" num="1" per="100" />
+<t id="303" num="1" per="100" />
+<t id="304" num="1" per="100" />
+<t id="305" num="1" per="100" />
+<t id="306" num="1" per="100" />
+<t id="307" num="1" per="100" />
+<t id="308" num="1" per="100" />
+<t id="309" num="1" per="100" />
+<t id="310" num="1" per="100" />
+<t id="311" num="1" per="20" />
+<t id="312" num="1" per="20" />
+<t id="313" num="1" per="20" />
+<t id="314" num="1" per="20" />
+<t id="315" num="1" per="20" />
+<t id="316" num="1" per="20" />
+<t id="317" num="1" per="20" />
+<t id="318" num="1" per="8" />
+<t id="319" num="1" per="8" />
+<t id="320" num="1" per="8" />
+<t id="60009" num="1" per="100" />
+<t id="60010" num="1" per="100" />
+<t id="60011" num="1" per="100" />
+<t id="60012" num="1" per="100" />
+<t id="60013" num="1" per="100" />
+<t id="51101" num="1" per="200" />
+<t id="51102" num="1" per="200" />
+<t id="51103" num="1" per="200" />
+<t id="52000" num="1" per="10" />
+<t id="20057" num="1" per="100" />
+<t id="20025" num="1" per="100" />
+<t id="20089" num="1" per="100" />
+<t id="20137" num="1" per="100" />
+<t id="20153" num="1" per="100" />
+
+    </s>
+</m>
+<m id="5" name="神木林" workRank="999" />
+<m id="32" name="蛋糕店" workRank="999" />
+<m id="25" name="贸易都市" workRank="999" />
+<m id="4" name="精灵森林" story="6" workRank="0" >
+<smallMap>
+<s id="101" name="平静的森林" lv="1" >
+<collect>
+<c id="50041" per="181" num="1" />
+<c id="50189" per="181" num="1" />
+<c id="50189" per="181" num="1" />
+<c id="50189" per="181" num="1" />
+<c id="50047" per="181" num="1" />
+</collect>
+<dig>
+<d id="50001" per="181" num="1" />
+<d id="50013" per="181" num="1" />
+<d id="50005" per="181" num="1" />
+<d id="50031" per="181" num="1" />
+<d id="50015" per="181" num="1" />
+</dig>
+<enemy>
+<e id="10101" per="30" num="1" />
+<e id="10102" per="30" num="1" />
+<e id="10103" per="30" num="1" />
+<e id="10104" per="10" num="1" />
+<e id="10105" per="10" num="1" />
+</enemy>
+<boss>
+<b id="10108" per="10" num="1" />
+</boss>
+<psp>
+<p id="10109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="102" name="风的训练地" lv="1" >
+<collect>
+<c id="50045" per="181" num="1" />
+<c id="50045" per="181" num="1" />
+<c id="50045" per="181" num="1" />
+<c id="50189" per="181" num="1" />
+<c id="50047" per="181" num="1" />
+</collect>
+<dig>
+<d id="50005" per="181" num="1" />
+<d id="50015" per="181" num="1" />
+<d id="50001" per="181" num="1" />
+<d id="50005" per="181" num="1" />
+<d id="50015" per="181" num="1" />
+</dig>
+<enemy>
+<e id="10201" per="30" num="1" />
+<e id="10202" per="30" num="1" />
+<e id="10203" per="30" num="1" />
+<e id="10204" per="10" num="1" />
+<e id="10205" per="10" num="1" />
+</enemy>
+<boss>
+<b id="10208" per="10" num="1" />
+</boss>
+<psp>
+<p id="10209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="103" name="杀戮地带" lv="1" >
+<collect>
+<c id="50047" per="181" num="1" />
+<c id="50069" per="181" num="1" />
+<c id="50069" per="181" num="1" />
+<c id="50045" per="181" num="1" />
+<c id="50047" per="181" num="1" />
+</collect>
+<dig>
+<d id="50009" per="181" num="1" />
+<d id="50035" per="181" num="1" />
+<d id="50005" per="181" num="1" />
+<d id="50013" per="181" num="1" />
+<d id="50001" per="181" num="1" />
+</dig>
+<enemy>
+<e id="10301" per="30" num="1" />
+<e id="10302" per="30" num="1" />
+<e id="10303" per="30" num="1" />
+<e id="10304" per="10" num="1" />
+<e id="10305" per="10" num="1" />
+</enemy>
+<boss>
+<b id="10308" per="10" num="1" />
+</boss>
+<psp>
+<p id="10309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="104" name="森林深处" lv="1" >
+<collect>
+<c id="50051" per="181" num="1" />
+<c id="50069" per="181" num="1" />
+<c id="50045" per="181" num="1" />
+<c id="50051" per="181" num="1" />
+<c id="50045" per="181" num="1" />
+</collect>
+<dig>
+<d id="50013" per="181" num="1" />
+<d id="50001" per="181" num="1" />
+<d id="50013" per="181" num="1" />
+<d id="50009" per="181" num="1" />
+<d id="50005" per="181" num="1" />
+</dig>
+<enemy>
+<e id="10401" per="30" num="1" />
+<e id="10402" per="30" num="1" />
+<e id="10403" per="30" num="1" />
+<e id="10404" per="10" num="1" />
+<e id="10405" per="10" num="1" />
+</enemy>
+<boss>
+<b id="10408" per="10" num="1" />
+</boss>
+<psp>
+<p id="10409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="105" name="不归的黑暗空洞" lv="2" >
+<collect>
+<c id="50052" per="181" num="1" />
+<c id="50047" per="181" num="1" />
+<c id="50045" per="181" num="1" />
+<c id="50189" per="181" num="1" />
+<c id="50047" per="181" num="1" />
+</collect>
+<dig>
+<d id="50015" per="181" num="1" />
+<d id="50009" per="181" num="1" />
+<d id="50005" per="181" num="1" />
+<d id="50031" per="181" num="1" />
+<d id="50001" per="181" num="1" />
+</dig>
+<enemy>
+<e id="10501" per="30" num="1" />
+<e id="10502" per="30" num="1" />
+<e id="10503" per="30" num="1" />
+<e id="10504" per="10" num="1" />
+<e id="10505" per="10" num="1" />
+</enemy>
+<boss>
+<b id="10508" per="10" num="1" />
+</boss>
+<psp>
+<p id="10509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="3" name="斯塞提卡湖" story="6" workRank="1" >
+<smallMap>
+<s id="201" name="苍月的南湖畔" lv="2" >
+<collect>
+<c id="50069" per="181" num="1" />
+<c id="50045" per="181" num="1" />
+<c id="50051" per="181" num="1" />
+<c id="50189" per="181" num="1" />
+<c id="50047" per="181" num="1" />
+</collect>
+<dig>
+<d id="50031" per="181" num="1" />
+<d id="50005" per="181" num="1" />
+<d id="50031" per="181" num="1" />
+<d id="50031" per="181" num="1" />
+<d id="50013" per="181" num="1" />
+</dig>
+<enemy>
+<e id="20101" per="30" num="2" />
+<e id="20102" per="30" num="2" />
+<e id="20103" per="30" num="2" />
+<e id="20104" per="10" num="2" />
+<e id="20105" per="10" num="2" />
+</enemy>
+<boss>
+<b id="20108" per="10" num="1" />
+</boss>
+<psp>
+<p id="20109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="202" name="凉风西湖畔" lv="3" >
+<collect>
+<c id="50168" per="181" num="1" />
+<c id="50051" per="181" num="1" />
+<c id="50041" per="181" num="1" />
+<c id="50168" per="181" num="1" />
+<c id="50051" per="181" num="1" />
+</collect>
+<dig>
+<d id="50035" per="181" num="1" />
+<d id="50009" per="181" num="1" />
+<d id="50005" per="181" num="1" />
+<d id="50015" per="181" num="1" />
+<d id="50031" per="181" num="1" />
+</dig>
+<enemy>
+<e id="20201" per="30" num="2" />
+<e id="20202" per="30" num="2" />
+<e id="20203" per="30" num="2" />
+<e id="20204" per="10" num="2" />
+<e id="20205" per="10" num="2" />
+</enemy>
+<boss>
+<b id="20208" per="10" num="1" />
+</boss>
+<psp>
+<p id="20209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="203" name="变化的中央湖畔" lv="3" >
+<collect>
+<c id="50189" per="181" num="1" />
+<c id="50069" per="181" num="1" />
+<c id="50052" per="181" num="1" />
+<c id="50168" per="181" num="1" />
+<c id="50168" per="181" num="1" />
+</collect>
+<dig>
+<d id="50002" per="129" num="1" />
+<d id="50035" per="181" num="1" />
+<d id="50001" per="181" num="1" />
+<d id="50006" per="129" num="1" />
+<d id="50005" per="181" num="1" />
+</dig>
+<enemy>
+<e id="20301" per="30" num="2" />
+<e id="20302" per="30" num="2" />
+<e id="20303" per="30" num="2" />
+<e id="20304" per="10" num="2" />
+<e id="20305" per="10" num="2" />
+</enemy>
+<boss>
+<b id="20308" per="10" num="1" />
+</boss>
+<psp>
+<p id="20309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="204" name="管理局水坝" lv="3" >
+<collect>
+<c id="50042" per="129" num="1" />
+<c id="50054" per="129" num="1" />
+<c id="50055" per="129" num="1" />
+<c id="50047" per="181" num="1" />
+<c id="50065" per="129" num="1" />
+</collect>
+<dig>
+<d id="50006" per="129" num="1" />
+<d id="50010" per="129" num="1" />
+<d id="50002" per="129" num="1" />
+<d id="50006" per="129" num="1" />
+<d id="50006" per="129" num="1" />
+</dig>
+<enemy>
+<e id="20401" per="30" num="2" />
+<e id="20402" per="30" num="2" />
+<e id="20403" per="30" num="2" />
+<e id="20404" per="10" num="2" />
+<e id="20405" per="10" num="2" />
+</enemy>
+<boss>
+<b id="20408" per="10" num="1" />
+</boss>
+<psp>
+<p id="20409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="205" name="凉风西湖畔（冬）" lv="4" >
+<collect>
+<c id="50053" per="129" num="1" />
+<c id="50042" per="129" num="1" />
+<c id="50057" per="129" num="1" />
+<c id="50168" per="181" num="1" />
+<c id="50052" per="181" num="1" />
+</collect>
+<dig>
+<d id="50010" per="129" num="1" />
+<d id="50013" per="181" num="1" />
+<d id="50002" per="129" num="1" />
+<d id="50035" per="181" num="1" />
+<d id="50005" per="181" num="1" />
+</dig>
+<enemy>
+<e id="20501" per="30" num="2" />
+<e id="20502" per="30" num="2" />
+<e id="20503" per="30" num="2" />
+<e id="20504" per="10" num="2" />
+<e id="20505" per="10" num="2" />
+</enemy>
+<boss>
+<b id="20508" per="10" num="1" />
+</boss>
+<psp>
+<p id="20509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="6" name="忏悔森林" workRank="2" >
+<smallMap>
+<s id="301" name="灵气紫森林" lv="4" >
+<collect>
+<c id="50054" per="129" num="1" />
+<c id="50189" per="181" num="2" />
+<c id="50041" per="181" num="2" />
+<c id="50052" per="181" num="2" />
+<c id="50189" per="181" num="2" />
+</collect>
+<dig>
+<d id="50087" per="129" num="1" />
+<d id="50001" per="181" num="2" />
+<d id="50009" per="181" num="2" />
+<d id="50015" per="181" num="2" />
+<d id="50010" per="129" num="1" />
+</dig>
+<enemy>
+<e id="30101" per="30" num="3" />
+<e id="30102" per="30" num="3" />
+<e id="30103" per="30" num="3" />
+<e id="30104" per="10" num="3" />
+<e id="30105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="30108" per="10" num="1" />
+</boss>
+<psp>
+<p id="30109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="302" name="瘴气污浊的森林" lv="5" >
+<collect>
+<c id="50055" per="129" num="1" />
+<c id="50065" per="129" num="1" />
+<c id="50045" per="181" num="2" />
+<c id="50054" per="129" num="1" />
+<c id="50054" per="129" num="1" />
+</collect>
+<dig>
+<d id="50088" per="129" num="1" />
+<d id="50005" per="181" num="2" />
+<d id="50001" per="181" num="2" />
+<d id="50002" per="129" num="1" />
+<d id="50031" per="181" num="2" />
+</dig>
+<enemy>
+<e id="30201" per="30" num="3" />
+<e id="30202" per="30" num="3" />
+<e id="30203" per="30" num="3" />
+<e id="30204" per="10" num="3" />
+<e id="30205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="30208" per="10" num="1" />
+</boss>
+<psp>
+<p id="30209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="303" name="污染的上游河流" lv="5" >
+<collect>
+<c id="50056" per="129" num="1" />
+<c id="50054" per="129" num="1" />
+<c id="50053" per="129" num="1" />
+<c id="50051" per="181" num="2" />
+<c id="50063" per="129" num="1" />
+</collect>
+<dig>
+<d id="50003" per="88" num="1" />
+<d id="50010" per="129" num="1" />
+<d id="50018" per="88" num="1" />
+<d id="50176" per="88" num="1" />
+<d id="50030" per="88" num="1" />
+</dig>
+<enemy>
+<e id="30301" per="30" num="3" />
+<e id="30302" per="30" num="3" />
+<e id="30303" per="30" num="3" />
+<e id="30304" per="10" num="3" />
+<e id="30305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="30308" per="10" num="1" />
+</boss>
+<psp>
+<p id="30309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="304" name="异质的河川" lv="6" >
+<collect>
+<c id="50057" per="129" num="1" />
+<c id="50064" per="129" num="1" />
+<c id="50042" per="129" num="1" />
+<c id="50063" per="129" num="1" />
+<c id="50041" per="181" num="2" />
+</collect>
+<dig>
+<d id="50007" per="88" num="1" />
+<d id="50009" per="181" num="2" />
+<d id="50023" per="88" num="1" />
+<d id="50025" per="88" num="1" />
+<d id="50023" per="88" num="1" />
+</dig>
+<enemy>
+<e id="30401" per="30" num="3" />
+<e id="30402" per="30" num="3" />
+<e id="30403" per="30" num="3" />
+<e id="30404" per="10" num="3" />
+<e id="30405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="30408" per="10" num="1" />
+</boss>
+<psp>
+<p id="30409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="305" name="睡魔的藏身处" lv="6" >
+<collect>
+<c id="50063" per="129" num="1" />
+<c id="50042" per="129" num="1" />
+<c id="50051" per="181" num="2" />
+<c id="50057" per="129" num="1" />
+<c id="50065" per="129" num="1" />
+</collect>
+<dig>
+<d id="50011" per="88" num="1" />
+<d id="50015" per="181" num="2" />
+<d id="50010" per="129" num="1" />
+<d id="50023" per="88" num="1" />
+<d id="50021" per="88" num="1" />
+</dig>
+<enemy>
+<e id="30501" per="30" num="3" />
+<e id="30502" per="30" num="3" />
+<e id="30503" per="30" num="3" />
+<e id="30504" per="10" num="3" />
+<e id="30505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="30508" per="10" num="1" />
+</boss>
+<psp>
+<p id="30509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="10" name="废弃教堂" workRank="3" >
+<smallMap>
+<s id="401" name="被天蓝色包围的山" lv="6" >
+<collect>
+<c id="50064" per="129" num="1" />
+<c id="50052" per="181" num="2" />
+<c id="50042" per="129" num="1" />
+<c id="50041" per="181" num="2" />
+<c id="50045" per="181" num="2" />
+</collect>
+<dig>
+<d id="50014" per="88" num="1" />
+<d id="50031" per="181" num="2" />
+<d id="50023" per="88" num="1" />
+<d id="50019" per="88" num="1" />
+<d id="50176" per="88" num="1" />
+</dig>
+<enemy>
+<e id="40101" per="30" num="3" />
+<e id="40102" per="30" num="3" />
+<e id="40103" per="30" num="3" />
+<e id="40104" per="10" num="3" />
+<e id="40105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="40108" per="10" num="1" />
+</boss>
+<psp>
+<p id="40109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="402" name="悠长的登山路" lv="7" >
+<collect>
+<c id="50065" per="129" num="1" />
+<c id="50070" per="129" num="1" />
+<c id="50057" per="129" num="1" />
+<c id="50168" per="181" num="2" />
+<c id="50042" per="129" num="1" />
+</collect>
+<dig>
+<d id="50016" per="88" num="1" />
+<d id="50009" per="181" num="2" />
+<d id="50011" per="88" num="1" />
+<d id="50036" per="88" num="1" />
+<d id="50087" per="129" num="1" />
+</dig>
+<enemy>
+<e id="40201" per="30" num="3" />
+<e id="40202" per="30" num="3" />
+<e id="40203" per="30" num="3" />
+<e id="40204" per="10" num="3" />
+<e id="40205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="40208" per="10" num="1" />
+</boss>
+<psp>
+<p id="40209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="403" name="婉转的山路" lv="7" >
+<collect>
+<c id="50070" per="129" num="1" />
+<c id="50070" per="129" num="1" />
+<c id="50069" per="181" num="2" />
+<c id="50053" per="129" num="1" />
+<c id="50064" per="129" num="1" />
+</collect>
+<dig>
+<d id="50018" per="88" num="1" />
+<d id="50010" per="129" num="1" />
+<d id="50026" per="88" num="1" />
+<d id="50019" per="88" num="1" />
+<d id="50087" per="129" num="1" />
+</dig>
+<enemy>
+<e id="40301" per="30" num="3" />
+<e id="40302" per="30" num="3" />
+<e id="40303" per="30" num="3" />
+<e id="40304" per="10" num="3" />
+<e id="40305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="40308" per="10" num="1" />
+</boss>
+<psp>
+<p id="40309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="404" name="教会的遗迹" lv="8" >
+<collect>
+<c id="50043" per="88" num="1" />
+<c id="50051" per="181" num="2" />
+<c id="50053" per="129" num="1" />
+<c id="50041" per="181" num="2" />
+<c id="50171" per="88" num="1" />
+</collect>
+<dig>
+<d id="50019" per="88" num="1" />
+<d id="50010" per="129" num="1" />
+<d id="50174" per="88" num="1" />
+<d id="50175" per="88" num="1" />
+<d id="50031" per="181" num="2" />
+</dig>
+<enemy>
+<e id="40401" per="30" num="3" />
+<e id="40402" per="30" num="3" />
+<e id="40403" per="30" num="3" />
+<e id="40404" per="10" num="3" />
+<e id="40405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="40408" per="10" num="1" />
+</boss>
+<psp>
+<p id="40409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="405" name="圣天兽的山路" lv="8" >
+<collect>
+<c id="50046" per="88" num="1" />
+<c id="50045" per="181" num="2" />
+<c id="50043" per="88" num="1" />
+<c id="50043" per="88" num="1" />
+<c id="50066" per="88" num="1" />
+</collect>
+<dig>
+<d id="50020" per="88" num="1" />
+<d id="50005" per="181" num="2" />
+<d id="50011" per="88" num="1" />
+<d id="50015" per="181" num="2" />
+<d id="50020" per="88" num="1" />
+</dig>
+<enemy>
+<e id="40501" per="30" num="3" />
+<e id="40502" per="30" num="3" />
+<e id="40503" per="30" num="3" />
+<e id="40504" per="10" num="3" />
+<e id="40505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="40508" per="10" num="1" />
+</boss>
+<psp>
+<p id="40509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="8" name="言语树林" workRank="4" >
+<smallMap>
+<s id="501" name="古老的鬼族遗迹" lv="9" >
+<collect>
+<c id="50048" per="88" num="1" />
+<c id="50051" per="181" num="3" />
+<c id="50055" per="129" num="1" />
+<c id="50051" per="181" num="3" />
+<c id="50043" per="88" num="1" />
+</collect>
+<dig>
+<d id="50021" per="88" num="1" />
+<d id="50002" per="129" num="1" />
+<d id="50175" per="88" num="1" />
+<d id="50002" per="129" num="1" />
+<d id="50027" per="88" num="1" />
+</dig>
+<enemy>
+<e id="50101" per="30" num="3" />
+<e id="50102" per="30" num="3" />
+<e id="50103" per="30" num="3" />
+<e id="50104" per="10" num="3" />
+<e id="50105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="50108" per="10" num="1" />
+</boss>
+<psp>
+<p id="50109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="502" name="漆黑的决战地带" lv="10" >
+<collect>
+<c id="50066" per="88" num="1" />
+<c id="50051" per="181" num="3" />
+<c id="50171" per="88" num="1" />
+<c id="50054" per="129" num="1" />
+<c id="50064" per="129" num="1" />
+</collect>
+<dig>
+<d id="50022" per="88" num="1" />
+<d id="50015" per="181" num="3" />
+<d id="50024" per="88" num="1" />
+<d id="50035" per="181" num="3" />
+<d id="50001" per="181" num="3" />
+</dig>
+<enemy>
+<e id="50201" per="30" num="3" />
+<e id="50202" per="30" num="3" />
+<e id="50203" per="30" num="3" />
+<e id="50204" per="10" num="3" />
+<e id="50205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="50208" per="10" num="1" />
+</boss>
+<psp>
+<p id="50209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="503" name="法术的修炼地Ⅰ" lv="10" >
+<collect>
+<c id="50067" per="88" num="1" />
+<c id="50054" per="129" num="1" />
+<c id="50043" per="88" num="1" />
+<c id="50052" per="181" num="3" />
+<c id="50046" per="88" num="1" />
+</collect>
+<dig>
+<d id="50023" per="88" num="1" />
+<d id="50002" per="129" num="1" />
+<d id="50024" per="88" num="1" />
+<d id="50010" per="129" num="1" />
+<d id="50021" per="88" num="1" />
+</dig>
+<enemy>
+<e id="50301" per="30" num="3" />
+<e id="50302" per="30" num="3" />
+<e id="50303" per="30" num="3" />
+<e id="50304" per="10" num="3" />
+<e id="50305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="50308" per="10" num="1" />
+</boss>
+<psp>
+<p id="50309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="504" name="法术的修炼地Ⅱ" lv="11" >
+<collect>
+<c id="50169" per="88" num="1" />
+<c id="50168" per="181" num="3" />
+<c id="50055" per="129" num="1" />
+<c id="50168" per="181" num="3" />
+<c id="50066" per="88" num="1" />
+</collect>
+<dig>
+<d id="50024" per="88" num="1" />
+<d id="50006" per="129" num="1" />
+<d id="50173" per="88" num="1" />
+<d id="50035" per="181" num="3" />
+<d id="50031" per="181" num="3" />
+</dig>
+<enemy>
+<e id="50401" per="30" num="3" />
+<e id="50402" per="30" num="3" />
+<e id="50403" per="30" num="3" />
+<e id="50404" per="10" num="3" />
+<e id="50405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="50408" per="10" num="1" />
+</boss>
+<psp>
+<p id="50409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="505" name="追忆之乡" lv="11" >
+<collect>
+<c id="50171" per="88" num="1" />
+<c id="50053" per="129" num="1" />
+<c id="50065" per="129" num="1" />
+<c id="50046" per="88" num="1" />
+<c id="50054" per="129" num="1" />
+</collect>
+<dig>
+<d id="50025" per="88" num="1" />
+<d id="50088" per="129" num="1" />
+<d id="50023" per="88" num="1" />
+<d id="50089" per="88" num="1" />
+<d id="50176" per="88" num="1" />
+</dig>
+<enemy>
+<e id="50501" per="30" num="3" />
+<e id="50502" per="30" num="3" />
+<e id="50503" per="30" num="3" />
+<e id="50504" per="10" num="3" />
+<e id="50505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="50508" per="10" num="1" />
+</boss>
+<psp>
+<p id="50509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="13" name="神龙湖" workRank="5" >
+<smallMap>
+<s id="601" name="寂静的湖底" lv="12" >
+<collect>
+<c id="50044" per="55" num="1" />
+<c id="50063" per="129" num="1" />
+<c id="50046" per="88" num="1" />
+<c id="50063" per="129" num="1" />
+<c id="50051" per="181" num="3" />
+</collect>
+<dig>
+<d id="50026" per="88" num="1" />
+<d id="50013" per="181" num="3" />
+<d id="50032" per="88" num="1" />
+<d id="50016" per="88" num="1" />
+<d id="50014" per="88" num="1" />
+</dig>
+<enemy>
+<e id="60101" per="30" num="3" />
+<e id="60102" per="30" num="3" />
+<e id="60103" per="30" num="3" />
+<e id="60104" per="10" num="3" />
+<e id="60105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="60108" per="10" num="1" />
+</boss>
+<psp>
+<p id="60109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="602" name="湖底的退路" lv="12" >
+<collect>
+<c id="50058" per="55" num="1" />
+<c id="50047" per="181" num="3" />
+<c id="50169" per="88" num="1" />
+<c id="50045" per="181" num="3" />
+<c id="50053" per="129" num="1" />
+</collect>
+<dig>
+<d id="50027" per="88" num="1" />
+<d id="50088" per="129" num="1" />
+<d id="50021" per="88" num="1" />
+<d id="50174" per="88" num="1" />
+<d id="50010" per="129" num="1" />
+</dig>
+<enemy>
+<e id="60201" per="30" num="3" />
+<e id="60202" per="30" num="3" />
+<e id="60203" per="30" num="3" />
+<e id="60204" per="10" num="3" />
+<e id="60205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="60208" per="10" num="1" />
+</boss>
+<psp>
+<p id="60209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="603" name="神奇的湖底" lv="13" >
+<collect>
+<c id="50049" per="32" num="1" />
+<c id="50051" per="181" num="3" />
+<c id="50171" per="88" num="1" />
+<c id="50060" per="32" num="1" />
+<c id="50057" per="129" num="1" />
+</collect>
+<dig>
+<d id="50028" per="88" num="1" />
+<d id="50088" per="129" num="1" />
+<d id="50018" per="88" num="1" />
+<d id="50030" per="88" num="1" />
+<d id="50173" per="88" num="1" />
+</dig>
+<enemy>
+<e id="60301" per="30" num="3" />
+<e id="60302" per="30" num="3" />
+<e id="60303" per="30" num="3" />
+<e id="60304" per="10" num="3" />
+<e id="60305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="60308" per="10" num="1" />
+</boss>
+<psp>
+<p id="60309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="604" name="忘却的湖底空洞" lv="13" >
+<collect>
+<c id="50060" per="32" num="1" />
+<c id="50051" per="181" num="3" />
+<c id="50063" per="129" num="2" />
+<c id="50068" per="32" num="1" />
+<c id="50069" per="181" num="3" />
+</collect>
+<dig>
+<d id="50029" per="88" num="1" />
+<d id="50031" per="181" num="3" />
+<d id="50018" per="88" num="1" />
+<d id="50176" per="88" num="1" />
+<d id="50018" per="88" num="1" />
+</dig>
+<enemy>
+<e id="60401" per="30" num="3" />
+<e id="60402" per="30" num="3" />
+<e id="60403" per="30" num="3" />
+<e id="60404" per="10" num="3" />
+<e id="60405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="60408" per="10" num="1" />
+</boss>
+<psp>
+<p id="60409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="605" name="清澈的西湖畔" lv="14" >
+<collect>
+<c id="50061" per="32" num="1" />
+<c id="50042" per="129" num="2" />
+<c id="50064" per="129" num="2" />
+<c id="50170" per="32" num="1" />
+<c id="50188" per="32" num="1" />
+</collect>
+<dig>
+<d id="50030" per="88" num="1" />
+<d id="50087" per="129" num="2" />
+<d id="50176" per="88" num="1" />
+<d id="50021" per="88" num="1" />
+<d id="50027" per="88" num="1" />
+</dig>
+<enemy>
+<e id="60501" per="30" num="3" />
+<e id="60502" per="30" num="3" />
+<e id="60503" per="30" num="3" />
+<e id="60504" per="10" num="3" />
+<e id="60505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="60508" per="10" num="1" />
+</boss>
+<psp>
+<p id="60509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="11" name="Rosean山脉" workRank="6" >
+<smallMap>
+<s id="701" name="隐秘的火焰山路" lv="15" >
+<collect>
+<c id="50062" per="32" num="1" />
+<c id="50168" per="181" num="4" />
+<c id="50056" per="129" num="2" />
+<c id="50061" per="32" num="1" />
+<c id="50042" per="129" num="2" />
+</collect>
+<dig>
+<d id="50032" per="88" num="1" />
+<d id="50005" per="181" num="4" />
+<d id="50024" per="88" num="1" />
+<d id="50014" per="88" num="1" />
+<d id="50021" per="88" num="1" />
+</dig>
+<enemy>
+<e id="70101" per="30" num="3" />
+<e id="70102" per="30" num="3" />
+<e id="70103" per="30" num="3" />
+<e id="70104" per="10" num="3" />
+<e id="70105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="70108" per="10" num="1" />
+</boss>
+<psp>
+<p id="70109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="702" name="火炎幻兽的山" lv="15" >
+<collect>
+<c id="50068" per="32" num="1" />
+<c id="50189" per="181" num="4" />
+<c id="50054" per="129" num="2" />
+<c id="50044" per="55" num="1" />
+<c id="50169" per="88" num="1" />
+</collect>
+<dig>
+<d id="50036" per="88" num="1" />
+<d id="50015" per="181" num="4" />
+<d id="50010" per="129" num="2" />
+<d id="50011" per="88" num="1" />
+<d id="50036" per="88" num="1" />
+</dig>
+<enemy>
+<e id="70201" per="30" num="3" />
+<e id="70202" per="30" num="3" />
+<e id="70203" per="30" num="3" />
+<e id="70204" per="10" num="3" />
+<e id="70205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="70208" per="10" num="1" />
+</boss>
+<psp>
+<p id="70209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="703" name="真彩的山峦" lv="16" >
+<collect>
+<c id="50170" per="32" num="1" />
+<c id="50069" per="181" num="4" />
+<c id="50169" per="88" num="1" />
+<c id="50060" per="32" num="1" />
+<c id="50056" per="129" num="2" />
+</collect>
+<dig>
+<d id="50089" per="88" num="1" />
+<d id="50031" per="181" num="4" />
+<d id="50016" per="88" num="1" />
+<d id="50009" per="181" num="4" />
+<d id="50018" per="88" num="1" />
+</dig>
+<enemy>
+<e id="70301" per="30" num="3" />
+<e id="70302" per="30" num="3" />
+<e id="70303" per="30" num="3" />
+<e id="70304" per="10" num="3" />
+<e id="70305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="70308" per="10" num="1" />
+</boss>
+<psp>
+<p id="70309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="704" name="灼热的山峦地带" lv="16" >
+<collect>
+<c id="50188" per="32" num="1" />
+<c id="50168" per="181" num="4" />
+<c id="50063" per="129" num="2" />
+<c id="50068" per="32" num="1" />
+<c id="50066" per="88" num="1" />
+</collect>
+<dig>
+<d id="50173" per="88" num="1" />
+<d id="50006" per="129" num="2" />
+<d id="50088" per="129" num="2" />
+<d id="50030" per="88" num="1" />
+<d id="50087" per="129" num="2" />
+</dig>
+<enemy>
+<e id="70401" per="30" num="3" />
+<e id="70402" per="30" num="3" />
+<e id="70403" per="30" num="3" />
+<e id="70404" per="10" num="3" />
+<e id="70405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="70408" per="10" num="1" />
+</boss>
+<psp>
+<p id="70409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="705" name="巨人族矿床" lv="17" >
+<collect>
+<c id="50050" per="5" num="1" />
+<c id="50045" per="181" num="4" />
+<c id="50064" per="129" num="2" />
+<c id="50061" per="32" num="1" />
+<c id="50042" per="129" num="2" />
+</collect>
+<dig>
+<d id="50174" per="88" num="1" />
+<d id="50031" per="181" num="4" />
+<d id="50007" per="88" num="1" />
+<d id="50020" per="88" num="1" />
+<d id="50021" per="88" num="1" />
+</dig>
+<enemy>
+<e id="70501" per="30" num="3" />
+<e id="70502" per="30" num="3" />
+<e id="70503" per="30" num="3" />
+<e id="70504" per="10" num="3" />
+<e id="70505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="70508" per="10" num="1" />
+</boss>
+<psp>
+<p id="70509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="7" name="塞尔塔的树海" workRank="7" >
+<smallMap>
+<s id="801" name="亚种族的密林Ⅰ" lv="18" >
+<collect>
+<c id="50059" per="5" num="1" />
+<c id="50054" per="129" num="2" />
+<c id="50057" per="129" num="2" />
+<c id="50061" per="32" num="1" />
+<c id="50058" per="55" num="1" />
+</collect>
+<dig>
+<d id="50175" per="88" num="1" />
+<d id="50015" per="181" num="4" />
+<d id="50007" per="88" num="1" />
+<d id="50089" per="88" num="1" />
+<d id="50021" per="88" num="1" />
+</dig>
+<enemy>
+<e id="80101" per="30" num="3" />
+<e id="80102" per="30" num="3" />
+<e id="80103" per="30" num="3" />
+<e id="80104" per="10" num="3" />
+<e id="80105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="80108" per="10" num="1" />
+</boss>
+<psp>
+<p id="80109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="802" name="亚种族的密林Ⅱ" lv="18" >
+<collect>
+<c id="50071" per="1" num="1" />
+<c id="50052" per="181" num="4" />
+<c id="50055" per="129" num="2" />
+<c id="50049" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50176" per="88" num="1" />
+<d id="50005" per="181" num="4" />
+<d id="50029" per="88" num="1" />
+<d id="50001" per="181" num="4" />
+<d id="50089" per="88" num="1" />
+</dig>
+<enemy>
+<e id="80201" per="30" num="3" />
+<e id="80202" per="30" num="3" />
+<e id="80203" per="30" num="3" />
+<e id="80204" per="10" num="3" />
+<e id="80205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="80208" per="10" num="1" />
+</boss>
+<psp>
+<p id="80209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="803" name="巨石龟的栖息地Ⅰ" lv="19" >
+<collect>
+<c id="50072" per="1" num="1" />
+<c id="50054" per="129" num="2" />
+<c id="50055" per="129" num="2" />
+<c id="50170" per="32" num="1" />
+<c id="50071" per="1" num="1" />
+</collect>
+<dig>
+<d id="50004" per="55" num="1" />
+<d id="50001" per="181" num="4" />
+<d id="50007" per="88" num="1" />
+<d id="50174" per="88" num="1" />
+<d id="50175" per="88" num="1" />
+</dig>
+<enemy>
+<e id="80301" per="30" num="3" />
+<e id="80302" per="30" num="3" />
+<e id="80303" per="30" num="3" />
+<e id="80304" per="10" num="3" />
+<e id="80305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="80308" per="10" num="1" />
+</boss>
+<psp>
+<p id="80309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="804" name="巨石龟的栖息地Ⅱ" lv="19" >
+<collect>
+<c id="50073" per="1" num="1" />
+<c id="50054" per="129" num="2" />
+<c id="50054" per="129" num="2" />
+<c id="50188" per="32" num="1" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50008" per="55" num="1" />
+<d id="50009" per="181" num="4" />
+<d id="50023" per="88" num="1" />
+<d id="50176" per="88" num="1" />
+<d id="50026" per="88" num="1" />
+</dig>
+<enemy>
+<e id="80401" per="30" num="3" />
+<e id="80402" per="30" num="3" />
+<e id="80403" per="30" num="3" />
+<e id="80404" per="10" num="3" />
+<e id="80405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="80408" per="10" num="1" />
+</boss>
+<psp>
+<p id="80409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="805" name="秘境的封印遗迹" lv="20" >
+<collect>
+<c id="50074" per="1" num="1" />
+<c id="50052" per="181" num="4" />
+<c id="50063" per="129" num="2" />
+<c id="50068" per="32" num="1" />
+<c id="50077" per="1" num="1" />
+</collect>
+<dig>
+<d id="50012" per="55" num="1" />
+<d id="50013" per="181" num="4" />
+<d id="50028" per="88" num="1" />
+<d id="50013" per="181" num="4" />
+<d id="50014" per="88" num="1" />
+</dig>
+<enemy>
+<e id="80501" per="30" num="3" />
+<e id="80502" per="30" num="3" />
+<e id="80503" per="30" num="3" />
+<e id="80504" per="10" num="3" />
+<e id="80505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="80508" per="10" num="1" />
+</boss>
+<psp>
+<p id="80509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="19" name="卡尼亚荒地" workRank="8" >
+<smallMap>
+<s id="901" name="闭塞的辽原" lv="21" >
+<collect>
+<c id="50075" per="1" num="1" />
+<c id="50047" per="181" num="5" />
+<c id="50056" per="129" num="2" />
+<c id="50188" per="32" num="1" />
+<c id="50077" per="1" num="1" />
+</collect>
+<dig>
+<d id="50017" per="32" num="1" />
+<d id="50087" per="129" num="2" />
+<d id="50022" per="88" num="1" />
+<d id="50004" per="55" num="1" />
+<d id="50012" per="55" num="1" />
+</dig>
+<enemy>
+<e id="90101" per="30" num="3" />
+<e id="90102" per="30" num="3" />
+<e id="90103" per="30" num="3" />
+<e id="90104" per="10" num="3" />
+<e id="90105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="90108" per="10" num="1" />
+</boss>
+<psp>
+<p id="90109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="902" name="移动的荒地" lv="21" >
+<collect>
+<c id="50076" per="1" num="1" />
+<c id="50053" per="129" num="2" />
+<c id="50055" per="129" num="2" />
+<c id="50060" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50033" per="32" num="1" />
+<d id="50031" per="181" num="5" />
+<d id="50088" per="129" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50175" per="88" num="1" />
+</dig>
+<enemy>
+<e id="90201" per="30" num="3" />
+<e id="90202" per="30" num="3" />
+<e id="90203" per="30" num="3" />
+<e id="90204" per="10" num="3" />
+<e id="90205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="90208" per="10" num="1" />
+</boss>
+<psp>
+<p id="90209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="903" name="不祥的漩涡" lv="22" >
+<collect>
+<c id="50077" per="1" num="1" />
+<c id="50189" per="181" num="5" />
+<c id="50042" per="129" num="2" />
+<c id="50062" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50037" per="32" num="1" />
+<d id="50002" per="129" num="2" />
+<d id="50019" per="88" num="1" />
+<d id="50038" per="32" num="1" />
+<d id="50019" per="88" num="1" />
+</dig>
+<enemy>
+<e id="90301" per="30" num="3" />
+<e id="90302" per="30" num="3" />
+<e id="90303" per="30" num="3" />
+<e id="90304" per="10" num="3" />
+<e id="90305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="90308" per="10" num="1" />
+</boss>
+<psp>
+<p id="90309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="904" name="灵魇的异界Ⅰ" lv="23" >
+<collect>
+<c id="50190" per="1" num="1" />
+<c id="50053" per="129" num="2" />
+<c id="50054" per="129" num="2" />
+<c id="50044" per="55" num="1" />
+<c id="50059" per="5" num="1" />
+</collect>
+<dig>
+<d id="50038" per="32" num="1" />
+<d id="50031" per="181" num="5" />
+<d id="50002" per="129" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50032" per="88" num="1" />
+</dig>
+<enemy>
+<e id="90401" per="30" num="3" />
+<e id="90402" per="30" num="3" />
+<e id="90403" per="30" num="3" />
+<e id="90404" per="10" num="3" />
+<e id="90405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="90408" per="10" num="1" />
+</boss>
+<psp>
+<p id="90409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="905" name="灵魇的异界Ⅱ" lv="23" >
+<collect>
+<c id="50041" per="181" num="5" />
+<c id="50052" per="181" num="5" />
+<c id="50070" per="129" num="2" />
+<c id="50068" per="32" num="1" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50039" per="32" num="1" />
+<d id="50035" per="181" num="5" />
+<d id="50173" per="88" num="1" />
+<d id="50012" per="55" num="1" />
+<d id="50024" per="88" num="1" />
+</dig>
+<enemy>
+<e id="90501" per="30" num="3" />
+<e id="90502" per="30" num="3" />
+<e id="90503" per="30" num="3" />
+<e id="90504" per="10" num="3" />
+<e id="90505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="90508" per="10" num="1" />
+</boss>
+<psp>
+<p id="90509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="15" name="钟乳洞穴" workRank="9" >
+<smallMap>
+<s id="1001" name="平静的流水洞穴" lv="24" >
+<collect>
+<c id="50045" per="181" num="5" />
+<c id="50054" per="129" num="2" />
+<c id="50063" per="129" num="2" />
+<c id="50068" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50040" per="32" num="1" />
+<d id="50035" per="181" num="5" />
+<d id="50002" per="129" num="2" />
+<d id="50012" per="55" num="1" />
+<d id="50012" per="55" num="1" />
+</dig>
+<enemy>
+<e id="100101" per="30" num="3" />
+<e id="100102" per="30" num="3" />
+<e id="100103" per="30" num="3" />
+<e id="100104" per="10" num="3" />
+<e id="100105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="100108" per="10" num="1" />
+</boss>
+<psp>
+<p id="100109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1002" name="亚种生物的巢穴Ⅰ" lv="25" >
+<collect>
+<c id="50047" per="181" num="5" />
+<c id="50052" per="181" num="5" />
+<c id="50070" per="129" num="2" />
+<c id="50170" per="32" num="1" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50034" per="5" num="1" />
+<d id="50005" per="181" num="5" />
+<d id="50023" per="88" num="1" />
+<d id="50008" per="55" num="1" />
+<d id="50019" per="88" num="1" />
+</dig>
+<enemy>
+<e id="100201" per="30" num="3" />
+<e id="100202" per="30" num="3" />
+<e id="100203" per="30" num="3" />
+<e id="100204" per="10" num="3" />
+<e id="100205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="100208" per="10" num="1" />
+</boss>
+<psp>
+<p id="100209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1003" name="亚种生物的巢穴Ⅱ" lv="25" >
+<collect>
+<c id="50051" per="181" num="5" />
+<c id="50045" per="181" num="5" />
+<c id="50169" per="88" num="1" />
+<c id="50044" per="55" num="1" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50001" per="181" num="5" />
+<d id="50001" per="181" num="5" />
+<d id="50018" per="88" num="1" />
+<d id="50017" per="32" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="100301" per="30" num="3" />
+<e id="100302" per="30" num="3" />
+<e id="100303" per="30" num="3" />
+<e id="100304" per="10" num="3" />
+<e id="100305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="100308" per="10" num="1" />
+</boss>
+<psp>
+<p id="100309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1004" name="迷幻的钟乳洞口" lv="26" >
+<collect>
+<c id="50052" per="181" num="5" />
+<c id="50054" per="129" num="2" />
+<c id="50067" per="88" num="1" />
+<c id="50049" per="32" num="1" />
+<c id="50071" per="1" num="1" />
+</collect>
+<dig>
+<d id="50005" per="181" num="5" />
+<d id="50002" per="129" num="2" />
+<d id="50030" per="88" num="1" />
+<d id="50004" per="55" num="1" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="100401" per="30" num="3" />
+<e id="100402" per="30" num="3" />
+<e id="100403" per="30" num="3" />
+<e id="100404" per="10" num="3" />
+<e id="100405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="100408" per="10" num="1" />
+</boss>
+<psp>
+<p id="100409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1005" name="土匪的巢穴" lv="27" >
+<collect>
+<c id="50069" per="181" num="5" />
+<c id="50053" per="129" num="2" />
+<c id="50043" per="88" num="1" />
+<c id="50044" per="55" num="1" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50009" per="181" num="5" />
+<d id="50035" per="181" num="5" />
+<d id="50176" per="88" num="1" />
+<d id="50008" per="55" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="100501" per="30" num="3" />
+<e id="100502" per="30" num="3" />
+<e id="100503" per="30" num="3" />
+<e id="100504" per="10" num="3" />
+<e id="100505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="100508" per="10" num="1" />
+</boss>
+<psp>
+<p id="100509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="20" name="丘陵地带" workRank="10" >
+<smallMap>
+<s id="1101" name="魔兽的巢穴Ⅰ" lv="27" >
+<collect>
+<c id="50168" per="181" num="6" />
+<c id="50189" per="181" num="6" />
+<c id="50056" per="129" num="2" />
+<c id="50060" per="32" num="1" />
+<c id="50077" per="1" num="1" />
+</collect>
+<dig>
+<d id="50013" per="181" num="6" />
+<d id="50006" per="129" num="2" />
+<d id="50026" per="88" num="1" />
+<d id="50038" per="32" num="1" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="110101" per="30" num="3" />
+<e id="110102" per="30" num="3" />
+<e id="110103" per="30" num="3" />
+<e id="110104" per="10" num="3" />
+<e id="110105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="110108" per="10" num="1" />
+</boss>
+<psp>
+<p id="110109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1102" name="魔兽的巢穴Ⅱ" lv="28" >
+<collect>
+<c id="50189" per="181" num="6" />
+<c id="50047" per="181" num="6" />
+<c id="50066" per="88" num="2" />
+<c id="50062" per="32" num="1" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50015" per="181" num="6" />
+<d id="50010" per="129" num="2" />
+<d id="50022" per="88" num="2" />
+<d id="50037" per="32" num="1" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="110201" per="30" num="3" />
+<e id="110202" per="30" num="3" />
+<e id="110203" per="30" num="3" />
+<e id="110204" per="10" num="3" />
+<e id="110205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="110208" per="10" num="1" />
+</boss>
+<psp>
+<p id="110209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1103" name="巨人的巢穴Ⅰ" lv="29" >
+<collect>
+<c id="50042" per="129" num="2" />
+<c id="50069" per="181" num="6" />
+<c id="50042" per="129" num="2" />
+<c id="50044" per="55" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50031" per="181" num="6" />
+<d id="50013" per="181" num="6" />
+<d id="50174" per="88" num="2" />
+<d id="50040" per="32" num="1" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="110301" per="30" num="3" />
+<e id="110302" per="30" num="3" />
+<e id="110303" per="30" num="3" />
+<e id="110304" per="10" num="3" />
+<e id="110305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="110308" per="10" num="1" />
+</boss>
+<psp>
+<p id="110309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1104" name="巨人的巢穴Ⅱ" lv="29" >
+<collect>
+<c id="50053" per="129" num="2" />
+<c id="50051" per="181" num="6" />
+<c id="50053" per="129" num="2" />
+<c id="50060" per="32" num="1" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50035" per="181" num="6" />
+<d id="50088" per="129" num="2" />
+<d id="50014" per="88" num="2" />
+<d id="50017" per="32" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="110401" per="30" num="3" />
+<e id="110402" per="30" num="3" />
+<e id="110403" per="30" num="3" />
+<e id="110404" per="10" num="3" />
+<e id="110405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="110408" per="10" num="1" />
+</boss>
+<psp>
+<p id="110409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1105" name="巨人的巢穴Ⅲ" lv="30" >
+<collect>
+<c id="50054" per="129" num="2" />
+<c id="50045" per="181" num="6" />
+<c id="50055" per="129" num="2" />
+<c id="50044" per="55" num="1" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50002" per="129" num="2" />
+<d id="50013" per="181" num="6" />
+<d id="50003" per="88" num="2" />
+<d id="50037" per="32" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="110501" per="30" num="3" />
+<e id="110502" per="30" num="3" />
+<e id="110503" per="30" num="3" />
+<e id="110504" per="10" num="3" />
+<e id="110505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="110508" per="10" num="1" />
+</boss>
+<psp>
+<p id="110509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="24" name="天空之城" workRank="11" >
+<smallMap>
+<s id="1201" name="幻境悬崖Ⅰ" lv="31" >
+<collect>
+<c id="50055" per="129" num="2" />
+<c id="50045" per="181" num="6" />
+<c id="50042" per="129" num="2" />
+<c id="50061" per="32" num="1" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50006" per="129" num="2" />
+<d id="50013" per="181" num="6" />
+<d id="50030" per="88" num="2" />
+<d id="50017" per="32" num="1" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="120101" per="30" num="3" />
+<e id="120102" per="30" num="3" />
+<e id="120103" per="30" num="3" />
+<e id="120104" per="10" num="3" />
+<e id="120105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="120108" per="10" num="1" />
+</boss>
+<psp>
+<p id="120109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1202" name="幻境悬崖Ⅱ" lv="31" >
+<collect>
+<c id="50056" per="129" num="3" />
+<c id="50189" per="181" num="6" />
+<c id="50066" per="88" num="2" />
+<c id="50068" per="32" num="1" />
+<c id="50075" per="1" num="1" />
+</collect>
+<dig>
+<d id="50010" per="129" num="3" />
+<d id="50088" per="129" num="3" />
+<d id="50087" per="129" num="3" />
+<d id="50039" per="32" num="1" />
+<d id="50033" per="32" num="1" />
+</dig>
+<enemy>
+<e id="120201" per="30" num="3" />
+<e id="120202" per="30" num="3" />
+<e id="120203" per="30" num="3" />
+<e id="120204" per="10" num="3" />
+<e id="120205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="120208" per="10" num="1" />
+</boss>
+<psp>
+<p id="120209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1203" name="古老的圣域Ⅰ" lv="32" >
+<collect>
+<c id="50057" per="129" num="3" />
+<c id="50053" per="129" num="3" />
+<c id="50070" per="129" num="3" />
+<c id="50044" per="55" num="1" />
+<c id="50071" per="1" num="1" />
+</collect>
+<dig>
+<d id="50087" per="129" num="3" />
+<d id="50010" per="129" num="3" />
+<d id="50007" per="88" num="2" />
+<d id="50039" per="32" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="120301" per="30" num="3" />
+<e id="120302" per="30" num="3" />
+<e id="120303" per="30" num="3" />
+<e id="120304" per="10" num="3" />
+<e id="120305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="120308" per="10" num="1" />
+</boss>
+<psp>
+<p id="120309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1204" name="古老的圣域Ⅱ" lv="33" >
+<collect>
+<c id="50063" per="129" num="3" />
+<c id="50189" per="181" num="6" />
+<c id="50065" per="129" num="3" />
+<c id="50068" per="32" num="1" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50088" per="129" num="3" />
+<d id="50015" per="181" num="6" />
+<d id="50028" per="88" num="2" />
+<d id="50004" per="55" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="120401" per="30" num="3" />
+<e id="120402" per="30" num="3" />
+<e id="120403" per="30" num="3" />
+<e id="120404" per="10" num="3" />
+<e id="120405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="120408" per="10" num="1" />
+</boss>
+<psp>
+<p id="120409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1205" name="古老的圣域Ⅲ" lv="33" >
+<collect>
+<c id="50064" per="129" num="3" />
+<c id="50070" per="129" num="3" />
+<c id="50046" per="88" num="2" />
+<c id="50188" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50003" per="88" num="2" />
+<d id="50010" per="129" num="3" />
+<d id="50088" per="129" num="3" />
+<d id="50039" per="32" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="120501" per="30" num="3" />
+<e id="120502" per="30" num="3" />
+<e id="120503" per="30" num="3" />
+<e id="120504" per="10" num="3" />
+<e id="120505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="120508" per="10" num="1" />
+</boss>
+<psp>
+<p id="120509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="14" name="混乱之地" workRank="12" >
+<smallMap>
+<s id="1301" name="修罗的混沌遗迹Ⅰ" lv="34" >
+<collect>
+<c id="50065" per="129" num="3" />
+<c id="50041" per="181" num="7" />
+<c id="50055" per="129" num="3" />
+<c id="50188" per="32" num="1" />
+<c id="50059" per="5" num="1" />
+</collect>
+<dig>
+<d id="50007" per="88" num="2" />
+<d id="50010" per="129" num="3" />
+<d id="50029" per="88" num="2" />
+<d id="50012" per="55" num="1" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="130101" per="30" num="3" />
+<e id="130102" per="30" num="3" />
+<e id="130103" per="30" num="3" />
+<e id="130104" per="10" num="3" />
+<e id="130105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="130108" per="10" num="1" />
+</boss>
+<psp>
+<p id="130109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1302" name="修罗的混沌遗迹Ⅱ" lv="35" >
+<collect>
+<c id="50070" per="129" num="3" />
+<c id="50042" per="129" num="3" />
+<c id="50057" per="129" num="3" />
+<c id="50060" per="32" num="1" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50011" per="88" num="2" />
+<d id="50031" per="181" num="7" />
+<d id="50025" per="88" num="2" />
+<d id="50039" per="32" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="130201" per="30" num="3" />
+<e id="130202" per="30" num="3" />
+<e id="130203" per="30" num="3" />
+<e id="130204" per="10" num="3" />
+<e id="130205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="130208" per="10" num="1" />
+</boss>
+<psp>
+<p id="130209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1303" name="狂乱的蛇行道Ⅰ" lv="36" >
+<collect>
+<c id="50043" per="88" num="2" />
+<c id="50168" per="181" num="7" />
+<c id="50171" per="88" num="2" />
+<c id="50170" per="32" num="1" />
+<c id="50059" per="5" num="1" />
+</collect>
+<dig>
+<d id="50014" per="88" num="2" />
+<d id="50010" per="129" num="3" />
+<d id="50020" per="88" num="2" />
+<d id="50017" per="32" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="130301" per="30" num="3" />
+<e id="130302" per="30" num="3" />
+<e id="130303" per="30" num="3" />
+<e id="130304" per="10" num="3" />
+<e id="130305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="130308" per="10" num="1" />
+</boss>
+<psp>
+<p id="130309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1304" name="狂乱的蛇行道Ⅱ" lv="36" >
+<collect>
+<c id="50046" per="88" num="2" />
+<c id="50053" per="129" num="3" />
+<c id="50065" per="129" num="3" />
+<c id="50061" per="32" num="1" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50016" per="88" num="2" />
+<d id="50006" per="129" num="3" />
+<d id="50014" per="88" num="2" />
+<d id="50012" per="55" num="1" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="130401" per="30" num="3" />
+<e id="130402" per="30" num="3" />
+<e id="130403" per="30" num="3" />
+<e id="130404" per="10" num="3" />
+<e id="130405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="130408" per="10" num="1" />
+</boss>
+<psp>
+<p id="130409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1305" name="狂乱的蛇行道Ⅲ" lv="37" >
+<collect>
+<c id="50048" per="88" num="2" />
+<c id="50069" per="181" num="7" />
+<c id="50065" per="129" num="3" />
+<c id="50044" per="55" num="1" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50018" per="88" num="2" />
+<d id="50005" per="181" num="7" />
+<d id="50032" per="88" num="2" />
+<d id="50039" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="130501" per="30" num="3" />
+<e id="130502" per="30" num="3" />
+<e id="130503" per="30" num="3" />
+<e id="130504" per="10" num="3" />
+<e id="130505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="130508" per="10" num="1" />
+</boss>
+<psp>
+<p id="130509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="16" name="彩虹瀑布" workRank="13" >
+<smallMap>
+<s id="1401" name="河畔的风之遗迹Ⅰ" lv="38" >
+<collect>
+<c id="50066" per="88" num="2" />
+<c id="50168" per="181" num="7" />
+<c id="50065" per="129" num="3" />
+<c id="50068" per="32" num="1" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50019" per="88" num="2" />
+<d id="50035" per="181" num="7" />
+<d id="50088" per="129" num="3" />
+<d id="50040" per="32" num="1" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="140101" per="30" num="3" />
+<e id="140102" per="30" num="3" />
+<e id="140103" per="30" num="3" />
+<e id="140104" per="10" num="3" />
+<e id="140105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="140108" per="10" num="1" />
+</boss>
+<psp>
+<p id="140109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1402" name="河畔的风之遗迹Ⅱ" lv="38" >
+<collect>
+<c id="50067" per="88" num="2" />
+<c id="50064" per="129" num="3" />
+<c id="50067" per="88" num="2" />
+<c id="50049" per="32" num="1" />
+<c id="50190" per="1" num="1" />
+</collect>
+<dig>
+<d id="50020" per="88" num="2" />
+<d id="50015" per="181" num="7" />
+<d id="50173" per="88" num="2" />
+<d id="50039" per="32" num="1" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="140201" per="30" num="3" />
+<e id="140202" per="30" num="3" />
+<e id="140203" per="30" num="3" />
+<e id="140204" per="10" num="3" />
+<e id="140205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="140208" per="10" num="1" />
+</boss>
+<psp>
+<p id="140209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1403" name="被封印的黑暗之根Ⅰ" lv="39" >
+<collect>
+<c id="50169" per="88" num="2" />
+<c id="50057" per="129" num="3" />
+<c id="50063" per="129" num="3" />
+<c id="50049" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50021" per="88" num="2" />
+<d id="50009" per="181" num="7" />
+<d id="50022" per="88" num="2" />
+<d id="50037" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="140301" per="30" num="3" />
+<e id="140302" per="30" num="3" />
+<e id="140303" per="30" num="3" />
+<e id="140304" per="10" num="3" />
+<e id="140305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="140308" per="10" num="1" />
+</boss>
+<psp>
+<p id="140309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1404" name="被封印的黑暗之根Ⅱ" lv="40" >
+<collect>
+<c id="50171" per="88" num="2" />
+<c id="50055" per="129" num="3" />
+<c id="50055" per="129" num="3" />
+<c id="50062" per="32" num="1" />
+<c id="50075" per="1" num="1" />
+</collect>
+<dig>
+<d id="50022" per="88" num="2" />
+<d id="50010" per="129" num="3" />
+<d id="50023" per="88" num="2" />
+<d id="50038" per="32" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="140401" per="30" num="3" />
+<e id="140402" per="30" num="3" />
+<e id="140403" per="30" num="3" />
+<e id="140404" per="10" num="3" />
+<e id="140405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="140408" per="10" num="1" />
+</boss>
+<psp>
+<p id="140409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1405" name="被封印的黑暗之根Ⅲ" lv="41" >
+<collect>
+<c id="50044" per="55" num="1" />
+<c id="50053" per="129" num="3" />
+<c id="50042" per="129" num="3" />
+<c id="50058" per="55" num="1" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50023" per="88" num="2" />
+<d id="50088" per="129" num="3" />
+<d id="50010" per="129" num="3" />
+<d id="50004" per="55" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="140501" per="30" num="3" />
+<e id="140502" per="30" num="3" />
+<e id="140503" per="30" num="3" />
+<e id="140504" per="10" num="3" />
+<e id="140505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="140508" per="10" num="1" />
+</boss>
+<psp>
+<p id="140509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="12" name="火焰神殿" workRank="6" >
+<smallMap>
+<s id="1501" name="九尾狐的领地" lv="41" >
+<collect>
+<c id="50058" per="55" num="1" />
+<c id="50069" per="181" num="8" />
+<c id="50066" per="88" num="2" />
+<c id="50058" per="55" num="1" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50024" per="88" num="2" />
+<d id="50006" per="129" num="3" />
+<d id="50087" per="129" num="3" />
+<d id="50012" per="55" num="1" />
+<d id="50039" per="32" num="1" />
+</dig>
+<enemy>
+<e id="150101" per="30" num="3" />
+<e id="150102" per="30" num="3" />
+<e id="150103" per="30" num="3" />
+<e id="150104" per="10" num="3" />
+<e id="150105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="150108" per="10" num="1" />
+</boss>
+<psp>
+<p id="150109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1502" name="灼烧的火炎地带Ⅰ" lv="42" >
+<collect>
+<c id="50049" per="32" num="1" />
+<c id="50045" per="181" num="8" />
+<c id="50066" per="88" num="2" />
+<c id="50044" per="55" num="1" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50025" per="88" num="2" />
+<d id="50002" per="129" num="3" />
+<d id="50010" per="129" num="3" />
+<d id="50012" per="55" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="150201" per="30" num="3" />
+<e id="150202" per="30" num="3" />
+<e id="150203" per="30" num="3" />
+<e id="150204" per="10" num="3" />
+<e id="150205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="150208" per="10" num="1" />
+</boss>
+<psp>
+<p id="150209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1503" name="灼烧的火炎地带Ⅱ" lv="43" >
+<collect>
+<c id="50060" per="32" num="1" />
+<c id="50045" per="181" num="8" />
+<c id="50046" per="88" num="2" />
+<c id="50170" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50026" per="88" num="2" />
+<d id="50009" per="181" num="8" />
+<d id="50010" per="129" num="3" />
+<d id="50040" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="150301" per="30" num="3" />
+<e id="150302" per="30" num="3" />
+<e id="150303" per="30" num="3" />
+<e id="150304" per="10" num="3" />
+<e id="150305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="150308" per="10" num="1" />
+</boss>
+<psp>
+<p id="150309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1504" name="进攻火焰山Ⅰ" lv="44" >
+<collect>
+<c id="50061" per="32" num="1" />
+<c id="50168" per="181" num="8" />
+<c id="50043" per="88" num="2" />
+<c id="50062" per="32" num="1" />
+<c id="50071" per="1" num="1" />
+</collect>
+<dig>
+<d id="50027" per="88" num="2" />
+<d id="50087" per="129" num="3" />
+<d id="50016" per="88" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="150401" per="30" num="3" />
+<e id="150402" per="30" num="3" />
+<e id="150403" per="30" num="3" />
+<e id="150404" per="10" num="3" />
+<e id="150405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="150408" per="10" num="1" />
+</boss>
+<psp>
+<p id="150409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1505" name="进攻火焰山Ⅱ" lv="44" >
+<collect>
+<c id="50062" per="32" num="1" />
+<c id="50070" per="129" num="3" />
+<c id="50042" per="129" num="3" />
+<c id="50058" per="55" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50028" per="88" num="2" />
+<d id="50005" per="181" num="8" />
+<d id="50016" per="88" num="2" />
+<d id="50037" per="32" num="1" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="150501" per="30" num="3" />
+<e id="150502" per="30" num="3" />
+<e id="150503" per="30" num="3" />
+<e id="150504" per="10" num="3" />
+<e id="150505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="150508" per="10" num="1" />
+</boss>
+<psp>
+<p id="150509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="29" name="宏伟宫殿" workRank="17" >
+<smallMap>
+<s id="1601" name="淑琳的圣宫Ⅰ" lv="45" >
+<collect>
+<c id="50068" per="32" num="1" />
+<c id="50070" per="129" num="3" />
+<c id="50056" per="129" num="3" />
+<c id="50049" per="32" num="1" />
+<c id="50059" per="5" num="1" />
+</collect>
+<dig>
+<d id="50029" per="88" num="2" />
+<d id="50035" per="181" num="8" />
+<d id="50002" per="129" num="3" />
+<d id="50037" per="32" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="160101" per="30" num="3" />
+<e id="160102" per="30" num="3" />
+<e id="160103" per="30" num="3" />
+<e id="160104" per="10" num="3" />
+<e id="160105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="160108" per="10" num="1" />
+</boss>
+<psp>
+<p id="160109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1602" name="淑琳的圣宫Ⅱ" lv="46" >
+<collect>
+<c id="50170" per="32" num="1" />
+<c id="50056" per="129" num="3" />
+<c id="50169" per="88" num="2" />
+<c id="50044" per="55" num="1" />
+<c id="50059" per="5" num="1" />
+</collect>
+<dig>
+<d id="50030" per="88" num="2" />
+<d id="50088" per="129" num="3" />
+<d id="50016" per="88" num="2" />
+<d id="50039" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="160201" per="30" num="3" />
+<e id="160202" per="30" num="3" />
+<e id="160203" per="30" num="3" />
+<e id="160204" per="10" num="3" />
+<e id="160205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="160208" per="10" num="1" />
+</boss>
+<psp>
+<p id="160209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1603" name="淑琳的圣宫Ⅲ" lv="47" >
+<collect>
+<c id="50188" per="32" num="1" />
+<c id="50042" per="129" num="3" />
+<c id="50171" per="88" num="2" />
+<c id="50049" per="32" num="1" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50032" per="88" num="2" />
+<d id="50005" per="181" num="8" />
+<d id="50027" per="88" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="160301" per="30" num="3" />
+<e id="160302" per="30" num="3" />
+<e id="160303" per="30" num="3" />
+<e id="160304" per="10" num="3" />
+<e id="160305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="160308" per="10" num="1" />
+</boss>
+<psp>
+<p id="160309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1604" name="淑琳的圣宫Ⅳ" lv="47" >
+<collect>
+<c id="50050" per="5" num="1" />
+<c id="50070" per="129" num="3" />
+<c id="50053" per="129" num="3" />
+<c id="50049" per="32" num="1" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50036" per="88" num="2" />
+<d id="50087" per="129" num="3" />
+<d id="50002" per="129" num="3" />
+<d id="50008" per="55" num="1" />
+<d id="50033" per="32" num="1" />
+</dig>
+<enemy>
+<e id="160401" per="30" num="3" />
+<e id="160402" per="30" num="3" />
+<e id="160403" per="30" num="3" />
+<e id="160404" per="10" num="3" />
+<e id="160405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="160408" per="10" num="1" />
+</boss>
+<psp>
+<p id="160409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1605" name="淑琳的圣宫Ⅴ" lv="48" >
+<collect>
+<c id="50059" per="5" num="1" />
+<c id="50042" per="129" num="3" />
+<c id="50066" per="88" num="2" />
+<c id="50170" per="32" num="1" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50089" per="88" num="2" />
+<d id="50013" per="181" num="8" />
+<d id="50024" per="88" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="160501" per="30" num="3" />
+<e id="160502" per="30" num="3" />
+<e id="160503" per="30" num="3" />
+<e id="160504" per="10" num="3" />
+<e id="160505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="160508" per="10" num="1" />
+</boss>
+<psp>
+<p id="160509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="27" name="祭奠神社" workRank="14" >
+<smallMap>
+<s id="1701" name="碧王的神庙Ⅰ" lv="49" >
+<collect>
+<c id="50071" per="1" num="1" />
+<c id="50065" per="129" num="3" />
+<c id="50070" per="129" num="3" />
+<c id="50062" per="32" num="1" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50173" per="88" num="2" />
+<d id="50010" per="129" num="3" />
+<d id="50011" per="88" num="2" />
+<d id="50038" per="32" num="1" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="170101" per="30" num="3" />
+<e id="170102" per="30" num="3" />
+<e id="170103" per="30" num="3" />
+<e id="170104" per="10" num="3" />
+<e id="170105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="170108" per="10" num="1" />
+</boss>
+<psp>
+<p id="170109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1702" name="碧王的神庙Ⅱ" lv="50" >
+<collect>
+<c id="50072" per="1" num="1" />
+<c id="50057" per="129" num="3" />
+<c id="50066" per="88" num="2" />
+<c id="50058" per="55" num="2" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50174" per="88" num="2" />
+<d id="50005" per="181" num="9" />
+<d id="50006" per="129" num="3" />
+<d id="50033" per="32" num="1" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="170201" per="30" num="3" />
+<e id="170202" per="30" num="3" />
+<e id="170203" per="30" num="3" />
+<e id="170204" per="10" num="3" />
+<e id="170205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="170208" per="10" num="1" />
+</boss>
+<psp>
+<p id="170209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1703" name="邪魔的封印洞Ⅰ" lv="50" >
+<collect>
+<c id="50073" per="1" num="1" />
+<c id="50069" per="181" num="9" />
+<c id="50056" per="129" num="3" />
+<c id="50044" per="55" num="2" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50175" per="88" num="2" />
+<d id="50006" per="129" num="3" />
+<d id="50011" per="88" num="2" />
+<d id="50004" per="55" num="2" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="170301" per="30" num="3" />
+<e id="170302" per="30" num="3" />
+<e id="170303" per="30" num="3" />
+<e id="170304" per="10" num="3" />
+<e id="170305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="170308" per="10" num="1" />
+</boss>
+<psp>
+<p id="170309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1704" name="邪魔的封印洞Ⅱ" lv="51" >
+<collect>
+<c id="50074" per="1" num="1" />
+<c id="50056" per="129" num="3" />
+<c id="50070" per="129" num="3" />
+<c id="50062" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50176" per="88" num="2" />
+<d id="50005" per="181" num="9" />
+<d id="50014" per="88" num="2" />
+<d id="50012" per="55" num="2" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="170401" per="30" num="3" />
+<e id="170402" per="30" num="3" />
+<e id="170403" per="30" num="3" />
+<e id="170404" per="10" num="3" />
+<e id="170405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="170408" per="10" num="1" />
+</boss>
+<psp>
+<p id="170409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1705" name="邪魔的封印洞Ⅲ" lv="52" >
+<collect>
+<c id="50075" per="1" num="1" />
+<c id="50069" per="181" num="9" />
+<c id="50065" per="129" num="4" />
+<c id="50049" per="32" num="1" />
+<c id="50071" per="1" num="1" />
+</collect>
+<dig>
+<d id="50004" per="55" num="2" />
+<d id="50002" per="129" num="4" />
+<d id="50036" per="88" num="2" />
+<d id="50008" per="55" num="2" />
+<d id="50033" per="32" num="1" />
+</dig>
+<enemy>
+<e id="170501" per="30" num="3" />
+<e id="170502" per="30" num="3" />
+<e id="170503" per="30" num="3" />
+<e id="170504" per="10" num="3" />
+<e id="170505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="170508" per="10" num="1" />
+</boss>
+<psp>
+<p id="170509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="26" name="遗迹群" workRank="15" >
+<smallMap>
+<s id="1801" name="遥远的故乡Ⅰ" lv="53" >
+<collect>
+<c id="50076" per="1" num="1" />
+<c id="50042" per="129" num="4" />
+<c id="50063" per="129" num="4" />
+<c id="50049" per="32" num="1" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50008" per="55" num="2" />
+<d id="50006" per="129" num="4" />
+<d id="50002" per="129" num="4" />
+<d id="50040" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="180101" per="30" num="3" />
+<e id="180102" per="30" num="3" />
+<e id="180103" per="30" num="3" />
+<e id="180104" per="10" num="3" />
+<e id="180105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="180108" per="10" num="1" />
+</boss>
+<psp>
+<p id="180109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1802" name="遥远的故乡Ⅱ" lv="54" >
+<collect>
+<c id="50077" per="1" num="1" />
+<c id="50055" per="129" num="4" />
+<c id="50042" per="129" num="4" />
+<c id="50068" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50012" per="55" num="2" />
+<d id="50013" per="181" num="9" />
+<d id="50027" per="88" num="2" />
+<d id="50008" per="55" num="2" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="180201" per="30" num="3" />
+<e id="180202" per="30" num="3" />
+<e id="180203" per="30" num="3" />
+<e id="180204" per="10" num="3" />
+<e id="180205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="180208" per="10" num="1" />
+</boss>
+<psp>
+<p id="180209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1803" name="遥远的故乡Ⅲ" lv="54" >
+<collect>
+<c id="50190" per="1" num="1" />
+<c id="50056" per="129" num="4" />
+<c id="50065" per="129" num="4" />
+<c id="50058" per="55" num="2" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50017" per="32" num="1" />
+<d id="50002" per="129" num="4" />
+<d id="50175" per="88" num="2" />
+<d id="50037" per="32" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="180301" per="30" num="3" />
+<e id="180302" per="30" num="3" />
+<e id="180303" per="30" num="3" />
+<e id="180304" per="10" num="3" />
+<e id="180305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="180308" per="10" num="1" />
+</boss>
+<psp>
+<p id="180309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1804" name="遥远的故乡Ⅳ" lv="55" >
+<collect>
+<c id="50041" per="181" num="9" />
+<c id="50070" per="129" num="4" />
+<c id="50171" per="88" num="2" />
+<c id="50188" per="32" num="1" />
+<c id="50190" per="1" num="1" />
+</collect>
+<dig>
+<d id="50033" per="32" num="1" />
+<d id="50009" per="181" num="9" />
+<d id="50029" per="88" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50039" per="32" num="1" />
+</dig>
+<enemy>
+<e id="180401" per="30" num="3" />
+<e id="180402" per="30" num="3" />
+<e id="180403" per="30" num="3" />
+<e id="180404" per="10" num="3" />
+<e id="180405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="180408" per="10" num="1" />
+</boss>
+<psp>
+<p id="180409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1805" name="遥远的故乡Ⅴ" lv="56" >
+<collect>
+<c id="50045" per="181" num="9" />
+<c id="50063" per="129" num="4" />
+<c id="50063" per="129" num="4" />
+<c id="50060" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50037" per="32" num="1" />
+<d id="50010" per="129" num="4" />
+<d id="50176" per="88" num="2" />
+<d id="50004" per="55" num="2" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="180501" per="30" num="3" />
+<e id="180502" per="30" num="3" />
+<e id="180503" per="30" num="3" />
+<e id="180504" per="10" num="3" />
+<e id="180505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="180508" per="10" num="1" />
+</boss>
+<psp>
+<p id="180509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="23" name="炎热河床" workRank="15" >
+<smallMap>
+<s id="1901" name="光之溪谷Ⅰ" lv="57" >
+<collect>
+<c id="50047" per="181" num="10" />
+<c id="50063" per="129" num="4" />
+<c id="50169" per="88" num="2" />
+<c id="50188" per="32" num="1" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50038" per="32" num="1" />
+<d id="50015" per="181" num="10" />
+<d id="50022" per="88" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="190101" per="30" num="3" />
+<e id="190102" per="30" num="3" />
+<e id="190103" per="30" num="3" />
+<e id="190104" per="10" num="3" />
+<e id="190105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="190108" per="10" num="1" />
+</boss>
+<psp>
+<p id="190109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1902" name="光之溪谷Ⅱ" lv="58" >
+<collect>
+<c id="50051" per="181" num="10" />
+<c id="50052" per="181" num="10" />
+<c id="50067" per="88" num="2" />
+<c id="50188" per="32" num="1" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50039" per="32" num="1" />
+<d id="50087" per="129" num="4" />
+<d id="50024" per="88" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="190201" per="30" num="3" />
+<e id="190202" per="30" num="3" />
+<e id="190203" per="30" num="3" />
+<e id="190204" per="10" num="3" />
+<e id="190205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="190208" per="10" num="1" />
+</boss>
+<psp>
+<p id="190209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1903" name="光之溪谷Ⅲ" lv="58" >
+<collect>
+<c id="50052" per="181" num="10" />
+<c id="50064" per="129" num="4" />
+<c id="50066" per="88" num="2" />
+<c id="50044" per="55" num="2" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50040" per="32" num="1" />
+<d id="50013" per="181" num="10" />
+<d id="50011" per="88" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="190301" per="30" num="3" />
+<e id="190302" per="30" num="3" />
+<e id="190303" per="30" num="3" />
+<e id="190304" per="10" num="3" />
+<e id="190305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="190308" per="10" num="1" />
+</boss>
+<psp>
+<p id="190309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1904" name="光之溪谷Ⅳ" lv="59" >
+<collect>
+<c id="50069" per="181" num="10" />
+<c id="50047" per="181" num="10" />
+<c id="50042" per="129" num="4" />
+<c id="50188" per="32" num="1" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50034" per="5" num="1" />
+<d id="50031" per="181" num="10" />
+<d id="50088" per="129" num="4" />
+<d id="50039" per="32" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="190401" per="30" num="3" />
+<e id="190402" per="30" num="3" />
+<e id="190403" per="30" num="3" />
+<e id="190404" per="10" num="3" />
+<e id="190405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="190408" per="10" num="1" />
+</boss>
+<psp>
+<p id="190409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="1905" name="光之溪谷Ⅴ" lv="60" >
+<collect>
+<c id="50168" per="181" num="10" />
+<c id="50055" per="129" num="4" />
+<c id="50055" per="129" num="4" />
+<c id="50188" per="32" num="1" />
+<c id="50075" per="1" num="1" />
+</collect>
+<dig>
+<d id="50001" per="181" num="10" />
+<d id="50013" per="181" num="10" />
+<d id="50014" per="88" num="2" />
+<d id="50038" per="32" num="1" />
+<d id="50033" per="32" num="1" />
+</dig>
+<enemy>
+<e id="190501" per="30" num="3" />
+<e id="190502" per="30" num="3" />
+<e id="190503" per="30" num="3" />
+<e id="190504" per="10" num="3" />
+<e id="190505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="190508" per="10" num="1" />
+</boss>
+<psp>
+<p id="190509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="9" name="阳光山谷" workRank="16" >
+<smallMap>
+<s id="2001" name="前往魔王宫殿Ⅰ" lv="61" >
+<collect>
+<c id="50189" per="181" num="10" />
+<c id="50042" per="129" num="4" />
+<c id="50048" per="88" num="2" />
+<c id="50062" per="32" num="1" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50005" per="181" num="10" />
+<d id="50001" per="181" num="10" />
+<d id="50030" per="88" num="2" />
+<d id="50038" per="32" num="1" />
+<d id="50039" per="32" num="1" />
+</dig>
+<enemy>
+<e id="200101" per="30" num="3" />
+<e id="200102" per="30" num="3" />
+<e id="200103" per="30" num="3" />
+<e id="200104" per="10" num="3" />
+<e id="200105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="200108" per="10" num="1" />
+</boss>
+<psp>
+<p id="200109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2002" name="前往魔王宫殿Ⅱ" lv="62" >
+<collect>
+<c id="50042" per="129" num="4" />
+<c id="50055" per="129" num="4" />
+<c id="50057" per="129" num="4" />
+<c id="50061" per="32" num="1" />
+<c id="50077" per="1" num="1" />
+</collect>
+<dig>
+<d id="50009" per="181" num="10" />
+<d id="50006" per="129" num="4" />
+<d id="50032" per="88" num="2" />
+<d id="50033" per="32" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="200201" per="30" num="3" />
+<e id="200202" per="30" num="3" />
+<e id="200203" per="30" num="3" />
+<e id="200204" per="10" num="3" />
+<e id="200205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="200208" per="10" num="1" />
+</boss>
+<psp>
+<p id="200209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2003" name="宫殿的间隙Ⅰ" lv="62" >
+<collect>
+<c id="50053" per="129" num="4" />
+<c id="50064" per="129" num="4" />
+<c id="50065" per="129" num="4" />
+<c id="50188" per="32" num="1" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50013" per="181" num="10" />
+<d id="50009" per="181" num="10" />
+<d id="50011" per="88" num="2" />
+<d id="50017" per="32" num="1" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="200301" per="30" num="3" />
+<e id="200302" per="30" num="3" />
+<e id="200303" per="30" num="3" />
+<e id="200304" per="10" num="3" />
+<e id="200305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="200308" per="10" num="1" />
+</boss>
+<psp>
+<p id="200309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2004" name="宫殿的间隙Ⅱ" lv="63" >
+<collect>
+<c id="50054" per="129" num="4" />
+<c id="50189" per="181" num="10" />
+<c id="50067" per="88" num="2" />
+<c id="50060" per="32" num="1" />
+<c id="50071" per="1" num="1" />
+</collect>
+<dig>
+<d id="50015" per="181" num="10" />
+<d id="50002" per="129" num="4" />
+<d id="50007" per="88" num="2" />
+<d id="50040" per="32" num="1" />
+<d id="50033" per="32" num="1" />
+</dig>
+<enemy>
+<e id="200401" per="30" num="3" />
+<e id="200402" per="30" num="3" />
+<e id="200403" per="30" num="3" />
+<e id="200404" per="10" num="3" />
+<e id="200405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="200408" per="10" num="1" />
+</boss>
+<psp>
+<p id="200409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2005" name="决战魔王" lv="64" >
+<collect>
+<c id="50055" per="129" num="4" />
+<c id="50047" per="181" num="10" />
+<c id="50066" per="88" num="2" />
+<c id="50068" per="32" num="1" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50031" per="181" num="10" />
+<d id="50002" per="129" num="4" />
+<d id="50028" per="88" num="2" />
+<d id="50008" per="55" num="2" />
+<d id="50040" per="32" num="1" />
+</dig>
+<enemy>
+<e id="200501" per="30" num="3" />
+<e id="200502" per="30" num="3" />
+<e id="200503" per="30" num="3" />
+<e id="200504" per="10" num="3" />
+<e id="200505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="200508" per="10" num="1" />
+</boss>
+<psp>
+<p id="200509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="18" name="魔王宫殿" workRank="17" >
+<smallMap>
+<s id="2101" name="海岸线街道Ⅰ" lv="65" >
+<collect>
+<c id="50056" per="129" num="4" />
+<c id="50064" per="129" num="4" />
+<c id="50064" per="129" num="4" />
+<c id="50061" per="32" num="1" />
+<c id="50075" per="1" num="1" />
+</collect>
+<dig>
+<d id="50035" per="181" num="11" />
+<d id="50010" per="129" num="4" />
+<d id="50021" per="88" num="2" />
+<d id="50040" per="32" num="1" />
+<d id="50039" per="32" num="1" />
+</dig>
+<enemy>
+<e id="210101" per="30" num="3" />
+<e id="210102" per="30" num="3" />
+<e id="210103" per="30" num="3" />
+<e id="210104" per="10" num="3" />
+<e id="210105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="210108" per="10" num="1" />
+</boss>
+<psp>
+<p id="210109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2102" name="海岸线街道Ⅱ" lv="66" >
+<collect>
+<c id="50057" per="129" num="4" />
+<c id="50056" per="129" num="4" />
+<c id="50067" per="88" num="2" />
+<c id="50170" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50002" per="129" num="4" />
+<d id="50002" per="129" num="4" />
+<d id="50025" per="88" num="2" />
+<d id="50012" per="55" num="2" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="210201" per="30" num="3" />
+<e id="210202" per="30" num="3" />
+<e id="210203" per="30" num="3" />
+<e id="210204" per="10" num="3" />
+<e id="210205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="210208" per="10" num="1" />
+</boss>
+<psp>
+<p id="210209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2103" name="摇曳的海岸线Ⅰ" lv="67" >
+<collect>
+<c id="50063" per="129" num="4" />
+<c id="50189" per="181" num="11" />
+<c id="50067" per="88" num="2" />
+<c id="50058" per="55" num="2" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50006" per="129" num="4" />
+<d id="50002" per="129" num="4" />
+<d id="50006" per="129" num="4" />
+<d id="50017" per="32" num="1" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="210301" per="30" num="3" />
+<e id="210302" per="30" num="3" />
+<e id="210303" per="30" num="3" />
+<e id="210304" per="10" num="3" />
+<e id="210305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="210308" per="10" num="1" />
+</boss>
+<psp>
+<p id="210309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2104" name="摇曳的海岸线Ⅱ" lv="67" >
+<collect>
+<c id="50064" per="129" num="4" />
+<c id="50069" per="181" num="11" />
+<c id="50171" per="88" num="3" />
+<c id="50061" per="32" num="1" />
+<c id="50190" per="1" num="1" />
+</collect>
+<dig>
+<d id="50010" per="129" num="4" />
+<d id="50013" per="181" num="11" />
+<d id="50003" per="88" num="3" />
+<d id="50012" per="55" num="2" />
+<d id="50039" per="32" num="1" />
+</dig>
+<enemy>
+<e id="210401" per="30" num="3" />
+<e id="210402" per="30" num="3" />
+<e id="210403" per="30" num="3" />
+<e id="210404" per="10" num="3" />
+<e id="210405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="210408" per="10" num="1" />
+</boss>
+<psp>
+<p id="210409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2105" name="漂泊的遇难船" lv="68" >
+<collect>
+<c id="50065" per="129" num="4" />
+<c id="50057" per="129" num="4" />
+<c id="50056" per="129" num="4" />
+<c id="50060" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50087" per="129" num="4" />
+<d id="50005" per="181" num="11" />
+<d id="50028" per="88" num="3" />
+<d id="50038" per="32" num="1" />
+<d id="50039" per="32" num="1" />
+</dig>
+<enemy>
+<e id="210501" per="30" num="3" />
+<e id="210502" per="30" num="3" />
+<e id="210503" per="30" num="3" />
+<e id="210504" per="10" num="3" />
+<e id="210505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="210508" per="10" num="1" />
+</boss>
+<psp>
+<p id="210509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="31" name="死亡海岸" workRank="15" >
+<smallMap>
+<s id="2201" name="迷宫入口" lv="69" >
+<collect>
+<c id="50070" per="129" num="4" />
+<c id="50064" per="129" num="4" />
+<c id="50055" per="129" num="4" />
+<c id="50058" per="55" num="2" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50088" per="129" num="4" />
+<d id="50088" per="129" num="4" />
+<d id="50019" per="88" num="3" />
+<d id="50039" per="32" num="1" />
+<d id="50038" per="32" num="1" />
+</dig>
+<enemy>
+<e id="220101" per="30" num="3" />
+<e id="220102" per="30" num="3" />
+<e id="220103" per="30" num="3" />
+<e id="220104" per="10" num="3" />
+<e id="220105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="220108" per="10" num="1" />
+</boss>
+<psp>
+<p id="220109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2202" name="迷宫通道" lv="70" >
+<collect>
+<c id="50043" per="88" num="3" />
+<c id="50051" per="181" num="11" />
+<c id="50169" per="88" num="3" />
+<c id="50058" per="55" num="2" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50003" per="88" num="3" />
+<d id="50010" per="129" num="4" />
+<d id="50174" per="88" num="3" />
+<d id="50033" per="32" num="1" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="220201" per="30" num="3" />
+<e id="220202" per="30" num="3" />
+<e id="220203" per="30" num="3" />
+<e id="220204" per="10" num="3" />
+<e id="220205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="220208" per="10" num="1" />
+</boss>
+<psp>
+<p id="220209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2203" name="迷宫第一法则" lv="71" >
+<collect>
+<c id="50046" per="88" num="3" />
+<c id="50070" per="129" num="4" />
+<c id="50065" per="129" num="4" />
+<c id="50061" per="32" num="1" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50007" per="88" num="3" />
+<d id="50010" per="129" num="4" />
+<d id="50032" per="88" num="3" />
+<d id="50039" per="32" num="1" />
+<d id="50033" per="32" num="1" />
+</dig>
+<enemy>
+<e id="220301" per="30" num="3" />
+<e id="220302" per="30" num="3" />
+<e id="220303" per="30" num="3" />
+<e id="220304" per="10" num="3" />
+<e id="220305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="220308" per="10" num="1" />
+</boss>
+<psp>
+<p id="220309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2204" name="迷宫第二法则" lv="72" >
+<collect>
+<c id="50048" per="88" num="3" />
+<c id="50057" per="129" num="4" />
+<c id="50065" per="129" num="4" />
+<c id="50049" per="32" num="1" />
+<c id="50190" per="1" num="1" />
+</collect>
+<dig>
+<d id="50011" per="88" num="3" />
+<d id="50015" per="181" num="11" />
+<d id="50019" per="88" num="3" />
+<d id="50004" per="55" num="2" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="220401" per="30" num="3" />
+<e id="220402" per="30" num="3" />
+<e id="220403" per="30" num="3" />
+<e id="220404" per="10" num="3" />
+<e id="220405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="220408" per="10" num="1" />
+</boss>
+<psp>
+<p id="220409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2205" name="进击吧！炼金师" lv="72" >
+<collect>
+<c id="50066" per="88" num="3" />
+<c id="50189" per="181" num="11" />
+<c id="50054" per="129" num="4" />
+<c id="50170" per="32" num="1" />
+<c id="50190" per="1" num="1" />
+</collect>
+<dig>
+<d id="50014" per="88" num="3" />
+<d id="50031" per="181" num="11" />
+<d id="50173" per="88" num="3" />
+<d id="50012" per="55" num="2" />
+<d id="50017" per="32" num="1" />
+</dig>
+<enemy>
+<e id="220501" per="30" num="3" />
+<e id="220502" per="30" num="3" />
+<e id="220503" per="30" num="3" />
+<e id="220504" per="10" num="3" />
+<e id="220505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="220508" per="10" num="1" />
+</boss>
+<psp>
+<p id="220509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="33" name="海拉尔迷宫" workRank="16" >
+<smallMap>
+<s id="2301" name="崎岖的山峦" lv="73" >
+<collect>
+<c id="50067" per="88" num="3" />
+<c id="50041" per="181" num="12" />
+<c id="50057" per="129" num="4" />
+<c id="50062" per="32" num="1" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50016" per="88" num="3" />
+<d id="50087" per="129" num="4" />
+<d id="50002" per="129" num="4" />
+<d id="50033" per="32" num="1" />
+<d id="50037" per="32" num="1" />
+</dig>
+<enemy>
+<e id="230101" per="30" num="3" />
+<e id="230102" per="30" num="3" />
+<e id="230103" per="30" num="3" />
+<e id="230104" per="10" num="3" />
+<e id="230105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="230108" per="10" num="1" />
+</boss>
+<psp>
+<p id="230109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2302" name="雷鸣山Ⅰ" lv="74" >
+<collect>
+<c id="50169" per="88" num="3" />
+<c id="50055" per="129" num="4" />
+<c id="50056" per="129" num="4" />
+<c id="50061" per="32" num="2" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50018" per="88" num="3" />
+<d id="50013" per="181" num="12" />
+<d id="50023" per="88" num="3" />
+<d id="50012" per="55" num="2" />
+<d id="50017" per="32" num="2" />
+</dig>
+<enemy>
+<e id="230201" per="30" num="3" />
+<e id="230202" per="30" num="3" />
+<e id="230203" per="30" num="3" />
+<e id="230204" per="10" num="3" />
+<e id="230205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="230208" per="10" num="1" />
+</boss>
+<psp>
+<p id="230209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2303" name="雷鸣山Ⅱ" lv="75" >
+<collect>
+<c id="50171" per="88" num="3" />
+<c id="50065" per="129" num="4" />
+<c id="50066" per="88" num="3" />
+<c id="50170" per="32" num="2" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50019" per="88" num="3" />
+<d id="50015" per="181" num="12" />
+<d id="50019" per="88" num="3" />
+<d id="50017" per="32" num="2" />
+<d id="50017" per="32" num="2" />
+</dig>
+<enemy>
+<e id="230301" per="30" num="3" />
+<e id="230302" per="30" num="3" />
+<e id="230303" per="30" num="3" />
+<e id="230304" per="10" num="3" />
+<e id="230305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="230308" per="10" num="1" />
+</boss>
+<psp>
+<p id="230309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2304" name="雷鸣山Ⅲ" lv="76" >
+<collect>
+<c id="50044" per="55" num="2" />
+<c id="50055" per="129" num="5" />
+<c id="50055" per="129" num="5" />
+<c id="50061" per="32" num="2" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50020" per="88" num="3" />
+<d id="50035" per="181" num="12" />
+<d id="50089" per="88" num="3" />
+<d id="50038" per="32" num="2" />
+<d id="50037" per="32" num="2" />
+</dig>
+<enemy>
+<e id="230401" per="30" num="3" />
+<e id="230402" per="30" num="3" />
+<e id="230403" per="30" num="3" />
+<e id="230404" per="10" num="3" />
+<e id="230405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="230408" per="10" num="1" />
+</boss>
+<psp>
+<p id="230409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2305" name="雷鸣之顶" lv="77" >
+<collect>
+<c id="50058" per="55" num="2" />
+<c id="50047" per="181" num="12" />
+<c id="50048" per="88" num="3" />
+<c id="50058" per="55" num="2" />
+<c id="50190" per="1" num="1" />
+</collect>
+<dig>
+<d id="50021" per="88" num="3" />
+<d id="50001" per="181" num="12" />
+<d id="50032" per="88" num="3" />
+<d id="50037" per="32" num="2" />
+<d id="50040" per="32" num="2" />
+</dig>
+<enemy>
+<e id="230501" per="30" num="3" />
+<e id="230502" per="30" num="3" />
+<e id="230503" per="30" num="3" />
+<e id="230504" per="10" num="3" />
+<e id="230505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="230508" per="10" num="1" />
+</boss>
+<psp>
+<p id="230509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="34" name="管理局山脉" workRank="18" >
+<smallMap>
+<s id="2401" name="整洁的河川" lv="78" >
+<collect>
+<c id="50049" per="32" num="2" />
+<c id="50065" per="129" num="5" />
+<c id="50070" per="129" num="5" />
+<c id="50060" per="32" num="2" />
+<c id="50075" per="1" num="1" />
+</collect>
+<dig>
+<d id="50022" per="88" num="3" />
+<d id="50010" per="129" num="5" />
+<d id="50003" per="88" num="3" />
+<d id="50039" per="32" num="2" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="240101" per="30" num="3" />
+<e id="240102" per="30" num="3" />
+<e id="240103" per="30" num="3" />
+<e id="240104" per="10" num="3" />
+<e id="240105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="240108" per="10" num="1" />
+</boss>
+<psp>
+<p id="240109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2402" name="河床下的秘密Ⅰ" lv="78" >
+<collect>
+<c id="50060" per="32" num="2" />
+<c id="50168" per="181" num="12" />
+<c id="50064" per="129" num="5" />
+<c id="50044" per="55" num="2" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50023" per="88" num="3" />
+<d id="50013" per="181" num="12" />
+<d id="50025" per="88" num="3" />
+<d id="50038" per="32" num="2" />
+<d id="50017" per="32" num="2" />
+</dig>
+<enemy>
+<e id="240201" per="30" num="3" />
+<e id="240202" per="30" num="3" />
+<e id="240203" per="30" num="3" />
+<e id="240204" per="10" num="3" />
+<e id="240205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="240208" per="10" num="1" />
+</boss>
+<psp>
+<p id="240209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2403" name="河床下的秘密Ⅱ" lv="79" >
+<collect>
+<c id="50061" per="32" num="2" />
+<c id="50042" per="129" num="5" />
+<c id="50042" per="129" num="5" />
+<c id="50060" per="32" num="2" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50024" per="88" num="3" />
+<d id="50013" per="181" num="12" />
+<d id="50022" per="88" num="3" />
+<d id="50004" per="55" num="2" />
+<d id="50017" per="32" num="2" />
+</dig>
+<enemy>
+<e id="240301" per="30" num="3" />
+<e id="240302" per="30" num="3" />
+<e id="240303" per="30" num="3" />
+<e id="240304" per="10" num="3" />
+<e id="240305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="240308" per="10" num="1" />
+</boss>
+<psp>
+<p id="240309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2404" name="河床下的秘密Ⅲ" lv="80" >
+<collect>
+<c id="50062" per="32" num="2" />
+<c id="50041" per="181" num="12" />
+<c id="50054" per="129" num="5" />
+<c id="50068" per="32" num="2" />
+<c id="50071" per="1" num="1" />
+</collect>
+<dig>
+<d id="50025" per="88" num="3" />
+<d id="50005" per="181" num="12" />
+<d id="50018" per="88" num="3" />
+<d id="50017" per="32" num="2" />
+<d id="50017" per="32" num="2" />
+</dig>
+<enemy>
+<e id="240401" per="30" num="3" />
+<e id="240402" per="30" num="3" />
+<e id="240403" per="30" num="3" />
+<e id="240404" per="10" num="3" />
+<e id="240405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="240408" per="10" num="1" />
+</boss>
+<psp>
+<p id="240409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2405" name="河床下的秘密Ⅳ" lv="81" >
+<collect>
+<c id="50068" per="32" num="2" />
+<c id="50064" per="129" num="5" />
+<c id="50057" per="129" num="5" />
+<c id="50068" per="32" num="2" />
+<c id="50077" per="1" num="1" />
+</collect>
+<dig>
+<d id="50026" per="88" num="3" />
+<d id="50035" per="181" num="12" />
+<d id="50174" per="88" num="3" />
+<d id="50012" per="55" num="2" />
+<d id="50033" per="32" num="2" />
+</dig>
+<enemy>
+<e id="240501" per="30" num="3" />
+<e id="240502" per="30" num="3" />
+<e id="240503" per="30" num="3" />
+<e id="240504" per="10" num="3" />
+<e id="240505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="240508" per="10" num="1" />
+</boss>
+<psp>
+<p id="240509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="35" name="管理局水闸" workRank="19" >
+<smallMap>
+<s id="2501" name="河床下的秘密Ⅲ" lv="82" >
+<collect>
+<c id="50170" per="32" num="2" />
+<c id="50052" per="181" num="13" />
+<c id="50063" per="129" num="5" />
+<c id="50170" per="32" num="2" />
+<c id="50077" per="1" num="1" />
+</collect>
+<dig>
+<d id="50027" per="88" num="3" />
+<d id="50010" per="129" num="5" />
+<d id="50006" per="129" num="5" />
+<d id="50039" per="32" num="2" />
+<d id="50038" per="32" num="2" />
+</dig>
+<enemy>
+<e id="250101" per="30" num="3" />
+<e id="250102" per="30" num="3" />
+<e id="250103" per="30" num="3" />
+<e id="250104" per="10" num="3" />
+<e id="250105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="250108" per="10" num="1" />
+</boss>
+<psp>
+<p id="250109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2502" name="河床下的秘密Ⅳ" lv="83" >
+<collect>
+<c id="50188" per="32" num="2" />
+<c id="50051" per="181" num="13" />
+<c id="50055" per="129" num="5" />
+<c id="50061" per="32" num="2" />
+<c id="50072" per="1" num="1" />
+</collect>
+<dig>
+<d id="50028" per="88" num="3" />
+<d id="50035" per="181" num="13" />
+<d id="50028" per="88" num="3" />
+<d id="50037" per="32" num="2" />
+<d id="50038" per="32" num="2" />
+</dig>
+<enemy>
+<e id="250201" per="30" num="3" />
+<e id="250202" per="30" num="3" />
+<e id="250203" per="30" num="3" />
+<e id="250204" per="10" num="3" />
+<e id="250205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="250208" per="10" num="1" />
+</boss>
+<psp>
+<p id="250209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2503" name="河床下的秘密Ⅲ" lv="84" >
+<collect>
+<c id="50050" per="5" num="1" />
+<c id="50064" per="129" num="5" />
+<c id="50169" per="88" num="3" />
+<c id="50170" per="32" num="2" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50029" per="88" num="3" />
+<d id="50031" per="181" num="13" />
+<d id="50036" per="88" num="3" />
+<d id="50004" per="55" num="2" />
+<d id="50039" per="32" num="2" />
+</dig>
+<enemy>
+<e id="250301" per="30" num="3" />
+<e id="250302" per="30" num="3" />
+<e id="250303" per="30" num="3" />
+<e id="250304" per="10" num="3" />
+<e id="250305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="250308" per="10" num="1" />
+</boss>
+<psp>
+<p id="250309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2504" name="河床下的秘密Ⅳ" lv="84" >
+<collect>
+<c id="50059" per="5" num="1" />
+<c id="50041" per="181" num="13" />
+<c id="50063" per="129" num="5" />
+<c id="50061" per="32" num="2" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50030" per="88" num="3" />
+<d id="50035" per="181" num="13" />
+<d id="50087" per="129" num="5" />
+<d id="50039" per="32" num="2" />
+<d id="50039" per="32" num="2" />
+</dig>
+<enemy>
+<e id="250401" per="30" num="3" />
+<e id="250402" per="30" num="3" />
+<e id="250403" per="30" num="3" />
+<e id="250404" per="10" num="3" />
+<e id="250405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="250408" per="10" num="1" />
+</boss>
+<psp>
+<p id="250409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2505" name="河床下的秘密Ⅲ" lv="85" >
+<collect>
+<c id="50071" per="1" num="1" />
+<c id="50054" per="129" num="5" />
+<c id="50055" per="129" num="5" />
+<c id="50061" per="32" num="2" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50032" per="88" num="3" />
+<d id="50005" per="181" num="13" />
+<d id="50018" per="88" num="3" />
+<d id="50039" per="32" num="2" />
+<d id="50033" per="32" num="2" />
+</dig>
+<enemy>
+<e id="250501" per="30" num="3" />
+<e id="250502" per="30" num="3" />
+<e id="250503" per="30" num="3" />
+<e id="250504" per="10" num="3" />
+<e id="250505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="250508" per="10" num="1" />
+</boss>
+<psp>
+<p id="250509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="36" name="虚幻树海" workRank="19" >
+<smallMap>
+<s id="2601" name="河床下的秘密Ⅳ" lv="86" >
+<collect>
+<c id="50072" per="1" num="1" />
+<c id="50054" per="129" num="5" />
+<c id="50169" per="88" num="3" />
+<c id="50061" per="32" num="2" />
+<c id="50075" per="1" num="1" />
+</collect>
+<dig>
+<d id="50036" per="88" num="3" />
+<d id="50013" per="181" num="13" />
+<d id="50003" per="88" num="3" />
+<d id="50040" per="32" num="2" />
+<d id="50033" per="32" num="2" />
+</dig>
+<enemy>
+<e id="260101" per="30" num="3" />
+<e id="260102" per="30" num="3" />
+<e id="260103" per="30" num="3" />
+<e id="260104" per="10" num="3" />
+<e id="260105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="260108" per="10" num="1" />
+</boss>
+<psp>
+<p id="260109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2602" name="河床下的秘密Ⅲ" lv="87" >
+<collect>
+<c id="50073" per="1" num="1" />
+<c id="50055" per="129" num="5" />
+<c id="50055" per="129" num="5" />
+<c id="50170" per="32" num="2" />
+<c id="50059" per="5" num="1" />
+</collect>
+<dig>
+<d id="50089" per="88" num="3" />
+<d id="50088" per="129" num="5" />
+<d id="50023" per="88" num="3" />
+<d id="50008" per="55" num="2" />
+<d id="50033" per="32" num="2" />
+</dig>
+<enemy>
+<e id="260201" per="30" num="3" />
+<e id="260202" per="30" num="3" />
+<e id="260203" per="30" num="3" />
+<e id="260204" per="10" num="3" />
+<e id="260205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="260208" per="10" num="1" />
+</boss>
+<psp>
+<p id="260209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2603" name="河床下的秘密Ⅳ" lv="88" >
+<collect>
+<c id="50074" per="1" num="1" />
+<c id="50054" per="129" num="5" />
+<c id="50048" per="88" num="3" />
+<c id="50061" per="32" num="2" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50173" per="88" num="3" />
+<d id="50002" per="129" num="5" />
+<d id="50010" per="129" num="5" />
+<d id="50039" per="32" num="2" />
+<d id="50039" per="32" num="2" />
+</dig>
+<enemy>
+<e id="260301" per="30" num="3" />
+<e id="260302" per="30" num="3" />
+<e id="260303" per="30" num="3" />
+<e id="260304" per="10" num="3" />
+<e id="260305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="260308" per="10" num="1" />
+</boss>
+<psp>
+<p id="260309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2604" name="河床下的秘密Ⅲ" lv="89" >
+<collect>
+<c id="50075" per="1" num="1" />
+<c id="50051" per="181" num="13" />
+<c id="50064" per="129" num="5" />
+<c id="50188" per="32" num="2" />
+<c id="50076" per="1" num="1" />
+</collect>
+<dig>
+<d id="50174" per="88" num="3" />
+<d id="50010" per="129" num="5" />
+<d id="50176" per="88" num="3" />
+<d id="50037" per="32" num="2" />
+<d id="50040" per="32" num="2" />
+</dig>
+<enemy>
+<e id="260401" per="30" num="3" />
+<e id="260402" per="30" num="3" />
+<e id="260403" per="30" num="3" />
+<e id="260404" per="10" num="3" />
+<e id="260405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="260408" per="10" num="1" />
+</boss>
+<psp>
+<p id="260409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2605" name="河床下的秘密Ⅳ" lv="90" >
+<collect>
+<c id="50076" per="1" num="1" />
+<c id="50055" per="129" num="5" />
+<c id="50169" per="88" num="3" />
+<c id="50044" per="55" num="2" />
+<c id="50073" per="1" num="1" />
+</collect>
+<dig>
+<d id="50175" per="88" num="3" />
+<d id="50001" per="181" num="13" />
+<d id="50016" per="88" num="3" />
+<d id="50004" per="55" num="2" />
+<d id="50037" per="32" num="2" />
+</dig>
+<enemy>
+<e id="260501" per="30" num="3" />
+<e id="260502" per="30" num="3" />
+<e id="260503" per="30" num="3" />
+<e id="260504" per="10" num="3" />
+<e id="260505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="260508" per="10" num="1" />
+</boss>
+<psp>
+<p id="260509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="37" name="女神瀑布" workRank="18" >
+<smallMap>
+<s id="2701" name="河床下的秘密Ⅲ" lv="91" >
+<collect>
+<c id="50077" per="1" num="1" />
+<c id="50057" per="129" num="5" />
+<c id="50056" per="129" num="5" />
+<c id="50188" per="32" num="2" />
+<c id="50059" per="5" num="1" />
+</collect>
+<dig>
+<d id="50176" per="88" num="3" />
+<d id="50088" per="129" num="5" />
+<d id="50021" per="88" num="3" />
+<d id="50017" per="32" num="2" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="270101" per="30" num="3" />
+<e id="270102" per="30" num="3" />
+<e id="270103" per="30" num="3" />
+<e id="270104" per="10" num="3" />
+<e id="270105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="270108" per="10" num="1" />
+</boss>
+<psp>
+<p id="270109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2702" name="河床下的秘密Ⅳ" lv="91" >
+<collect>
+<c id="50190" per="1" num="1" />
+<c id="50189" per="181" num="14" />
+<c id="50054" per="129" num="5" />
+<c id="50061" per="32" num="2" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50004" per="55" num="2" />
+<d id="50009" per="181" num="14" />
+<d id="50023" per="88" num="3" />
+<d id="50004" per="55" num="2" />
+<d id="50034" per="5" num="1" />
+</dig>
+<enemy>
+<e id="270201" per="30" num="3" />
+<e id="270202" per="30" num="3" />
+<e id="270203" per="30" num="3" />
+<e id="270204" per="10" num="3" />
+<e id="270205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="270208" per="10" num="1" />
+</boss>
+<psp>
+<p id="270209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2703" name="河床下的秘密Ⅲ" lv="92" >
+<collect>
+<c id="50041" per="181" num="14" />
+<c id="50055" per="129" num="5" />
+<c id="50063" per="129" num="5" />
+<c id="50049" per="32" num="2" />
+<c id="50077" per="1" num="1" />
+</collect>
+<dig>
+<d id="50008" per="55" num="2" />
+<d id="50002" per="129" num="5" />
+<d id="50006" per="129" num="5" />
+<d id="50037" per="32" num="2" />
+<d id="50038" per="32" num="2" />
+</dig>
+<enemy>
+<e id="270301" per="30" num="3" />
+<e id="270302" per="30" num="3" />
+<e id="270303" per="30" num="3" />
+<e id="270304" per="10" num="3" />
+<e id="270305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="270308" per="10" num="1" />
+</boss>
+<psp>
+<p id="270309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2704" name="河床下的秘密Ⅳ" lv="93" >
+<collect>
+<c id="50045" per="181" num="14" />
+<c id="50057" per="129" num="5" />
+<c id="50056" per="129" num="5" />
+<c id="50062" per="32" num="2" />
+<c id="50075" per="1" num="1" />
+</collect>
+<dig>
+<d id="50012" per="55" num="2" />
+<d id="50005" per="181" num="14" />
+<d id="50029" per="88" num="3" />
+<d id="50033" per="32" num="2" />
+<d id="50040" per="32" num="2" />
+</dig>
+<enemy>
+<e id="270401" per="30" num="3" />
+<e id="270402" per="30" num="3" />
+<e id="270403" per="30" num="3" />
+<e id="270404" per="10" num="3" />
+<e id="270405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="270408" per="10" num="1" />
+</boss>
+<psp>
+<p id="270409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2705" name="河床下的秘密Ⅲ" lv="94" >
+<collect>
+<c id="50047" per="181" num="14" />
+<c id="50053" per="129" num="5" />
+<c id="50055" per="129" num="5" />
+<c id="50058" per="55" num="2" />
+<c id="50077" per="1" num="1" />
+</collect>
+<dig>
+<d id="50017" per="32" num="2" />
+<d id="50015" per="181" num="14" />
+<d id="50025" per="88" num="3" />
+<d id="50012" per="55" num="2" />
+<d id="50038" per="32" num="2" />
+</dig>
+<enemy>
+<e id="270501" per="30" num="3" />
+<e id="270502" per="30" num="3" />
+<e id="270503" per="30" num="3" />
+<e id="270504" per="10" num="3" />
+<e id="270505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="270508" per="10" num="1" />
+</boss>
+<psp>
+<p id="270509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+<m id="39" name="降临弯" workRank="19" >
+<smallMap>
+<s id="2801" name="河床下的秘密Ⅳ" lv="95" >
+<collect>
+<c id="50051" per="181" num="14" />
+<c id="50063" per="129" num="5" />
+<c id="50171" per="88" num="3" />
+<c id="50062" per="32" num="2" />
+<c id="50075" per="1" num="1" />
+</collect>
+<dig>
+<d id="50033" per="32" num="2" />
+<d id="50087" per="129" num="5" />
+<d id="50018" per="88" num="3" />
+<d id="50040" per="32" num="2" />
+<d id="50038" per="32" num="2" />
+</dig>
+<enemy>
+<e id="280101" per="30" num="3" />
+<e id="280102" per="30" num="3" />
+<e id="280103" per="30" num="3" />
+<e id="280104" per="10" num="3" />
+<e id="280105" per="10" num="3" />
+</enemy>
+<boss>
+<b id="280108" per="10" num="1" />
+</boss>
+<psp>
+<p id="280109" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2802" name="河床下的秘密Ⅲ" lv="96" >
+<collect>
+<c id="50052" per="181" num="14" />
+<c id="50069" per="181" num="14" />
+<c id="50046" per="88" num="3" />
+<c id="50061" per="32" num="2" />
+<c id="50071" per="1" num="1" />
+</collect>
+<dig>
+<d id="50037" per="32" num="2" />
+<d id="50031" per="181" num="14" />
+<d id="50010" per="129" num="5" />
+<d id="50039" per="32" num="2" />
+<d id="50039" per="32" num="2" />
+</dig>
+<enemy>
+<e id="280201" per="30" num="3" />
+<e id="280202" per="30" num="3" />
+<e id="280203" per="30" num="3" />
+<e id="280204" per="10" num="3" />
+<e id="280205" per="10" num="3" />
+</enemy>
+<boss>
+<b id="280208" per="10" num="1" />
+</boss>
+<psp>
+<p id="280209" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2803" name="河床下的秘密Ⅳ" lv="97" >
+<collect>
+<c id="50069" per="181" num="14" />
+<c id="50056" per="129" num="5" />
+<c id="50057" per="129" num="5" />
+<c id="50058" per="55" num="2" />
+<c id="50074" per="1" num="1" />
+</collect>
+<dig>
+<d id="50038" per="32" num="2" />
+<d id="50010" per="129" num="5" />
+<d id="50087" per="129" num="5" />
+<d id="50004" per="55" num="2" />
+<d id="50039" per="32" num="2" />
+</dig>
+<enemy>
+<e id="280301" per="30" num="3" />
+<e id="280302" per="30" num="3" />
+<e id="280303" per="30" num="3" />
+<e id="280304" per="10" num="3" />
+<e id="280305" per="10" num="3" />
+</enemy>
+<boss>
+<b id="280308" per="10" num="1" />
+</boss>
+<psp>
+<p id="280309" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2804" name="河床下的秘密Ⅲ" lv="98" >
+<collect>
+<c id="50168" per="181" num="14" />
+<c id="50045" per="181" num="14" />
+<c id="50056" per="129" num="5" />
+<c id="50170" per="32" num="2" />
+<c id="50050" per="5" num="1" />
+</collect>
+<dig>
+<d id="50039" per="32" num="2" />
+<d id="50088" per="129" num="5" />
+<d id="50002" per="129" num="5" />
+<d id="50038" per="32" num="2" />
+<d id="50033" per="32" num="2" />
+</dig>
+<enemy>
+<e id="280401" per="30" num="3" />
+<e id="280402" per="30" num="3" />
+<e id="280403" per="30" num="3" />
+<e id="280404" per="10" num="3" />
+<e id="280405" per="10" num="3" />
+</enemy>
+<boss>
+<b id="280408" per="10" num="1" />
+</boss>
+<psp>
+<p id="280409" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+<s id="2805" name="河床下的秘密Ⅳ" lv="99" >
+<collect>
+<c id="50189" per="181" num="14" />
+<c id="50056" per="129" num="5" />
+<c id="50169" per="88" num="3" />
+<c id="50061" per="32" num="2" />
+<c id="50059" per="5" num="1" />
+</collect>
+<dig>
+<d id="50040" per="32" num="2" />
+<d id="50087" per="129" num="5" />
+<d id="50029" per="88" num="3" />
+<d id="50039" per="32" num="2" />
+<d id="50033" per="32" num="2" />
+</dig>
+<enemy>
+<e id="280501" per="30" num="3" />
+<e id="280502" per="30" num="3" />
+<e id="280503" per="30" num="3" />
+<e id="280504" per="10" num="3" />
+<e id="280505" per="10" num="3" />
+</enemy>
+<boss>
+<b id="280508" per="10" num="1" />
+</boss>
+<psp>
+<p id="280509" per="100" num="1" />
+</psp>
+<treasure>
+
+</treasure>
+</s>
+</smallMap>
+</m>
+</map>
+
+
+
+
+
+
+
+
+
+
+
+

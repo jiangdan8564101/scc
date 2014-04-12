@@ -1,0 +1,162 @@
+<workup >
+    
+<level i="0" gold="0" goldDay="1" >
+	<l0 item0="50009" num0="1" gold="400" />
+	<l1 item0="50041" num0="1" gold="400" />
+	<l2 item0="50001" num0="1" gold="400" />
+	<l3 item0="50005" num0="1" gold="400" />
+</level>
+<level i="1" gold="100" goldDay="2" >
+	<l0 item0="50009" num0="7" gold="1700" />
+	<l1 item0="50041" num0="7" gold="1700" />
+	<l2 item0="50001" num0="7" gold="1700" />
+	<l3 item0="50005" num0="7" gold="1700" />
+</level>
+<level i="2" gold="200" goldDay="3" >
+	<l0 item0="50009" num0="19" gold="4300" />
+	<l1 item0="50041" num0="19" gold="4300" />
+	<l2 item0="50001" num0="19" gold="4300" />
+	<l3 item0="50005" num0="19" gold="4300" />
+</level>
+<level i="3" gold="300" goldDay="4" >
+	<l0 item0="50009" num0="43" gold="9800" />
+	<l1 item0="50041" num0="43" gold="9800" />
+	<l2 item0="50001" num0="43" gold="9800" />
+	<l3 item0="50005" num0="43" gold="9800" />
+</level>
+<level i="4" gold="400" goldDay="5" >
+	<l0 item0="50009" num0="74" gold="16000" />
+	<l1 item0="50041" num0="74" gold="16000" />
+	<l2 item0="50001" num0="74" gold="16000" />
+	<l3 item0="50005" num0="74" gold="16000" />
+</level>
+<level i="5" gold="500" goldDay="6" >
+	<l0 item0="50009" num0="30" gold="27000" />
+	<l1 item0="50041" num0="30" gold="27000" />
+	<l2 item0="50001" num0="30" gold="27000" />
+	<l3 item0="50005" num0="30" gold="27000" />
+</level>
+<level i="6" gold="600" goldDay="7" >
+	<l0 item0="50010" num0="43" gold="40000" />
+	<l1 item0="50042" num0="43" gold="40000" />
+	<l2 item0="50002" num0="43" gold="40000" />
+	<l3 item0="50006" num0="43" gold="40000" />
+</level>
+<level i="7" gold="700" goldDay="8" >
+	<l0 item0="50010" num0="61" gold="55000" />
+	<l1 item0="50042" num0="61" gold="55000" />
+	<l2 item0="50002" num0="61" gold="55000" />
+	<l3 item0="50006" num0="61" gold="55000" />
+</level>
+<level i="8" gold="800" goldDay="9" >
+	<l0 item0="50010" num0="74" gold="67000" />
+	<l1 item0="50042" num0="74" gold="67000" />
+	<l2 item0="50002" num0="74" gold="67000" />
+	<l3 item0="50006" num0="74" gold="67000" />
+</level>
+<level i="9" gold="900" goldDay="10" >
+	<l0 item0="50010" num0="91" gold="80000" />
+	<l1 item0="50042" num0="91" gold="80000" />
+	<l2 item0="50002" num0="91" gold="80000" />
+	<l3 item0="50006" num0="91" gold="80000" />
+</level>
+<level i="10" gold="1000" goldDay="11" >
+	<l0 item0="50010" num0="56" gold="110000" />
+	<l1 item0="50042" num0="56" gold="110000" />
+	<l2 item0="50002" num0="56" gold="110000" />
+	<l3 item0="50006" num0="56" gold="110000" />
+</level>
+
+<level i="11" gold="1100" goldDay="12" >
+	<l0 item0="50011" num0="70" gold="150000" />
+	<l1 item0="50043" num0="70" gold="150000" />
+	<l2 item0="50003" num0="70" gold="150000" />
+	<l3 item0="50007" num0="70" gold="150000" />
+</level>
+
+<level i="12" gold="1200" goldDay="13" >
+	<l0 item0="50011" num0="81" gold="165000" />
+	<l1 item0="50043" num0="81" gold="165000" />
+	<l2 item0="50003" num0="81" gold="165000" />
+	<l3 item0="50007" num0="81" gold="165000" />
+</level>
+
+<level i="13" gold="1300" goldDay="14" >
+	<l0 item0="50011" num0="97" gold="200000" />
+	<l1 item0="50043" num0="97" gold="200000" />
+	<l2 item0="50003" num0="97" gold="200000" />
+	<l3 item0="50007" num0="97" gold="200000" />
+</level>
+
+<level i="14" gold="1400" goldDay="15" >
+	<l0 item0="50011" num0="117" gold="230000" />
+	<l1 item0="50043" num0="117" gold="230000" />
+	<l2 item0="50003" num0="117" gold="230000" />
+	<l3 item0="50007" num0="117" gold="230000" />
+</level>
+
+<level i="15" gold="1500" goldDay="16" >
+	<l0 item0="50011" num0="85" gold="280000" />
+	<l1 item0="50043" num0="85" gold="280000" />
+	<l2 item0="50003" num0="85" gold="280000" />
+	<l3 item0="50007" num0="85" gold="280000" />
+</level>
+
+<level i="16" gold="1600" goldDay="17" >
+	<l0 item0="50012" num0="93" gold="320000" />
+	<l1 item0="50044" num0="93" gold="320000" />
+	<l2 item0="50004" num0="93" gold="320000" />
+	<l3 item0="50008" num0="93" gold="320000" />
+</level>
+
+<level i="17" gold="1700" goldDay="18" >
+	<l0 item0="50012" num0="101" gold="380000" />
+	<l1 item0="50044" num0="101" gold="380000" />
+	<l2 item0="50004" num0="101" gold="380000" />
+	<l3 item0="50008" num0="101" gold="380000" />
+</level>
+
+<level i="18" gold="1800" goldDay="19" >
+	<l0 item0="50012" num0="118" gold="420000" />
+	<l1 item0="50044" num0="118" gold="420000" />
+	<l2 item0="50004" num0="118" gold="420000" />
+	<l3 item0="50008" num0="118" gold="420000" />
+</level>
+<level i="19" gold="1900" goldDay="20" >
+	<l0 item0="50012" num0="129" gold="500000" />
+	<l1 item0="50044" num0="129" gold="500000" />
+	<l2 item0="50004" num0="129" gold="500000" />
+	<l3 item0="50008" num0="129" gold="500000" />
+</level>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</workup>
+

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<skill>
+<skill>
+<s id="1" name="疾风斩" des1="威力 0 SP 0 CP 1 " des2="在我方回合优先发动攻击" icon="IC2087" effect="MVB001" sp="0" cp="1" trigger="3" target="5" triggerEffect="10" pro="1" ap="20" />
+<s id="2" name="猛击" des1="威力 12 SP 0 CP 1 " des2="对敌人造成1.2倍攻击" icon="IC2601" effect="MVB020" sp="0" cp="1" trigger="2" target="1" triggerEffect="5" pro="1" power="1.2" type="1" minDamage="5" ap="40" />
+<s id="3" name="火焰霸体" des1="威力 3 SP 0 CP 1 火炎" des2="增加30%火炎抗性" icon="IC2082" effect="MVB177" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" pro="1" power="0.3" attr="3" ap="20" />
+<s id="4" name="扫荡退" des1="威力 10 SP 5 CP 1 " des2="使敌方眩晕1个回合" icon="IC2202" effect="MVB200" sp="5" cp="1" trigger="1" target="1" triggerEffect="12" pro="2" power="1" type="1" des3="眩晕" hit="1" turn="1" ap="40" />
+<s id="5" name="回旋踢" des1="威力 2 SP 0 CP 1 " des2="对全部敌人造成0.2倍伤害" icon="IC2086" effect="MVB026" sp="0" cp="1" trigger="2" target="2" triggerEffect="1" pro="2" power="0.2" type="1" minDamage="5" ap="20" />
+<s id="6" name="狂风霸体" des1="威力 3 SP 0 CP 1 冷却" des2="增加30%冷却抗性" icon="IC2606" effect="MVS119" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" pro="2" power="0.3" attr="2" ap="20" />
+<s id="7" name="赤击" des1="威力 25 SP 5 CP 1 电击" des2="对单个敌人造成电击伤害" icon="IC2069" effect="MVB133" sp="5" cp="1" trigger="1" target="1" triggerEffect="1" pro="3" power="2.5" type="2" attr="4" minDamage="20" ap="60" />
+<s id="8" name="电闪雷鸣" des1="威力 10 SP 8 CP 1 电击" des2="对敌人全体造成电击伤害" icon="IC2068" effect="MVB150" sp="8" cp="1" trigger="1" target="2" triggerEffect="1" pro="3" power="1" type="2" attr="4" minDamage="10" ap="40" />
+<s id="9" name="闪电霸体" des1="威力 3 SP 0 CP 1 电击" des2="增加30%电击抗性" icon="IC2082" effect="MVS008" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" pro="3" power="0.3" attr="4" ap="20" />
+<s id="10" name="治疗" des1="威力 25 SP 5 CP 1 神圣" des2="回复生命百分比最低单位生命" icon="IC2033" effect="MVB275" sp="5" cp="1" trigger="1" target="3" triggerEffect="20" pro="4" power="2.5" type="2" attr="5" minDamage="20" ap="60" />
+<s id="11" name="群体治疗" des1="威力 10 SP 8 CP 1 神圣" des2="恢复全体单位一定生命" icon="IC2035" effect="MVB276" sp="8" cp="1" trigger="1" target="4" triggerEffect="21" pro="4" power="1" type="2" attr="5" minDamage="10" ap="40" />
+<s id="12" name="神圣之光" des1="威力 5 SP 20 CP 1 " des2="对任意死亡单位进行复活概率50%" icon="IC2012" effect="MVB006" sp="20" cp="1" trigger="1" target="3" triggerEffect="22" pro="4" power="0.5" hit="0.5" ap="20" />
+<s id="13" name="灵巧" des1="威力 2 SP 5 CP 1 " des2="增加我方全体单位20%闪避" icon="IC2087" effect="MVB132" sp="5" cp="1" trigger="1" target="4" triggerEffect="44" pro="5" power="0.2" turn="3" ap="20" />
+<s id="14" name="幸运舞" des1="威力 2 SP 5 CP 1 " des2="增加我方全体单位20%命中" icon="IC2142" effect="MVB005" sp="5" cp="1" trigger="1" target="4" triggerEffect="45" pro="5" power="0.2" turn="3" ap="20" />
+<s id="15" name="死亡之舞" des1="威力 10 SP 20 CP 1 " des2="敌方全队单位10%概率立即死亡" icon="IC2085" effect="MVB192" sp="20" cp="1" trigger="1" target="2" triggerEffect="23" pro="5" power="1" hit="0.1" ap="40" />
+<s id="16" name="致命一击" des1="威力 20 SP 0 CP 1 " des2="攻击时有20%概率造成2倍伤害" icon="IC2602" effect="MVB024" sp="0" cp="1" trigger="2" target="1" triggerEffect="1" pro="6" power="2" type="1" hit="0.2" ap="60" />
+<s id="17" name="偷盗" des1="威力 2 SP 0 CP 1 " des2="挖掘时有20%概率采集物品数量加倍" icon="IC2036" sp="0" cp="1" trigger="4" target="5" triggerEffect="60" pro="6" power="0.2" ap="220" />
+<s id="18" name="暗杀" des1="威力 10 SP 20 CP 1 " des2="命中降低80%,对方立即死亡" icon="IC2097" effect="MVB185" sp="20" cp="1" trigger="2" target="1" triggerEffect="24" pro="6" power="1" hit="0.2" ap="40" />
+<s id="19" name="蓄力箭" des1="威力 25 SP 5 CP 1 " des2="该回合蓄力下回合造成2.5倍伤害" icon="IC2120" effect="MVB031" sp="5" cp="1" trigger="1" target="1" triggerEffect="13" pro="7" power="2.5" type="1" turn="1" minDamage="5" ap="60" />
+<s id="20" name="箭雨" des1="威力 5 SP 5 CP 1 " des2="对敌方全体单位造成0.5倍伤害" icon="IC2071" effect="MVB031" sp="5" cp="1" trigger="1" target="2" triggerEffect="1" pro="7" power="0.5" type="1" minDamage="5" ap="20" />
+<s id="21" name="大地霸体" des1="威力 3 SP 0 CP 1 地脉" des2="地脉抗性增加30%" icon="IC2064" effect="MVB957" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" pro="7" power="0.3" attr="1" ap="20" />
+<s id="22" name="正义吟唱" des1="威力 2 SP 5 CP 1 " des2="增加全体物理防御15%" icon="IC2114" effect="MVS123" sp="5" cp="1" trigger="1" target="4" triggerEffect="48" pro="8" power="0.2" turn="3" ap="20" />
+<s id="23" name="神圣光芒" des1="威力 3 SP 8 CP 1 " des2="增加我方单位30%魔防" icon="IC2107" effect="MVS119" sp="8" cp="1" trigger="1" target="4" triggerEffect="49" pro="8" power="0.3" turn="3" ap="20" />
+<s id="24" name="天罚" des1="威力 0 SP 15 CP 1 " des2="敌方全体单位7%概率在行动时触发死亡，持续3个回合" icon="IC2094" effect="MVB053" sp="15" cp="1" trigger="1" target="2" triggerEffect="25" pro="8" des3="天罚" hit="0.1" turn="3" ap="20" />
+<s id="25" name="嘻嘻哈哈" des1="威力 2 SP 5 CP 1 " des2="敌人全体命中降低20%" icon="IC2090" effect="MVS123" sp="5" cp="1" trigger="1" target="2" triggerEffect="45" pro="9" power="-0.2" type="2" hit="1" turn="3" ap="40" />
+<s id="26" name="超级忍耐" des1="威力 2 SP 10 CP 1 " des2="我方全体单位全抗增加15%" icon="IC2047" effect="MVS007" sp="10" cp="1" trigger="1" target="4" triggerEffect="42" pro="9" power="0.2" turn="3" ap="20" />
+<s id="27" name="嘲讽" des1="威力 10 SP 5 CP 1 " des2="强迫全体敌方单位攻击我，增加100%物防，100%生命，持续2回合" icon="IC2079" effect="MVS902" sp="5" cp="1" trigger="1" target="5" triggerEffect="29" pro="9" power="1" turn="2" power1="1" ap="40" />
+<s id="28" name="点石成金" des1="威力 30 SP 1 CP 1 " des2="攻击时有15%概率将对方变为大量金币（携带金币的3倍）" icon="IC2058" effect="MVB022" sp="1" cp="1" trigger="2" target="1" triggerEffect="15" pro="10" power="3" type="1" hit="0.2" ap="80" />
+<s id="29" name="硬化皮肤" des1="威力 2 SP 5 CP 1 " des2="单体物防增加20%" icon="IC2113" effect="MVB904" sp="5" cp="1" trigger="3" target="5" triggerEffect="48" pro="10" power="0.2" ap="20" />
+<s id="30" name="炼金雨" des1="威力 30 SP 15 CP 1 " des2="挥洒炼金雨，10%概率使敌方全体单位转化为金币（携带量的3倍）" icon="IC2403" effect="MVB010" sp="15" cp="1" trigger="1" target="2" triggerEffect="15" pro="10" power="3" type="1" hit="0.1" ap="80" />
+<s id="31" name="双刃斩" des1="威力 15 SP 0 CP 1 " des2="对敌人造成1.5倍伤害，对自己造成0.5倍伤害" icon="IC2090" effect="MVB028" sp="0" cp="1" trigger="2" target="1" triggerEffect="2" pro="11" power="1.5" type="1" power1="0.5" ap="40" />
+<s id="32" name="震慑" des1="威力 1 SP 0 CP 1 " des2="攻击时有10%概率使得地方下回合不能行动" icon="IC2007" effect="MVB037" sp="0" cp="1" trigger="2" target="1" triggerEffect="12" pro="11" power="0.1" cHuman="1" cSpirt="1" cAngel="1" ap="20" />
+<s id="33" name="爆裂拳" des1="威力 7 SP 10 CP 1 " des2="攻击降低30%攻击3次每次攻击的单位随机" icon="IC2067" effect="MVB033" sp="10" cp="1" trigger="1" target="1" triggerEffect="3" pro="11" power="0.7" type="1" minDamage="7" power1="3" ap="20" />
+<s id="34" name="双叉闪电" des1="威力 20 SP 5 CP 1 电击" des2="对随机2敌人造成一定伤害" icon="IC2605" effect="MVB106" sp="5" cp="1" trigger="1" target="1" triggerEffect="3" pro="12" power="2" type="2" attr="4" minDamage="50" power1="2" ap="60" />
+<s id="35" name="火焰瀑布" des1="威力 10 SP 8 CP 1 火炎" des2="对全部敌人造成一定伤害" icon="IC2704" effect="MVB179" sp="8" cp="1" trigger="1" target="2" triggerEffect="1" pro="12" power="1" type="2" attr="3" minDamage="20" ap="40" />
+<s id="36" name="致命光波" des1="威力 3 SP 25 CP 1 " des2="当敌人生命少于30%时，立即杀死目标，否则没有效果" icon="IC2079" effect="MVB041" sp="25" cp="1" trigger="1" target="1" triggerEffect="26" pro="12" power="0.3" hit="1" ap="20" />
+<s id="37" name="圣盾" des1="威力 5 SP 5 CP 1 " des2="增加50%物防，持续2回合" icon="IC2114" effect="MVB961" sp="5" cp="1" trigger="1" target="5" triggerEffect="48" pro="13" power="0.5" turn="2" ap="20" />
+<s id="38" name="圣疗" des1="威力 3 SP 10 CP 1 神圣" des2="恢复生命百分百最低单位30%生命" icon="IC2035" effect="MVB132" sp="10" cp="1" trigger="1" target="3" triggerEffect="21" pro="13" power="0.3" type="2" attr="5" ap="20" />
+<s id="39" name="光之力" des1="威力 0 SP 0 CP 1 " des2="消耗全部魔法复活任意死亡单位" icon="IC2012" effect="MVB122" sp="0" cp="1" trigger="1" target="3" triggerEffect="22" pro="13" ap="20" />
+<s id="40" name="回光返照" des1="威力 10 SP 0 CP 1 " des2="死亡后有15%的概率满血复活（空魔法）" icon="IC2028" effect="MVB903" sp="0" cp="1" trigger="6" target="5" triggerEffect="27" pro="14" power="1" hit="0.15" ap="40" />
+<s id="41" name="魔法盾" des1="威力 5 SP 20 CP 1 " des2="增加我方全体单位50%魔防" icon="IC2126" effect="MVB133" sp="20" cp="1" trigger="1" target="4" triggerEffect="49" pro="14" power="0.5" ap="20" />
+<s id="42" name="法力损毁" des1="威力 1 SP 30 CP 1 " des2="全体单位没回合损失10%的魔法持续3个回合" icon="IC2703" effect="MVB035" sp="30" cp="1" trigger="1" target="2" triggerEffect="14" pro="14" power="0.1" des3="损毁" hit="1" turn="3" ap="20" />
+<s id="43" name="黑暗斩" des1="威力 12 SP 0 CP 1 " des2="对敌人单体造成1.2倍攻击" icon="IC2060" effect="MVB192" sp="0" cp="1" trigger="1" target="1" triggerEffect="1" pro="15" power="1.2" type="1" minDamage="11" ap="40" />
+<s id="44" name="魔界降临" des1="威力 10 SP 8 CP 1 黑暗" des2="敌人全体受到一定伤害" icon="IC2083" effect="MVB045" sp="8" cp="1" trigger="1" target="2" triggerEffect="1" pro="15" power="1" type="2" attr="6" minDamage="20" ap="40" />
+<s id="45" name="侵蚀" des1="威力 10 SP 50 CP 1 " des2="使对方物防将为0 3回合" icon="IC2112" effect="MVB196" sp="50" cp="1" trigger="1" target="1" triggerEffect="48" pro="15" power="-1" hit="1" turn="3" ap="40" />
+<s id="46" name="冰锥" des1="威力 10 SP 0 CP 1 " des2="对目标单位以外的单位造成10%伤害（目标单位正常伤害）" icon="IC2705" effect="MVB051" sp="0" cp="1" trigger="2" target="1" triggerEffect="4" pro="16" power="1" type="1" minDamage="8" power1="0.1" ap="40" />
+<s id="47" name="水外衣" des1="威力 5 SP 0 CP 1 冷却" des2="增加50%冷却抗性" icon="IC2116" effect="MVB235" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" pro="16" power="0.5" attr="2" ap="20" />
+<s id="48" name="洗礼" des1="威力 2 SP 0 CP 1 " des2="对敌方全部单位造成0.2倍伤害" icon="IC2403" effect="MVB173" sp="0" cp="1" trigger="2" target="2" triggerEffect="1" pro="2" power="0.2" type="1" ap="20" />
+<s id="49" name="致盲" des1="威力 20 SP 10 CP 1 " des2="任意随机一个单位命中将为0，持续1个回合" icon="IC2096" effect="MVB124" sp="10" cp="1" trigger="1" target="1" triggerEffect="45" pro="17" power="-2" hit="1" turn="1" ap="60" />
+<s id="50" name="献身" des1="威力 5 SP 0 CP 1 神圣" des2="牺牲自己复活全部单位（半血，空魔法）" icon="IC2001" effect="MVS122" sp="0" cp="1" trigger="1" target="4" triggerEffect="28" pro="17" power="0.5" type="2" attr="5" hit="1" ap="20" />
+<s id="51" name="魔能雨" des1="威力 2 SP 100 CP 1 " des2="回复我方全体20%的sp" icon="IC2703" effect="MVB011" sp="100" cp="1" trigger="1" target="4" triggerEffect="30" pro="17" power="0.2" ap="20" />
+<s id="52" name="战斗鼓舞" des1="威力 2 SP 50 CP 1 " des2="回复我方全体20%的hp" icon="IC2081" effect="MVB276" sp="50" cp="1" trigger="1" target="4" triggerEffect="21" pro="18" power="0.2" ap="20" />
+<s id="53" name="电闪雷鸣" des1="威力 10 SP 10 CP 1 电击" des2="敌方全体造成一定伤害" icon="IC2704" effect="MVB155" sp="10" cp="1" trigger="1" target="2" triggerEffect="1" pro="18" power="1" type="2" attr="4" minDamage="80" ap="40" />
+<s id="54" name="反噬" des1="威力 10 SP 100 CP 1 " des2="敌方魔法为0" icon="IC2606" effect="MVB005" sp="100" cp="1" trigger="1" target="1" triggerEffect="14" pro="14" power="1" des3="反噬" hit="1" ap="40" />
+<s id="55" name="多重斩" des1="威力 7 SP 0 CP 1 " des2="快速攻击2次" icon="IC2102" effect="MVB268" sp="0" cp="1" trigger="1" target="1" triggerEffect="3" pro="19" power="0.7" type="1" power1="2" ap="20" />
+<s id="56" name="治愈斩" des1="威力 5 SP 5 CP 1 " des2="降低50%攻击，回复攻击力的10%生命" icon="IC2071" effect="MVB041" sp="5" cp="1" trigger="2" target="1" triggerEffect="6" pro="19" power="0.5" type="1" power1="0.1" ap="20" />
+<s id="57" name="一刀两断" des1="威力 5 SP 50 CP 1 " des2="扣除敌人50%生命" icon="IC2603" effect="MVB047" sp="50" cp="1" trigger="1" target="1" triggerEffect="5" pro="19" power="0.5" ap="20" />
+<s id="58" name="勇气之心" des1="威力 2 SP 0 CP 1 " des2="增加20%物攻攻击力" icon="IC2081" effect="MVB047" sp="0" cp="1" trigger="3" target="5" triggerEffect="46" power="0.2" ap="20" />
+<s id="59" name="生命之源" des1="威力 2 SP 0 CP 1 " des2="提升20%生命上限" icon="IC2604" effect="MVB903" sp="0" cp="1" trigger="3" target="5" triggerEffect="40" power="0.2" cHuman="1" cSpirt="1" cAngel="1" ap="20" />
+<s id="60" name="勇者无敌" des1="威力 2 SP 20 CP 1 " des2="全体攻击力上升20% 3回合" icon="IC2034" effect="MVB958" sp="20" cp="1" trigger="1" target="4" triggerEffect="46" pro="20" power="0.2" hit="1" turn="3" ap="20" />
+<s id="101" name="飞鸟斩" des1="威力 10 SP 1 CP 1 " des2="对飞行系单位造成1.2倍伤害" icon="IC2602" effect="MVB102" sp="1" cp="1" trigger="2" target="1" triggerEffect="1" power="1" type="1" cFly="0.2" ap="40" />
+<s id="102" name="灭龙斩" des1="威力 10 SP 1 CP 1 " des2="对龙系单位造成1.2倍伤害" icon="IC2602" effect="MVB037" sp="1" cp="1" trigger="2" target="1" triggerEffect="1" power="1" type="1" cDragon="0.2" ap="40" />
+<s id="103" name="僵尸斩" des1="威力 10 SP 1 CP 1 " des2="对僵尸系单位造成1.2倍伤害" icon="IC2602" effect="MVB139" sp="1" cp="1" trigger="2" target="1" triggerEffect="1" power="1" type="1" cDead="0.2" ap="40" />
+<s id="104" name="隔山拳" des1="威力 10 SP 1 CP 1 " des2="对土系单位造成1.2倍伤害" icon="IC2075" effect="MVB039" sp="1" cp="1" trigger="2" target="1" triggerEffect="1" power="1" type="1" cEarth="0.2" ap="40" />
+<s id="105" name="金刚拳" des1="威力 10 SP 1 CP 1 " des2="对金属系单位造成1.2倍伤害" icon="IC2075" effect="MVB262" sp="1" cp="1" trigger="2" target="1" triggerEffect="1" power="1" type="1" cMetal="0.2" ap="40" />
+<s id="106" name="大地之抗" des1="威力 2 SP 0 CP 1 地脉" des2="增加20%地脉抗性" icon="IC2048" effect="MVB903" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" power="0.2" attr="1" ap="20" />
+<s id="107" name="寒冰之抗" des1="威力 2 SP 0 CP 1 冷却" des2="增加20%冷却抗性" icon="IC2048" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" power="0.2" attr="2" ap="20" />
+<s id="108" name="黑暗之抗" des1="威力 2 SP 0 CP 1 黑暗" des2="增加20%黑暗抗性" icon="IC2048" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" power="0.2" attr="6" ap="20" />
+<s id="109" name="神圣之抗" des1="威力 2 SP 0 CP 1 神圣" des2="增加20%神圣抗性" icon="IC2048" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" power="0.2" attr="5" ap="20" />
+<s id="110" name="火炎之抗" des1="威力 2 SP 0 CP 1 火炎" des2="增加20%火炎抗性" icon="IC2048" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" power="0.2" attr="3" ap="20" />
+<s id="111" name="雷电之抗" des1="威力 2 SP 0 CP 1 电击" des2="增加20%雷电抗性" icon="IC2048" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" power="0.2" attr="4" ap="20" />
+<s id="112" name="血之威能" des1="威力 2 SP 0 CP 1 " des2="增加生命上限20%" icon="IC2035" sp="0" cp="1" trigger="3" target="5" triggerEffect="40" power="0.2" ap="20" />
+<s id="113" name="攻之威能" des1="威力 1.5 SP 0 CP 1 " des2="增加15%物攻攻击力" icon="IC2044" sp="0" cp="1" trigger="3" target="5" triggerEffect="46" power="0.15" ap="20" />
+<s id="114" name="魔之威能" des1="威力 1.5 SP 0 CP 1 " des2="增加15%魔法攻击力" icon="IC2005" sp="0" cp="1" trigger="3" target="5" triggerEffect="47" power="0.15" ap="20" />
+<s id="115" name="火球术" des1="威力 25 SP 10 CP 1 火炎" des2="对敌人造成一定伤害" icon="IC2605" effect="MVB139" sp="10" cp="1" trigger="1" target="1" triggerEffect="1" power="2.5" type="2" attr="3" minDamage="15" ap="60" />
+<s id="116" name="黑炎爆" des1="威力 25 SP 10 CP 1 火炎" des2="对敌人造成一定伤害" icon="IC2093" effect="MVB002" sp="10" cp="1" trigger="1" target="1" triggerEffect="1" power="2.5" type="2" attr="3" minDamage="15" ap="60" />
+<s id="117" name="水绞弹" des1="威力 25 SP 10 CP 1 冷却" des2="对敌人造成一定伤害" icon="IC2090" effect="MVB138" sp="10" cp="1" trigger="1" target="1" triggerEffect="1" power="2.5" type="2" attr="2" minDamage="15" ap="60" />
+<s id="118" name="滚石" des1="威力 25 SP 10 CP 1 地脉" des2="对敌人造成一定伤害" icon="IC2111" effect="MVB188" sp="10" cp="1" trigger="1" target="1" triggerEffect="1" power="2.5" type="2" attr="1" minDamage="15" ap="60" />
+<s id="119" name="光弹术" des1="威力 25 SP 10 CP 1 黑暗" des2="对敌人造成一定伤害" icon="IC2069" effect="MVB005" sp="10" cp="1" trigger="1" target="1" triggerEffect="1" power="2.5" type="2" attr="6" minDamage="15" ap="60" />
+<s id="120" name="雷电术" des1="威力 25 SP 10 CP 1 电击" des2="对敌人造成一定伤害" icon="IC2069" effect="MVB196" sp="10" cp="1" trigger="1" target="1" triggerEffect="1" power="2.5" type="2" attr="4" minDamage="15" ap="60" />
+<s id="121" name="凤仙花" des1="威力 10 SP 15 CP 1 冷却" des2="对全体敌人造成一定伤害" icon="IC2704" effect="MVB004" sp="15" cp="1" trigger="1" target="2" triggerEffect="1" power="1" type="2" attr="2" minDamage="8" ap="40" />
+<s id="122" name="凋零" des1="威力 10 SP 15 CP 1 冷却" des2="对全体敌人造成一定伤害" icon="IC2704" effect="MVB188" sp="15" cp="1" trigger="1" target="2" triggerEffect="1" power="1" type="2" attr="2" minDamage="8" ap="40" />
+<s id="123" name="硫酸雨" des1="威力 10 SP 15 CP 1 冷却" des2="对全体敌人造成一定伤害" icon="IC2704" effect="MVB909" sp="15" cp="1" trigger="1" target="2" triggerEffect="1" power="1" type="2" attr="2" minDamage="8" ap="40" />
+<s id="124" name="绞杀" des1="威力 10 SP 15 CP 1 " des2="对全体敌人造成一定伤害" icon="IC2701" effect="MVB210" sp="15" cp="1" trigger="1" target="2" triggerEffect="1" power="1" type="2" attr="0" minDamage="8" ap="40" />
+<s id="125" name="圣光" des1="威力 10 SP 15 CP 1 神圣" des2="对全体敌人造成一定伤害" icon="IC2701" effect="MVB233" sp="15" cp="1" trigger="1" target="2" triggerEffect="1" power="1" type="2" attr="5" minDamage="8" ap="40" />
+<s id="126" name="雷电雨" des1="威力 10 SP 15 CP 1 电击" des2="对全体敌人造成一定伤害" icon="IC2701" effect="MVB198" sp="15" cp="1" trigger="1" target="2" triggerEffect="1" power="1" type="2" attr="4" minDamage="8" ap="40" />
+<s id="127" name="神采" des1="威力 20 SP 0 CP 1 " des2="挖掘时10%概率物品数量加倍" icon="IC2036" sp="0" cp="1" trigger="4" target="5" triggerEffect="60" power="2" hit="0.1" ap="160" />
+<s id="128" name="飞行" des1="威力 0 SP 0 CP 1 " des2="冒险时可以探索空中地形" icon="IC2009" sp="0" cp="1" trigger="3" target="4" triggerEffect="0" moveType="5" ap="120" />
+<s id="129" name="遁地" des1="威力 0 SP 0 CP 1 " des2="冒险时可以探索沼泽地形" icon="IC2033" sp="0" cp="1" trigger="3" target="4" triggerEffect="0" moveType="1" ap="120" />
+<s id="130" name="浴火" des1="威力 0 SP 0 CP 1 " des2="冒险时可以探索火焰地形" icon="IC2028" sp="0" cp="1" trigger="3" target="4" triggerEffect="0" moveType="3" ap="120" />
+<s id="131" name="游泳" des1="威力 0 SP 0 CP 1 " des2="冒险时可以探索湖水地形" icon="IC2063" sp="0" cp="1" trigger="3" target="4" triggerEffect="0" moveType="2" ap="120" />
+<s id="132" name="避雷" des1="威力 0 SP 0 CP 1 " des2="冒险时可以探索雷电地形" icon="IC2010" sp="0" cp="1" trigger="3" target="4" triggerEffect="0" moveType="4" ap="120" />
+</skill>
+</skill>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+<root >
+    
+    <guide id="88880" next="-1" >
+        <g str="还是等一下在出去吧。" pos="0" />
+    </guide>
+    <guide id="88881" next="-1" >
+        <g str="现在还不能回去。" pos="0" />
+    </guide>
+    
+    <guide id="88884" next="-1" >
+        <g str="教会目前还无法进入，想转职过一会再来吧。" pos="0" />
+    </guide>
+    <guide id="88885" next="-1" nextScene="city" >
+        <g str="目前不能提升工匠等级，可以试着增筑工房。" pos="0" />
+    </guide>
+    <guide id="88886" next="-1" >
+        <g str="工匠等级已达到上限。" pos="0" />
+    </guide>
+    <guide id="88888" next="-1" >
+        <g str="现在还无法进入，随着故事的进展开放。" pos="0" />
+    </guide>
+    <guide id="88889" next="-1" >
+        <g str="现在还无法进入，请【增筑】工房并在【协会】提升工房等级。" pos="0" />
+    </guide>
+    
+    <guide id="1000" nextStory="5" />
+    <guide id="1001" nextStory="10" />
+    <guide id="1002" nextStory="14" />
+    <guide id="1003" nextStory="14" />
+    <guide id="1004" nextStory="7" />
+    <guide id="1005" nextStory="13" />
+    
+    
+    <guide id="1100" next="-1" >
+        <g creatureRight="118" actionRight="A" nameID="118" str="您好，请坐请坐。" />
+    </guide>
+    <guide id="1101" next="-1" >
+        <g creatureRight="118" actionRight="A" nameID="118" str="再见哦。" />
+    </guide>
+    
+    <guide id="1200" next="-1" >
+        <g creatureRight="9" actionRight="A" nameID="9" str="这是转职神殿，请问阁下有何贵干？" pos="0" aR="A" />
+    </guide>
+    <guide id="1201" next="-1" >
+        <g creatureRight="9" actionRight="A" nameID="9" str="您慢走。" />
+    </guide>
+    
+    <guide id="1300" next="-1" >
+        <g creatureRight="85" actionRight="A" str="欢迎，欢迎光临小店。" />
+    </guide>
+    <guide id="1301" next="-1" >
+        <g creatureRight="85" actionRight="A" str="慢走，慢走。" />
+    </guide>
+    
+    <guide id="1030" next="1031" nextScene="association" >
+        <g str="又到了每月结算时间了。" music="BGM009" />
+    </guide>
+    <guide id="1031" next="-1" >
+        <g str="现在开始结算。" music="BGM009" />
+    </guide>
+    
+    <guide id="2000" bg="EV002AA" activeScene="cityOut" next="2001" nextScene="city" >
+        <g str="" fadeout="1.5" pos="0" />
+        <g str="随着你的努力，工匠协会授予了你新的证明。" music="BGM009" />
+    </guide>
+    <guide id="2001" next="-1" >
+        <g sound="D0724" str="新的【探索区域】已经开放了，同时每月的工匠协会费用也提升了。" pos="0" />
+    </guide>
+    
+    
+</root>
+

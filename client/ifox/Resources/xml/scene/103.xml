@@ -1,0 +1,260 @@
+<map id="10010" mask="B" maxX="14" maxY="16" count="11" bgm="BGM014" >
+  <flag count="4">
+    <f0 x="6" y="6" t="2"/>
+    <f1 x="8" y="6" t="3"/>
+    <f2 x="7" y="8" t="21"/>
+    <f3 x="8" y="10" t="5"/>
+  </flag>
+  <npc count="0"/>
+  <force count="1">
+    <fo0 x="4" y="11" b="0" g="1"/>
+  </force>
+  <region0 id="4" count="5">
+    <r0 x="4" y="4" d="0" t="0" r="4" tid="MP051A" tx="1" ty="1"/>
+    <r1 x="5" y="4" d="0" t="0" r="4" tid="MP051A" tx="2" ty="1"/>
+    <r2 x="6" y="4" d="4" t="0" r="4" tid="MP051A" tx="3" ty="1"/>
+    <r3 x="7" y="4" d="16" t="0" r="4" tid="MP051A" tx="4" ty="1"/>
+    <r4 x="4" y="5" d="4" t="0" r="4" tid="MP051A" tx="1" ty="2"/>
+  </region0>
+  <region1 id="6" count="4">
+    <r0 x="8" y="4" d="8" t="0" r="6" tid="MP051A" tx="2" ty="2"/>
+    <r1 x="9" y="4" d="0" t="0" r="6" tid="MP051A" tx="3" ty="2"/>
+    <r2 x="8" y="5" d="0" t="0" r="6" tid="MP051A" tx="2" ty="3"/>
+    <r3 x="9" y="5" d="4" t="0" r="6" tid="MP051A" tx="3" ty="3"/>
+  </region1>
+  <region2 id="5" count="2">
+    <r0 x="6" y="5" d="2" t="0" r="5" tid="MP051A" tx="2" ty="2"/>
+    <r1 x="6" y="6" d="0" t="0" r="5" tid="MP051A" tx="2" ty="3"/>
+  </region2>
+  <region3 id="2" count="5">
+    <r0 x="4" y="6" d="18" t="0" r="2" tid="MP051A" tx="1" ty="1"/>
+    <r1 x="4" y="7" d="0" t="0" r="2" tid="MP051A" tx="1" ty="2"/>
+    <r2 x="4" y="8" d="0" t="0" r="2" tid="MP051A" tx="1" ty="3"/>
+    <r3 x="5" y="8" d="16" t="0" r="2" tid="MP051A" tx="2" ty="3"/>
+    <r4 x="4" y="9" d="4" t="0" r="2" tid="MP051A" tx="1" ty="4"/>
+  </region3>
+  <region4 id="3" count="1">
+    <r0 x="5" y="6" d="8" t="0" r="3" tid="MP051A" tx="2" ty="1"/>
+  </region4>
+  <region5 id="8" count="1">
+    <r0 x="8" y="6" d="16" t="0" r="8" tid="MP051A" tx="3" ty="1"/>
+  </region5>
+  <region6 id="7" count="4">
+    <r0 x="9" y="6" d="10" t="0" r="7" tid="MP051A" tx="4" ty="1"/>
+    <r1 x="9" y="7" d="0" t="0" r="7" tid="MP051A" tx="4" ty="2"/>
+    <r2 x="9" y="8" d="8" t="0" r="7" tid="MP051A" tx="4" ty="3"/>
+    <r3 x="9" y="9" d="4" t="0" r="7" tid="MP051A" tx="4" ty="4"/>
+  </region6>
+  <region7 id="9" count="9">
+    <r0 x="6" y="7" d="0" t="0" r="9" tid="MP072D" tx="1" ty="2"/>
+    <r1 x="7" y="7" d="0" t="0" r="9" tid="MP072D" tx="2" ty="2"/>
+    <r2 x="8" y="7" d="0" t="0" r="9" tid="MP072D" tx="3" ty="2"/>
+    <r3 x="6" y="8" d="8" t="0" r="9" tid="MP072D" tx="1" ty="3"/>
+    <r4 x="7" y="8" d="0" t="0" r="9" tid="MP072D" tx="2" ty="3"/>
+    <r5 x="8" y="8" d="16" t="0" r="9" tid="MP072D" tx="3" ty="3"/>
+    <r6 x="6" y="9" d="0" t="0" r="9" tid="MP072D" tx="1" ty="4"/>
+    <r7 x="7" y="9" d="4" t="0" r="9" tid="MP072D" tx="2" ty="4"/>
+    <r8 x="8" y="9" d="0" t="0" r="9" tid="MP072D" tx="3" ty="4"/>
+  </region7>
+  <region8 id="1" count="4">
+    <r0 x="4" y="10" d="2" t="0" r="1" tid="MP051A" tx="0" ty="0"/>
+    <r1 x="5" y="10" d="0" t="0" r="1" tid="MP051A" tx="1" ty="0"/>
+    <r2 x="4" y="11" d="0" t="0" r="1" tid="MP051A" tx="0" ty="1"/>
+    <r3 x="5" y="11" d="0" t="0" r="1" tid="MP051A" tx="1" ty="1"/>
+  </region8>
+  <region9 id="10" count="4">
+    <r0 x="6" y="10" d="0" t="0" r="10" tid="MP051A" tx="1" ty="0"/>
+    <r1 x="7" y="10" d="2" t="0" r="10" tid="MP051A" tx="2" ty="0"/>
+    <r2 x="6" y="11" d="0" t="0" r="10" tid="MP051A" tx="1" ty="1"/>
+    <r3 x="7" y="11" d="0" t="0" r="10" tid="MP051A" tx="2" ty="1"/>
+  </region9>
+  <region10 id="11" count="4">
+    <r0 x="8" y="10" d="0" t="0" r="11" tid="MP051A" tx="3" ty="0"/>
+    <r1 x="9" y="10" d="2" t="0" r="11" tid="MP051A" tx="4" ty="0"/>
+    <r2 x="8" y="11" d="0" t="0" r="11" tid="MP051A" tx="3" ty="1"/>
+    <r3 x="9" y="11" d="0" t="0" r="11" tid="MP051A" tx="4" ty="1"/>
+  </region10>
+  <mask count="181">
+    <m0 x="0" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m1 x="1" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m2 x="2" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m3 x="3" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m4 x="4" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m5 x="5" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m6 x="6" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m7 x="7" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m8 x="8" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m9 x="9" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m10 x="10" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m11 x="11" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m12 x="12" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m13 x="13" y="0" tid="SO012B" tx="2" ty="2"/>
+    <m14 x="0" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m15 x="1" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m16 x="2" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m17 x="3" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m18 x="4" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m19 x="5" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m20 x="6" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m21 x="7" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m22 x="8" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m23 x="9" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m24 x="10" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m25 x="11" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m26 x="12" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m27 x="13" y="1" tid="SO012B" tx="2" ty="2"/>
+    <m28 x="0" y="2" tid="SO012B" tx="2" ty="2"/>
+    <m29 x="1" y="2" tid="SO012B" tx="2" ty="2"/>
+    <m30 x="2" y="2" tid="SO012B" tx="0" ty="0"/>
+    <m31 x="3" y="2" tid="SO012B" tx="1" ty="0"/>
+    <m32 x="4" y="2" tid="SO012B" tx="2" ty="0"/>
+    <m33 x="5" y="2" tid="SO012B" tx="2" ty="0"/>
+    <m34 x="6" y="2" tid="SO012B" tx="2" ty="0"/>
+    <m35 x="7" y="2" tid="SO012B" tx="2" ty="0"/>
+    <m36 x="8" y="2" tid="SO012B" tx="2" ty="0"/>
+    <m37 x="9" y="2" tid="SO012B" tx="2" ty="0"/>
+    <m38 x="10" y="2" tid="SO012B" tx="3" ty="0"/>
+    <m39 x="11" y="2" tid="SO012B" tx="4" ty="0"/>
+    <m40 x="12" y="2" tid="SO012B" tx="2" ty="2"/>
+    <m41 x="13" y="2" tid="SO012B" tx="2" ty="2"/>
+    <m42 x="0" y="3" tid="SO012B" tx="2" ty="2"/>
+    <m43 x="1" y="3" tid="SO012B" tx="2" ty="2"/>
+    <m44 x="2" y="3" tid="SO012B" tx="0" ty="1"/>
+    <m45 x="3" y="3" tid="SO012B" tx="1" ty="1"/>
+    <m46 x="4" y="3" tid="SO012B" tx="2" ty="1"/>
+    <m47 x="5" y="3" tid="SO012B" tx="2" ty="1"/>
+    <m48 x="6" y="3" tid="SO012B" tx="2" ty="1"/>
+    <m49 x="7" y="3" tid="SO012B" tx="2" ty="1"/>
+    <m50 x="8" y="3" tid="SO012B" tx="2" ty="1"/>
+    <m51 x="9" y="3" tid="SO012B" tx="2" ty="1"/>
+    <m52 x="10" y="3" tid="SO012B" tx="3" ty="1"/>
+    <m53 x="11" y="3" tid="SO012B" tx="4" ty="1"/>
+    <m54 x="12" y="3" tid="SO012B" tx="2" ty="2"/>
+    <m55 x="13" y="3" tid="SO012B" tx="2" ty="2"/>
+    <m56 x="0" y="4" tid="SO012B" tx="2" ty="2"/>
+    <m57 x="1" y="4" tid="SO012B" tx="2" ty="2"/>
+    <m58 x="2" y="4" tid="SO012B" tx="0" ty="2"/>
+    <m59 x="3" y="4" tid="SO012B" tx="1" ty="2"/>
+    <m60 x="10" y="4" tid="SO012B" tx="3" ty="2"/>
+    <m61 x="11" y="4" tid="SO012B" tx="4" ty="2"/>
+    <m62 x="12" y="4" tid="SO012B" tx="2" ty="2"/>
+    <m63 x="13" y="4" tid="SO012B" tx="2" ty="2"/>
+    <m64 x="0" y="5" tid="SO012B" tx="2" ty="2"/>
+    <m65 x="1" y="5" tid="SO012B" tx="2" ty="2"/>
+    <m66 x="2" y="5" tid="SO012B" tx="0" ty="2"/>
+    <m67 x="3" y="5" tid="SO012B" tx="1" ty="2"/>
+    <m68 x="5" y="5" tid="SO011B" tx="1" ty="1"/>
+    <m69 x="7" y="5" tid="SO011B" tx="1" ty="1"/>
+    <m70 x="10" y="5" tid="SO012B" tx="3" ty="2"/>
+    <m71 x="11" y="5" tid="SO012B" tx="4" ty="2"/>
+    <m72 x="12" y="5" tid="SO012B" tx="2" ty="2"/>
+    <m73 x="13" y="5" tid="SO012B" tx="2" ty="2"/>
+    <m74 x="0" y="6" tid="SO012B" tx="2" ty="2"/>
+    <m75 x="1" y="6" tid="SO012B" tx="2" ty="2"/>
+    <m76 x="2" y="6" tid="SO012B" tx="0" ty="2"/>
+    <m77 x="3" y="6" tid="SO012B" tx="1" ty="2"/>
+    <m78 x="7" y="6" tid="SO011B" tx="1" ty="1"/>
+    <m79 x="10" y="6" tid="SO012B" tx="3" ty="2"/>
+    <m80 x="11" y="6" tid="SO012B" tx="4" ty="2"/>
+    <m81 x="12" y="6" tid="SO012B" tx="2" ty="2"/>
+    <m82 x="13" y="6" tid="SO012B" tx="2" ty="2"/>
+    <m83 x="0" y="7" tid="SO012B" tx="2" ty="2"/>
+    <m84 x="1" y="7" tid="SO012B" tx="2" ty="2"/>
+    <m85 x="2" y="7" tid="SO012B" tx="0" ty="2"/>
+    <m86 x="3" y="7" tid="SO012B" tx="1" ty="2"/>
+    <m87 x="5" y="7" tid="SO011B" tx="1" ty="1"/>
+    <m88 x="10" y="7" tid="SO012B" tx="3" ty="2"/>
+    <m89 x="11" y="7" tid="SO012B" tx="4" ty="2"/>
+    <m90 x="12" y="7" tid="SO012B" tx="2" ty="2"/>
+    <m91 x="13" y="7" tid="SO012B" tx="2" ty="2"/>
+    <m92 x="0" y="8" tid="SO012B" tx="2" ty="2"/>
+    <m93 x="1" y="8" tid="SO012B" tx="2" ty="2"/>
+    <m94 x="2" y="8" tid="SO012B" tx="0" ty="2"/>
+    <m95 x="3" y="8" tid="SO012B" tx="1" ty="2"/>
+    <m96 x="10" y="8" tid="SO012B" tx="3" ty="2"/>
+    <m97 x="11" y="8" tid="SO012B" tx="4" ty="2"/>
+    <m98 x="12" y="8" tid="SO012B" tx="2" ty="2"/>
+    <m99 x="13" y="8" tid="SO012B" tx="2" ty="2"/>
+    <m100 x="0" y="9" tid="SO012B" tx="2" ty="2"/>
+    <m101 x="1" y="9" tid="SO012B" tx="2" ty="2"/>
+    <m102 x="2" y="9" tid="SO012B" tx="0" ty="2"/>
+    <m103 x="3" y="9" tid="SO012B" tx="1" ty="2"/>
+    <m104 x="5" y="9" tid="SO011B" tx="1" ty="1"/>
+    <m105 x="10" y="9" tid="SO012B" tx="3" ty="2"/>
+    <m106 x="11" y="9" tid="SO012B" tx="4" ty="2"/>
+    <m107 x="12" y="9" tid="SO012B" tx="2" ty="2"/>
+    <m108 x="13" y="9" tid="SO012B" tx="2" ty="2"/>
+    <m109 x="0" y="10" tid="SO012B" tx="2" ty="2"/>
+    <m110 x="1" y="10" tid="SO012B" tx="2" ty="2"/>
+    <m111 x="2" y="10" tid="SO012B" tx="0" ty="2"/>
+    <m112 x="3" y="10" tid="SO012B" tx="1" ty="2"/>
+    <m113 x="10" y="10" tid="SO012B" tx="3" ty="2"/>
+    <m114 x="11" y="10" tid="SO012B" tx="4" ty="2"/>
+    <m115 x="12" y="10" tid="SO012B" tx="2" ty="2"/>
+    <m116 x="13" y="10" tid="SO012B" tx="2" ty="2"/>
+    <m117 x="0" y="11" tid="SO012B" tx="2" ty="2"/>
+    <m118 x="1" y="11" tid="SO012B" tx="2" ty="2"/>
+    <m119 x="2" y="11" tid="SO012B" tx="0" ty="2"/>
+    <m120 x="3" y="11" tid="SO012B" tx="1" ty="2"/>
+    <m121 x="10" y="11" tid="SO012B" tx="3" ty="2"/>
+    <m122 x="11" y="11" tid="SO012B" tx="4" ty="2"/>
+    <m123 x="12" y="11" tid="SO012B" tx="2" ty="2"/>
+    <m124 x="13" y="11" tid="SO012B" tx="2" ty="2"/>
+    <m125 x="0" y="12" tid="SO012B" tx="2" ty="2"/>
+    <m126 x="1" y="12" tid="SO012B" tx="2" ty="2"/>
+    <m127 x="2" y="12" tid="SO012B" tx="0" ty="3"/>
+    <m128 x="3" y="12" tid="SO012B" tx="1" ty="3"/>
+    <m129 x="4" y="12" tid="SO012B" tx="2" ty="3"/>
+    <m130 x="5" y="12" tid="SO012B" tx="2" ty="3"/>
+    <m131 x="6" y="12" tid="SO012B" tx="2" ty="3"/>
+    <m132 x="7" y="12" tid="SO012B" tx="2" ty="3"/>
+    <m133 x="8" y="12" tid="SO012B" tx="2" ty="3"/>
+    <m134 x="9" y="12" tid="SO012B" tx="2" ty="3"/>
+    <m135 x="10" y="12" tid="SO012B" tx="3" ty="3"/>
+    <m136 x="11" y="12" tid="SO012B" tx="4" ty="3"/>
+    <m137 x="12" y="12" tid="SO012B" tx="2" ty="2"/>
+    <m138 x="13" y="12" tid="SO012B" tx="2" ty="2"/>
+    <m139 x="0" y="13" tid="SO012B" tx="2" ty="2"/>
+    <m140 x="1" y="13" tid="SO012B" tx="2" ty="2"/>
+    <m141 x="2" y="13" tid="SO012B" tx="0" ty="4"/>
+    <m142 x="3" y="13" tid="SO012B" tx="1" ty="4"/>
+    <m143 x="4" y="13" tid="SO012B" tx="2" ty="4"/>
+    <m144 x="5" y="13" tid="SO012B" tx="2" ty="4"/>
+    <m145 x="6" y="13" tid="SO012B" tx="2" ty="4"/>
+    <m146 x="7" y="13" tid="SO012B" tx="2" ty="4"/>
+    <m147 x="8" y="13" tid="SO012B" tx="2" ty="4"/>
+    <m148 x="9" y="13" tid="SO012B" tx="2" ty="4"/>
+    <m149 x="10" y="13" tid="SO012B" tx="3" ty="4"/>
+    <m150 x="11" y="13" tid="SO012B" tx="4" ty="4"/>
+    <m151 x="12" y="13" tid="SO012B" tx="2" ty="2"/>
+    <m152 x="13" y="13" tid="SO012B" tx="2" ty="2"/>
+    <m153 x="0" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m154 x="1" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m155 x="2" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m156 x="3" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m157 x="4" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m158 x="5" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m159 x="6" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m160 x="7" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m161 x="8" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m162 x="9" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m163 x="10" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m164 x="11" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m165 x="12" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m166 x="13" y="14" tid="SO012B" tx="2" ty="2"/>
+    <m167 x="0" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m168 x="1" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m169 x="2" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m170 x="3" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m171 x="4" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m172 x="5" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m173 x="6" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m174 x="7" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m175 x="8" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m176 x="9" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m177 x="10" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m178 x="11" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m179 x="12" y="15" tid="SO012B" tx="2" ty="2"/>
+    <m180 x="13" y="15" tid="SO012B" tx="2" ty="2"/>
+  </mask>
+</map>

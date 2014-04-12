@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1072" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" id="2ba-7u-Qrj" customClass="UIViewBase">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="battleChat.png" id="XvX-1I-dmn">
+                    <rect key="frame" x="416" y="198" width="132" height="116"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <webView tag="1000" contentMode="scaleToFill" id="sja-eg-mHf" customClass="ChatUIWebView">
+                    <rect key="frame" x="423" y="205" width="118" height="104"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </webView>
+                <view autoresizesSubviews="NO" userInteractionEnabled="NO" tag="2000" contentMode="scaleToFill" id="TIa-L1-CnC">
+                    <rect key="frame" x="-49" y="-47" width="665" height="414"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view hidden="YES" tag="2102" contentMode="scaleToFill" id="Pub-S8-WLO" customClass="BattleEnemyView">
+                            <rect key="frame" x="153" y="107" width="107" height="110"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" id="uoz-PB-eRk">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="90"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" image="playerHPBG.png" id="lrQ-4A-7KQ">
+                                    <rect key="frame" x="4" y="98" width="90" height="5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playerhp.png" id="qtr-Xo-19J">
+                                    <rect key="frame" x="3" y="99" width="90" height="4"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2Ld-3c-tJv" customClass="UIEffectAction">
+                                    <rect key="frame" x="25" y="20" width="50" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <view tag="200" contentMode="scaleToFill" id="r6A-Kd-6LF" customClass="BattleNumberView">
+                                    <rect key="frame" x="48" y="40" width="0.0" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </view>
+                            </subviews>
+                        </view>
+                        <view hidden="YES" tag="2100" contentMode="scaleToFill" id="t1l-5F-ajO" customClass="BattleEnemyView">
+                            <rect key="frame" x="256" y="107" width="107" height="110"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" id="q4c-l2-tWH">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="90"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" image="playerHPBG.png" id="6IG-qP-Ldq">
+                                    <rect key="frame" x="4" y="98" width="90" height="5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playerhp.png" id="o8e-vM-UDC">
+                                    <rect key="frame" x="3" y="99" width="90" height="4"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="LSA-i2-43m" customClass="UIEffectAction">
+                                    <rect key="frame" x="25" y="20" width="50" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <view tag="200" contentMode="scaleToFill" id="uyV-4k-qTS" customClass="BattleNumberView">
+                                    <rect key="frame" x="48" y="40" width="0.0" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </view>
+                            </subviews>
+                        </view>
+                        <view hidden="YES" tag="2101" contentMode="scaleToFill" id="4Wq-aQ-K3K" customClass="BattleEnemyView">
+                            <rect key="frame" x="359" y="107" width="107" height="110"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" id="qzg-7Y-2E0">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="90"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" image="playerHPBG.png" id="beZ-37-eev">
+                                    <rect key="frame" x="4" y="98" width="90" height="5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playerhp.png" id="Xng-kj-WNf">
+                                    <rect key="frame" x="3" y="99" width="90" height="4"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="x3g-9R-ffw" customClass="UIEffectAction">
+                                    <rect key="frame" x="25" y="20" width="50" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <view tag="200" contentMode="scaleToFill" id="yYk-EH-IAt" customClass="BattleNumberView">
+                                    <rect key="frame" x="48" y="40" width="0.0" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </view>
+                            </subviews>
+                        </view>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="battleCommand1.png" id="Fo0-cj-EeJ">
+                            <rect key="frame" x="60" y="215" width="125" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="battleCommandRed.png" id="FqI-r1-kl7">
+                            <rect key="frame" x="66" y="230" width="68" height="8"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" autoresizesSubviews="NO" tag="3000" contentMode="scaleToFill" id="5NE-jE-G5j" customClass="BattleCreatureView">
+                    <rect key="frame" x="39" y="203" width="65" height="116"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" tag="310" contentMode="scaleToFill" image="playerHPBG.png" id="st4-8v-lnd">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" image="playerhp.png" id="W8O-yi-Y4c">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="oof-fK-MPt">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playersp.png" id="iM6-tc-tFa">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="Chw-kF-TlC">
+                            <rect key="frame" x="21" y="97" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="P5v-cH-eEM">
+                            <rect key="frame" x="21" y="98" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="LnG-Vh-7SQ">
+                            <rect key="frame" x="0.0" y="67" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerspWord.png" id="X17-qZ-2Ju">
+                            <rect key="frame" x="0.0" y="82" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerfsWord.png" id="15B-9n-05g">
+                            <rect key="frame" x="0.0" y="97" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="320" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mrm-Rh-GV8" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="62" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="321" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zsg-Ch-J6e" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="78" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="322" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kh5-q2-rBr" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="94" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view autoresizesSubviews="NO" userInteractionEnabled="NO" tag="110" contentMode="scaleToFill" id="mWw-Wb-gJD">
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" id="A3p-8l-VFN">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="battleHead.png" id="Scw-HA-qmw">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000001192092896" tag="323" contentMode="left" text="LV:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dl9-Sk-1by" customClass="UILabelStroke">
+                                    <rect key="frame" x="4" y="40" width="64" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </view>
+                        <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="xbd-A0-S4W" customClass="UIEffectAction">
+                            <rect key="frame" x="7" y="9" width="50" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view tag="200" contentMode="scaleToFill" id="uEp-Aa-YDX" customClass="BattleNumberView">
+                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </view>
+                    </subviews>
+                </view>
+                <view hidden="YES" autoresizesSubviews="NO" tag="3001" contentMode="scaleToFill" id="61l-n5-NIZ" customClass="BattleCreatureView">
+                    <rect key="frame" x="112" y="203" width="65" height="116"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" tag="310" contentMode="scaleToFill" image="playerHPBG.png" id="sL5-qh-dj9">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" image="playerhp.png" id="LBj-ee-pGk">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="zuo-Of-qtx">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playersp.png" id="raj-l8-qab">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="xm7-WF-6Fp">
+                            <rect key="frame" x="21" y="97" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="IO3-b2-FMa">
+                            <rect key="frame" x="21" y="98" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="pUs-ub-ReX">
+                            <rect key="frame" x="0.0" y="67" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerspWord.png" id="T5L-g0-p6s">
+                            <rect key="frame" x="0.0" y="82" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerfsWord.png" id="wqZ-Ln-KGn">
+                            <rect key="frame" x="0.0" y="97" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="320" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cEm-gq-p6P" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="62" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="321" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GfG-hB-Ur9" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="78" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="322" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KXx-Bl-3yg" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="94" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view autoresizesSubviews="NO" userInteractionEnabled="NO" tag="110" contentMode="scaleToFill" id="QaJ-hk-qvw">
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" id="2VX-gz-yOP">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="battleHead.png" id="zRU-c3-oiD">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000001192092896" tag="323" contentMode="left" text="LV:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="88M-HG-bz8" customClass="UILabelStroke">
+                                    <rect key="frame" x="4" y="40" width="64" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </view>
+                        <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="d92-F9-tfy" customClass="UIEffectAction">
+                            <rect key="frame" x="7" y="9" width="50" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view tag="200" contentMode="scaleToFill" id="clB-Jx-haR" customClass="BattleNumberView">
+                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </view>
+                    </subviews>
+                </view>
+                <view hidden="YES" autoresizesSubviews="NO" tag="3002" contentMode="scaleToFill" id="kLQ-pw-CXv" customClass="BattleCreatureView">
+                    <rect key="frame" x="185" y="204" width="65" height="116"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" tag="310" contentMode="scaleToFill" image="playerHPBG.png" id="KnA-Tf-kQj">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" image="playerhp.png" id="hIe-4N-s6e">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="0Wq-EF-7Vr">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playersp.png" id="ibs-Gw-01Z">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="dYG-82-95X">
+                            <rect key="frame" x="21" y="97" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="BA1-ji-Lj0">
+                            <rect key="frame" x="21" y="98" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="M8J-zy-zYz">
+                            <rect key="frame" x="0.0" y="67" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerspWord.png" id="Ehy-PK-up7">
+                            <rect key="frame" x="0.0" y="82" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerfsWord.png" id="REy-NM-UiL">
+                            <rect key="frame" x="0.0" y="97" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="320" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WRF-3y-yTZ" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="62" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="321" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lmz-Oo-QBK" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="78" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="322" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5zV-Ks-g3v" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="94" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view autoresizesSubviews="NO" userInteractionEnabled="NO" tag="110" contentMode="scaleToFill" id="9fH-GS-dez">
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" id="jlw-QU-7oJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="battleHead.png" id="8P0-K6-kHy">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000001192092896" tag="323" contentMode="left" text="LV:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gvv-Lv-esa" customClass="UILabelStroke">
+                                    <rect key="frame" x="4" y="40" width="64" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </view>
+                        <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="f9g-mj-XwP" customClass="UIEffectAction">
+                            <rect key="frame" x="7" y="9" width="50" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view tag="200" contentMode="scaleToFill" id="Sk4-Dx-Gzv" customClass="BattleNumberView">
+                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </view>
+                    </subviews>
+                </view>
+                <view hidden="YES" autoresizesSubviews="NO" tag="3003" contentMode="scaleToFill" id="8Yz-DO-YMZ" customClass="BattleCreatureView">
+                    <rect key="frame" x="258" y="204" width="65" height="116"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" tag="310" contentMode="scaleToFill" image="playerHPBG.png" id="fqR-rF-mpd">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" image="playerhp.png" id="td5-Gy-7Vw">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="fHQ-cs-HkI">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playersp.png" id="Rby-8S-lVh">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="Y83-fe-Vqy">
+                            <rect key="frame" x="21" y="97" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="lvS-Zo-dc0">
+                            <rect key="frame" x="21" y="98" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="0nS-FU-EDO">
+                            <rect key="frame" x="0.0" y="67" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerspWord.png" id="dj7-3r-w46">
+                            <rect key="frame" x="0.0" y="82" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerfsWord.png" id="xcW-mn-Se9">
+                            <rect key="frame" x="0.0" y="97" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="320" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CeK-Uc-7Z1" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="62" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="321" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YiL-Yx-icT" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="78" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="322" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3hu-qL-2b9" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="94" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view autoresizesSubviews="NO" userInteractionEnabled="NO" tag="110" contentMode="scaleToFill" id="5xQ-hE-Bna">
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" id="Bfx-D8-4GR">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="battleHead.png" id="3Dw-Pv-JYX">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000001192092896" tag="323" contentMode="left" text="LV:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0HT-D5-Yr0" customClass="UILabelStroke">
+                                    <rect key="frame" x="4" y="40" width="64" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </view>
+                        <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3q7-5a-U2a" customClass="UIEffectAction">
+                            <rect key="frame" x="7" y="9" width="50" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view tag="200" contentMode="scaleToFill" id="0VJ-CV-Jtl" customClass="BattleNumberView">
+                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </view>
+                    </subviews>
+                </view>
+                <view hidden="YES" autoresizesSubviews="NO" tag="3004" contentMode="scaleToFill" id="K7g-Yq-loQ" customClass="BattleCreatureView">
+                    <rect key="frame" x="331" y="204" width="65" height="116"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" tag="310" contentMode="scaleToFill" image="playerHPBG.png" id="ycY-qi-a5K">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="300" contentMode="scaleToFill" image="playerhp.png" id="WeU-fI-jV6">
+                            <rect key="frame" x="21" y="66" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="eau-dA-z4u">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playersp.png" id="KcN-TX-jzO">
+                            <rect key="frame" x="21" y="82" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerHPBG.png" id="08Y-8a-qlQ">
+                            <rect key="frame" x="21" y="97" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="Q7Q-de-AJp">
+                            <rect key="frame" x="21" y="98" width="42" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="Odx-e9-b0y">
+                            <rect key="frame" x="0.0" y="67" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerspWord.png" id="5C4-f8-eu7">
+                            <rect key="frame" x="0.0" y="82" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerfsWord.png" id="lmP-4X-aiN">
+                            <rect key="frame" x="0.0" y="97" width="20" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="320" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tbD-fb-SA3" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="62" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="321" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="any-tr-q9c" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="78" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="322" contentMode="left" text="0/0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Myt-xK-eo4" customClass="UILabelStroke">
+                            <rect key="frame" x="21" y="94" width="42" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view autoresizesSubviews="NO" userInteractionEnabled="NO" tag="110" contentMode="scaleToFill" id="HyS-6D-G3L">
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" id="tns-eQ-Hhu">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="battleHead.png" id="s2N-8j-Ncd">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000001192092896" tag="323" contentMode="left" text="LV:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6zf-ey-tov" customClass="UILabelStroke">
+                                    <rect key="frame" x="4" y="40" width="64" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </view>
+                        <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="05t-UX-7ZX" customClass="UIEffectAction">
+                            <rect key="frame" x="7" y="9" width="50" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view tag="200" contentMode="scaleToFill" id="xUV-Mh-8g2" customClass="BattleNumberView">
+                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </view>
+                    </subviews>
+                </view>
+                <view tag="5555" contentMode="scaleToFill" id="q1g-rB-rBa">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" alpha="0.0" tag="11000" contentMode="scaleToFill" image="AE001D.png" id="R4A-mB-0Hr">
+                    <rect key="frame" x="84" y="-40" width="400" height="400"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AE001D.png" width="800" height="800"/>
+        <image name="battleChat.png" width="350" height="300"/>
+        <image name="battleCommand1.png" width="213" height="48"/>
+        <image name="battleCommandRed.png" width="100" height="13"/>
+        <image name="battleHead.png" width="124" height="122"/>
+        <image name="playerHPBG.png" width="103" height="15"/>
+        <image name="playerfsWord.png" width="27" height="16"/>
+        <image name="playerhp.png" width="70" height="14"/>
+        <image name="playerhpWord.png" width="28" height="16"/>
+        <image name="playersf.png" width="70" height="14"/>
+        <image name="playersp.png" width="70" height="14"/>
+        <image name="playerspWord.png" width="28" height="16"/>
+    </resources>
+</document>

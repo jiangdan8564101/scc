@@ -1,0 +1,182 @@
+/* 
+  Localizable.strings
+  ixyhz
+
+  Created by Rain on 12-8-14.
+  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+*/
+"language" = "中文";
+
+
+"BattleStart" = "<font color=#00FF00>探索开始！</font><br>";
+"FightStart" = "<font color=#FFFFFF>遭遇敌人！</font><br>";
+"FightBoss" = "<font color=#FF0000>遭遇BOSS！</font><br>";
+"FightAttack" = "<font color=#009600>%@</font>发动了";
+"FightHit" = "普通攻击，";
+"FightSkill" = "【%@】，<br>";
+"FightCritical" = "<font color=#FF0000>会心一击！</font>";
+"FightHit1" = "<font color=#FFFFFF>打歪了。</font><br>";
+"FightHit2" = "<br>";
+"FightHit3" = "<br>";
+"FightHit4" = "<br>";
+"FightHit5" = "<font color=#FF0000>击中了要害！</font><br>";
+"FightHit6" = "技能效果被延长了。<br>";
+"FightHit7" = "<font color=#ff9600>%@</font>受到了【%@】效果。<br>";
+"FightHitGold" = "成功转换成了<font color=#FFFF00>%d枚金币</font>！<br>";
+"FightHitGoldMiss" = "转换失败了。<br>";
+
+"FightHitRelive" = "成功了！<font color=#ff9600>%@</font>复活了！<br>";
+"FightHitReliveMiss" = "但是，复活失败了。<br>";
+
+"FightHitAttr1" = "<font color=#ff9600>%@</font>基本属性提升了！<br>";
+"FightHitAttr2" = "<font color=#ff9600>%@</font>基本属性降低了！<br>";
+"FightHitAttr3" = "基本属性恢复正常。<br>";
+
+"FightCharge" = "<font color=#ff9600>%@</font>受到了蓄力攻击！损失了<font color=#FFFF00>%d</font>HP。<br>";
+"FightHatred" = "敌人都被吸引过来了。<br>";
+
+
+"FightMiss" = "<font color=#FFFFFF>但是没有击中</font><font color=#ff9600>%@。</font><br>";
+
+"FightHealthHPItem" = "<font color=#009600>%@</font>使用道具回复了HP<br>";
+"FightHealthSPItem" = "<font color=#009600>%@</font>使用道具回复了SP<br>";
+
+"FightHealth" = "<font color=#ff9600>%@</font>回复了<font color=#00FF00>%d</font>HP。<br>";
+"FightHealthSP" = "<font color=#ff9600>%@</font>回复了<font color=#00FF00>%d</font>SP。<br>";
+"FightDamage" = "<font color=#ff9600>%@</font>损失了";
+"FightDamageHP1" = "<font color=#A5A5A5>%d</font>HP。<br>";
+"FightDamageHP2" = "<font color=#FF0000>%d</font>HP。<br>";
+"FightDamageHP3" = "<font color=#FF0000>%d</font>HP。<br>";
+"FightDamageHP4" = "<font color=#FF0000>%d</font>HP。<br>";
+"FightDamageHP5" = "<font color=#FFFF00>%d</font>HP。<br>";
+
+
+"FightDead" = "<font color=#ff9600>%@</font>被干掉了。<br>";
+"FightEnd" = "战斗结束。<br>";
+"FightEXP" = "<font color=#ff9600>%@</font>获得了%d点经验。<br>";
+"FightLevelUp" = "<font color=#ff9600>%@</font>升级了！<br>";
+"FightDropGold" = "获得了<font color=#FFFF00>%d枚金币</font>！<br>";
+"FightDrop" = "获得了战利品<font color=#00FF00>%@*%d</font>！<br>";
+"FightCollect" = "采集到了<font color=#00FF00>%@*%d</font>！<br>";
+"FightDig" = "挖掘到了<font color=#00FF00>%@*%d</font>！<br>";
+
+"FightBut" = "攻击，但是";
+
+"FightBuff1" = "<font color=#ff9600>%@</font>因为【%@】效果，损失了<font color=#FFFF00>%d</font>HP。<br>";
+"FightBuff2" = "<font color=#ff9600>%@</font>因为【%@】效果，不能行动。<br>";
+"FightBuff3" = "<font color=#ff9600>%@</font>因为【%@】效果，损失了<font color=#FF0000>%d</font>SP。<br>";
+"FightBuff4" = "<font color=#ff9600>%@</font>因为【%@】效果，恢复了<font color=#00FF00>%d</font>HP。<br>";
+"FightBuff5" = "<font color=#ff9600>%@</font>因为【%@】效果，恢复了<font color=#00FF00>%d</font>SP。<br>";
+
+"GetTreasure" = "获得了<font color=#00FF00>%@*%d</font>！<br>";
+"OpenTreasure" = "<font color=#00FF00>发现了宝箱！</font><br>";
+"OpenDoor" = "<font color=#00FF00>门已打开！以后可以进入该区域了。</font><br>";
+
+"QuestGold" = "%d金";
+"QuestItem" = "%@ %d个";
+
+"GetItem" = "获得【%@】！";
+
+"PlayerProTime" = "还需要%d次战斗";
+"PlayerProMax" = "MAX";
+"PotLow" = "较低";
+"PotMiddle" = "普通";
+"PotHigh" = "较高";
+"PotMax" = "完美";
+
+"SkillLearned" = "已习得";
+"SkillCanNot" = "职业限制";
+"SkillNotLearned" = "未习得";
+"SkillLVNot" = "职业LV%d";
+"SkillLVNeed" = "职业需求LV%d";
+
+"TeamN" = "派遣队伍%d";
+"TeamNull" = "在【酒馆】创建队伍可进行【探索】\n【派遣】需要两个队伍以上且占有率100%\n【占有率】超过50%时会开启下一小场景";
+"TeamCreature" = "点击伙伴头像可加入队伍。";
+
+"EmployText" = "雇佣花费每月%d金";
+"NOCondition" = "无特殊条件，初期即可转职。";
+"ChangePro" = "转职成功！  职业装备已卸下。";
+"ChangeProError" = "转职凭证不足！";
+"Fire" = "是否确定要解雇？";
+"Notfire" = "不能解雇该角色。";
+"Employ" = "已雇佣。";
+"NotGold" = "【金币】不足。";
+
+"Gold" = "金币";
+
+"WorkUpSuccess" = "增筑成功！";
+"WorkUpError1" = "请前往【协会】领取新的工匠证明。";
+"WorkUpError2" = "请增筑其他设施。";
+"WorkUpError3" = "【素材】不足。";
+"WorkGrowItem" = "种植的植物收获了【素材】";
+
+"type1" = "飞行系";
+"type2" = "龙系";
+"type3" = "僵尸系";
+"type4" = "土系";
+"type5" = "金属系";
+"type6" = "水系";
+"type7" = "火系";
+"type8" = "神圣系";
+"type9" = "黑暗系";
+"type10" = "雷系";
+"type11" = "风系";
+
+
+"type20" = "人类";
+"type21" = "精灵";
+"type22" = "天使";
+"type23" = "恶魔";
+"type24" = "守护者";
+"type25" = "未知";
+
+
+"none" = "?????????";
+"occupy" = "占有";
+
+"characterType0" = "认真";
+"characterType1" = "谨慎";
+"characterType2" = "冷酷";
+"characterType3" = "高傲";
+"characterType4" = "好奇";
+"characterType5" = "积极";
+"characterType6" = "无畏";
+"characterType7" = "活泼";
+
+"WeaponType0" = "【锤】";
+"WeaponType1" = "【刀】";
+"WeaponType2" = "【拳套】";
+"WeaponType3" = "【枪】";
+"WeaponType4" = "【镰刀】";
+"WeaponType5" = "【杖】";
+"WeaponType6" = "【弓箭】";
+"WeaponType7" = "【烟斗】";
+"WeaponType8" = "【扇子】";
+"WeaponType9" = "【牙齿】";
+"WeaponType10" = "【球】";
+"WeaponType11" = "【爪子】";
+"WeaponType12" = "【剑】";
+
+
+"Quality1" = "C";
+"Quality2" = "B";
+"Quality3" = "A";
+"Quality4" = "S";
+
+"GameSpeed1" = "速度X1";
+"GameSpeed2" = "速度X2";
+"GameSpeed4" = "速度X4";
+
+"Alchemy" = "合成成功！";
+"BuySuccess" = "购买成功！";
+
+"GameLogin1" = "是否观看开场剧情";
+"GameLogin2" = "是";
+"GameLogin3" = "否";
+"GameLogin4" = "是：有着详细游戏指导与剧情，建议新手玩家可以选择此类型进行游戏。\n否：无指导，跳过开场剧情，适合高端玩家。\n游戏进行中会自动存档，新的游戏会覆盖存档招财猫等会退换。";
+
+"GameLogin5" = "无存档。";
+
+"GameLogin6" = "是否覆盖存档重新开始？";
+

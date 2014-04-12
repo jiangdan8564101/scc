@@ -1,0 +1,4 @@
+<quest>
+        <q id="10" story="14" next="11" rank="0" img="0232" name="【发展】工房增筑1级" owner="工匠协会" time="" des="工匠协会的发展委托。" cdes="增筑【工房】【庭院】【部务】【店铺】全部1级。" ci0="" ci1="" cserch="" calchemy="" cgroundlv="" cgshoplv="" chomelv="" cworklv="" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="10000" comi0="232" cominum0="1" comi1="" comi2="" comi3="" />
+    
+ story 故事触发，next 下一个id ，rank 委托登记， img 委托图标，name名称，owner委托发布者，time时间限制，des描述，cdes完成条件描述，ci0完成所需道具 cinum0 完成所需道具数量， cserch探索场景id，calchemy合成id， cgroundlv="" cgshoplv="" chomelv="" cworklv="" 工房4个等级，ckill0 击杀怪物id ，ckillnum0 数量，， cgold需要的金币，，，comGold完成金币奖励，comi0完成道具奖励，cominum0道具奖励数量，，

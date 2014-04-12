@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<level>
+	<l type="1" maxHP="5.5" maxSP="0.6" maxFS="0.1" pAtk="4.4" pDef="4" mAtk="0.8" mDef="2" agile="1.2" lucky="1.8" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="2" maxHP="5" maxSP="0.75" maxFS="0.1" pAtk="4.4" pDef="3.6" mAtk="2" mDef="2.8" agile="2.3" lucky="2" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="3" maxHP="3" maxSP="1.65" maxFS="0.1" pAtk="2.4" pDef="3.2" mAtk="5.2" mDef="4.8" agile="2.4" lucky="2.4" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="4" maxHP="4" maxSP="1.5" maxFS="0.1" pAtk="3.2" pDef="2.8" mAtk="4.4" mDef="5.6" agile="2.2" lucky="2" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="5" maxHP="3.5" maxSP="1.2" maxFS="0.1" pAtk="3.2" pDef="2.8" mAtk="4" mDef="4.8" agile="2.8" lucky="2.8" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="6" maxHP="4.5" maxSP="0.9" maxFS="0.1" pAtk="3.6" pDef="2.8" mAtk="3.6" mDef="3.6" agile="2.4" lucky="1.6" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="7" maxHP="4" maxSP="1.05" maxFS="0.1" pAtk="3.4" pDef="3.2" mAtk="4" mDef="4" agile="2" lucky="2" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="8" maxHP="4" maxSP="1.5" maxFS="0.1" pAtk="3" pDef="3.4" mAtk="4.8" mDef="4" agile="1.8" lucky="2.2" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="9" maxHP="3.5" maxSP="0.9" maxFS="0.1" pAtk="2.8" pDef="3.2" mAtk="3.2" mDef="6" agile="1.4" lucky="2.1" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="10" maxHP="5.75" maxSP="1.2" maxFS="0.1" pAtk="3.6" pDef="4.4" mAtk="0.8" mDef="2" agile="2.1" lucky="2" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="11" maxHP="7.2" maxSP="1.08" maxFS="0.1" pAtk="5.52" pDef="5.28" mAtk="3.84" mDef="3.84" agile="2.64" lucky="2.4" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="12" maxHP="5.4" maxSP="1.98" maxFS="0.1" pAtk="5.04" pDef="4.08" mAtk="4.8" mDef="5.76" agile="2.16" lucky="3.12" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="13" maxHP="6" maxSP="1.8" maxFS="0.1" pAtk="5.28" pDef="4.8" mAtk="5.52" mDef="6.24" agile="2.76" lucky="2.4" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="14" maxHP="4.8" maxSP="2.16" maxFS="0.1" pAtk="3.36" pDef="3.84" mAtk="5.76" mDef="5.76" agile="2.52" lucky="2.4" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="15" maxHP="5.7" maxSP="1.71" maxFS="0.1" pAtk="4.8" pDef="4.8" mAtk="5.76" mDef="4.8" agile="2.64" lucky="2.52" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="16" maxHP="6.3" maxSP="1.62" maxFS="0.1" pAtk="5.28" pDef="5.76" mAtk="4.32" mDef="4.8" agile="2.64" lucky="2.4" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="17" maxHP="4.8" maxSP="1.62" maxFS="0.1" pAtk="3.84" pDef="4.32" mAtk="4.8" mDef="4.8" agile="2.16" lucky="2.76" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="18" maxHP="7.2" maxSP="2.592" maxFS="0.1" pAtk="5.184" pDef="5.184" mAtk="7.488" mDef="6.336" agile="3.312" lucky="2.88" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="19" maxHP="7.92" maxSP="1.944" maxFS="0.1" pAtk="7.2" pDef="6.048" mAtk="5.76" mDef="5.76" agile="3.168" lucky="2.88" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="20" maxHP="7.92" maxSP="2.376" maxFS="0.1" pAtk="6.336" pDef="5.76" mAtk="6.336" mDef="5.76" agile="2.88" lucky="3.168" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+</level>

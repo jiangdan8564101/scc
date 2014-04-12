@@ -1,0 +1,67 @@
+//
+//  netMsgType.h
+//  test
+//
+//  Created by fox on 13-1-9.
+//
+//
+
+#ifndef netMsgType_h
+#define netMsgType_h
+
+
+#include "gameDefine.h"
+
+
+enum
+{
+    
+    _MSG_RECV_LOGIN_GAMESERVICE = 2000,
+	_MSG_SEND_LOGIN_GAMESERVICE,
+    
+    _MSG_RECV_LOGIN_CREATURE,
+    _MSG_SEND_LOGIN_DATA,
+    
+    _MSG_RECV_LOGIN_ITEM,
+    _MSG_SEND_LOGIN_ITEM,
+    
+	_MSG_RECV_CREAT_NEWACCOUNT,
+	_MSG_SEND_CREAT_NEWACCOUNT,
+    
+	_MSG_RECV_ROLEINFO,
+	_MSG_SEND_ROLEINFO,
+    
+    
+    
+	_MSG_RECV_CHAT_MSG = 3000,
+	_MSG_SEND_CHAT_MSG,
+    
+    
+	_MSG_RECV_ACTION = 5000,
+	_MSG_SEND_ACTION,
+    
+	_MSG_RECV_DIRECTION,
+	_MSG_SEND_DIRECTION,
+    
+	_MSG_RECV_BATTLE = 6000,
+	_MSG_SEND_BATTLE,
+    
+    _MSG_RECV_BATTLE_FIGHT,
+	_MSG_SEND_BATTLE_FIGHT,
+    
+    _MSG_RECV_BATTLE_DEAD,
+	_MSG_SEND_BATTLE_DEAD,
+    
+	_MSG_RECV_BATTLE_RESULT,
+	_MSG_SEND_BATTLE_RESULT,
+    
+	_MSG_RECV_LEVELUP = 6100,
+	_MSG_SEND_LEVELUP,
+    
+
+};
+
+
+#endif
+
+
