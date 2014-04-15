@@ -55,6 +55,13 @@ static WorkFurnitureUIHandler* gWorkFurnitureUIHandler;
         return;
     }
     
+    PackItemData* data1 = [ [ ItemData instance ] getItem:selectItem.ItemID ];
+    
+    if ( data1.Number <= 0 )
+    {
+        return;
+    }
+    
     WorkWorkFloor* selectFloor = [ WorkWorkUIHandler instance ].SelectFloor;
     [ selectFloor setItem:selectItem.ItemID ];
     [ [ PlayerData instance ] setWorkItemData:selectFloor.tag :selectItem.ItemID ];
