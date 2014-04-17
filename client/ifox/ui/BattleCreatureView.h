@@ -33,6 +33,7 @@
     
     UIEffectAction* effect;
     
+    UIView* deadMask;
 }
 
 - ( void ) startFight;

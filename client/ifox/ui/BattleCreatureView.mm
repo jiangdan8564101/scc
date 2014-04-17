@@ -69,6 +69,8 @@
     [ hpLabel setLabelText:[ NSString stringWithFormat:@"%d/%d" , (int)c.RealBaseData.HP , (int)c.RealBaseData.MaxHP ] ];
     [ spLabel setLabelText:[ NSString stringWithFormat:@"%d/%d" , (int)c.RealBaseData.SP , (int)c.RealBaseData.MaxSP ] ];
     [ fsLabel setLabelText:[ NSString stringWithFormat:@"%d/%d" , (int)c.RealBaseData.FS , (int)c.RealBaseData.MaxFS ] ];
+    
+    [ deadMask setHidden:!c.Dead ];
 }
 
 - ( void ) initBattleCreatureView
@@ -91,6 +93,9 @@
     
     effect = (UIEffectAction*)[ self viewWithTag:400 ];
     [ effect initUIEffect:self :@selector( onEffectOver: ) ];
+    
+    deadMask = [ self viewWithTag:500 ];
+    deadMask.hidden = YES;
 }
 
 

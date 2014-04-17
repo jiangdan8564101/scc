@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <deployment defaultVersion="1072" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -255,6 +255,11 @@
                             <rect key="frame" x="12" y="15" width="100" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
+                        <view tag="500" contentMode="scaleToFill" id="04z-jB-DdZ">
+                            <rect key="frame" x="0.0" y="0.0" width="124" height="122"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                        </view>
                     </subviews>
                 </view>
                 <view hidden="YES" autoresizesSubviews="NO" tag="3001" contentMode="scaleToFill" id="178" customClass="BattleCreatureView">
@@ -347,6 +352,11 @@
                             <rect key="frame" x="12" y="15" width="100" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
+                        <view tag="500" contentMode="scaleToFill" id="ldT-mT-vXM">
+                            <rect key="frame" x="0.0" y="0.0" width="124" height="122"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                        </view>
                     </subviews>
                 </view>
                 <view hidden="YES" autoresizesSubviews="NO" tag="3002" contentMode="scaleToFill" id="196" customClass="BattleCreatureView">
@@ -439,6 +449,11 @@
                             <rect key="frame" x="12" y="15" width="100" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
+                        <view tag="500" contentMode="scaleToFill" id="Szh-4V-qqc">
+                            <rect key="frame" x="0.0" y="0.0" width="124" height="122"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                        </view>
                     </subviews>
                 </view>
                 <view hidden="YES" autoresizesSubviews="NO" tag="3003" contentMode="scaleToFill" id="232" customClass="BattleCreatureView">
@@ -531,6 +546,11 @@
                             <rect key="frame" x="12" y="15" width="100" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
+                        <view tag="500" contentMode="scaleToFill" id="Kag-vW-sGs">
+                            <rect key="frame" x="0.0" y="0.0" width="124" height="122"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                        </view>
                     </subviews>
                 </view>
                 <view hidden="YES" autoresizesSubviews="NO" tag="3004" contentMode="scaleToFill" id="268" customClass="BattleCreatureView">
@@ -623,6 +643,11 @@
                             <rect key="frame" x="12" y="15" width="100" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
+                        <view tag="500" contentMode="scaleToFill" id="Phy-3b-rsy">
+                            <rect key="frame" x="0.0" y="0.0" width="124" height="122"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                        </view>
                     </subviews>
                 </view>
                 <view tag="5555" contentMode="scaleToFill" id="fvz-MI-ZDJ">
