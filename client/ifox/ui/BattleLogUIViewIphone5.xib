@@ -204,7 +204,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="xqt-KE-ci1">
-                            <rect key="frame" x="0.0" y="0.0" width="65" height="62"/>
+                            <rect key="frame" x="0.0" y="0.0" width="65" height="63"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                         </view>
@@ -301,7 +301,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="R1f-MC-Akh">
-                            <rect key="frame" x="0.0" y="0.0" width="65" height="62"/>
+                            <rect key="frame" x="0.0" y="0.0" width="65" height="63"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                         </view>
@@ -398,7 +398,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="TOl-Lk-AdD">
-                            <rect key="frame" x="0.0" y="0.0" width="65" height="62"/>
+                            <rect key="frame" x="0.0" y="0.0" width="65" height="63"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                         </view>
@@ -495,7 +495,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="gmj-Y7-gdp">
-                            <rect key="frame" x="0.0" y="0.0" width="65" height="62"/>
+                            <rect key="frame" x="0.0" y="0.0" width="65" height="63"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                         </view>
@@ -592,7 +592,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="jae-Ia-Q2m">
-                            <rect key="frame" x="0.0" y="0.0" width="65" height="62"/>
+                            <rect key="frame" x="0.0" y="0.0" width="65" height="63"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                         </view>
