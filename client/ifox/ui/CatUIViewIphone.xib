@@ -24,7 +24,7 @@
                     </state>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catUI.png" id="x96-7k-RME">
-                    <rect key="frame" x="6" y="-64" width="468" height="384"/>
+                    <rect key="frame" x="6" y="-64" width="474" height="384"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <view autoresizesSubviews="NO" contentMode="scaleToFill" id="zeP-iR-lov">
