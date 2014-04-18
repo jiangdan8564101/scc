@@ -4,7 +4,6 @@
 //
 
 
-#import <UIKit/UIKit.h>
 #import <StoreKit/SKProductsRequest.h>
 #import <StoreKit/SKProduct.h>
 #import <StoreKit/SKPaymentQueue.h>
