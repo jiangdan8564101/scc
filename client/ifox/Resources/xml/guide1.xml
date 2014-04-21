@@ -125,7 +125,7 @@
         <g creatureRight="5" actionRight="A" nameID="1" str="「不对...啊，现在镇定过头了！」" />
         <g creatureRight="5" actionRight="B" nameID="5" str="「我也不需要着急吧？」" />
         <g creatureRight="5" actionRight="B" nameID="1" str="「求求你着急一下子了 拜托你了！」" />
-        <g creatureRight="5" actionRight="A" nameID="5" str="「首先，先去趟【酒馆】，接下来的事到了再说。」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「首先，先去趟【酒馆】，接下来的事到了再说。」" alert="【酒馆】已开放。" />
     </guide>
     
     <guide id="10" nextStory="3" mask="1"  activeScene="city" next="-1" >
@@ -164,7 +164,7 @@
     </guide>
     
     <guide id="15" story="4" nextStory="6" checkScene="city" activeScene="city" next="-1" mask="1" >
-        <g creatureRight="5" actionRight="A" nameID="5" str="走吧，去【探险】吧。" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="走吧，去【探险】吧。" alert="【探险】已开放。" />
         <g creatureRight="5" actionRight="A" nameID="5" str="【探险】已开放。" sound="D0718" />
     </guide>
     
@@ -234,7 +234,9 @@
         <g creatureRight="5" actionRight="A" nameID="1" str="「明白了。但是可以听先谈谈事情可以的吧？只要不正式接受委托的话？」" />
         <g creatureRight="5" actionRight="A" nameID="5" str="「理论上的确可以吧，但是会产生怀疑这类的事情。」" />
         <g creatureRight="5" actionRight="A" nameID="1" str="「了解。代我向领主大人问好！」" />
-        <g creatureRight="5" actionRight="A" nameID="1" str="「先回【工房】吧。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「先回【工房】吧。」" alert="【工房】已开放。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="【工房】已开放。" />
+        
     </guide>
     
     <guide id="20" story="10" nextStory="11" checkScene="work" activeScene="work" mask="1" next="-1" >
