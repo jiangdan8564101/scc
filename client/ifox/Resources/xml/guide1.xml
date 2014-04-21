@@ -533,7 +533,8 @@
     </guide>
     
     <guide id="30" activeScene="city" bgFade="0.5" next="-1" >
-        <g str="现在可以自由【探索】了。  " />
+        <g str="  " alert="可以自由【探索】" />
+        <g str="现在可以自由【探索】了。" />
     </guide>
     
     <guide id="31" story="12" checkBattleEnd="102" activeScene="cityOut" bg="BG002A" next="32" >
