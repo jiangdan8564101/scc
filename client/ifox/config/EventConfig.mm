@@ -10,7 +10,7 @@
 
 @implementation EventConfigData
 
-@synthesize ID , Story , Employ , BattleMap , BattleMonster ,  Random , StartGuide , FailedGuide , ComGuide , NextID , CKill , CLevel , CItem0 , CItemNum0 , ComItem0 , ComItemNum0 , ComEmploy , Quest , ComQuest;
+@synthesize ID , WorkUp , Employ , BattleMap , BattleMonster ,  Random , StartGuide , FailedGuide , ComGuide , NextID , CKill , CLevel , CItem0 , CItemNum0 , ComItem0 , ComItemNum0 , ComEmploy , Quest , ComQuest;
 @synthesize CheckScene;
 @end
 
@@ -59,7 +59,7 @@ EventConfig* gEventConfig = NULL;
         
         data.ID = [ [ attributeDict objectForKey:@"id" ] intValue ];
         
-        data.Story = [ [ attributeDict objectForKey:@"story" ] intValue ];
+        data.WorkUp = [ [ attributeDict objectForKey:@"workUp" ] intValue ];
         data.CheckScene = [ [ attributeDict objectForKey:@"checkScene" ] copy ];
         data.Employ = [ [ attributeDict objectForKey:@"employ" ] intValue ];
         

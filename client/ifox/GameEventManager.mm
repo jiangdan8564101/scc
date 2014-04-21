@@ -70,16 +70,16 @@ GameEventManager* gGameEventManager = NULL;
             continue;
         }
         
-        if ( data.Story && [ PlayerData instance ].Story >= data.Story )
-        {
-            if ( getRand( 0 , 100 ) > data.Random )
-            {
-                return;
-            }
-            
-            ActiveEvent = data;
-            break;
-        }
+//        if ( data.Story && [ PlayerData instance ].Story >= data.Story )
+//        {
+//            if ( getRand( 0 , 100 ) > data.Random )
+//            {
+//                return;
+//            }
+//            
+//            ActiveEvent = data;
+//            break;
+//        }
         
         if ( [ [ EventData instance ] checkCompleteEventNext:data.ID ] )
         {
@@ -142,16 +142,16 @@ GameEventManager* gGameEventManager = NULL;
             continue;
         }
         
-        if ( data.Story && [ PlayerData instance ].Story >= data.Story )
-        {
-            if ( getRand( 0 , 100 ) > data.Random )
-            {
-                return;
-            }
-            
-            ActiveEvent = data;
-            break;
-        }
+//        if ( data.Story && [ PlayerData instance ].Story >= data.Story )
+//        {
+//            if ( getRand( 0 , 100 ) > data.Random )
+//            {
+//                return;
+//            }
+//            
+//            ActiveEvent = data;
+//            break;
+//        }
         
         if ( [ [ EventData instance ] checkCompleteEventNext:data.ID ] )
         {

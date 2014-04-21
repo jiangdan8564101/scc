@@ -14,7 +14,7 @@
     
 }
 
-@property ( nonatomic ) int ID , Story , Employ , BattleMap , BattleMonster , Random , StartGuide , FailedGuide , ComGuide , NextID , CLevel , CKill , CItem0 , CItemNum0 , ComItem0 , ComItemNum0 , ComEmploy , Quest , ComQuest;
+@property ( nonatomic ) int ID , WorkUp , Employ , BattleMap , BattleMonster , Random , StartGuide , FailedGuide , ComGuide , NextID , CLevel , CKill , CItem0 , CItemNum0 , ComItem0 , ComItemNum0 , ComEmploy , Quest , ComQuest;
 @property ( nonatomic , assign ) NSString* CheckScene;
 @end
 
