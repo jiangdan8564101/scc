@@ -104,6 +104,7 @@
 
 - ( void ) clearMovePath;
 
+- ( void ) killByOther:( int )i;
 - ( void ) killOther:( int )i;
 
 - ( void ) removeCreature:( BattleCreature* )c;

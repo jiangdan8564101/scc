@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <npc>
 	<n id="1" action="001A" name="威尔" des="游戏主人公。经营着父母遗留下来的小型工房的青年。对工匠生活十分憧憬，正努力成为一名出色的工匠。" level="1" maxHP="26" maxSP="4" maxFS="25" pAtk="18" pDef="18" mAtk="0" mDef="1" agile="4" lucky="5" hit="1" miss="0" critical="0" move="1" cp="10" guest="0" ProID="10" ProLevel="1" command="0" levelUpType="10" characterType="0" employPrice="0" type="20" />
 	<n id="2" action="002A" name="月爁" des="邻国-蒂森那弗洛狄出身的剑客。为了寻找某人而来到多拉，但作为异国者没有工匠证明不能探索。来到威尔工房后，作为护卫被雇佣。" level="1" maxHP="24" maxSP="2" maxFS="25" pAtk="18" pDef="11" mAtk="0" mDef="1" agile="23" lucky="11" hit="1" miss="0" critical="0" move="1" cp="10" guest="0" ProID="1" ProLevel="1" command="0" levelUpType="1" characterType="6" employPrice="0" type="20" />
@@ -39,11 +39,16 @@
 	
     <n id="129" action="129A" name="肥胖的工匠" des="" level="1" maxHP="28" maxSP="16" maxFS="25" pAtk="21" pDef="13" mAtk="21" mDef="4" agile="27" lucky="13" hit="1" miss="0" critical="0" move="1" cp="10" guest="0" ProID="1" ProLevel="1" command="0" levelUpType="13" type="20" />
     
-    <n id="1000" action="801A" battleAction="801A" name="死神" des="最近在多拉附近徘徊的死神。十分残忍且神出鬼没，在工匠协会连同国内都令人畏惧。" level="1" maxHP="146" maxSP="19" maxFS="25" pAtk="25" pDef="25" mAtk="25" mDef="5" agile="32" lucky="15" hit="1" miss="0" critical="0" move="4" cp="10" guest="0" ProID="1" ProLevel="1" command="0" levelUpType="19" characterType="2" type="25" />
+    <n id="1000" action="801A" battleAction="801A" name="死神" des="最近在多拉附近徘徊的死神。十分残忍且神出鬼没，在工匠协会连同国内都令人畏惧。" level="19" maxHP="572" maxSP="27" maxFS="1" pAtk="202" pDef="26" mAtk="139" mDef="55" agile="167" lucky="0" critical="0.147" miss="0.346" hit="0.981" move="1" cp="1" command="1" battleType="1" aP="0.28" aE="0.07" aF="0.07" aEl="0.112" aH="0.07" aD="0.07" aN="0.07" exp="10" type="5" levelType="0" characterType="0" ProID="1" ProLevel="8" >
+    
+    <skill>
+        <s id="43" />
+    </skill>
+    </n>
     
     <n id="1001" action="004A" battleAction="306A" name="塞维尔" des="" level="1" maxHP="122" maxSP="21" maxFS="25" pAtk="10" pDef="10" mAtk="21" mDef="4" agile="21" lucky="16" hit="1" miss="0" critical="0" move="1" cp="10" guest="0" ProID="1" ProLevel="1" command="0" levelUpType="14" type="21" />
     
-    <n id="1002" action="403A" name="愤怒湖灵" des="" level="3" maxHP="162" maxSP="12" maxFS="1" pAtk="17" pDef="3" mAtk="18" mDef="16" agile="0" lucky="0" critical="0.102" miss="0.105" hit="0.997" move="1" cp="1" command="1" battleType="1" aP="0.01" aE="0" aF="0.015" aEl="0.015" aH="0.03" aD="0.015" aN="0.015" exp="10" type="6" levelType="0" characterType="0" ProID="1" ProLevel="4" type="21" />
+    <n id="1002" action="403A" name="愤怒湖灵" des="" level="3" maxHP="162" maxSP="12" maxFS="1" pAtk="17" pDef="3" mAtk="18" mDef="16" agile="0" lucky="0" critical="0.102" miss="0.105" hit="0.997" move="1" cp="1" command="1" battleType="1" aP="0.01" aE="0" aF="0.015" aEl="0.015" aH="0.03" aD="0.015" aN="0.015" exp="10" levelType="0" characterType="0" ProID="1" ProLevel="4" type="21" />
     
         
 </npc>

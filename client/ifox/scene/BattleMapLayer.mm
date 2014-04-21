@@ -1969,7 +1969,7 @@
 }
 
 
-- ( void ) killOther:( int )i
+- ( void ) killByOther:( int )i
 {
     BattleCreature* bc = [ OtherCreatures objectAtIndex:i ];
     [ bc removeFromParentAndCleanup:YES ];
@@ -1979,7 +1979,20 @@
         [ [ GameEventManager instance ] checkEventComplete ];
     }
     
+}
+
+
+- ( void ) killOther:( int )i
+{
+    BattleCreature* bc = [ OtherCreatures objectAtIndex:i ];
+    [ bc removeFromParentAndCleanup:YES ];
+    
     [ OtherCreatures removeObjectAtIndex:i ];
+    
+    if ( bc.Event )
+    {
+        [ [ GameEventManager instance ] checkEventComplete ];
+    }
 }
 
 

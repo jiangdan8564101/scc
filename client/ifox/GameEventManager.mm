@@ -192,10 +192,10 @@ GameEventManager* gGameEventManager = NULL;
         return;
     }
     
-    if ( [ [ PlayerData instance ] getMonsterData:ActiveEvent.BattleMonster ] )
+    if ( ![ [ PlayerData instance ] getMonsterData:ActiveEvent.BattleMonster ] )
     {
-        ActiveEvent = NULL;
         [ self endEvent:NO ];
+
         return;
     }
     

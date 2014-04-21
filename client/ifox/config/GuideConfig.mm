@@ -60,6 +60,7 @@ GuideConfig* gGuideConfig = NULL;
     [ self loadFile:@"guide0" ];
     [ self loadFile:@"guide0000" ];
     [ self loadFile:@"guide0050" ];
+    [ self loadFile:@"guide10000" ];
     
 }
 

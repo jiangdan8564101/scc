@@ -71,6 +71,9 @@
     imageViewHP.frame = b ? rectBossHP : rectHP;
     imageViewHPBG.frame = b ? rectBossHPBG : rectHPBG;
     
+    imageViewHP.hidden = b;
+    imageViewHPBG.hidden = b;
+    
     
     hpWidth = b ? rectBossHP.size.width : rectHP.size.width;
     [ self updateHpImageView ];

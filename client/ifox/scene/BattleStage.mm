@@ -389,6 +389,13 @@
     {
         [ self endFight ];
         [ mapLayer showWin:NO ];
+        
+        if ( bossEnemy != INVALID_ID )
+        {
+            [ mapLayer killByOther:bossEnemy ];
+            bossEnemy = INVALID_ID;
+        }
+        
         return;
     }
     
@@ -409,6 +416,7 @@
             break;
         }
     }
+    
     
     if ( count == enemyCreatures.count )
     {
@@ -2391,6 +2399,8 @@
             {
                 hp = 1;
             }
+            
+            def.RealBaseData.HP -= hp;
             
             [ hpArrayDef replaceObjectAtIndex:i withObject:[ NSNumber numberWithInt:-hp ] ];
             
