@@ -703,7 +703,7 @@ static TalkUIHandler* gTalkUIHandler;
         else
         {
             UIFont* font = [ labelText font ];
-            [ labelText setFont:[ font fontWithSize:activeStep.Font - 5 ] ];
+            [ labelText setFont:[ font fontWithSize:activeStep.Font - 6 ] ];
         }
     }
     
