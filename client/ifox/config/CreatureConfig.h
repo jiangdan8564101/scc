@@ -80,6 +80,7 @@ enum CreatureCommonDataProfession
 @property ( nonatomic ) short Group , Index;
 @property ( nonatomic ) short ImageOffsetX , ImageOffsetY;
 @property ( nonatomic ) int EnemyIndex;
+@property ( nonatomic ) int Event;
 
 - ( void ) resetData;
 

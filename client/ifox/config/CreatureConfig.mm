@@ -115,6 +115,7 @@
 @synthesize EquipSkill;
 @synthesize EmployPrice;
 @synthesize EnemyIndex;
+@synthesize Event;
 @synthesize Dead , Group , Index;
 @synthesize ImageOffsetX , ImageOffsetY;
 
@@ -853,6 +854,8 @@
     copy.MainAttr = copy.MainAttr;
     copy.MainAttrType = copy.MainAttrType;
     
+    copy.Event = Event;
+    
     copy.ID = ID;
     copy.cID = cID;
     copy.Team = Team;
@@ -987,6 +990,7 @@ CreatureConfig* gCreatureConfig = NULL;
     {
         CreatureCommonData* commonData = [ [ CreatureCommonData alloc ] init ];
         
+        commonData.Event = [ [ attributeDict objectForKey:@"event" ] intValue ];
         commonData.ID = [ [ attributeDict objectForKey:@"id" ] intValue ];
         commonData.Type = [ [ attributeDict objectForKey:@"type" ] intValue ];
         commonData.BattleType = [ [ attributeDict objectForKey:@"battleType" ] intValue ];

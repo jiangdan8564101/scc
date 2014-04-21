@@ -109,6 +109,11 @@ PlayerEmployData* gPlayerEmployData = NULL;
             continue;
         }
         
+        if ( comm.Event )
+        {
+            continue;
+        }
+        
         if ( comm.ID == 70 || comm.ID == 71 || [ [ PlayerCreatureData instance ] getCommonDataWithID:comm.ID ] )
         {
             continue;

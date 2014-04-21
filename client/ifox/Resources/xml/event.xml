@@ -3,9 +3,9 @@
     
     
     <!-- 死神1 -->
-    <e id="1" employ="3" battleMap="201" battleMonster="1000" random="100" startBattleGuide="111" startGuide="10021" comGuide="10022" failedGuide="" nextID="2" />
+    <e id="1" employ="3" battleMap="103" battleMonster="1000" random="100" startBattleGuide="111" startGuide="10021" comGuide="10022" failedGuide="" nextID="2" />
     
     <!-- 被困的水精灵 -->
-    <e id="10" story="115" checkScene="" employ="0" battleMap="201" battleMonster="1002" random="100" startGuide="10021" comGuide="10022" failedGuide="" nextID="11" comEmploy="4" />
+    <e id="10" employ="1" battleMap="201" battleMonster="1002" random="100" startGuide="10021" comGuide="10022" failedGuide="" nextID="11" comEmploy="4" />
 </root>
 
