@@ -1,0 +1,989 @@
+<root >
+    
+    <guide id="1" story="1" next="2" activeScene="world"  >
+        <g str="" white="0.7" />
+        <g str="" fadeout="1.5" />
+        <g str="                《威尔的炼金工房》           " music="BGM005" />
+        <g str="这是一个神和人以及魔物共存的世界【 莉菲娜大陆 】。" />
+        <g str="继承了远古时代的魔法，以及不断创新的技术，这些人们不懈的努力，改变了这里不便的交通，以及周边异族的围困，逐渐使边境的贫穷小镇飞速发展。" />
+        <g str="他们从大地、森林里搜索稀少的资源，发掘古代遗迹，从而掌握了许多特别的技艺。" />
+        <g str="就这样随着众多的【工匠】互相切磋琢磨、追求新的事物，成就了这个独一无二的技术都市。" />
+    </guide>
+    
+    <guide id="2" nextStory="2" activeScene="cityOut" bg="BG027A" next="3" >
+        <g str="这个都市的名字叫做【御依多拉】。" />
+        <g str="无数的工房遍布着街道，人们便给了这里一个贴切的称号叫【工房都市】。" />
+        <g str="18年前，" />
+        <g str="王室政权在政变中崩溃，以【工匠】为主体的新体制逐渐形成。" />
+        <g str="从那时开始随着技术突飞猛进，打工者慕名而来，但是同时周边诸国受到工房都市的影响也是事端不断。" />
+        <g str="在这样的【御依多拉】里，我们的故事年轻的主人公，作为【工匠】踏出了崭新的一步......" />
+        <g str="" fadein="1.5" />
+    </guide>
+    
+    <guide id="3" story="2" activeScene="cityOut" bg="EV004AA" next="4" >
+        <g str="" fadeout="1.8" />
+        <g str="终于这一天来了。我......【威尔】（主人公）成为【工匠】的最终试炼的日子。
+        为了这次的试炼，我在脑海中反反复复至今所为止学到的一切知识，" music="BGM003" />
+        <g str="为了从父母继承的工房的运营许可，必须得先得到【工匠证明】。" sound="C3101" />
+        <g str="尽管要记住的知识就像一整座高山那样多，但是对于从小就出生在【工房都市】，对【工匠】无比向往的我来讲都是值得的。" sound="C3101" />
+        <g str="这个小小的【工房】，能够通过自己的努力而发展扩大，一想到激动不已。" />
+        <g str="为了这个梦想能够实现，即使是再少的时间都要有效的利用。" />
+        <g str="" fadein="1.5" />
+    </guide>
+    
+    <guide id="4" bg="BG003A" next="5" >
+        <g str="" fadeout="1.8" />
+        <g str="复习告一段落，我开始慢慢得环顾这废旧的【工房】。" />
+        <g str="火炉间挤满了道具，但是却摆得非常整齐。" />
+        <g str="清理火床、整理道具都很完美。" />
+        <g str="作为开业资本，把家里的钱都收集起来了，一定要想办法如何节省这500G啊。" alert="【获得500G】" />
+        <g str="这样的话随时都可以开店了。" sound="D0718" />
+        <g str="小时候只要看到这个工房就会眼睛闪闪发光，今后就是我的工作场所了。" />
+        <g str="我从昏暗的工房出来，朝着店铺的方向走去。" />
+        <g str="" fadein="1.5" />
+    </guide>
+    
+    <guide id="5" bg="BG002A" next="6" >
+        <g str="" fadeout="1.8" />
+        <g str="为了舒缓心情，我做了个深呼吸。" />
+        <g str="从那以后已经一年了吗？虽然感觉只是一瞬间的事情。" />
+        <g str="一年前，我为了成为工匠接受试炼。" />
+        <g str="但是，就在试炼的途中发生了事故，我的父母去世了，试炼就那样被搁浅了。" />
+        <g str="今年，为了对想要成为【工匠】继承家业的我感到欣慰的父母而努力，为了再次点亮这个工房的灯光......" />
+        <g str="我眼角扫了下时钟，约束的时间就要到了。" />
+        <g str="差不多该做准备了。" />
+        <g str="「啊，有客人？来了~ 现在就过来！」" sound="F9901" />
+    </guide>
+    
+    <guide id="6" bg="BG001A" bgFadeRight="0.75" next="7" >
+        <g creatureRight="5" actionRight="A" fadeInRight="1.0" nameID="1" str="「什么嘛，是你这家伙啊......」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="看到眼前的男人，我露出失望的表情。最终试炼即将到了，这家伙还是老样子。这家伙叫做雷格拉，是我的发小，比我早一年成为工匠。" />
+        <g creatureRight="5" actionRight="D" nameID="5" str="「喂，用‘你这家伙’来跟‘前辈’打招呼么，难道是在等很重要的人？」" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="「还以为是客人，我正准备着出去。总之先进来吧，‘前辈’！」" />
+    </guide>
+    
+    <guide id="7" bg="BG002A" bgFadeLeft="0.75" next="8" >
+        <g creatureRight="5" actionRight="B" nameID="5" str="「.....听到这句带刺的话我放心了，还认为你铁定是生病挂了呢.....」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「说什么不吉利的，今天可是我成为工匠迈出人生的第一步的重大日子。这种日子我怎么可能会倒下呢。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="外面好像有人，我偷偷瞄了一下。" />
+    </guide>
+    
+    <guide id="8" bg="EV101AA" bgFade="0.5" nextStory="4" next="9" >
+        <g str="工房的门前站着一位少女，偷窥一样瞅着工房里面。" />
+        <g str="穿着在哪里见过似的异国装束，并携带着剑。" />
+        <g str="「那个，有什么事吗？」 " />
+        <g str="女剑士没有回答，慢慢踏了一步。" />
+        <g str="「.....这里是工房？」" />
+        <g str="「的确是的说，你觉得不是吗...」" />
+        <g str="要向异国人解释御依多拉的工匠貌似很难的样子......" />
+        <g str="里面的确是外观整理整洁的工房的样子，当然，这是因为我的父母就是开工房的。但是，作为现在的户主的我没有工匠的资格，只能作为工房的客人来存取东西用。虽然外表是工房，不过却有些微妙差距吧......" />
+        <g str="「也就是说不是普通的工房？」" />
+        <g str="「呃，这样说也对吧...」" />
+        <g str="「这样啊...那样的话...」" />
+    </guide>
+    
+    <guide id="9" bg="BG002A" bgFade="0.5" nextStory="4" next="10" >
+        <g creatureRight="5" actionRight="D" nameID="5" str="哎呦、到底干什么呢？" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="「哦，对啊，现在不是说这个的时候，难得来一趟真是对不起啊。能不能简单说一下您的请求？」" />
+        <g creatureRight="5" actionRight="D" name="女剑士" str="「......」" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="「啊...？」" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="少女很可疑地看了我们一眼之后，迅速转身离开了。" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="「？咋什么都不说就走了呢，我做了不好的事情了吗...？」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「比起自己的事情却优先考虑别人的事情。还是老样子啊。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「惭愧，遇到有麻烦人怎么得就想帮助一把。」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「也不算坏吧，把你看紧点才是我的职责。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「什么时候开始成了那样的关系的......呃、糟了！」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="我回过神来、匆忙的跑进工房内，然后望向大时钟。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「糟糕、时间快到了。不快点出去的话！」" />
+        <g creatureRight="5" actionRight="C" nameID="5" str="「......哦。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「我得给你点忠告才行，」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「下次再说！接下来要有很重要的事情，我可不能迟到的啊。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「最终试炼是吧？我知道。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「知道的话就别来妨碍我啊，不通过的话可是连工匠执照都得不到的。」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「呐，4个忠告。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「那么多哪听得过来啊，嘿求，道具、武器，好了，然后......」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「第一，御依多拉的工匠作为必须好好遵守规定。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「我知道，所以我才这么急着走啊。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「第二，御依多拉没有工匠证明，是不能接受任何委托的。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「这个我也知道，别人的委托我会好好拒绝的。」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「第三呢，作为御依多拉的工匠，道具与装备必须要自己好好地维护。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「...嗯？」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="眼前的时钟映入眼睛，到刚才为止已经确认过时间的大时钟，很明显时针偏了一大截。" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「嗯。那个大时钟意外转得不慢呢。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「...啊、我靠、早点告诉我啊！」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「闪开！！现在跑过去的话可能还可以赶得上！」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「没有这个必要。」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「最后一个是。。。我就是担当你的最终试验监督官。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「虾米...？」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「也就是说你要与最终试验的监督官见面的这个约定已经履行了。运气不错啊。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「本来应该是要判定你失去资格的，就算试炼开始前勉勉强强赶上了，那就减分处理好了。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「没事，没什么好担心的。以你的实力来说这种程度的话轻而易举的，一下就逆转过来了。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「逆转个屁啊！！ 诶、不对、给我等一下...为什么是你？」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「这个问题和试炼毫无联系。总之，就是这样。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「呃呃呃呃呃......」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「话说回来，不是说要迟到了么？」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「不对...啊，现在镇定过头了！」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「我也不需要着急吧？」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「求求你着急一下子了 拜托你了！」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「首先，先去趟【酒馆】，接下来的事到了再说。」" alert="【酒馆】已开放。" />
+    </guide>
+    
+    <guide id="10" nextStory="3" mask="1"  activeScene="city" next="-1" >
+        <g str="说完，我迅速准备好了，跟着毫不慌张的雷格拉往【酒馆】的方向走去。" />
+    </guide>
+
+    <guide id="11" story="3" mask="1" checkScene="public" activeScene="public" next="12" >
+        <g creatureLeft="118" actionLeft="A" fadeInLeft="0.7" nameID="118" str="「您好，欢迎光临。」" />
+        <g creatureRight="5" actionRight="A" fadeInRight="0.7" nameID="5" str="「你好，【工匠协会】监督官来接受委托。」" />
+        <g creatureLeft="118" actionLeft="A" nameID="118" str="「哦，好的，那你们慢慢看...」" />
+        <g creatureLeft="118" actionLeft="A" fadeOutLeft="0.7" nameID="118" str=" " />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「那么，先来解释一下吧，这次的试炼就是完成的委托，也就是考验新人实际能力。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「哦，这样啊！」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「首先呢，想要做一名出色的工匠，获得咨询是必须的。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「就在【酒馆】的左方面板里。」" ui="public" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「首先，进入【委托】，面板上就会显示出所有的委托，可以选择查看细节，通常都是一些收集素材或者炼金喽，当然也有一些特殊的。」" ui="quest" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「委托出现后有的有时间限制，有的则无需期限，尽量抓紧完成。当达成了委托的条件后，下次进入到委托面板就会达成了，是不是很简单呢。」" ui="quest" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「了解。」" />
+    </guide>
+    
+    <guide id="12" next="13" mask="1" >
+        <g creatureRight="5" actionRight="A" nameID="5" str="「顺便说明一下【雇佣兵】吧。」" ui="employ" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「需要顺利完成委托帮手是必须的，在【御依多拉】有很多慕名而来的佣兵，可以【雇佣】他们探索完成委托以及素材。佣兵分为普通雇佣兵和特殊雇佣兵，普通佣兵的话即使被雇佣了，马上刷新出来，而特殊佣兵会每个一定时间刷新，如果出现了就不要犹豫了。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「而特殊雇佣兵的话只能雇佣一次，有些还会随着随即事件触发并加入。」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「第一次雇佣会扣除【工资】，如果【金币】不足是无法雇佣的，而工资会随着等级的上升自动增加，每月【结算】会扣除所有雇佣兵【工资】。」" />
+    </guide>
+    
+    <guide id="13" next="14" mask="1" >
+        <g creatureRight="5" actionRight="A" nameID="5" str="「接下来是【队伍】。」" ui="team" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「队伍面板上方显示的是所有的伙伴，点击就会编辑到下方的队伍面板。」"  />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「而对应的队伍呢，就是左方显示的，组建多个队伍同时探索会提升效率。」" />
+    </guide>
+    
+    <guide id="14" nextStory="4" next="-1" mask="1" >
+        <g creatureRight="5" actionRight="B" nameID="5" str="「好了，尝试一下吧。」" ui="public" />
+    </guide>
+    
+    <guide id="15" story="4" nextStory="6" checkScene="city" activeScene="city" next="-1" mask="1" >
+        <g creatureRight="5" actionRight="A" nameID="5" str="走吧，去【探险】吧。" alert="【探险】已开放。" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="【探险】已开放。" sound="D0718" />
+    </guide>
+    
+    <guide id="16" story="6" nextStory="7" checkScene="world" activeScene="world" mask="1" next="-1" >
+        <g str="终于【 莉菲娜大陆 】了......" />
+        <g str="地图中的城市就是我们的【工房都市】多拉，其他的地点就是探索区域了。" />
+        <g str="最开始的探索区域很少，随着【工匠】等级的提升就会陆陆续续开放。" />
+        <g str="试着进行探索吧。" />
+    </guide>
+    
+    <guide id="17" story="7" nextStory="8" checkBattle="101" bgFade="0.5" bg="BG012A"  activeScene="cityOut" next="-1" >
+        <g str="不久，我们就到了【精灵森林】。" stopMusic="1" sound="C0302" />
+        <g str="前方就是工匠协会管理的区域，没有执照的话是无法进入的。" />
+        <g str="也就是说本来不能进入的我，这次有雷格拉作为监督官，我也得到了进入的许可。" />
+        <g str="想起来了一年前的场景，" />
+        <g str="我和一起接受了雷格拉委托，雷格拉首先合格了，一年前就迈出了一步。" />
+        <g creatureRight="5" actionRight="B" fadeInRight="0.7" nameID="5" str="「互相竞争的对手又回来了，你是不是也在期待？」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「最清楚我的实力的明明就是你吧。」" />
+        <g str="即使说出一些玩笑话，但是我的心中的不安还是无法消去。" />
+        <g str="我被抛下的一年之间，雷格拉却作为监督官而成长起来了，这次的试炼，对雷格拉来说可能也是一次晋级试炼也说不定。" />
+        <g str="一年的差距是否永远也无法弥补回来呢。仅仅一年里的差距可不可能产生如此大的差距吧。" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「......怎么了？」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="感觉到了雷格拉的视线，我为了掩饰思考的事情，我坏笑了一下。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「没啥，要是我在试炼中有什么三长两短的话，会连带你无法晋级我是这样想的。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「后果只是你会再被我拉下一年而已。」 " />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「能不能和周围的气氛融合一下，也算是对发后辈关照一下？」  " />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「还是免了，我的目标可是更高更远大的。可不能在这里被石头给绊倒。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="没错，就算现在只是道路上的石头也说不定，现在为了去世的父母，为了等待着的朋友，绝对合格给你看。" />
+            </guide>
+        <g creatureRight="5" actionRight="A" nameID="1" str="「好，准备万全了！」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「很好。那么、前进吧！」" />
+        
+    
+    <guide id="18" story="8" nextStory="9" checkScene="battle" activeScene="battle" mask="1" next="-1" >
+        <g creatureRight="5" actionRight="A" nameID="5" fadeInRight="0.7" str="「到了，这里就是探索区域了，最开始区域是封闭的，探索过后就会显示出来，同时上方【占有率】就会上升。」 " />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「另外，不知道你注意到了没有，进入探索的面板上会显示出【占有率】，以及探索过的【素材】和【魔物】。全部内容都被探索到了（占有率100%并挖掘和采集了全部素材），就会开启【派遣】模式了。」 " />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「下方会显示探索队伍和探索履历，需要注意的就是人物的属性，HP就是生命值了，SP就是魔法值，FS是人物移动时需要消耗的行动力，会根据地形有着不同消耗。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「FS消耗尽，或者被敌人打败时，会结束探索。再有面板上方可以选择【撤退】，不过那样就没法获得【素材】了。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「探索都是【自动】进行的，也就是说根据队伍自身情况的自行判断进行，探索中是不可编辑的，可以在【工房】调整。」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「那么...最终试炼，Start！」 " />
+    </guide>
+    
+    
+    <guide id="19" story="9" nextStory="10" checkScene="world" activeScene="world" mask="1" next="-1" >
+        <g nameID="1" str="「呼...终于结束了...」" />
+        <g creatureRight="5" actionRight="A" nameID="5" fadeInRight="0.7" str="「接下来就该回去报告了，如果快的话今天结果就可以出来了。」" music="BGM037" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「...也有可能等到明天才可以是吧？」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「偶尔吧...」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「原来是这样。还以为今天就可以发表在看板上面了呢。」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「才一天而已吗，还是不能和一年相提并论的。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「这简直就是度日如年啊，想起来就觉得胃开始痛了......」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「你的心情我可以理解。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「诶~ 原来你也是要等候着的嘛，明明工匠试炼是一次就过了的说。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="雷格拉从一开始就很优秀了。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="我和不同的工匠师傅修行的同时，他作为见习工匠非常优秀的传言也经常听到。" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「如果合格的话会被【领主】召见的，在那之前就是在酒吧里面消磨时间吧。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「领主......【洛莎娜】大人吗？你啊，有见到过洛莎娜大人吗？」" />
+        <g creatureRight="5" actionRight="D" nameID="5" str="「是个非常严厉的人。最好管好你的嘴巴。」" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="「她的工房真大啊。毕竟是领主世世代代继承下来的那个嘛。我总有会有一天，也要拥有像那种规模的工房！」" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="工房的大小，也算是工匠的一个标准。总之，工房的规模也是等级决定的。 这个也是御依多拉的工匠才有的权利。" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="18年前政变的缘故，改变了让工匠位于最顶点的体制，正是因为那个契机缘由。 最为优秀的工匠将能成为领主。" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="所以，全部的工匠都是以领主为目标的也不为言过。" />
+        <g creatureRight="5" actionRight="D" nameID="1" str="工房都市御依多拉就是以此诞生的也说不定呢。" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「总而言之，首先要合格才可以。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「该做的事情都做了，接下来该平静的等待咯。」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「千万不要接受委托。随便的接受委托的话就会永久放逐的。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「明白了。但是可以听先谈谈事情可以的吧？只要不正式接受委托的话？」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「理论上的确可以吧，但是会产生怀疑这类的事情。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「了解。代我向领主大人问好！」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「先回【工房】吧。」" alert="【工房】已开放。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="【工房】已开放。" />
+        
+    </guide>
+    
+    <guide id="20" story="10" nextStory="11" checkScene="work" activeScene="work" mask="1" next="-1" >
+        <g str="最终试炼结束了，我回到了工房，对这次试炼非常有自信。" />
+        <g str="接下来只要等工匠协会通知就可以了。" />
+        <g str="......虽然这样，即使待在家里没有什么可以做的事情呢。" />
+        <g str="大扫除什么的都做了......" />
+        <g str="......" pos="0" />
+        <g str="还是来简单说明一下工房。" />
+        <g str="【工房】面板里，左下方显示的是【工房】的状态，右上方是【增筑家具配置】，进入可以【放置家具】以及【升级工房】。" />
+        <g str="【情报】在左方的面板，里可以查看各种信息。" />
+        <g str="【工房运营】里可以【合成】道具，查看工房目前的【经费】。所有开支费用最终会算到每月的结算里，如果雇佣了太多佣兵，资金可能会吃紧，只能尝试解雇佣兵，解雇的佣兵还会再次回到酒馆里面，当然能力就会回复到初始状态。" />
+        <g str="不过不用担心，【资金】变成负的也不会结束游戏，不过那样的话就什么也做不了了。" />
+        <g str="【道具】可以查看和装备道具，以及【技能】，值得一提的角色的【技能】是根据装备学习，多次战斗后就可习得【技能】，习得后可以在【技能】面板中装备，之后的战斗中就会【自动】使用。" />
+        <g str="装备【技能】会消耗CP点，前期CP不足时，就需要权衡一下了。" />
+        <g str="关于一些高级的【转职】等功能等，还会陆续开放，" />
+        <g str="「明白了么？...我在自言自语什么...还是去【酒馆】打发时间吧。 」" />
+    </guide>
+    
+    
+    <guide id="21" story="11" bg="BG001A" checkScene="city" activeScene="cityOut" bgFade="0.75" next="22" >
+        <g str="我离开工房，往酒吧的方向前进。" />
+        <g str="走在街道上，耳朵可以清晰的听到到处都是铁锤与机械的声音。" />
+        <g str="街道到处都是工房，许多的人与工匠们来来往往。" />
+        <g str="果然还是强烈的感觉到了这个街道给工匠们建立的。如果合格的话，我也就会成为这里的其中一员。" />
+        <g str="这样想着事情走在街上，忽然传过来了一声怒吼。" />
+        <g str="在门前正进行着吵架的肥胖的工匠和小女孩映入眼球。" music="BGM011" />
+        <g creatureMiddle="3" actionMiddle="A" creatureLeft="129" fadeInLeft="0.75" actionLeft="A" nameID="129" str="「给我快点滚蛋！这不是小鬼应该来的地方，会妨碍交易的！」" />
+        <g creatureMiddle="3" actionMiddle="C" creatureLeft="129" actionLeft="A" name="小女孩" str="「什么嘛，难道想赶走客人是吗！？」" />
+        <g creatureMiddle="3" actionMiddle="C" creatureLeft="129" actionLeft="A" nameID="129" str="「什么客人？就算没有你这个小鬼来这里光顾，这里也是可以干得下去。快点给我连滚带爬的消失掉！」" />
+        <g creatureMiddle="3" actionMiddle="C" creatureLeft="129" actionLeft="A" name="小女孩" str="「不要......等下、不要碰！ 吃我这一招、嘿！」" />
+        <g creatureMiddle="3" rotationLeft="0.75" fadeInMiddleRight="0.2" fadeOutLeft="0.75" actionMiddle="C" upDown="0.5" creatureLeft="129" actionLeft="A" sound="MVB006" str="只见一名身体健壮男子的躯体飞舞在空中，好端端的好像脚滑了一般在空中转了一圈后摔倒在地面上。 " />
+        <g creatureMiddle="3" actionMiddle="C" str="这到底发生了什么事情。" />
+        <g creatureMiddle="3" actionMiddle="C" str="摔倒在地上的男子脸上满是茫然。 " />
+        <g creatureMiddle="3" actionMiddle="C" name="小女孩" str="「像你这样的工匠，就应该取消委托的！呸！」" />
+        <g creatureMiddle="3" actionMiddle="B" name="小女孩" str="小女孩吐了吐舌头，之后就突然间向我撞过来。" />
+    </guide>
+    
+    <guide id="22" bg="BG009A" checkScene="city" activeScene="cityOut" bgFade="0.3" next="23" >
+        <g creatureMiddle="3" leftRight="0.5" actionMiddle="A" nameID="1" str="「呜哇，好危险...不要紧吧？」" />
+        <g creatureMiddle="3" actionMiddle="E" name="小女孩" str="「对、对不起」" />
+        <g creatureMiddle="3" actionMiddle="E" name="小女孩" str="「啊咧...这面孔...威尔！？」" />
+        <g creatureMiddle="3" actionMiddle="E" nameID="1" str="「诶？为什么知道我的名字...?」" />
+        <g creatureMiddle="3" actionMiddle="E" nameID="1" str="我和少女相互吃惊得凝视着对方。" />
+        <g creatureMiddle="3" actionMiddle="E" nameID="1" str="另一边的情况、倒在地上的男子摇摇摆摆的站了起来。" />
+        <g creatureMiddle="3" actionMiddle="E" nameID="129" str="「可恶，那个小鬼，到底跑到哪里去了......」 " />
+        <g creatureMiddle="3" actionMiddle="E" nameID="129" str="那个男人为了找到小女孩往这里走过来了。" />
+        <g creatureMiddle="3" actionMiddle="D" nameID="129" str="看到这个这情况的小女孩抬头仰望着我的那双眼睛变得湿润起来了。" />
+        <g creatureMiddle="3" actionMiddle="D" name="小女孩" str="「哥哥救救我！有个坏家伙正在追着我！」" />
+        <g creatureMiddle="3" actionMiddle="D" nameID="1" str="「诶？不是吧，就算你说要我救你......」 " />
+        <g creatureMiddle="3" actionMiddle="D" nameID="1" str="面对这种突如其来的事情，我显得有些不知所措。 " />
+        <g creatureMiddle="3" actionMiddle="D" nameID="1" str="而且这哭得太假了吧。" />
+        <g creatureMiddle="3" actionMiddle="D" nameID="1" str="我们这样对话的期间，男子还是正在寻找着少女的踪迹，很明显在朝着我们的方向接近着。" />
+        <g creatureMiddle="3" actionMiddle="D" name="小女孩" str="「在这样下去的话我，会被那个人给抓住的啊，然后被警卫队带走拖进牢房里面的啊，呜哇555！」 " />
+        <g creatureMiddle="3" actionMiddle="D" name="小女孩" str="少女顿时哭了出来，所有的视线全部集中都过来。男子也发现了我们的存在，开始往这边走过来。" />
+        <g creatureMiddle="3" actionMiddle="D" nameID="1" str="「...哈，哈哈，快点逃走吧。来，快跑吧！」" />
+        <g creatureMiddle="3" actionMiddle="D" fadeOutMiddleLeft="0.5" nameID="1" str="我连想都没想直接将少女推入人群当中。" />
+        <g nameID="1" str="「别说这么多快点跑吧！」" />
+        <g nameID="1" str="少女离开后不多久，男子就来到了我的身边。" />
+        <g creatureMiddle="129" actionMiddle="A" fadeInMiddleRight="0.75" nameID="129" str="「嗯？你...好像在哪见过你啊。我们在哪见过面吗？」" />
+        <g creatureMiddle="129" actionMiddle="A" nameID="129" str="「算了。喂，你小子，是不是认识那个小鬼啊？」" />
+        <g creatureMiddle="129" actionMiddle="A" nameID="1" str="「不，不认识。」 " />
+        <g creatureMiddle="129" actionMiddle="A" nameID="129" str="「嗯？这样吗？你们好像有说什么吗？」" />
+        <g creatureMiddle="129" actionMiddle="A" nameID="129" str="男子用怀疑的眼神狠狠的盯着我看。" />
+        <g creatureMiddle="129" actionMiddle="A" nameID="129" str="我于是向着与少女消失的反方向看去。" />
+        <g creatureMiddle="129" actionMiddle="A" nameID="1" str="「已经跑到那边去了，貌似消失了呢」" />
+        <g creatureMiddle="129" actionMiddle="A" nameID="129" str="「切...算了，以后再见面可不是那么简单就了事。」" />
+        <g creatureMiddle="129" actionMiddle="A" nameID="129" str="准备离去的男子，此时注意到了什么而折返回来。" />
+        <g creatureMiddle="129" actionMiddle="A" nameID="129" str="「我想起来了。这不是里威尔嘛。从大白天就在这里游荡的话你的爹妈在地下可得伤心了。要快点成为一个大人哦。」 " />
+        <g creatureMiddle="129" actionMiddle="A" fadeOutMiddleRight="0.75" nameID="129" str="说出了这句话，男子回到了他的工房里。" />
+        <g nameID="1" str="我松了一口气。" />
+        <g nameID="1" str="在被麻烦的事情纠缠上之前快点到酒吧那里吧。" />
+    </guide>
+    
+    <guide id="23" bg="BG006A" checkScene="city" activeScene="cityOut" bgFade="0.5" next="24" >
+        <g str="和以往一模一样走入了酒吧之中。酒吧的主人马上就过来招待我了。" music="BGM026" />
+        <g creatureRight="8" actionRight="A" fadeInRight="0.75" nameID="8" str="「哟，来了啊，小子。我还以为今天你不能来了呢。」" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="「大叔，你好。」 " />
+        <g creatureRight="8" actionRight="A" nameID="1" str="汤先生的话，是经营着御依多拉的工匠们喝酒娱乐的酒吧。" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="他还经常关照着我的父母，我小的时候就经常来这里吃饭了。" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="现在的话如果自己有能光顾这里的钱的话，时不时都会来这里露面的。" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="在父母去世的时候他成为了我最亲近的人还鼓励支持着我，还为我成为工匠这件事声援。" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="「试验已经结束了，不过要知道结果的话还要等一段时间啊。」" />
+        <g creatureRight="8" actionRight="A" nameID="8" str="「没关系，威尔的话肯定可以通过的。」" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="「是这样的话就好了。」" />
+        <g creatureRight="8" actionRight="A" nameID="8" str="「今年的话肯定没问题。既然这样的话，必须要准备你开店的庆祝活动才可以了啊。」" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="「还没确定一定会通过的哟。」" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="就在此时，好像有谁走进了酒吧里，顿时间周围人声鼎沸。" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="大叔看到后摆出了惊讶的表情。" />
+        <g creatureRight="8" actionRight="A" fadeOutRight="0.75" creatureMiddle="4" actionMiddle="A" fadeInMiddleLeft="0.75" nameID="1" str="我回头看了看，那个人笔直我朝着我坐着的方向走过来。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="是一位身材非常苗条的女性。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="细小的脸庞，金色的秀发在空气中摆动着。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="有酒气和男人味还有食物混杂还掺和着一丝的香水的味道，同时还散发着让人无法安心的气息。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="美丽的精灵族。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="姿态和人类根本就没有什么区别。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="但是很明显有着和人类不同，周围徘徊着非常神秘的气氛。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="我顿时间，看到那个身姿我已经完全着迷上了。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="在酒吧里面包括大叔还有其他客人都目不转睛的盯着她看。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="在这个街上有精灵来访可是非常少见的。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="御依多拉的东北方向的森林里成为了精灵的领域，但是几乎都没有来过人类的世界里。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="但是没有看到从那个精灵少女投射过来的鄙夷人类的视线，她望向我还有大叔的方向对着我们笑了。" />
+        <g creatureMiddle="4" actionMiddle="A" name="迷人的精灵" str="「你好」" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="「啊、你也好......」" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="8" str="「啊......欢、欢迎光临。您来这种酒吧有何贵干呢？」" />
+        <g creatureMiddle="4" actionMiddle="A" name="迷人的精灵" str="「本来想去领主大人的工房看看的，貌似好像已经迷路了的样子。」 " />
+        <g creatureMiddle="4" actionMiddle="A" name="迷人的精灵" str="听到这句话的大叔他脸上忽然间表现出一种安心了的感觉。" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="8" str="「啊，出了店向右走，穿过广场再向左。」" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="「我领你去吧？」" />
+        <g creatureMiddle="4" actionMiddle="A" nameID="1" str="说着我就站起身来。" />
+        <g creatureMiddle="4" actionMiddle="B" nameID="1" str="精灵的少女感到一丝惊讶，但是没有表现出冷酷的表情来，只是对我微笑。" />
+        <g creatureMiddle="4" actionMiddle="A" name="迷人的精灵" str="「嗯，谢谢你的好意。但是不要紧的。」" />
+        <g creatureMiddle="4" actionMiddle="A" fadeOutMiddleRight="0.75" name="迷人的精灵" str="她再一次微笑起来，然后迷人的精灵就从酒吧离开了。" />
+        <g name="迷人的精灵" str="我坐回我原来的位置，女精灵走到门前就转身就消失了，她往大叔所指的地方走去了。" />
+        <g nameID="1" str="「精灵会笑是意料之外的事啊，我还以为会很酷一点的。」" />
+        <g creatureRight="8" actionRight="A" fadeInRight="0.75" nameID="8" str="「也是啊，我第一次见到精灵呢。」" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="「从森林那里来到这里的吧。找领主有何贵干呢？」" />
+        <g creatureRight="8" actionRight="A" nameID="8" str="「谁知道呢......洛莎娜大人很早就认同了东方文化。这次应该是与精灵们交流什么吧。」" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="「也是啊......」" />
+        <g creatureRight="8" actionRight="A" nameID="1" str="「我在酒吧里打发了一段时间之后，就回到了工房。」" />
+        
+        
+    </guide>
+    
+    <guide id="24" bg="BG002A" activeScene="cityOut" bgFade="0.5" next="25" >
+        <g str="工房没有任何人来过的痕迹。沉默之中，唯独大时钟转动的声音在回响着。" />
+        <g str="要等到明天了么......" />
+        <g str="我坐在椅子上面，回想起之前的事情从而闭上眼睛。" />
+        <g str="我的父母是工匠。" />
+        <g str="这个工房原本就是我父母的所有物。" />
+        <g str="父母在健在的那时候，这个工房中充满的活力还有笑容。" />
+        <g str="来访的客人们都很满足，脸上带着笑容返回家中。" />
+        <g str="在这中环境之中成长的我来说，自然的以工匠为目标。" />
+        <g str="与住在御依多拉的大多数的孩子们一样，一开始都是在工房里帮忙。" />
+        <g str="在之后就作为见习的工匠修行了几年。" />
+        <g str="有几个工匠作为老师指导，学习作为工匠所需要的非常困难的技能和知识，教会我们经营工房的基础。" />
+        <g str="在御依多拉以工匠为目标的人，都往成为工匠的目标努力着。" />
+        <g str="在哪出生都没有关系。" />
+        <g str="在中途就放弃了工匠的目标，还有成为了助手或者见习不久就放弃的人也有不少，但是我得到了参加工匠的试验的资格。" />
+        <g str="总算决定挑战试验的一年之前，跟着工匠协会的成员们一起进入迷宫的父母去世了。" />
+        <g str="为了击退迷宫里面出现的强力的魔物，在那之后就没有回来过。" />
+        <g str="紧接着就接受了试验，过程几乎没有什么记忆。" />
+        <g str="唯一记得的是，因为一脸茫然的表情多次引起监督官的注意。" />
+        <g str="然后，为了去世的父母，为了接下来还要一个人生存下去的自己本身，发誓绝对要成为工匠。" />
+        <g str="这一年，就和这个现实战斗着。今年做的非常好。绝对会当上的。" />
+        <g str="然后作为工匠踏出新的一步。" />
+        <g str="开发崭新的技术、做出优良的产品、成为独当一面的工匠。" />
+        <g str="然后......。......。......。" />
+    </guide>
+    
+    <guide id="25" bg="BG002A" activeScene="cityOut" next="26" >
+        <g str="" fadeout="1.8" />
+        <g creatureRight="5" actionRight="C" nameID="5" str="「你干什么呢？」" />
+        <g creatureRight="5" actionRight="C" nameID="1" str="「呃...啊，雷格拉？ 我，睡着了吗......」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「完全没有紧张感呢，这个样子可是没办法成为能够独当一面的工匠的哟。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「昨天可是紧张到睡都睡不着的啊。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="我扶着椅子站了起来。" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="雷格拉会来到这里的话，也就是说结果已经出来了吗。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「那，结果怎么样？」" />
+        <g creatureRight="5" actionRight="A" nameID="5" str="「现在就准备去领主那里了，把脸洗干净准备好吧。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「去见领主...这样也就是说...我，通过了吗？」" />
+        <g creatureRight="5" actionRight="C" nameID="5" str="「真是反应迟钝啊，作为一个工匠，难道你就没点自信么。」" />
+        <g creatureRight="5" actionRight="C" nameID="1" str="「通过了......真的通过了吗，成功了！！！」" />
+        <g creatureRight="5" actionRight="C" nameID="1" str="我不由自主的喊出声来。" />
+        <g creatureRight="5" actionRight="C" nameID="1" str="「太谢谢你了！果然你是好基友啊！」" />
+        <g creatureRight="5" actionRight="B" nameID="5" str="「要搞基的话请一个人自己搞吧，怪不好意思的。」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「很好，马上就去见领主了哦！」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="我在工房外面飞奔了一会。但、过了一会又回来了。" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="「到底在干什么雷格拉，快点出发吧！」" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="我往街道上走去。" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="通过了。" />
+        <g creatureRight="5" actionRight="B" nameID="1" str="接下来要作为独当一面的工匠，踏出第一步。" />
+    </guide>
+    
+    <guide id="26" bg="BG001D" activeScene="cityOut" bgFade="0.5" next="27" >
+        <g str="我用很快跑到了领主的工房面前。" music="BGM003" />
+        <g str="连着中央广场的街道前面，耸立着历代的领主大人们执行公务的巨大建筑物。" />
+        <g creatureRight="5" actionRight="A" fadeInRight="0.75" nameID="5" str="「洛莎娜大人已经久候多时了，快点进去了。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「稍微等一下。」" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="我停下脚步，然后开始深呼吸。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="说实在与领主见面让我非常紧张。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="而且洛莎娜大人她、听说她是一位非常严厉的人。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="既是旧王政时期的贵族，又是匠会所选出的第一代领主。" />
+        <g creatureRight="5" actionRight="A" nameID="1" str="「我再做一次吧......呼、哈...」" />
+        <g creatureRight="5" actionRight="C" nameID="5" str="「即使你在这么做紧张的心情也不会散去，做好觉悟再进去吧。」" />
+        <g creatureRight="5" actionRight="C" nameID="1" str="「我、我知道了啊。现在就进去。」" />
+        <g creatureRight="5" actionRight="C" nameID="1" str="我带着因为紧张而绷紧的身体，朝着屋里走去。" />
+    </guide>
+    
+    <guide id="27" bg="BG005A" activeScene="cityOut" bgFade="0.5" next="28" >
+        <g str="一进屋，我就被各种华丽的设计所感染，一直呆立着那里。" music="BGM009" />
+        <g str="被各种华丽的设计所感染，我一直呆站着那里。" />
+        <g str="这就是领主的屋子啊......好厉害啊......" />
+        <g str="在那里，有着各种各样的工匠们的设计作品摆满了整个大厅。" />
+        <g str="地板、柱子、墙壁、顶棚。" />
+        <g str="烛台、书桌、椅子、摆设、花瓶、窗、窗纱、地毯。" />
+        <g str="简直就是工匠的手艺美术馆。" />
+        <g str="装饰着的各种作品带有着东方文化的影响。这一切都是想尽快将东方文化引入的洛莎娜大人的选择啊。" />
+        <g str="这个领主之馆，好像是旧王政时期一直都在使用着的领主城，新制度构成之后现在正在计划改造。" />
+        <g str="很多的工匠都踊跃参加、好像是史无前例的规模的工程。" />
+        <g str="因为是我刚出生没多久的事情了，我所知道的并不是很多。" />
+        <g str="仅仅只是以父母为首的高级工匠的对话中听到一点点而已......" />
+        <g reatureRight="5" actionRight="A" fadeInRight="0.75" nameID="5" str="「给我在这里等着。我很快就会回来的哦。」" />
+        <g reatureRight="5" actionRight="A" nameID="1" str="「啊、啊、好的。」" />
+        <g reatureRight="5" actionRight="A" fadeOutRight="0.75" str="从大门走出去的雷格纳给了我一个含糊的回答，我也只能乖乖的在屋子里面安静的等待。" />
+        <g str="身后的墙壁上，并列的摆放着散发出东方独特香味的武器。" />
+        <g str="因为御依多拉流入了东方所独有的文化，把文化引入将其完美结合在一起的就是现在的领主洛莎娜大人。" />
+        <g str="虽然御依多拉的女工匠并不少见，说到底还是技术经验的差异啊。" />
+        <g str="洛莎娜大人她，可以说是尤依朵拉里面所有工匠们的目标了吧。" />
+        <g str="突然之间，脚步的声音出了过来。" />
+        <g str="我赶忙整理下身体。" />
+        <g str="我尝试将尘埃弹去，紧张感再次来袭。" />
+        <g str="说实在的话和这个屋子的绚烂度相比还是有种不适应的感觉。" />
+        <g creatureMiddle="6" actionMiddle="A" fadeInMiddleLeft="0.75" str="轻松的动作走动的壮年的女性出现了。" />
+        <g creatureMiddle="6" actionMiddle="A" str="向着我的方向慢慢接近。" />
+        <g creatureMiddle="6" actionMiddle="A" str="仅仅这样我已紧张到觉得喉咙干涩。" />
+        <g creatureMiddle="6" actionMiddle="A" str="这位大人就是，现任尤依朵拉领主【洛莎娜】。" />
+        <g creatureMiddle="6" actionMiddle="A" str="有着数不清的各种各样的工房存在的御依多拉，持有着最好最优秀的技术，最一流的工房的人物。" />
+        <g creatureMiddle="6" actionMiddle="A" str="我被那个强大气势压倒，使得我的事情都给忘了。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「您是谁？ 请问找我有何贵干呢？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「呃...不是，我是被叫到这里来的......」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="面对预料之外的反应，此时此刻的我已经完全的陷入了恐慌当中。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「是托付委托的？ 那么就请和我的佣人传达一下就可以了。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「不是，我是......」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="我终于把意识找了回来，才察觉到自己现在是被试探当中。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="调整身姿弯下膝盖，对着洛莎娜大人深深鞠躬。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「因今日试验结束，我是来接受御依多拉的工匠证明的仪式的。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「您的大名？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「在下威尔。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="我尽可能用已经干涩的嘴强硬挤出来几句话，这样我安心了不少。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「原来是这样啊，我真心的祝贺您。」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="6" str="那张露出微笑的面额，忽然间变得非常严肃的向着我看来。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="6" str="「不过来得太慢了。而且，如果进入别人的屋子首先要自报家门。」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="「啊，是...实在是太对不起了...」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="6" str="「如果超过时限的话可是无法饶恕的。要给我有作为御依多拉的工匠的自觉才行。」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="「是......」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="6" str="「洛莎娜大人做出了指示，佣人拿着一盒箱子来到了我的面前。」" />
+    </guide>
+    
+    <guide id="28" bg="EV002AA" activeScene="cityOut" next="29" >
+        <g str="" fadeout="1.8" />
+        <g str="放在我的眼前的则是，一把非常美观的剑，和刺绣上了花纹的徽章，还有精雕细琢而成的木质的招牌板。" music="BGM009" />
+        <g str="上面雕刻着代表工匠会的纹章印。" />
+        <g nameID="6" str="「这个就是工匠证明。请随时随地都要携带着。因为这是进入管制区域必要的证明。」" />
+        <g nameID="6" str="「店铺雕刻着剑，招牌板请挂在大街上任谁都可以看得到的位置。怎么说这也是工匠会正式认可的唯一证明。」" />
+        <g nameID="6" str="我看了一眼工匠会的徽章。" />
+        <g nameID="6" str="庄重的伸出我的手。" />
+        <g nameID="6" str="手在颤抖。" />
+        <g nameID="6" str="我怀着感谢的心情收下它。" />
+        <g nameID="6" str="接受的那一瞬间，心里仿佛一块大石落地。" />
+        
+        <g nameID="6" str="从现在开始我就是独立的工匠了。" item="201" />
+        
+        <g nameID="6" str="「威尔。我此刻宣言你成为御依多拉工匠会的一员。」" />
+        <g nameID="1" str="「非常感谢。」" />
+        <g nameID="6" str="我再次调整身姿弯下膝盖鞠躬。" />
+        <g nameID="6" str="「请起身。」" />
+    </guide>
+    
+    <guide id="29" bg="BG005A" nextStory="12" activeScene="cityOut" bgFade="0.5" next="30" >
+        <g str="我听从指示缓缓起身，然而下一瞬间的洛莎娜大人就笔直的看着我。" />
+        <g creatureMiddle="6" actionMiddle="A" fadeInMiddleLeft="0.75" nameID="6" str="「......站在领主的立场，我要对你提出一个问题。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="我咽了咽口水。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「请问您，是否考虑过成为怎样的工匠吗？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「怎样的...工匠...？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="因为事出过于突然我有点困惑。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="我应该怎么样回答才好，此时的我的脑袋却没有想到任何话语。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="就在那个瞬间忽然浮现出一句话就不假思索的脱口而出。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「想成为一流的工匠。开发新颖的技术，同时我还想着拥有那种超越了父母之后的非常非常大的工房。」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="6" str="「是吗......已经够了。那么就请您回去吧。」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="6" str="洛莎娜大人说出很冷淡的话，摆出了一脸毫无兴趣的脸对着我说。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="「啊，不对...成为一流的工匠之后、为尤依朵拉而做出贡献。紧接着让尤依朵拉的大名在大陆中......」" />
+        <g creatureMiddle="6" actionMiddle="C" nameID="6" str="「我不是说已经够了吗，如果没有事情就快点回你自己的工房吧。」" />
+        <g creatureMiddle="6" actionMiddle="C" nameID="6" str="洛莎娜大人用非常愤怒的眼神看了我一眼。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="「......打搅了。」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="我究竟要做什么啊......。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="因为我只是一个劲想要成为工匠，从来没有认认真真的考虑过这些重要事情呢。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="我想要做的事情。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="有着想成为工匠的目标...就很幸福..." />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="现在想起来的话果然就是，我小时候曾经呆过的那个工房了。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="我的父母在世的那段时间，在工房里面的工作的人的样子我是时常注视着的。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="所有人都是苦着脸来托付委托。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="当再次登门拜访的时候则是一脸的笑容，父亲和母亲打心底的感到欣慰。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="我也想成为那个样子的工匠。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="想让客人都感到很高兴。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="我想用这双手所做出的物品，让所有的客人都面挂笑容。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="「洛莎娜大人！」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="「我要，成为会让客人们感到高兴的工匠。我想帮助那些有困难的人们。」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="「来到我的工房的客人，全部都会在脸上带着笑容而归去，我想成为这样子的工匠。」" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="我说着这样子的话，洛莎娜大人用眼睛凝视着我。" />
+        <g creatureMiddle="6" actionMiddle="B" nameID="1" str="洛莎娜大人死死的凝视着我之后，感觉到了那种稍微像微笑一样的气氛。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「比刚刚之前更好的回答呢。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「感谢您大人。打扰了。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="我松了口气，起身走回了工房。" />
+    </guide>
+    
+    <guide id="30" activeScene="city" bgFade="0.5" next="-1" >
+        <g str="  " alert="可以自由【探索】" />
+        <g str="现在可以自由【探索】了。" />
+    </guide>
+    
+    <guide id="31" story="12" checkBattleEnd="102" activeScene="cityOut" bg="BG002A" next="32" >
+        <g str="【探险】结束了，我回到了工房。" />
+        <g str="目前虽然可以探险了，但是最好还是找一些帮手为好，但是如从下手呢。" music="BGM004" />
+        <g str="算了，首先是在店铺里装饰剑，然后是招牌......这个在工房外面揭开比较好。" />
+        <g str="我感觉到人的气息，我转过身去。" />
+    </guide>
+    
+    <guide id="32" activeScene="cityOut" bg="EV101DA" bgFade="0.5" next="33" >
+        <g str="「啊、你是......」" />
+        <g str="之前来过一次的那名少女剑士、还是那个老样子窥视着工房里面。" />
+        <g str="从穿着来看好像是从东之国的【蒂斯纳】过来的。" />
+        <g name="女剑士" str="「......这里的主人是你吗？」" />
+        <g nameID="1" str="「啊、没错。有何贵干？」" />
+        <g name="女剑士" str="「有话要说，进里面去。」" />
+        <g nameID="1" str="「可以。有委托的话进去交谈......的话、喂、等下。」" />
+        <g nameID="1" str="少女剑士突然之间压住我的胸口，急急忙忙的进入工房里面。" />
+    </guide>
+    
+    <guide id="33" activeScene="cityOut" bg="EV104BE" bgFade="0.5" next="34" >
+        <g str="" fadeout="0.8" />
+        <g nameID="1" str="「请，请问是咋了？这是要干啥呀...？」" />
+        <g nameID="1" str="回过神来，我已经被推倒在地上啪啪啪，拔出的剑往我脸上刺来。" />
+        <g nameID="1" str="从穿着来看好像是从东之国的【蒂斯纳】过来的。" />
+        <g nameID="1" str="待我听到脱去的外套从床边掉落的声音时，我终于认识到此时的状况。" />
+        <g nameID="1" str="「等下、等一下，即使不这样，我也会好好听听的啊。」" />
+        <g nameID="1" str="我认真的观察了一下眼前的那把剑。" />
+        <g nameID="1" str="「啊、这把剑......」" />
+        <g nameID="1" str="这是有着东之国独特形状的一把剑。" />
+        <g nameID="1" str="果然是蒂斯纳的剑士。" />
+        <g nameID="1" str="话又说回来，不知怎的有种时曾相识的感觉啊。" />
+        <g nameID="1" str="对于吃惊的我，少女眼前一亮。" />
+        <g name="女剑士" str="「......对于这把剑你是不是有印象？」" />
+        <g nameID="1" str="「不是，也不是这么说......」" />
+        <g name="女剑士" str="「不说真话的话小心脑袋不保。」" />
+        <g nameID="1" str="「我从来都没有见过......但是这个，是蒂斯纳的剑对吧？」" />
+        <g name="女剑士" str="「啊...多少懂点呢。小子，这把剑可以强化吗？」" />
+        <g nameID="1" str="我再一次把指着我的剑仔细观察了一边。" />
+        <g name="女剑士" str="「难道说...你是要我强化这把剑对不对？」" />
+        <g name="女剑士" str="「没错。你必须要为了我干活。不然的话我就向工匠公会通缉你。」" />
+        <g name="女剑士" str="「要怎么做？你是要被作为违法职人被抓捕，还是选择和我一起合作。」" />
+        <g nameID="1" str="「违法...？ 我吗？」" />
+        <g name="女剑士" str="「你装傻也没用。这里是黑工房我可是非常清楚的。」" />
+        <g nameID="1" str="原来如此，是这么个情况啊。" />
+        <g nameID="1" str="就是因为还没有把招牌挂上，就误会了这里是黑工房。" />
+        <g nameID="1" str="但是好奇怪啊，就好像知道这里肯定是黑工房一样的说。" />
+        <g nameID="1" str="那就是说...。" />
+        <g nameID="1" str="「你是蒂斯纳来的剑士对吧？还继续这么折腾的话反而是你被通缉的哦。首先先把这把剑拿开再说吧。」" />
+        <g name="女剑士" str="「呜......」" />
+        <g nameID="1" str="看来警戒还没有解开啊。" />
+        <g nameID="1" str="「我可不是黑作坊啊。招牌摆在那里。」" />
+        <g nameID="1" str="「我才当上工匠，刚刚才想要把招牌给揭开来着。」" />
+        <g nameID="1" str="少女望向从床上掉落的招牌和证明看了一下，紧接着笔直的与我的眼睛对视。" />
+        <g nameID="1" str="看来是认为我没有说谎，终于把剑移开了。" />
+    </guide>
+    
+    <guide id="34" activeScene="cityOut" bgFade="0.5" bg="BG002A" next="35" >
+        <g creatureMiddle="2" actionMiddle="A" fadeInMiddleRight="0.75" name="女剑士" str="「再问一下，你真的从来都没有见过这一把剑吗？」" />
+        <g creatureMiddle="2" actionMiddle="A" name="女剑士" str="我一瞬间回答哽住了，那是因为我真的感觉好像在哪见过的样子。" />
+        <g creatureMiddle="2" actionMiddle="A" name="女剑士" str="但是实在想不起来，摇了摇头。" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="「我没有见过哦，真正的蒂斯纳的剑在御依多拉如同凤毛麟角一般稀少，更何况这么一把上等品......」" />
+        <g creatureMiddle="2" actionMiddle="A" name="女剑士" str="「是吗...对于我的无礼我很抱歉。那么就失陪了。」" />
+        <g creatureMiddle="2" actionMiddle="A" name="女剑士" str="看那少女迅速的转身，以轻快的步伐走到了工房的外面。" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="「那个等一下啊！ 等下等下等下！」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="我非常慌忙的跑出去拦住她。" />
+        <g creatureMiddle="2" actionMiddle="C" name="女剑士" str="「......怎么了？」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「不会就这么回去吧？」" />
+        <g creatureMiddle="2" actionMiddle="A" name="女剑士" str="「已经没有事了。」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="「你是来进行委托的吧，好不容易才来一次起码和我说一说吧。」" />
+        <g creatureMiddle="2" actionMiddle="C" name="女剑士" str="「你肯定是不行的。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「就因为我是新手工匠吗？我在见习时已经做过很多了，剑的强化之类的还是做得到的。」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="少女剑士的眼睛上上下下的仔细打量着我。" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="虽然说是那么说的，但是我仅仅只有尝试强化过在御依多拉生产出来的剑而已。" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="东方的剑嘛，好像素材和构造还有铸造方式都不同。" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="这么突然叫我强化的话说到底还是不行的。那怎么办才好？" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="难得一次有客人上门就这样让她回去吗？" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="她应该很困惑才对的，不然怎么会、特意去找黑工房呢？" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="虽然刚开始的态度对我来说是个麻烦，但是这也是因为她很着急的缘故。" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="深思熟虑之后，我想出了一个好办法。" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="「请跟我来吧。」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="我向少女剑士招找手，到工房外面去了。" />
+        <g creatureMiddle="2" actionMiddle="C" name="女剣士" str="「......去哪里啊？」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「我确实是改造不了的。但是御依多拉其他人倒是有这种技术，我给你介绍。」" />
+        <g creatureMiddle="2" actionMiddle="C" name="女剣士" str="「不用。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「确定不用了？」" />
+        <g creatureMiddle="2" actionMiddle="A" name="女剣士" str="「......」" />
+        <g creatureMiddle="2" actionMiddle="A" name="女剣士" str="女剑士还是咬着嘴唇一边无言地跟了过来。" />
+    </guide>
+    
+    <guide id="35" bg="BG001D" activeScene="cityOut" bgFade="0.5" next="36" >
+        <g str="我在洛莎娜大人的工房面前站住了。" music="BGM003" />
+        <g str="就东方的武器来说，还是洛莎娜大人比较熟悉，在这里拜托剑强化吧。" />
+        <g nameID="1" str="「这里啊，来吧......」" />
+        <g nameID="1" str="回头一看，女剑士不见了。" />
+        <g nameID="1" str="「咦？喂，人呢？喂...」" />
+        <g creatureRight="2" actionRight="A" fadeInRight="1.0" nameID="1" str="附近找了一圈，发现女剑士在胡同的角落躲起来。" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="「你在干什么啊，不是要强化剑么？」" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="「这里是领主的工房。在这个城市最大且最懂东方的技艺，所以一定会有办法的。」" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="少女剑士仍旧一动不动。" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="「有什么理由的吗......？」" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="这样问后我注意到了。她一开始就寻找黑工房，应该是有她的理由的。" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="「知道了，那我去，剑借给我行不？」" />
+        <g creatureRight="2" actionRight="B" name="女剣士" str="「......」" />
+        <g creatureRight="2" actionRight="B" name="女剣士" str="我伸出手去拿，女剑士后退一步，很嫌弃我的样子，不愿意把剑交给我。" />
+        <g creatureRight="2" actionRight="B" nameID="1" str="「......好吧，那么在这里等着我，我去打听打听。」" />
+        <g creatureRight="2" actionRight="B" nameID="1" str="「啊，对了，哪里需要强化？」" />
+        <g creatureRight="2" actionRight="A" name="女剣士" str="「...它失去了魔力，想恢复魔力。」" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="「了解。那么我走了。」" />
+        <g creatureRight="2" actionRight="A" name="女剣士" str="「啊......」" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="我把女剑士一个人留着那里，走进入了领主的工房。" />
+    </guide>
+
+    <guide id="36" bg="BG005A" activeScene="cityOut" bgFade="0.5" next="37" >
+        <g str="东张西望地环视四周，佣人立刻走近来。" music="BGM009" />
+        <g str="等待片刻，洛莎娜大人来了。" />
+        <g creatureMiddle="6" actionMiddle="A" fadeInMiddleLeft="0.75" nameID="6" str="「久等了，哎呀......又是你啊。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「呃，这次有事相求。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="我环顾着房间里。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="然后，在墙壁上装饰着的东方的剑，不知不觉发现已经用手指着它。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「啊，是吗？。像那把剑么？怪不得好像在哪里见过似的呢？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="如果仔细看，完全不同。但是形状和外观设计的一部分相似，所以才有似曾相识的感觉吧。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="果然少女的那剑是蒂斯纳的剑，如果洛莎娜大人的话可以很容易能够确认。" />
+        <g creatureMiddle="6" actionMiddle="D" nameID="6" str="「你对那把剑很熟悉么？」" />
+        <g creatureMiddle="6" actionMiddle="D" nameID="1" str="领主大人惊讶说着，走到我身边。" />
+        <g creatureMiddle="6" actionMiddle="D" nameID="1" str="「洛莎娜大人的话，应该可以给这种蒂斯纳的剑魔力重新附魔力的吧？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「技术上是可能的，但是看到实物的话真的还不好说，能具体给我看看剑吗？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「现在没在我手里，但是这把剑，是洛莎娜大人做的吧？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「是在我们工房做成的。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「如果要做的话，大约多少金币？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「差不多的话，大概200000G左右吧。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="我感觉是一瞬间希望变得渺茫了。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「因为它采用了特殊的素材跟技术，你必须对它有所了解。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「是吗，那是这样啊......」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="那个女剑士，看起来貌似不像是有钱人的样子。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="她可能也像我一样，不然也不会访问我这个新手工房。" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「我们是可以，不过，你现在也是工匠，不如试着挑战一下，如何？」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="1" str="「......只能这样呢。多谢。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="「那么，欢迎下次光临。」" />
+        <g creatureMiddle="6" actionMiddle="A" nameID="6" str="我被佣人的送出工房。" />
+    </guide>
+    
+    <guide id="37" bg="BG001D" activeScene="cityOut" bgFade="0.5" next="38" >
+        <g str="小巷的角落里，刚才那个地方少女剑士还在等待着。" music="BGM003" />
+        <g creatureRight="2" actionRight="A" fadeInRight="1.0" str="女剑士瞪着大眼睛盯着我，大概很期待吧。" />
+        <g creatureRight="2" actionRight="A" str="我沮丧的脸，她大概猜出结果了吧。" />
+        <g creatureRight="2" actionRight="A" nameID="1" str="「技术上是可能的，但金币的话相当悬的说。想知道我听说的价格么？」" />
+        <g creatureRight="2" actionRight="A" name="女剣士" str="「啊」" />
+        <g creatureRight="2" actionRight="A" name="女剣士" str="我把刚才听到的金额如实传达了。" />
+        <g creatureRight="2" actionRight="E" name="女剣士" str="少女剑士再一次闭上眼镜，微微的点了点头。" />
+        <g creatureRight="2" actionRight="E" nameID="1" str="「没办法。我的能力是不行了。」" />
+        <g creatureRight="2" actionRight="E" str="我们就这样一路默默无语地回到了工房，只是告诉我她叫【月爁】。" />
+    </guide>
+    
+    <guide id="38" nextStory="13" activeScene="cityOut" bg="BG002A" bgFade="0.5" next="39" >
+        <g creatureMiddle="2" actionMiddle="A" fadeInMiddleRight="0.75" nameID="1" str="「啊，我有个建议，那个剑的附魔交给我吧，费用由我来承担。」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="「当然，我还是个新手，但是如果能研究一下的话......」" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="月爁闭上眼睛，陷入了深思。" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="「交给我吧，我一定可以做到。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="「......不行」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「为什么这么说？我好呆也是御依多拉的工匠，没有什么办不到的事情。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「那，帮助月爁这样的人就是我的工作。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="「你的问题不是我的问题。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「诶？...这是啥意思啊？」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="月爁结结巴巴的，欲言又止。" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="我凝视着她，满脸困惑的样子，终于开口了。" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="「...我有点搞不清啊。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「诶？嗯，什么意思？刚才那些话吗？」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="「你那样不明确的，对我说。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「什么不明确？啊，金币的话？」" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="2" str="「不要让我说很多次。」" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="2" str="月爁的脸颊，像少女一般微微泛红。" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="1" str="「什么啊，这样的话就不必担心的。」" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="月爁板着脸又陷入沉默。她的意思可能是不想接受施舍。" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="如果我在这里放着月爁置之不管的话，会怎么样呢？" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="搞不好一定她还会寻找其他工房，没准一天，工匠协会会把她抓住，放着不管怕是我也被卷入纠纷。" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="结果，想要给剑附魔的愿望也不会实现。" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="虽然脸上太不出来，她还是相当困惑的。" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="带着这样的脸从我的工房的离去的话，我到底是为了什么而成为工匠的呢？" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="我是考虑到了最后，想出了一个建议。" />
+        <g creatureMiddle="2" actionMiddle="E" nameID="1" str="「对了，作为剑的货款作为我的护卫怎样？正好现在募集啊。」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="2" str="「护卫......？」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="「是。作为剑士很擅长吧？素材收集或委托去探险什么的，到那个时候出手帮忙就行了。」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="「......指的是工匠协会的管理区域吗？」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="2" str="「啊。那里是收集素材最适合的，素材种类也比较多。」" />
+        <g creatureMiddle="2" actionMiddle="G" nameID="2" str="月爁的眼睛微微发光。" />
+        <g creatureMiddle="2" actionMiddle="G" nameID="2" str="「......不错。」" />
+        <g creatureMiddle="2" actionMiddle="G" nameID="2" str="她自言自语的说，微微的笑了。" />
+        <g creatureMiddle="2" actionMiddle="G" nameID="1" str="「那好，合同成立！」" quest="1000" />
+        <g creatureMiddle="2" actionMiddle="G" nameID="1" str="我高兴地像月爁伸出了手。" />
+        <g creatureMiddle="2" actionMiddle="G" nameID="1" str="「请多关照。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="月爁可疑地盯着我伸出的手。" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「咦。不会么？这样寒暄的。这样手来握住。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="「......没有那样的习惯。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="月爁这么说着，回应了我的握手。" employ="2" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="「有必要的话就叫我。」" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="2" str="说着月爁突然转过打算离去。" />
+        <g creatureMiddle="2" actionMiddle="C" nameID="1" str="「等等，你这是去哪啊？」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="2" str="「还没有决定。」" />
+        <g creatureMiddle="2" actionMiddle="A" nameID="1" str="「如果只是暂住的话可以住我这里，反正我一人。」" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="2" font="30" str="「什么！！！说什么呢、啊啊、和一个大男人在同一个屋檐下生活，不可能吧！」" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="1" font="21" str="「吓，吓了一跳...突然大声出来。」" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="2" str="「我才惊讶好吧，那样的事不要再在我前面说出来就好了！」" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="2" str="生气打算走开的月爁，一瞬间停住脚，回头看了下。" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="2" str="「每天探索的时候，到时候叫我。」" />
+        <g creatureMiddle="2" actionMiddle="D" nameID="1" str="「啊，我明白了。」" />
+        <g creatureMiddle="2" actionMiddle="D" fadeOutMiddleRight="0.75" nameID="1" str="月爁急匆匆的离去了，工房里又只剩下我一人了。" />
+        <g nameID="1" str="顺利的找到了护卫。" alert="【月爁成为伙伴】" />
+    </guide>
+    
+    <guide id="39" activeScene="work" mask="1" next="-1" >
+        <g nameID="1" sound="D0718" str="不错，继续探索吧。" />
+        <g nameID="1" str="【月爁】的性格比较奇怪，【探索】时目标也跟【威尔】不同，若遇到探索不顺利的时候，可以尝试让她担任队长（Leader）。  " />
+    </guide>
+    
+    <guide id="40" story="13" checkBattleEnd="103" activeScene="cityOut" bgFade="0.5" bg="BG012A" next="41" >
+        <g str="素材成功入手，于是我们开始往回赶。" sound="C0302" />
+        <g nameID="1" str="「不错！赶紧回去合成吧。」" />
+        <g creatureMiddle="2" actionMiddle="A" fadeInMiddleRight="0.75" nameID="2" str="「等一下......」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="2" str="月爁表情很严肃地停了下来。" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="1" str="「怎么了？」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="2" str="「埋伏。」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="1" str="「埋伏？！」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="1" str="我不由自主地屏住呼吸环视着四周。" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="2" str="「出来的时候我就注意到了。」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="1" str="「为什么早不说。」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="2" str="「不想引起对方的注意。」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="1" str="「......被盯上了吗？ 」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="2" str="「我也不知道。」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="1" str="「不走这边根本回不去吧......」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="1" str="我感受到我战战兢兢地向前踱着。" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="2" str="「......那个树那边！」" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="2" str="透过月爁的视线，目光投向了对面巨大树木背后。" />
+        <g creatureMiddle="2" actionMiddle="B" nameID="1" str="「那个...在那儿的人...」" />
+        <g creatureMiddle="2" actionMiddle="B" fadeOutMiddleLeft="0.75" nameID="1" str="我松了口气，朝着那人的方向走去。" />
+        <g creatureRight="4" actionRight="A" fadeInRight="0.75" nameID="1" str="「您好，前几天我们见过吧？」" />
+        <g creatureRight="4" actionRight="A" name="女精灵" str="「啊，你好。前几天真是太感谢您了。」" />
+        <g creatureRight="4" actionRight="A" name="女精灵" str="女精灵友好朝我走来。"  />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="2" str="「不要再靠近了。」"  sound="C0302" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" name="女精灵" str="「呃......啊，对不起。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="「啊，没事，月爁，这个人我认识。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="月爁没做声让开了道路，但是仍然没放松警惕。" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" name="女精灵" str="「你们这是要去哪？」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="1" str="「回多拉，倒是，你怎么会在这里？」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" name="女精灵" str="「我听到了森林的呼唤，这里是精灵的领域。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="1" str="「是这样啊，你也要小心喔，虽然是精灵的领域，但是进入工匠管理区域也许会被逮捕的。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" name="女精灵" str="「呵呵，没关系的，我会好好把握边界的。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="1" str="「嗯，，月爁，我来介绍下，她是...嗯，啊，」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="4" str="「还没有自报姓名呢，我叫塞维尔。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="1" str="「我是威尔。她是我的护卫，月爁。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="4" str="「请多关照，月爁小姐。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="4" str="塞维尔伸出来的手想要握手，月爁却置之不理，毫不理睬。" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="「喂，之前我不是教过你么，这只是普通的问候。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="尽管如此月爁仍是豪不在意，依旧警惕的巡视着周围。" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="「...你这是在看什么呢？ 」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="4" str="「诶？...发生什么事了？」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="「喂，月爁...对不起，她是我的护卫，现在正在工作呢。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="4" str="「啊，我妨碍你们了？抱歉。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="1" str="「没没......又有危险吗？ 」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="A" nameID="2" str="「嗯。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="2" str="塞维尔笑容消失了，往深处望去。" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="2" str="月爁环视四周。" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="2" str="我轻轻叹了口气，怎么这两个人都是这样啊。" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="「......」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="我挠挠头。" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="「算了，我要回去了噢。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="我开始往前迈步。" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="2" str="「嘘——，那边有个诡异的东西，新手不要乱吵。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="1" str="「什么东西？很厉害？」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="B" nameID="2" str="「切...果然这把剑不行么......！」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="C" nameID="4" str="「大家，快跑！」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="C" nameID="4" str="没等说完，大家拼了命似的撒腿就跑。" />
+        
+    </guide>
+    
+    <guide id="41" activeScene="cityOut" bgFade="0.3" bg="BG012A" next="42" >
+        <g str="就在这瞬间，我感觉到背后一股黑色的气息袭来。" music="BGM008" />
+        <g nameID="1" str="「！」" />
+        <g nameID="4" str="「跑！快逃！」" />
+        <g nameID="1" str="「啊......」" />
+        <g nameID="1" str="月爁挡在我们面前，那个黑色影子若隐若现。" />
+        <g nameID="1" str="只听到啪的一声，月爁被那个巨大的黑影摔了出去，重重地撞在树墩上。" sound="MVB002" upDown="0.5" />
+        <g nameID="1" str="「月爁！」" />
+        <g nameID="1" str="我朝着月爁跑去，那个巨大的黑影......" />
+        <g nameID="4" str="「不行！快逃！」" />
+        <g nameID="4" str="那一瞬间，我看清了，那是个手上举着巨大镰刀的黑影。" />
+    </guide>
+    
+    <guide id="42" activeScene="cityOut" bgFade="0.3" bg="EV480KA" next="43" >
+        <g str="冰冷的眼神，令我毛骨悚然，脊背上透出汗珠。" />
+        <g str="那神情，仿佛死者的眼神。" />
+        <g str="那是猎人看待猎物一般的神情。完了，要被杀了。" />
+        <g nameID="1" str="「啊.........啊，」" />
+        <g nameID="1" str="双脚像灌了铅了一样，一动也挪不动。" />
+        <g nameID="1" str="下一瞬间，巨大的镰刀从我面前挥下！完全躲不掉。" />
+        
+    </guide>
+    
+    <guide id="43" activeScene="cityOut" bgFade="0.3" bg="BG012A" next="44" >
+        <g creatureMiddle="1000" actionMiddle="A" nameID="1" str="再一下秒钟，我听到风的声音，巨大的镰刀砍倒一旁。" sound="MVB026" />
+        <g creatureMiddle="1000" actionMiddle="A" nameID="1" str="「这，这是......」" />
+        <g creatureMiddle="1000" actionMiddle="A" nameID="4" str="「趁现在，快逃！」" />
+        <g creatureMiddle="1000" actionMiddle="A" nameID="1" str="「塞维尔，这是？」" />
+        <g creatureMiddle="1000" actionMiddle="A" nameID="4" str="「风的精灵啊，请赋予我打破邪恶的力量！」" />
+        <g creatureMiddle="1000" actionMiddle="A" nameID="4" str="忽然，白色的风围绕的一支锐利的箭，笔直地射向黑影。" />
+        <g creatureMiddle="1000" actionMiddle="A" fadeOutMiddleLeft="0.5" nameID="4" str="面对这支来势凶猛的利箭，黑影往后退却。" sound="MVB026" />
+        <g nameID="1" str="「啊，有效啊！！就这样把它打倒吗？！ 」" />
+        <g nameID="4" str="「不行，在这里没法发挥，总之快逃吧！」" />
+        
+        
+        <g nameID="4" str="我赶紧跑到月爁面前，一把把她抱起。" />
+        <g nameID="2" str="「啊......？」" />
+        <g nameID="1" str="「不要紧吧，怎么样？」" />
+        <g nameID="2" str="「...没关系......那，不要碰...」" />
+        <g nameID="2" str="我抱着满是痛苦扭曲表情的月爁往前跑去。" />
+        <g nameID="4" str="「出口！快跑！」" />
+        <g nameID="1" str="「嗯！」" />
+        <g nameID="4" str="「我掩护！」" />
+        
+    </guide>
+    
+    <guide id="44" activeScene="cityOut" bgFade="0.5" bg="BG012A" next="45" >
+        <g str="月爁在我背上，两个人一起跑着。" />
+        <g str="回头一看，已经感觉不到黑色的影子的气息。" />
+        <g nameID="1" str="「看样子，没跟着来了吧？」" />
+        <g creatureRight="4" actionRight="A" fadeInRight="0.75" nameID="4" str="「或许吧，也可能在周围徘徊。」" />
+        <g creatureRight="4" actionRight="A" nameID="1" str="「这样啊...」" />
+        <g creatureRight="4" actionRight="A" nameID="4" str="「要不要暂时休息一下？」" />
+        <g creatureRight="4" actionRight="A" nameID="1" str="「不用，还是就这样到管理区吧。」" />
+        <g creatureRight="4" actionRight="A" nameID="1" str="还是安全起见点好吧。" />
+        <g creatureRight="4" actionRight="A" nameID="1" str="「月爁，怎么样？」" />
+        <g creatureLeft="2" actionLeft="E" fadeInLeft="0.75" creatureRight="4" actionRight="A" nameID="1" str="「嗯，可以...」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「没什么大碍，不必担心。」" stopMusic="1" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="一段时间后，我们在工匠管理区域停了下来。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「到这里应该可以了吧？」" music="BGM027" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「啊！不过。真是吓死我了！真厉害，外面的世界是发生这样的事情。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="塞维尔也松了口气，她和我一样，大概也紧张的要命。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="我叹了一口气，试着重新调整呼吸。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「多亏了你塞维尔，，要不是你来，我们今天就全挂了。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「是风吹告诉我的，那里有异样。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「那，究竟是什么来着？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「死者，死亡的引导者，对现世还心存留恋的徘徊者。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「那家伙是死者吗？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「嗯，是的。死者的灵魂，被困在这片土地上。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「你的意思是...死人在攻击我们？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「是的。在【蒂斯纳】有些人管它叫做【死神】，听到这个词，你就可以想象它的恐怖。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「好吧，死者这事，我可是不太清楚...」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="塞维尔漏出很困惑的表情。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="「蒂斯纳的事情，月爁应该知道吧，没有听说过吗？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="2" str="「第一次见到......」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="2" str="说出这句意味深长的话后，月爁又一次陷入了深思。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="2" str="只有我不知道。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="「我也是第一次见到那个东西，到是真是没听过的啊。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="「嗯，但是，很奇怪，在工匠管辖区域，那样的魔物应该是很危险的存在吧，不应该没有任何消息才对。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="「是啊......」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="工匠的管理区域是根据等级才能进入的。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="也就是说，高级的地点是绝对不允许低等级的工匠进入的，那些都是相当危险的地方。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="那么这次我们应该是没有违法规定，是在规定下进入的。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="在这样的情况下，还受到了攻击。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="在这是工匠地区管理体系里，这种事情是不可能发生的。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="「也就是说，工匠协会还没掌握消息吧......」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「嗯，会不会和一年前的事件有关系？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「一年前的事件? 」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="塞维尔一副不可思议的表情。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="「是吗，不知道吗？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="「呃，稀里糊涂的，」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="「月爁也不知道？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="2" str="「不知道......不过有点眉目。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="「多拉矿脉强烈魔物出现，导致众多上级工匠牺牲的事件。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="一年的多拉矿脉事件......" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="具体情况还没有被公开，有强力的魔物出现了。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="许多上级工匠牺牲了，其中我的父母也包括在内。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「我的父母也死了......真的是那家伙的原因吗？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「嗯，是啊。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="那个死神的确是上级工匠都很难应付的，给人一种强烈压迫感。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「......我觉得，工匠协会应该有所警觉了吧？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「是啊......毕竟那么多的事件了。如果还不戒备的话......」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="可以肯定的是，那个死神与一年前的事件有关，如果引发了第二次危机实在是难以想象。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「你知道的还真多。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="工匠协会管理下，很难知道具体的细节，如果不是我的父母都是工匠的话。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「你在多拉的话，最好跟工匠协会通报一下吧。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「嗯，如果其他人也经历过的话，或许会有一些流言吧。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「如果可能的话，真不想再见到它。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「是吗？那家伙再露面，大家合力把它打倒就好了吧？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="4" str="「还是不要想着打倒它，不遇到是最好。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「但是总要想一些解决方法吧？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="对于工匠来说都是很积极的，高阶魔物，越是困难越是觉得有挑战性。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="当然也不是好斗，只是单纯探索一些新的事物，抱着这种想法的人应该不在少数。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「算了，还是先回去吧，塞维尔也一起到我那里吧。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="「我可以吗？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="A" nameID="1" str="「可以过来做饭啊。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="「欸？？要我当厨师吗！？」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="4" str="塞维尔两眼闪闪放光地盯着我。" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="B" nameID="1" str="「我一直对料理很没自信，我妈倒是很擅长。」" />
+        <g creatureLeft="2" actionLeft="E" creatureRight="4" actionRight="G" nameID="4" str="「好像很有趣的样子，那么那我就打扰了。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="G" nameID="1" str="「啊！我也要吃。」" />
+        <g creatureLeft="2" actionLeft="B" creatureRight="4" actionRight="G" nameID="1" str="「啊，那么大家一起吧。走吧，回去吧。」" />
+    </guide>
+    
+    <guide id="45" nextStory="14" activeScene="world" next="-1" >
+        <g nameID="1" str="「先回去吧。 」" />
+    </guide>
+    
+    <guide id="46" story="14" checkScene="work" activeScene="cityOut" bgFade="0.5" bg="BG010A" next="47" >
+        
+        <g nameID="1" str="「吃饭吃饭~♪肚子饿扁了~♪ 这是啥？兔子的肉的葡萄酒煮之类的吗？」" music="BGM026" />
+        <g creatureRight="4" actionRight="A" fadeInRight="0.75" nameID="4" str="「嗯，很美味的。不过遗憾的是，更好的材料就买不起了。」" />
+        <g creatureRight="4" actionRight="A" nameID="1" str="「是啊，我还是新人工匠啊。」" />
+        <g creatureRight="4" actionRight="A" nameID="4" str="塞维尔温柔地笑了笑。" />
+        <g creatureRight="4" actionRight="A" nameID="4" str="「呵呵，大家用餐吧。」" />
+        <g creatureRight="4" actionRight="A" nameID="1" str="「来吧，不要拘束，开吃了！」" />
+        <g creatureRight="4" actionRight="A" nameID="1" str="庭院里用布铺在地上，料理并排排在我的面前，我跃跃欲试。" />
+        <g creatureRight="4" actionRight="A" nameID="1" str="「嗯，唔...嗷......超好吃啊！」" />
+        <g creatureRight="4" actionRight="G" nameID="4" str="「啊，很不错吧？」" />
+        <g creatureRight="4" actionRight="G" nameID="1" str="「是啊。也可能是因为肚子太饿了。」" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" fadeInLeft="0.75" nameID="2" str="「...我开动了。」" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" nameID="1" str="月爁双手合十，从口袋里掏出一个盒子，盒子里面放着质地精美两根筷子。" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" nameID="1" str="用右手夹起肉沾着浆料送入口中。" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" nameID="1" str="吃饭还用这么优雅的方式，真是第一次见到，都不用刀叉的。" />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="1" str="塞维尔也慢慢品味起来。" />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="1" str="这一年来像这样三个人盘坐在一起吃个家常便饭，还真是难以想象，觉得生活忽然这么美好..." />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="1" str="「真好啊，大家一起......」" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" nameID="4" str="「是呀，我也好久没有想这样吃饭了。」" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" nameID="1" str="「嗯，跟伙伴一起吃个饭，聊聊天，我连做梦都在这样想呢。」" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" nameID="2" str="「......」" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" nameID="2" str="月爁默默的吃着。" />
+        <g creatureRight="4" actionRight="G" creatureLeft="2" actionLeft="A" nameID="1" str="「对了，一直想问一个问题，塞维尔平时都做什么呢？」" />
+        <g creatureRight="4" actionRight="B" creatureLeft="2" actionLeft="A" nameID="4" str="「我么？观察人类的世界，听风声呼唤，大地，还有树木的气息什么的。」" />
+        <g creatureRight="4" actionRight="B" creatureLeft="2" actionLeft="A" nameID="1" str="「啊，，精灵的话，都是这样吗？」" />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="4" str="「也可以这么说吧，我是这样认为的。」" />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="1" str="「也不错呢。但是我的话就不行了，每天在外面打打杀杀的，跑来跑去的，如果有人能帮一下就好了。」" />
+        <g creatureRight="4" actionRight="B" creatureLeft="2" actionLeft="A" nameID="4" str="「哦？有什么困难呢？」" />
+        <g creatureRight="4" actionRight="B" creatureLeft="2" actionLeft="A" nameID="1" str="「很多啊，各种各样的，我还是新手，什么都不懂。像塞维尔就知道很多啊，人类不知道的事情，如果塞维尔能指导我的话，那真是太好了。」" />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="4" str="「是这样啊，你这样讲我也很开心呢，我对工匠生活也挺有兴趣的，那我留下来当教官好了。」" />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="1" str="「那么就这么定了！」" />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="1" str=" " alert="【 塞维尔成为伙伴！】" employ="4" />
+        <g creatureRight="4" actionRight="A" creatureLeft="2" actionLeft="A" nameID="1" sound="D0718" str="成功地将塞维尔骗入队伍。" />
+    </guide>
+    
+    <guide id="47" nextStory="15" activeScene="profession" next="-1" >
+        <g str="【转职】已经开放，转职需要【凭证】可以在【小狐狸的宝藏】中获得，其需要的道具【招财猫】可以在【稀有怪物】处掉落。" />
+        <g str="【上级职业】需要特殊的条件，当然有特殊雇佣一开始就处于上级职业，其转职条件也可以查看到。" />
+        <g str="每个月初会进行【结算】，扣除雇佣兵的【工资】。" />
+        <g str="开场剧情到此为止，接下来版本会逐步更新后续剧情、事件委托等等。" />
+        <g str="请关注我们微博，届时会有详细公告。" />
+    </guide>
+</root>
+
+
+
+
+

@@ -57,32 +57,35 @@ GuideConfig* gGuideConfig = NULL;
     Dic = [ [ NSMutableDictionary alloc ] init ];
     StoryDic = [ [ NSMutableDictionary alloc ] init ];
 
-    for ( int i = 0 ; i < 10 ; i++ )
-    {
-        NSString* path = [ [ NSBundle mainBundle ] pathForResource:[ NSString stringWithFormat:@"guide%d" , i ] ofType:@"xml" inDirectory:XML_PATH ];
-        
-        if ( !path )
-        {
-            continue;
-        }
-        
-        NSFileHandle* file = [ NSFileHandle fileHandleForReadingAtPath:path ];
-        if ( !file )
-        {
-            continue;
-        }
-        
-        NSData* data = [ file readDataToEndOfFile ];
-        [ file closeFile ];
-        
-        NSXMLParser* parser = [ [ NSXMLParser alloc] initWithData:data ];
-        [ parser setDelegate:self ];
-        [ parser parse ];
-        [ parser release ];
-    }
+    [ self loadFile:@"guide0" ];
+    [ self loadFile:@"guide0000" ];
+    [ self loadFile:@"guide0050" ];
     
 }
 
+- ( void ) loadFile:( NSString* )str
+{
+    NSString* path = [ [ NSBundle mainBundle ] pathForResource:str ofType:@"xml" inDirectory:XML_PATH ];
+    
+    if ( !path )
+    {
+        return;
+    }
+    
+    NSFileHandle* file = [ NSFileHandle fileHandleForReadingAtPath:path ];
+    if ( !file )
+    {
+        return;
+    }
+    
+    NSData* data = [ file readDataToEndOfFile ];
+    [ file closeFile ];
+    
+    NSXMLParser* parser = [ [ NSXMLParser alloc] initWithData:data ];
+    [ parser setDelegate:self ];
+    [ parser parse ];
+    [ parser release ];
+}
 
 
 - ( void ) releaseConfig
