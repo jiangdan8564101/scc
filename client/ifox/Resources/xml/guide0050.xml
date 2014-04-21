@@ -1,6 +1,6 @@
 <root >
     
-    <guide id="50" next="2" activeScene="world"  >
+    <guide id="50" bg="BG001A" activeScene="cityOut" bgFade="0.75" next="51" >
         <g str="" white="0.7" />
         <g str="" fadeout="1.5" />
         <g str="                《威尔的炼金工房》           " music="BGM005" />
