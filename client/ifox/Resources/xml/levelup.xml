@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <level>
-	<l type="1" maxHP="5.5" maxSP="0.6" maxFS="0.1" pAtk="4.4" pDef="4" mAtk="0.8" mDef="2" agile="1.2" lucky="1.8" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="1" maxHP="5.5" maxSP="0.6" maxFS="0.1" pAtk="4.4" pDef="4" mAtk="0.8" mDef="2.8" agile="1.2" lucky="1.8" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
 	<l type="2" maxHP="5" maxSP="0.75" maxFS="0.1" pAtk="4.4" pDef="3.6" mAtk="2" mDef="2.8" agile="2.3" lucky="2" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
 	<l type="3" maxHP="3" maxSP="1.65" maxFS="0.1" pAtk="2.4" pDef="3.2" mAtk="5.2" mDef="4.8" agile="2.4" lucky="2.4" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
 	<l type="4" maxHP="4" maxSP="1.5" maxFS="0.1" pAtk="3.2" pDef="2.8" mAtk="4.4" mDef="5.6" agile="2.2" lucky="2" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
@@ -20,4 +20,7 @@
 	<l type="18" maxHP="7.2" maxSP="2.592" maxFS="0.1" pAtk="5.184" pDef="5.184" mAtk="7.488" mDef="6.336" agile="3.312" lucky="2.88" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
 	<l type="19" maxHP="7.92" maxSP="1.944" maxFS="0.1" pAtk="7.2" pDef="6.048" mAtk="5.76" mDef="5.76" agile="3.168" lucky="2.88" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
 	<l type="20" maxHP="7.92" maxSP="2.376" maxFS="0.1" pAtk="6.336" pDef="5.76" mAtk="6.336" mDef="5.76" agile="2.88" lucky="3.168" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+
+	<l type="101" maxHP="3.85" maxSP="0.336" maxFS="0.1" pAtk="3.08" pDef="2.8" mAtk="0.56" mDef="1.96" agile="0.84" lucky="1.26" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
+	<l type="102" maxHP="2.1" maxSP="1" maxFS="0.1" pAtk="1.68" pDef="2.24" mAtk="3.64" mDef="3.36" agile="1.68" lucky="1.68" hit="0" miss="0" critical="0" move="0" cp="0.5" guest="0" command="0"/>
 </level>

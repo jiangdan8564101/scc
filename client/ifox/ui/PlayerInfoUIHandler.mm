@@ -12,6 +12,7 @@
 #import "PlayerData.h"
 #import "AlarmUIHandler.h"
 #import "AlertUIHandler.h"
+#import "PublicUIHandler.h"
 
 @implementation PlayerInfoUIHandler
 
@@ -315,6 +316,7 @@ static PlayerInfoUIHandler* gPlayerInfoUIHandler;
         [ [ PlayerEmployData instance ] employ:select ];
         //[ scrollView removeItem:select ];
         [ itemArray removeObjectAtIndex:select ];
+        [ [ PublicUIHandler instance ] updateGold ];
         
         [ self updateEmployData ];
     }
