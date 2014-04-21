@@ -19,6 +19,5 @@
 
 - ( void ) setCompleteEvent:( int )i;
 - ( int ) getCompleteEvent:( int )i;
-- ( BOOL ) checkCompleteEventNext:( int )i;
 
 @end

@@ -1,6 +1,6 @@
 <root >
     
-    <guide id="50" bg="BG001A" activeScene="cityOut" bgFade="0.75" next="51" >
+    <guide id="50" story="50" workRank="2" bg="BG001A" activeScene="cityOut" bgFade="0.75" next="51" >
         <g str="" white="0.7" />
         <g str="" fadeout="1.5" />
         <g str="                《威尔的炼金工房》           " music="BGM005" />
@@ -9,7 +9,7 @@
         <g str="他们从大地、森林里搜索稀少的资源，发掘古代遗迹，从而掌握了许多特别的技艺。" />
         <g str="就这样随着众多的【工匠】互相切磋琢磨、追求新的事物，成就了这个独一无二的技术都市。" />
     </guide>
-   
+    
 </root>
 
 

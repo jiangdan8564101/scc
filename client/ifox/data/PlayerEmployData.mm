@@ -121,6 +121,31 @@ PlayerEmployData* gPlayerEmployData = NULL;
     
     Reload = NO;
     
+    
+    // event
+    
+    data = [ EventData instance ].Dic;
+    
+    for ( int i = 0 ; i < data.count ; ++i )
+    {
+        int eventID = [ [ data.allKeys objectAtIndex:i ] intValue ];
+        EventConfigData* event = [ [ EventConfig instance ] getEventConfigData:eventID ];
+        
+        if ( event.ComEmploy )
+        {
+            CreatureCommonData* comm = [ self CreateCreature:event.ComEmploy ];
+            
+            if ( [ [ PlayerCreatureData instance ] getCommonDataWithID:comm.ID ] )
+            {
+                [ comm release ];
+                continue;
+            }
+            
+            [ PlayerArray addObject:comm ];
+            [ comm release ];
+        }
+    }
+    
 //    if ( [ PlayerData instance ].FreeMode )
 //    {
 //        NSMutableDictionary* data = [ CreatureConfig instance ].NpcDic;
@@ -149,27 +174,7 @@ PlayerEmployData* gPlayerEmployData = NULL;
 //        [ PlayerArray addObject:comm ];
 //        [ comm release ];
 //        
-//        NSMutableDictionary* data = [ EventData instance ].Dic;
 //        
-//        for ( int i = 0 ; i < data.count ; ++i )
-//        {
-//            int eventID = [ [ data.allKeys objectAtIndex:i ] intValue ];
-//            EventConfigData* event = [ [ EventConfig instance ] getEventConfigData:eventID ];
-//            
-//            if ( event.ComEmploy )
-//            {
-//                CreatureCommonData* comm = [ self CreateCreature:event.ComEmploy ];
-//                
-//                if ( [ [ PlayerCreatureData instance ] getCommonDataWithID:comm.ID ] )
-//                {
-//                    [ comm release ];
-//                    continue;
-//                }
-//                
-//                [ PlayerArray addObject:comm ];
-//                [ comm release ];
-//            }
-//        }
 //        
 //    }
     

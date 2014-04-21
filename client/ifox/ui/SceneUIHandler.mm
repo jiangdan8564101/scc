@@ -12,6 +12,8 @@
 #import "GameSceneManager.h"
 #import "SceneData.h"
 #import "PlayerData.h"
+#import "GameEventManager.h"
+#import "TalkUIHandler.h"
 
 @implementation SceneUIHandler
 @synthesize SelScene , SelTeam;
@@ -126,10 +128,28 @@ static SceneUIHandler* gSceneUIHandler;
 
 - ( void ) onStart
 {
+    [ [ GameEventManager instance ] clearEvent ];
+    
     SelTeam = selectTeam;
     SelScene = selectScene.SubSceneID;
     
-    if ( ![ [ PlayerData instance ] checkBattleStory:selectScene.SubSceneID ] )
+    [ [ GameEventManager instance ] checkBattleEvent:SelScene ];
+    EventConfigData* event = [ GameEventManager instance ].ActiveEvent;
+    if ( event && event.StartBattleGuide )
+    {
+        if ( [ [ TalkUIHandler instance ] isOpened ] )
+        {
+            [ self startBattle ];
+            return;
+        }
+        
+        [ [ TalkUIHandler instance ] visible:YES ];
+        [ [ TalkUIHandler instance ] setData:event.StartBattleGuide ];
+        
+        return;
+    }
+    
+    if ( ![ [ PlayerData instance ] checkBattleStory:SelScene ] )
     {
         [ self startBattle ];
     }

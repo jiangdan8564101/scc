@@ -50,17 +50,4 @@ EventData* gEventData = NULL;
 }
 
 
-- ( BOOL ) checkCompleteEventNext:( int )ii
-{
-    for ( int i = 0 ; i < Dic.count ; ++i )
-    {
-        if ( [ [ Dic.allValues objectAtIndex:i ] intValue ] == ii )
-        {
-            return YES;
-        }
-    }
-    
-    return NO;
-}
-
 @end

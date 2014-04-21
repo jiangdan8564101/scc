@@ -83,7 +83,7 @@
 @property ( nonatomic , assign ) NSMutableArray* Steps;
 @property ( nonatomic ) int GuideID;
 @property ( nonatomic ) int NextID , Mask;
-@property ( nonatomic ) int Story , NextStory;
+@property ( nonatomic ) int Story , NextStory , WorkRank;
 @property ( nonatomic ) int CheckBattle , CheckBattleEnd;
 @property ( nonatomic ) float BGFadeRight , BGFadeLeft , BGFade;
 @property ( nonatomic , assign ) NSString* BG;

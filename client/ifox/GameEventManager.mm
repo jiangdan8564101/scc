@@ -47,14 +47,6 @@ GameEventManager* gGameEventManager = NULL;
     {
         EventConfigData* data = [ dic.allValues objectAtIndex: i ];
         
-        int nextID = [ [ EventData instance ] getCompleteEvent:data.ID ];
-        
-        if ( nextID != 0 )
-        {
-            // compleated,,
-            continue;
-        }
-        
         if ( sub != data.BattleMap )
         {
             continue;
@@ -65,23 +57,23 @@ GameEventManager* gGameEventManager = NULL;
             continue;
         }
         
-        if ( data.Quest && [ [ QuestData instance ] getQuest:data.Quest ] != QDT_ACTIVE )
+        int nextID = [ [ EventData instance ] getCompleteEvent:data.ID ];
+        
+        if ( nextID )
         {
-            continue;
+            // compleated,,
+            
+            if ( ![ [ EventData instance ] getCompleteEvent:nextID ] )
+            {
+                if ( getRand( 0 , 100 ) > data.Random )
+                {
+                    return;
+                }
+                
+                ActiveEvent = data;
+            }
         }
-        
-//        if ( data.Story && [ PlayerData instance ].Story >= data.Story )
-//        {
-//            if ( getRand( 0 , 100 ) > data.Random )
-//            {
-//                return;
-//            }
-//            
-//            ActiveEvent = data;
-//            break;
-//        }
-        
-        if ( [ [ EventData instance ] checkCompleteEventNext:data.ID ] )
+        else
         {
             if ( getRand( 0 , 100 ) > data.Random )
             {
@@ -89,17 +81,8 @@ GameEventManager* gGameEventManager = NULL;
             }
             
             ActiveEvent = data;
-            break;
         }
-        
     }
-    
-    if ( ActiveEvent )
-    {
-        [ [ TalkUIHandler instance ] visible:YES ];
-        [ [ TalkUIHandler instance ] setData:ActiveEvent.StartGuide ];
-    }
-    
 }
 
 - ( void ) clearEvent
@@ -107,42 +90,48 @@ GameEventManager* gGameEventManager = NULL;
     ActiveEvent = NULL;
 }
 
-- ( void ) checkEvent
-{
-    if ( ActiveEvent )
-    {
-        return;
-    }
-    
-    if ( [ TalkUIHandler instance ].isOpened )
-    {
-        return;
-    }
-    
-    NSMutableDictionary* dic = [ EventConfig instance ].Dic;
-    
-    for ( int i = 0 ; i < dic.count ; ++i )
-    {
-        EventConfigData* data = [ dic.allValues objectAtIndex: i ];
-        
-        int nextID = [ [ EventData instance ] getCompleteEvent:data.ID ];
-        
-        if ( nextID != 0 )
-        {
-            continue;
-        }
-        
-        if ( data.CheckScene.length && ![ [ GameSceneManager instance ] checkScene:data.CheckScene ] )
-        {
-            continue;
-        }
-        
-        if ( data.Employ && ![ [ PlayerCreatureData instance ] getCommonDataWithID:data.Employ ] )
-        {
-            continue;
-        }
-        
-//        if ( data.Story && [ PlayerData instance ].Story >= data.Story )
+//- ( void ) checkEvent
+//{
+//    if ( ActiveEvent )
+//    {
+//        return;
+//    }
+//    
+//    if ( [ TalkUIHandler instance ].isOpened )
+//    {
+//        return;
+//    }
+//    
+//    NSMutableDictionary* dic = [ EventConfig instance ].Dic;
+//    
+//    for ( int i = 0 ; i < dic.count ; ++i )
+//    {
+//        EventConfigData* data = [ dic.allValues objectAtIndex: i ];
+//        
+//        int nextID = [ [ EventData instance ] getCompleteEvent:data.ID ];
+//        
+//        if ( nextID != 0 )
+//        {
+//            continue;
+//        }
+//        
+//        if ( data.Employ && ![ [ PlayerCreatureData instance ] getCommonDataWithID:data.Employ ] )
+//        {
+//            continue;
+//        }
+//        
+////        if ( data.Story && [ PlayerData instance ].Story >= data.Story )
+////        {
+////            if ( getRand( 0 , 100 ) > data.Random )
+////            {
+////                return;
+////            }
+////            
+////            ActiveEvent = data;
+////            break;
+////        }
+//        
+//        if ( [ [ EventData instance ] checkCompleteEventNext:data.ID ] )
 //        {
 //            if ( getRand( 0 , 100 ) > data.Random )
 //            {
@@ -152,25 +141,14 @@ GameEventManager* gGameEventManager = NULL;
 //            ActiveEvent = data;
 //            break;
 //        }
-        
-        if ( [ [ EventData instance ] checkCompleteEventNext:data.ID ] )
-        {
-            if ( getRand( 0 , 100 ) > data.Random )
-            {
-                return;
-            }
-            
-            ActiveEvent = data;
-            break;
-        }
-    }
-    
-    if ( ActiveEvent )
-    {
-        [ [ TalkUIHandler instance ] visible:YES ];
-        [ [ TalkUIHandler instance ] setData:ActiveEvent.StartGuide ];
-    }
-}
+//    }
+//    
+//    if ( ActiveEvent )
+//    {
+//        [ [ TalkUIHandler instance ] visible:YES ];
+//        [ [ TalkUIHandler instance ] setData:ActiveEvent.StartGuide ];
+//    }
+//}
 
 
 - ( void ) endEvent:( BOOL )b
@@ -187,11 +165,14 @@ GameEventManager* gGameEventManager = NULL;
         
         [ [ EventData instance ] setCompleteEvent:ActiveEvent.ID ];
         
-        [ [ ItemData instance ] addItem:ActiveEvent.ComItem0 : ActiveEvent.ComItemNum0 ];
-        
-        if ( ActiveEvent.ComQuest )
+        if ( ActiveEvent.ComItem0 )
         {
-            [ [ QuestData instance ] setQuest:ActiveEvent.ComQuest :QDT_COMPLETE ];
+            [ [ ItemData instance ] addItem:ActiveEvent.ComItem0 : ActiveEvent.ComItemNum0 ];
+        }
+        
+        if ( ActiveEvent.ComItem1 )
+        {
+            [ [ ItemData instance ] addItem:ActiveEvent.ComItem1 : ActiveEvent.ComItemNum1 ];
         }
     }
     else
@@ -211,27 +192,13 @@ GameEventManager* gGameEventManager = NULL;
         return;
     }
     
-    if ( [ [ [ ItemData instance ] getItem:ActiveEvent.CItem0 ] Number ] < ActiveEvent.CItemNum0 )
+    if ( [ [ PlayerData instance ] getMonsterData:ActiveEvent.BattleMonster ] )
     {
         ActiveEvent = NULL;
         [ self endEvent:NO ];
         return;
     }
     
-    if ( ActiveEvent.CKill && [ [ PlayerData instance ] getMonsterData:ActiveEvent.BattleMonster ] < ActiveEvent.CKill )
-    {
-        ActiveEvent = NULL;
-        [ self endEvent:NO ];
-        return;
-    }
-    
-    if ( ActiveEvent.CLevel && [ PlayerData instance ].WorkRank < ActiveEvent.CLevel )
-    {
-        ActiveEvent = NULL;
-        [ self endEvent:NO ];
-        return;
-    }
-
     [ self endEvent:YES ];
 }
 

@@ -1,14 +1,11 @@
 <root >
-    
-    <e id="1" story="115" checkScene="" employ="0" battleMap="103" battleMonster="1001" random="100" startGuide="10001" comGuide="10002" quest="" failedGuide="" nextID="-1" cKill="1" cLevel="" cItem0="" cItemNum0="" comItem0="" comItemNum0="" comEmploy="4" comQuest="" />
-    
-    <e id="2" story="115" checkScene="" employ="0" battleMap="104" battleMonster="1001" random="100" startGuide="10011" comGuide="10012"  failedGuide="" nextID="3" cKill="1" cLevel="" cItem0="" cItemNum0="" comItem0="" comItemNum0="" comEmploy="" quest="" />
+    <!-- 随机事件 -->
     
     
     <!-- 死神1 -->
-    <e id="2" story="115" checkScene="" employ="0" battleMap="201" quest="101" comQuest="101" battleMonster="1000" random="100" startGuide="10021" comGuide="10022"  failedGuide="" nextID="-1" cKill="1" cLevel="" cItem0="" cItemNum0="" comItem0="" comItemNum0="" comEmploy="4" />
+    <e id="1" employ="3" battleMap="201" battleMonster="1000" random="100" startBattleGuide="111" startGuide="10021" comGuide="10022" failedGuide="" nextID="2" />
     
     <!-- 被困的水精灵 -->
-    <e id="3" story="115" checkScene="" employ="0" battleMap="201" quest="101" comQuest="101" battleMonster="1002" random="100" startGuide="10021" comGuide="10022"  failedGuide="" nextID="-1" cKill="1" cLevel="" cItem0="" cItemNum0="" comItem0="" comItemNum0="" comEmploy="4" />
+    <e id="10" story="115" checkScene="" employ="0" battleMap="201" battleMonster="1002" random="100" startGuide="10021" comGuide="10022" failedGuide="" nextID="11" comEmploy="4" />
 </root>
 

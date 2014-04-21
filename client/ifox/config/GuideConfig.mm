@@ -21,7 +21,7 @@
 @end
 
 @implementation GuideConfigData
-@synthesize Steps , Story , NextStory , BG , GuideID , NextID , NextScene , CheckScene , Mask , BGFadeRight , BGFadeLeft , BGFade , CheckBattle , CheckBattleEnd;
+@synthesize Steps , Story , NextStory , WorkRank , BG , GuideID , NextID , NextScene , CheckScene , Mask , BGFadeRight , BGFadeLeft , BGFade , CheckBattle , CheckBattleEnd;
 @end
 
 @implementation GuideConfig
@@ -110,6 +110,7 @@ GuideConfig* gGuideConfig = NULL;
         configData.GuideID = [ [ attributeDict objectForKey:@"id" ] intValue ];
         configData.Story = [ [ attributeDict objectForKey:@"story" ] intValue ];
         configData.NextStory = [ [ attributeDict objectForKey:@"nextStory" ] intValue ];
+        configData.WorkRank = [ [ attributeDict objectForKey:@"workRank" ] intValue ];
         configData.Mask = [ [ attributeDict objectForKey:@"mask" ] intValue ];
         configData.BGFadeLeft = [ [ attributeDict objectForKey:@"bgFadeLeft" ] floatValue ];
         configData.BGFadeRight = [ [ attributeDict objectForKey:@"bgFadeRight" ] floatValue ];

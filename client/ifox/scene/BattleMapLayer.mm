@@ -913,12 +913,19 @@
                     break;
                 }
                 
-                [ [ GameEventManager instance ] checkBattleEvent:subSceneMap.ID ];
+                //[ [ GameEventManager instance ] checkBattleEvent:subSceneMap.ID ];
                 
                 EventConfigData* event = [ GameEventManager instance ].ActiveEvent;
+                
                 if ( !event )
                 {
                     break;
+                }
+                
+                if ( event.StartGuide )
+                {
+                    [ [ TalkUIHandler instance ] visible:YES ];
+                    [ [ TalkUIHandler instance ] setData:event.StartGuide ];
                 }
                 
                 int x = [ [ attributeDict objectForKey:@"x" ] intValue ];
@@ -1782,16 +1789,7 @@
             }
             else if ( bc.Event )
             {
-                EventConfigData* event = [ GameEventManager instance ].ActiveEvent;
-                
-                if ( event.CKill )
-                {
-                    [ battleStage startBoss:bc.Event :1 :i ];
-                }
-                else
-                {
-                    [ [ GameEventManager instance ] checkEventComplete ];
-                }
+                [ battleStage startBoss:bc.Event :1 :i ];
             }
             
             leaderStep = 0;
@@ -2058,8 +2056,6 @@
     waitEffect = NO;
     
     [ battleStage clearBattleStage ];
-    
-    [ [ GameEventManager instance ] clearEvent ];
     
     for ( int i = 0 ; i < MAX_BATTLE_PLAYER ; ++i )
     {

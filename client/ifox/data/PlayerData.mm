@@ -404,6 +404,14 @@ PlayerData* gPlayerData = NULL;
             }
         }
         
+        if ( data.WorkRank )
+        {
+            if ( WorkRank < data.WorkRank )
+            {
+                return NO;
+            }
+        }
+        
         [ [ TalkUIHandler instance ] visible:YES ];
         [ [ TalkUIHandler instance ] setData:data.GuideID ];
         

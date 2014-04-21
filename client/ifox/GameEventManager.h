@@ -20,7 +20,6 @@
 + ( GameEventManager* )instance;
 
 - ( void ) checkBattleEvent:( int )sub;
-- ( void ) checkEvent;
 - ( void ) endEvent:( BOOL )b;
 - ( void ) checkEventComplete;
 - ( void ) clearEvent;
