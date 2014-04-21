@@ -37,7 +37,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playerhp.png" id="GPX-6z-xjl">
-                                    <rect key="frame" x="4" y="99" width="90" height="5"/>
+                                    <rect key="frame" x="5" y="98" width="90" height="6"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ZYE-Hk-jO3" customClass="UIEffectAction">
@@ -63,7 +63,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playerhp.png" id="D9Q-fT-aic">
-                                    <rect key="frame" x="4" y="99" width="90" height="5"/>
+                                    <rect key="frame" x="5" y="98" width="90" height="6"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="9Bd-3t-6xR" customClass="UIEffectAction">
@@ -89,7 +89,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" tag="301" contentMode="scaleToFill" image="playerhp.png" id="4h2-0f-9FO">
-                                    <rect key="frame" x="4" y="99" width="90" height="5"/>
+                                    <rect key="frame" x="5" y="98" width="90" height="6"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                                 <imageView userInteractionEnabled="NO" tag="400" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="DXc-hr-JpX" customClass="UIEffectAction">
@@ -138,7 +138,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="UqV-at-OM6">
-                            <rect key="frame" x="21" y="96" width="42" height="10"/>
+                            <rect key="frame" x="21" y="95" width="42" height="10"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="Iuv-jQ-CFG">
@@ -235,7 +235,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="Itg-AN-RnW">
-                            <rect key="frame" x="21" y="96" width="42" height="10"/>
+                            <rect key="frame" x="21" y="95" width="42" height="10"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="fAQ-gW-SY9">
@@ -332,7 +332,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="FOw-uL-Oh4">
-                            <rect key="frame" x="21" y="96" width="42" height="10"/>
+                            <rect key="frame" x="21" y="95" width="42" height="10"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="gk5-8K-i6n">
@@ -429,7 +429,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="r6H-cT-bpi">
-                            <rect key="frame" x="21" y="96" width="42" height="10"/>
+                            <rect key="frame" x="21" y="95" width="42" height="10"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="Knk-KV-utn">
@@ -526,7 +526,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" tag="302" contentMode="scaleToFill" image="playersf.png" id="asy-1y-ynw">
-                            <rect key="frame" x="21" y="96" width="42" height="10"/>
+                            <rect key="frame" x="21" y="95" width="42" height="10"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="playerhpWord.png" id="OLe-Bm-tgi">

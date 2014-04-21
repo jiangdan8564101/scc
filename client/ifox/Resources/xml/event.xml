@@ -3,7 +3,7 @@
     
     
     <!-- 死神1 -->
-    <e id="1" employ="4" battleMap="103" battleMonster="1000" random="25" startBattleGuide="" startGuide="10000" comGuide="10001" failedGuide="10002" nextID="0" />
+    <e id="1" employ="4" battleMap="103" battleMonster="1000" random="50" startBattleGuide="" startGuide="10000" comGuide="10001" failedGuide="10002" nextID="0" />
     
     <!-- 被困的水精灵 -->
     <!--e id="10" battleMap="201" battleMonster="1002" random="100" startGuide="10021" comGuide="10022" failedGuide="" nextID="11" comEmploy="4" /-->
