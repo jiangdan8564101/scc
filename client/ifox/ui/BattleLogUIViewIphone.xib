@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1072" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -24,7 +24,7 @@
                     <rect key="frame" x="-20" y="-26" width="520" height="480"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <view hidden="YES" tag="2102" contentMode="scaleToFill" id="d0C-Dt-9aj" customClass="BattleEnemyView">
+                        <view hidden="YES" tag="2101" contentMode="scaleToFill" id="d0C-Dt-9aj" customClass="BattleEnemyView">
                             <rect key="frame" x="94" y="89" width="107" height="110"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
@@ -76,7 +76,7 @@
                                 </view>
                             </subviews>
                         </view>
-                        <view hidden="YES" tag="2101" contentMode="scaleToFill" id="t95-Yd-CyR" customClass="BattleEnemyView">
+                        <view hidden="YES" tag="2102" contentMode="scaleToFill" id="t95-Yd-CyR" customClass="BattleEnemyView">
                             <rect key="frame" x="300" y="89" width="107" height="110"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
