@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1072" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -43,11 +43,11 @@
                     <rect key="frame" x="199" y="64" width="170" height="26"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="battleend1.png" id="Fyp-9G-KHD">
+                <imageView userInteractionEnabled="NO" tag="3001" contentMode="scaleToFill" image="battleend1.png" id="Fyp-9G-KHD">
                     <rect key="frame" x="170" y="99" width="228" height="214"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="battleend2.png" id="d0h-q4-jkW">
+                <imageView userInteractionEnabled="NO" tag="3002" contentMode="scaleToFill" image="battleend2.png" id="d0h-q4-jkW">
                     <rect key="frame" x="170" y="99" width="228" height="214"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>

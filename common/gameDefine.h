@@ -83,7 +83,7 @@ const fint32    PRO_ITEM = 300;
 const fint32    WORK_RANK_ITEM = 201;
 const fint32    MAX_WORK_RANK = 20;
 const fint32    HP_ITEM = 60001;
-
+const fint32    GOLD_ITEM = 52000;
 
 const fint32    MAX_HP = 999;
 

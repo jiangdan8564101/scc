@@ -90,6 +90,11 @@ static BattleEndItemUIHandler* gBattleEndItemUIHandler;
 
 - ( void ) setData:( NSMutableDictionary* )dic :(int)gold
 {
+    UIImageView* imageView1 = (UIImageView*)[ view viewWithTag:3001 ];
+    UIImageView* imageView2 = (UIImageView*)[ view viewWithTag:3002 ];
+    imageView1.hidden = YES;
+    imageView2.hidden = NO;
+    
     for ( int i = 0 ; i < 10 ; i++ )
     {
         UIView* view1 = [ view viewWithTag:1000 + i ];
@@ -111,6 +116,20 @@ static BattleEndItemUIHandler* gBattleEndItemUIHandler;
             {
                 PackItemData* itemData = [ [ ItemData instance ] getItem:itemID ];
                 ItemConfigData* configData = [ [ ItemConfig instance ] getData:itemData.ItemID ];
+                
+                if ( configData.ID == GOLD_ITEM || configData.ID == SPECIAL_ITEM )
+                {
+                    imageView1.hidden = NO;
+                    imageView2.hidden = YES;
+                    
+                    UILabel* labelName = (UILabel*)[ view1 viewWithTag:100 ];
+                    [ labelName setTextColor:[ UIColor yellowColor ]  ];
+                }
+                else
+                {
+                    UILabel* labelName = (UILabel*)[ view1 viewWithTag:100 ];
+                    [ labelName setTextColor:[ UIColor whiteColor ]  ];
+                }
                 
                 if ( itemData )
                 {
@@ -143,6 +162,7 @@ static BattleEndItemUIHandler* gBattleEndItemUIHandler;
             
             UILabel* labelName = (UILabel*)[ view1 viewWithTag:100 ];
             [ labelName setText:NSLocalizedString( @"Gold" , nil ) ];
+            [ labelName setTextColor:[ UIColor whiteColor ]  ];
             
             UILabel* labelNum = (UILabel*)[ view1 viewWithTag:200 ];
             [ labelNum setText:[ NSString stringWithFormat:@"%d" , gold ] ];
