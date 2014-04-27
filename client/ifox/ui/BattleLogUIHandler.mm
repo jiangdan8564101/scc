@@ -218,7 +218,7 @@ static BattleLogUIHandler* gBattleLogUIHandler;
 
 - ( void ) fightSelf:( NSArray* )arr :( NSString* )eff :( int )hit
 {
-    BOOL sound = [ [ BattleMapScene instance ] getActiveLogUI ] == self;
+    BOOL sound = [ [ BattleMapScene instance ] getActiveMapLayer ].LayerIndex == 0 && [ [ BattleMapScene instance ] getActiveLogUI ] == self;
     BOOL played = NO;
     
     for ( int i = 0 ; i < arr.count ; i++ )
@@ -239,7 +239,7 @@ static BattleLogUIHandler* gBattleLogUIHandler;
 
 - ( void ) fightEnemy:( NSArray* )arr :( NSString* )eff :( int )hit
 {
-    BOOL sound = [ [ BattleMapScene instance ] getActiveLogUI ] == self;
+    BOOL sound = [ [ BattleMapScene instance ] getActiveMapLayer ].LayerIndex == 0 && [ [ BattleMapScene instance ] getActiveLogUI ] == self;
     BOOL played = NO;
     
     for ( int i = 0 ; i < arr.count ; i++ )
@@ -261,7 +261,7 @@ static BattleLogUIHandler* gBattleLogUIHandler;
 
 - ( void ) fightSelfF:( NSArray* )arr :( NSString* )eff
 {
-    BOOL sound = [ [ BattleMapScene instance ] getActiveLogUI ] == self;
+    BOOL sound = [ [ BattleMapScene instance ] getActiveMapLayer ].LayerIndex == 0 && [ [ BattleMapScene instance ] getActiveLogUI ] == self;
     BOOL played = NO;
     
     for ( int i = 0 ; i < arr.count ; i++ )
@@ -282,7 +282,7 @@ static BattleLogUIHandler* gBattleLogUIHandler;
 
 - ( void ) fightEnemyF:( NSArray* )arr :( NSString* )eff
 {
-    BOOL sound = [ [ BattleMapScene instance ] getActiveLogUI ] == self;
+    BOOL sound = [ [ BattleMapScene instance ] getActiveMapLayer ].LayerIndex == 0 && [ [ BattleMapScene instance ] getActiveLogUI ] == self;
     BOOL played = NO;
     
     for ( int i = 0 ; i < arr.count ; i++ )

@@ -1079,7 +1079,11 @@
     
     if ( [ elementName isEqualToString:@"map" ] )
     {
-        [ [ GameAudioManager instance ] playMusic:[ attributeDict objectForKey:@"bgm" ] :0 ];
+        if ( LayerIndex == 0 )
+        {
+            [ [ GameAudioManager instance ] playMusic:[ attributeDict objectForKey:@"bgm" ] :0 ];
+        }
+        
         
         ID = [ [ attributeDict objectForKey:@"id" ] intValue ];
         Mask = [ [ NSString alloc ] initWithFormat:@"SO011%@" , [ attributeDict objectForKey:@"mask" ] ];

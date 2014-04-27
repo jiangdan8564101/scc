@@ -34,6 +34,8 @@ static BattleTopUIHandler* gBattleTopUIHandler;
 
 - ( void ) addADB
 {
+    return;
+    
     if ( ADBView )
     {
         [ ADBView removeFromSuperview ];
@@ -130,13 +132,14 @@ static BattleTopUIHandler* gBattleTopUIHandler;
     
 }
 
+
 - ( void ) onOut
 {
-    if ( ![ [ GameDataManager instance ] getBuyItem ] && ADBView.hidden )
-    {
-        ADBView.hidden = NO;
-        return;
-    }
+//    if ( ![ [ GameDataManager instance ] getBuyItem ] && ADBView.hidden )
+//    {
+//        ADBView.hidden = NO;
+//        return;
+//    }
     
     GuideConfigData* data = [ [ GuideConfig instance ] getData:SOT_HOME ];
     
@@ -152,19 +155,19 @@ static BattleTopUIHandler* gBattleTopUIHandler;
 
 - ( void ) onSpeed
 {
-    if ( ![ [ GameDataManager instance ] getBuyItem ] && ADBView.hidden )
-    {
-        ADBView.hidden = NO;
-        return;
-    }
+//    if ( ![ [ GameDataManager instance ] getBuyItem ] && ADBView.hidden )
+//    {
+//        ADBView.hidden = NO;
+//        return;
+//    }
     
     if ( GAME_SPEED == 1.0f )
     {
-        GAME_SPEED = 1.5f;
+        GAME_SPEED = 1.4f;
     }
-    else if ( GAME_SPEED == 1.5f )
+    else if ( GAME_SPEED == 1.4f )
     {
-        GAME_SPEED = 2.0f;
+        GAME_SPEED = 1.8f;
     }
     else
     {
@@ -217,7 +220,7 @@ static BattleTopUIHandler* gBattleTopUIHandler;
     {
         [ button setTitle:NSLocalizedString( @"GameSpeed1" , nil ) forState:UIControlStateNormal ];
     }
-    else if ( GAME_SPEED == 1.5f )
+    else if ( GAME_SPEED == 1.4f )
     {
         [ button setTitle:NSLocalizedString( @"GameSpeed2" , nil ) forState:UIControlStateNormal ];
     }

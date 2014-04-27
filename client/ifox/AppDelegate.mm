@@ -13,7 +13,7 @@
 #import "GameMain.h"
 #import "ClientDefine.h"
 #import <StoreKit/SKPaymentQueue.h>
-
+#import "GameUIManager.h"
 
 Resource gActualResource;
 
@@ -174,6 +174,7 @@ Resource gActualResource;
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
 {
 	[[CCDirector sharedDirector] purgeCachedData];
+    [ [ GameUIManager instance] releaseAllUI];
 }
 
 // next delta time will be zero

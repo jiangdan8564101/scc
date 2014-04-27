@@ -208,7 +208,7 @@ BattleMapScene* gBattleMapScene = NULL;
 
 - ( void ) loadSP
 {
-    //GAME_SPEED = [ PlayerData instance ].BattleSpeed;
+    GAME_SPEED = [ PlayerData instance ].BattleSpeed;
 
     [ mapLayer[ 0 ] loadSP ];
     
@@ -226,7 +226,7 @@ BattleMapScene* gBattleMapScene = NULL;
 
 - ( void ) load:( int )i :( int )t
 {
-    //GAME_SPEED = [ PlayerData instance ].BattleSpeed;
+    GAME_SPEED = [ PlayerData instance ].BattleSpeed;
 
     [ mapLayer[ 0 ] load:i :t ];
     

@@ -215,9 +215,12 @@
     hpArrayAtk = NULL;
     hpArrayDef = NULL;
     
-    [ [ GameAudioManager instance ] playMusic:playingMusic :musicTime ];
-    [ playingMusic release ];
-    playingMusic = NULL;
+    if ( mapLayer.LayerIndex == 0 )
+    {
+        [ [ GameAudioManager instance ] playMusic:playingMusic :musicTime ];
+        [ playingMusic release ];
+        playingMusic = NULL;
+    }
 }
 
 - ( void ) endFight
@@ -1091,13 +1094,17 @@
     
     [ LogUI startFightMovie:self :@selector(onStartBoss) ];
     
-    [ playingMusic release ];
-    playingMusic = [ GameAudioManager instance ].Playing.retain;
+    if ( [ mapLayer LayerIndex ] == 0 )
+    {
+        [ playingMusic release ];
+        playingMusic = [ GameAudioManager instance ].Playing.retain;
+        
+        int r = rand() % 3;
+        
+        musicTime = [ [ GameAudioManager instance ] getCurrectTime ];
+        [ [ GameAudioManager instance ] playMusic:[ NSString stringWithFormat:@"BGM03%d" , 3 + r ] :0 ];
+    }
     
-    int r = rand() % 3;
-    
-    musicTime = [ [ GameAudioManager instance ] getCurrectTime ];
-    [ [ GameAudioManager instance ] playMusic:[ NSString stringWithFormat:@"BGM03%d" , 3 + r ] :0 ];
 }
 
 
@@ -1185,20 +1192,22 @@
     
     [ LogUI startFightMovie:self :@selector(onStart) ];
     
-    [ playingMusic release ];
-    playingMusic = [ GameAudioManager instance ].Playing.retain;
-    
-    if ( sp )
+    if ( [ mapLayer LayerIndex ] == 0 )
     {
-        musicTime = [ [ GameAudioManager instance ] getCurrectTime ];
-        [ [ GameAudioManager instance ] playMusic:@"BGM031" :0 ];
+        [ playingMusic release ];
+        playingMusic = [ GameAudioManager instance ].Playing.retain;
+        
+        if ( sp )
+        {
+            musicTime = [ [ GameAudioManager instance ] getCurrectTime ];
+            [ [ GameAudioManager instance ] playMusic:@"BGM031" :0 ];
+        }
+        else
+        {
+            musicTime = [ [ GameAudioManager instance ] getCurrectTime ];
+            [ [ GameAudioManager instance ] playMusic:@"BGM032" :0 ];
+        }
     }
-    else
-    {
-        musicTime = [ [ GameAudioManager instance ] getCurrectTime ];
-        [ [ GameAudioManager instance ] playMusic:@"BGM032" :0 ];
-    }
-    
 }
 
 - ( void ) update:( freal32 )d

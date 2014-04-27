@@ -28,7 +28,7 @@
     [ imageView setImage:image ];
     CGRect rect = imageView.frame;
     
-    if ( gActualResource.type > RESPAD2 )
+    if ( gActualResource.type >= RESPAD2 )
     {
         
     }

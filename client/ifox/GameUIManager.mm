@@ -72,6 +72,10 @@ GameUIManager* gGameUIManager = NULL;
     }
 }
 
+- ( void ) releaseAllUI
+{
+    
+}
 
 - ( void ) removeAllUI
 {
@@ -91,15 +95,12 @@ GameUIManager* gGameUIManager = NULL;
         
         if ( ![ v isKindOfClass:[ UIViewBase class ] ] )
         {
-            // 必须继承UIViewBase,到这里证明代码写错了，用了自定义的handler，
-            
             DEBUGLOG( @"not UIViewBase" );
             assert( 0 );
         }
         
         if (exceptView == v)
         {
-            // 過濾不應該Remove的View，比如正要打開View
             i++;
             continue;
         }

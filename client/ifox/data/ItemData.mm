@@ -110,7 +110,7 @@
         PackItemData* data = [ dic objectForKey:[ array objectAtIndex:i ] ];
         ItemConfigData* cd = [ [ ItemConfig instance ] getData:data.ItemID ];
         
-        if ( !data.Number || !cd.HP )
+        if ( !data.Number || !cd.SP )
         {
             continue;
         }

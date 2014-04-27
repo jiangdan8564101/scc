@@ -35,6 +35,8 @@
 - ( void ) removeAllUI:(UIViewBase*)exceptView;
 - ( void ) removeAllUI:(UIViewBase*)exceptView includeAlways:(BOOL)includeAlways;
 
+- ( void ) releaseAllUI;
+
 - ( void ) initGameUIManager;
 - ( void ) releaseGameUIManager;
 
