@@ -41,7 +41,7 @@ Resource gActualResource;
     {
         gActualResource = resPhoneRetina35;
         
-        [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA4444];
+        
     }
     
 	// Create the main window
@@ -109,6 +109,12 @@ Resource gActualResource;
 	// It can be RGBA8888, RGBA4444, RGB5_A1, RGB565
 	// You can change anytime.
 	[CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA8888];
+    
+    if ( actualWidth == resPhoneRetina35.sizeDesign.width )
+    {
+        [ CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA4444 ];
+    }
+    
     
 	// If the 1st suffix is not found and if fallback is enabled then fallback suffixes are going to searched. If none is found, it will try with the name without suffix.
 	// On iPad HD  : "-ipadhd", "-ipad",  "-hd"
