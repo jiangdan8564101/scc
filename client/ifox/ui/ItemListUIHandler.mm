@@ -613,7 +613,7 @@ static ItemListUIHandler* gItemListUIHandler;
         }
         else
         {
-            [ deslabel setFont:[ font fontWithSize:13 ] ];
+            [ deslabel setFont:[ font fontWithSize:9 ] ];
         }
         
 //        if ( ![ skillData isLearned ] )
