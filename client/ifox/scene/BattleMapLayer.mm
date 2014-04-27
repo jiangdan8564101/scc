@@ -435,6 +435,7 @@
     [ self clear ];
     
     team = t;
+    
     subSceneMap = [ [ MapConfig instance ] getSubSceneMap:i ];
     sceneDataItem = [ [ SceneData instance ] getSceneData:i ];
     
@@ -1364,7 +1365,7 @@
         
         if ( subSceneMap.Enemy.count )
         {
-            //[ battleStage start:sceneDataItem.SPEnemy ];
+            [ battleStage start:sceneDataItem.SPEnemy ];
         }
         
         return;
@@ -1812,7 +1813,7 @@
     {
         if ( subSceneMap.Enemy.count )
         {
-            //[ battleStage start:sceneDataItem.SPEnemy ];
+            [ battleStage start:sceneDataItem.SPEnemy ];
         }
         
         leaderStep = 0;
@@ -2073,17 +2074,6 @@
     waitEffect = NO;
     
     [ battleStage clearBattleStage ];
-    
-    for ( int i = 0 ; i < MAX_BATTLE_PLAYER ; ++i )
-    {
-        int* team1 = [ [ PlayerCreatureData instance ] getTeam:team ];
-        
-        if ( team1[ i ] )
-        {
-            CreatureCommonData* commonData1 = [ [ PlayerCreatureData instance ] getCommonData:team1[ i ] ];
-            [ commonData1 resetData ];
-        }
-    }
     
     int count = Creatures.count;
     for ( int i = 0 ; i < count ; i++ )

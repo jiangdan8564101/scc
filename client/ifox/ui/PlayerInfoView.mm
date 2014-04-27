@@ -51,11 +51,11 @@
     label = (UILabel*)[ self viewWithTag:21 ];
     [ label setText:[ NSString stringWithFormat:@"%d" , d.EXP ] ];
     label = (UILabel*)[ self viewWithTag:22 ];
-    [ label setText:[ NSString stringWithFormat:@"%d/%d" , (int)d.RealBaseData.HP , (int)d.RealBaseData.HP ] ];
+    [ label setText:[ NSString stringWithFormat:@"%d/%d" , (int)d.RealBaseData.HP , (int)d.RealBaseData.MaxHP ] ];
     label = (UILabel*)[ self viewWithTag:23 ];
-    [ label setText:[ NSString stringWithFormat:@"%d/%d" , (int)d.RealBaseData.SP , (int)d.RealBaseData.SP ] ];
+    [ label setText:[ NSString stringWithFormat:@"%d/%d" , (int)d.RealBaseData.SP , (int)d.RealBaseData.MaxSP ] ];
     label = (UILabel*)[ self viewWithTag:24 ];
-    [ label setText:[ NSString stringWithFormat:@"%d/%d" , (int)d.RealBaseData.FS , (int)d.RealBaseData.FS ] ];
+    [ label setText:[ NSString stringWithFormat:@"%d/%d" , (int)d.RealBaseData.FS , (int)d.RealBaseData.MaxFS ] ];
     label = (UILabel*)[ self viewWithTag:25 ];
     [ label setText:[ NSString stringWithFormat:@"%d" , (int)proL.Level ] ];
     

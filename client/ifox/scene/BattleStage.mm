@@ -92,7 +92,7 @@
     {
         CreatureCommonData* comm = [ selfCreatures objectAtIndex:i ];
         
-        //comm.RealBaseData.FS--;
+        comm.RealBaseData.FS--;
         
         if ( comm.RealBaseData.FS < 1 )
         {

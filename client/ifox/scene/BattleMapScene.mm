@@ -275,6 +275,20 @@ BattleMapScene* gBattleMapScene = NULL;
         [ mapLayer[ i ] clear ];
     }
     
+    for ( int j = 0 ; j < MAX_TEAM ; ++j )
+    {
+        for ( int i = 0 ; i < MAX_BATTLE_PLAYER ; ++i )
+        {
+            int* team1 = [ [ PlayerCreatureData instance ] getTeam:j ];
+            
+            if ( team1[ i ] )
+            {
+                CreatureCommonData* commonData1 = [ [ PlayerCreatureData instance ] getCommonData:team1[ i ] ];
+                [ commonData1 resetData ];
+            }
+        }
+    }
+    
     [ [ BattleTopUIHandler instance ] visible:NO ];
     
     [ [ BattleLogUIHandler instance ] endFight ];
