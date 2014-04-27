@@ -68,7 +68,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <textView clipsSubviews="YES" userInteractionEnabled="NO" tag="2132" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="cWf-bl-wgY">
-                    <rect key="frame" x="326" y="215" width="147" height="45"/>
+                    <rect key="frame" x="326" y="213" width="147" height="45"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="8"/>
