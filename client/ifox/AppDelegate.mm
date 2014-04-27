@@ -40,6 +40,8 @@ Resource gActualResource;
     else if ( actualWidth == resPhoneRetina35.sizeDesign.width )
     {
         gActualResource = resPhoneRetina35;
+        
+        [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA4444];
     }
     
 	// Create the main window
