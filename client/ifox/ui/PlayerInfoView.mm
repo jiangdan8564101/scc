@@ -82,7 +82,7 @@
     }
     else
     {
-        NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"PlayerProMax" , nil ) , proTime - proL.Time ];
+        NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"PlayerProMax" , nil ) ];
         
         [ label setText:str ];
         
