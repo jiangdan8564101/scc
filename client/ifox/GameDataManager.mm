@@ -362,7 +362,7 @@ int gCreatureID = MAIN_PLAYER_ID;
         
         [ [ PlayerData instance ] updateWorkItemEffect ];
         
-        [ PlayerData instance ].Gold = 88888;
+        //[ PlayerData instance ].Gold = 88888;
         
         //[ PlayerData instance ].WorkRank = 13;
         //[ PlayerData instance ].Story = 14;
