@@ -605,7 +605,16 @@ static ItemListUIHandler* gItemListUIHandler;
         NSString* str = NULL;
         
         UIFont* font = deslabel.font;
-        [ deslabel setFont:[ font fontWithSize:17 ] ];
+        
+        if ( gActualResource.type >= RESPAD2 )
+        {
+            UIFont* font = deslabel.font;
+            [ deslabel setFont:[ font fontWithSize:17 ] ];
+        }
+        else
+        {
+            [ deslabel setFont:[ font fontWithSize:13 ] ];
+        }
         
 //        if ( ![ skillData isLearned ] )
 //        {

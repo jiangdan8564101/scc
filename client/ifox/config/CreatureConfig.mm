@@ -148,7 +148,6 @@
     if ( !data )
     {
         [ self initProfession:p :1 ];
-        return;
     }
     
     ProfessionID = p;
@@ -376,9 +375,9 @@
     for ( int i = 0 ; i < all.count ; ++i )
     {
         ProfessionSkillData* data = [ all objectAtIndex:i ];
-        //SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:data.SkillID ];
+        SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:data.SkillID ];
         
-        data.Active = NO;//( !skill.ProfessionID || skill.ProfessionID == ProfessionID );
+        data.Active = ( !skill.ProfessionID || skill.ProfessionID == ProfessionID );
     }
     
     [ self updateProfessionSkillEquip:Equip0 ];
@@ -678,6 +677,12 @@
 //        if ( skill131 )
 //        {
 //            ProfessionSkillData* data34 = [ self getProfessionSkillData:i ];
+//            
+//            if ( !data34 )
+//            {
+//                data34 = [ self createProfessionSkillData:i ];
+//                data34.Active = YES;
+//            }
 //            data34.AP = skill131.AP;
 //            [ Skill setObject:data34 forKey:[ NSNumber numberWithInt:i ] ];
 //        }
