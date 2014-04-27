@@ -252,11 +252,11 @@ int gCreatureID = MAIN_PLAYER_ID;
             [ [ EventData instance ].Dic setObject:[ NSNumber numberWithInt:v ] forKey:[ NSNumber numberWithInt:q ] ];
         }
         
-        for ( int i = 0 ; i < [ ItemConfig instance ].ItemDic.count ; i++ )
-        {
-            ItemConfigData* datacc = [ [ ItemConfig instance ].ItemDic.allValues objectAtIndex: i ];
-            [ [ ItemData instance ] addItem:datacc.ID :1 ];
-        }
+//        for ( int i = 0 ; i < [ ItemConfig instance ].ItemDic.count ; i++ )
+//        {
+//            ItemConfigData* datacc = [ [ ItemConfig instance ].ItemDic.allValues objectAtIndex: i ];
+//            [ [ ItemData instance ] addItem:datacc.ID :99 ];
+//        }
         
 //        [ [ ItemData instance ] addItem:99 :10 ];
 //        [ [ ItemData instance ] addItem:50005 :10 ];

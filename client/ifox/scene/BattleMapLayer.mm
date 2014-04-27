@@ -1364,7 +1364,7 @@
         
         if ( subSceneMap.Enemy.count )
         {
-            [ battleStage start:sceneDataItem.SPEnemy ];
+            //[ battleStage start:sceneDataItem.SPEnemy ];
         }
         
         return;
@@ -1464,7 +1464,7 @@
         {
             BattleSprite* spr = [ BattleSprites objectAtIndex:i ];
             
-            if ( spr.Type == GSFT_Dig || spr.Type == GSFT_Collect || spr.Type == GSFT_Treasure )
+            if ( spr.Type == GSFT_Dig || spr.Type == GSFT_Collect || spr.Type == GSFT_Treasure || spr.Type == GSFT_Door1 || spr.Type == GSFT_Door2 || spr.Type == GSFT_Door3 )
             {
                 BattleMapSprite* spr2 = [ self getSprite:spr.PosX :spr.PosY ];
                 spr1 = spr2;
@@ -1812,7 +1812,7 @@
     {
         if ( subSceneMap.Enemy.count )
         {
-            [ battleStage start:sceneDataItem.SPEnemy ];
+            //[ battleStage start:sceneDataItem.SPEnemy ];
         }
         
         leaderStep = 0;
