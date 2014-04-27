@@ -277,6 +277,11 @@ BattleMapScene* gBattleMapScene = NULL;
     
     [ [ BattleTopUIHandler instance ] visible:NO ];
     
+    [ [ BattleLogUIHandler instance ] endFight ];
+    [ [ BattleLogUIHandler1 instance ] endFight ];
+    [ [ BattleLogUIHandler2 instance ] endFight ];
+    [ [ BattleLogUIHandler3 instance ] endFight ];
+    [ [ BattleLogUIHandler4 instance ] endFight ];
     
     [ [ BattleLogUIHandler instance ] visible:NO ];
     [ [ BattleLogUIHandler1 instance ] visible:NO ];

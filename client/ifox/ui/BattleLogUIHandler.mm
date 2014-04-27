@@ -50,9 +50,10 @@ static BattleLogUIHandler* gBattleLogUIHandler;
     whiteView.alpha = 0.0f;
 }
 
+
 - ( void ) onClosed
 {
-    [ self endFight ];
+    //[ self endFight ];
 }
 
 - ( void ) startFightMovie:( NSObject* )obj :( SEL )s
@@ -303,7 +304,7 @@ static BattleLogUIHandler* gBattleLogUIHandler;
 
 - ( void ) deadSelf:( NSArray* )arr
 {
-
+    
 }
 
 - ( void ) dead:( NSArray* )arr
