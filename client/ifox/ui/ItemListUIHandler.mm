@@ -782,10 +782,7 @@ static ItemListUIHandler* gItemListUIHandler;
         {
             PackItemData* data = [ dic objectForKey:[ allkeys objectAtIndex:i ] ];
             
-            if ( data.Number )
-            {
-                [ itemScrollView addItem:data ];
-            }
+            [ itemScrollView addItem:data ];
         }
     }
     else
