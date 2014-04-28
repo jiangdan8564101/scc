@@ -332,7 +332,7 @@ SceneData* gSceneData = NULL;
 
 - ( void ) randomSPEnemy
 {
-    if ( [ PlayerData instance ].Day % 10 != 1 )
+    if ( [ PlayerData instance ].Day % 5 != 1 )
     {
         return;
     }
