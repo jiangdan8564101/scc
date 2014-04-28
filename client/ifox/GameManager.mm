@@ -78,6 +78,7 @@
     spTime += delay;
     employTime += delay;
     
+    
     if ( employTime > 120.0f )
     {
         employTime = 0.0f;

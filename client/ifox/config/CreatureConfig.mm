@@ -248,15 +248,15 @@
         }
     }
     
-    SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:s ];
-    BaseData.CP += skill.CP;
+    //SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:s ];
+    //BaseData.CP += skill.CP;
     EquipSkill[ index ] = s;
 }
 
 - ( void ) cancelEquipProfessionSkill:( int )index
 {
-    SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:EquipSkill[ index ] ];
-    BaseData.CP -= skill.CP;
+    //SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:EquipSkill[ index ] ];
+    //BaseData.CP -= skill.CP;
     
     EquipSkill[ index ] = INVALID_ID;
 }
@@ -363,6 +363,7 @@
 {
     [ RealBaseData release ];
     RealBaseData = BaseData.copy;
+    RealBaseData.CP = 0;
     
     RealBaseData.Miss += RealBaseData.Agile / 3000.0f;
     RealBaseData.Hit += RealBaseData.Lucky / 3000.0f;
@@ -396,6 +397,8 @@
     for ( int i = 0 ; i < MAX_SKILL ; ++i )
     {
         SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:equipSkill[ i ] ];
+        
+        RealBaseData.CP += skill.CP;
         
         if ( skill.Trigger == STG_NORMAL )
         {
