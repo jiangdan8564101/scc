@@ -59,6 +59,7 @@ static WorkFurnitureUIHandler* gWorkFurnitureUIHandler;
     
     if ( data1.Number <= 0 )
     {
+        data1.Number = 0;
         return;
     }
     
