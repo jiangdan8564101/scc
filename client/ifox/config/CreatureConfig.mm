@@ -248,16 +248,11 @@
         }
     }
     
-    //SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:s ];
-    //BaseData.CP += skill.CP;
     EquipSkill[ index ] = s;
 }
 
 - ( void ) cancelEquipProfessionSkill:( int )index
 {
-    //SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:EquipSkill[ index ] ];
-    //BaseData.CP -= skill.CP;
-    
     EquipSkill[ index ] = INVALID_ID;
 }
 
@@ -335,8 +330,6 @@
         RealBaseData.Miss += item.Miss;
         RealBaseData.Critical += item.Critical;
         RealBaseData.Move += item.Move;
-        //RealBaseData.MaxCP += item.CP;
-        //RealBaseData.CP += item.CP;
         RealBaseData.Guest += item.Guest;
         RealBaseData.Command += item.Command;
         
