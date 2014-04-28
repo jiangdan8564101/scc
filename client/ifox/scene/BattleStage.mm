@@ -551,8 +551,8 @@
 
 - ( int ) pHit:( CreatureCommonData* )com1 :( CreatureCommonData* )com2
 {
-    float hit = 0.98f + com1.RealBaseData.Hit + com1.RealBaseData.Lucky / 3000.0f;
-    float miss = com2.RealBaseData.Miss + com1.RealBaseData.Agile / 3000.0f;
+    float hit = com1.RealBaseData.Hit;
+    float miss = com2.RealBaseData.Miss;
     
     int v = ( hit - miss ) * 100.0f;
     
@@ -568,7 +568,7 @@
         return BHS_MISS;
     }
     
-    int c = com1.RealBaseData.Critical + com1.RealBaseData.Lucky / 5000.0f;
+    int c = com1.RealBaseData.Critical;
     r = rand() % 100;
     
     if ( r > c )
