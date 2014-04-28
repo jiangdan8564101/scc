@@ -335,8 +335,8 @@
         RealBaseData.Miss += item.Miss;
         RealBaseData.Critical += item.Critical;
         RealBaseData.Move += item.Move;
-        RealBaseData.MaxCP += item.CP;
-        RealBaseData.CP += item.CP;
+        //RealBaseData.MaxCP += item.CP;
+        //RealBaseData.CP += item.CP;
         RealBaseData.Guest += item.Guest;
         RealBaseData.Command += item.Command;
         
