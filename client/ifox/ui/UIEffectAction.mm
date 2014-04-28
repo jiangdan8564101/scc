@@ -140,9 +140,6 @@
     [ actionID release ];
     actionID = [ [ NSString alloc ] initWithString:i ];
     
-    int w = 0;
-    int h = 0;
-    
     for ( int i = 0 ; i < 100 ; ++i )
     {
         NSString* path = [ [ NSBundle mainBundle ] pathForResource:[ NSString stringWithFormat:@"%d" , i ] ofType:@"png" inDirectory:[ NSString stringWithFormat:@"%@/%@" , EFFECT_PATH , actionID ]];
@@ -153,19 +150,24 @@
         }
         
         [ imageNames addObject:path ];
-        
-        if ( i == 0 )
-        {
-            UIImage* img = [ UIImage imageWithContentsOfFile:path ];
-            
-            [ self setImage:img ];
-            
-            w = CGImageGetWidth( img.CGImage );
-            h = CGImageGetHeight( img.CGImage );
-        }
-        
     }
     
+    if ( !PlaySound )
+    {
+        [ object performSelector:sel withObject:actionID afterDelay:( imageNames.count - 2 )* duration ];
+        
+        return;
+    }
+    
+    int w = 0;
+    int h = 0;
+    
+    UIImage* img = [ UIImage imageWithContentsOfFile:[ imageNames objectAtIndex:0 ] ];
+    
+    [ self setImage:img ];
+    
+    w = CGImageGetWidth( img.CGImage );
+    h = CGImageGetHeight( img.CGImage );
     index = 0;
     time = 0;
     
@@ -191,10 +193,7 @@
     
     started = YES;
     
-    if ( PlaySound )
-    {
-        [ [ GameAudioManager instance ] playSound:actionID ];
-    }
+    [ [ GameAudioManager instance ] playSound:actionID ];
 }
 
 
