@@ -239,7 +239,7 @@ int gCreatureID = MAIN_PLAYER_ID;
             
             [ [ SceneData instance ].Data setObject:v forKey:[ NSNumber numberWithInt:q ] ];
         }
-        [ [ SceneData instance ] randomSPEnemy ];
+        
         
         // event data
         data1 = [ dic objectForKey:@"event" ];
@@ -328,6 +328,8 @@ int gCreatureID = MAIN_PLAYER_ID;
         [ PlayerData instance ].Story = [ [ arr objectAtIndex:13 ] intValue ];
         [ PlayerData instance ].SellGold = [ [ arr objectAtIndex:14 ] intValue ];
         [ PlayerData instance ].BattleSpeed = arr.count > 15 ? [ [ arr objectAtIndex:15 ] floatValue ] : 1.0f;
+        
+        [ [ SceneData instance ] randomSPEnemy ];
         
         data1 = [ dic objectForKey:@"userWorkItem" ];
         NSDictionary* dic1 = [ NSKeyedUnarchiver unarchiveObjectWithData:data1 ];

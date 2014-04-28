@@ -54,6 +54,7 @@
 
 + ( SceneData* ) instance;
 
+- ( void ) checkComplete;
 - ( void ) randomSPEnemy;
 
 

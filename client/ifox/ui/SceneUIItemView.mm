@@ -37,7 +37,12 @@
     UIImageView* imageView = (UIImageView*)[ self viewWithTag:106 ];
     if ( item.Complete )
     {
+        label = (UILabel*)[ self viewWithTag:102 ];
         [ label setHidden:YES ];
+        
+        label = (UILabel*)[ self viewWithTag:103 ];
+        [ label setHidden:YES ];
+        
         [ imageView setHidden:NO ];
     }
     else

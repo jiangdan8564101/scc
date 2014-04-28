@@ -238,6 +238,7 @@
     return [ [ DoorDic objectForKey:[ NSNumber numberWithInt:index ] ] intValue ];
 }
 
+
 @end
 
 
@@ -279,8 +280,63 @@ SceneData* gSceneData = NULL;
 }
 
 
+- ( void ) checkComplete
+{
+    for ( int j = 0 ; j < Data.count ; ++j )
+    {
+        int key = [ [ Data.allKeys objectAtIndex:j ] intValue ];
+        SceneDataItem* item = [ Data objectForKey:[ NSNumber numberWithInt:key ] ];
+        
+        SubSceneMap* sub = [ [ MapConfig instance] getSubSceneMap:key ];
+        
+        int c = 0; int d = 0; int e = 0;
+        for ( int i = 0 ; i < sub.Collect.count; ++i )
+        {
+            CreatureBaseIDPerNum* per = [ sub.Collect objectAtIndex:i ];
+            
+            if ( [ item getCollect:per.ID ] )
+            {
+                c++;
+            }
+        }
+        
+        for ( int i = 0 ; i < sub.Dig.count; ++i )
+        {
+            CreatureBaseIDPerNum* per = [ sub.Dig objectAtIndex:i ];
+            
+            if ( [ item getDig:per.ID ] )
+            {
+                d++;
+            }
+        }
+        
+        for ( int i = 0 ; i < sub.Enemy.count; ++i )
+        {
+            CreatureBaseIDPerNum* per = [ sub.Enemy objectAtIndex:i ];
+            
+            if ( [ item getEnemy:per.ID ] )
+            {
+                e++;
+            }
+        }
+        
+        if ( item.Per == 1.0f && c == sub.Collect.count &&
+            d == sub.Dig.count &&
+            e == sub.Enemy.count )
+        {
+            item.Complete = YES;
+        }
+    }
+
+}
+
 - ( void ) randomSPEnemy
 {
+    if ( [ PlayerData instance ].Day % 10 != 1 )
+    {
+        return;
+    }
+    
     for ( int i = 0 ; i < Data.count ; ++i )
     {
         int key = [ [ Data.allKeys objectAtIndex:i ] intValue ];
@@ -288,7 +344,7 @@ SceneData* gSceneData = NULL;
         
         SubSceneMap* sub = [ [ MapConfig instance] getSubSceneMap:key ];
         
-        if ( item.Per < 1.0f )
+        if ( !item.Complete )
         {
             continue;
         }

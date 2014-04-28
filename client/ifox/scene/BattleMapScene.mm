@@ -303,6 +303,7 @@ BattleMapScene* gBattleMapScene = NULL;
     [ [ BattleLogUIHandler3 instance ] visible:NO ];
     [ [ BattleLogUIHandler4 instance ] visible:NO ];
     
+    [ [ SceneData instance ] checkComplete ];
     [ [ SceneData instance ] randomSPEnemy ];
     
     GAME_SPEED = 1.0f;

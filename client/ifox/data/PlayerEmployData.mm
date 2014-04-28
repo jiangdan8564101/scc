@@ -194,7 +194,7 @@ PlayerEmployData* gPlayerEmployData = NULL;
     
     [ PlayerArray removeObjectAtIndex:i ];
     
-    [ [ PlayerData instance ] addGold:-comm.EmployPrice ];
+    [ [ PlayerData instance ] addGold:[ comm getEmployPrice ] ];
     
     [ [ PlayerData instance ] setEmployData:comm.ID ];
 }
@@ -221,7 +221,7 @@ PlayerEmployData* gPlayerEmployData = NULL;
 {
     CreatureCommonData* comm = [ PlayerArray objectAtIndex:i ];
     
-    if ( [ PlayerData instance ].Gold >= comm.EmployPrice )
+    if ( [ PlayerData instance ].Gold >= [ comm getEmployPrice ] )
     {
         return YES;
     }

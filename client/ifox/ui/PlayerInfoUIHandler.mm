@@ -215,7 +215,7 @@ static PlayerInfoUIHandler* gPlayerInfoUIHandler;
     
     [ imageView setFrame:rect ];
     
-    NSString* str1 = [ NSString localizedStringWithFormat:NSLocalizedString( @"EmployText" , nil ) , (int)com.EmployPrice ];
+    NSString* str1 = [ NSString localizedStringWithFormat:NSLocalizedString( @"EmployText" , nil ) , [ com getEmployPrice ] ];
     [ employLabel setText:str1 ];
     
     [ self updateGold ];
