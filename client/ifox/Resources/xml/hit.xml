@@ -39,6 +39,11 @@
 <h ProLevel="8" id="3" per="20" value="1.05" />
 <h ProLevel="8" id="4" per="20" value="1.1" />
 <h ProLevel="8" id="5" per="10" value="1.2" />
+<h ProLevel="9" id="1" per="10" value=".9" />
+<h ProLevel="9" id="2" per="40" value="1" />
+<h ProLevel="9" id="3" per="20" value="1.05" />
+<h ProLevel="9" id="4" per="20" value="1.1" />
+<h ProLevel="9" id="5" per="10" value="1.2" />
 </hit>
 
 

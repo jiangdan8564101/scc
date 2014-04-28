@@ -15,7 +15,7 @@
 
 @interface HitConfig : GameConfig
 {
-    HitConfigData* data[ MAX_PROFESSION_LEVEL + 1 ][ BRHS_HIT5 + 1 ];
+    HitConfigData* data[ MAX_PROFESSION_LEVEL + 5 ][ BRHS_HIT5 + 1 ];
 }
 
 - ( HitConfigData** ) getHit:( int )p;
