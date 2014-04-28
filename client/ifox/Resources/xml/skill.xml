@@ -2,7 +2,7 @@
 <skill>
 <skill>
 <s id="1" name="疾风斩" des1="威力 0 SP 0 CP 1 " des2="在我方回合优先发动攻击" icon="IC2087" effect="MVB001" sp="0" cp="1" trigger="3" target="5" triggerEffect="10" pro="1" ap="20" />
-<s id="2" name="猛击" des1="威力 12 SP 0 CP 1 " des2="对敌人造成1.2倍攻击" icon="IC2601" effect="MVB020" sp="0" cp="1" trigger="2" target="1" triggerEffect="5" pro="1" power="1.2" type="1" minDamage="5" ap="40" />
+<s id="2" name="猛击" des1="威力 12 SP 0 CP 1 " des2="对敌人造成1.2倍攻击" icon="IC2601" effect="MVB020" sp="0" cp="1" trigger="2" target="1" triggerEffect="1" pro="1" power="1.2" type="1" minDamage="5" ap="40" />
 <s id="3" name="火焰霸体" des1="威力 3 SP 0 CP 1 火炎" des2="增加30%火炎抗性" icon="IC2082" effect="MVB177" sp="0" cp="1" trigger="3" target="5" triggerEffect="42" pro="1" power="0.3" attr="3" ap="20" />
 <s id="4" name="扫荡退" des1="威力 10 SP 5 CP 1 " des2="使敌方眩晕1个回合" icon="IC2202" effect="MVB200" sp="5" cp="1" trigger="1" target="1" triggerEffect="12" pro="2" power="1" type="1" des3="眩晕" hit="1" turn="1" ap="40" />
 <s id="5" name="回旋踢" des1="威力 2 SP 0 CP 1 " des2="对全部敌人造成0.2倍伤害" icon="IC2086" effect="MVB026" sp="0" cp="1" trigger="2" target="2" triggerEffect="1" pro="2" power="0.2" type="1" minDamage="5" ap="20" />
