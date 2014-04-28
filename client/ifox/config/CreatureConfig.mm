@@ -359,6 +359,10 @@
     [ RealBaseData release ];
     RealBaseData = BaseData.copy;
     
+    RealBaseData.Miss += RealBaseData.Agile / 3000.0f;
+    RealBaseData.Hit += RealBaseData.Lucky / 3000.0f;
+    RealBaseData.Critical += RealBaseData.Lucky / 5000.0f;
+    
     MainAttrType = 0;
     MainAttr = 0.0f;
     
