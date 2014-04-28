@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
 
 <!--key-->
@@ -409,179 +409,179 @@
 	
 
 
-<i id="40001" img="IC0301" type="4" putPosition="1" effectType="7" effect="0.01" name="普通书柜" des1="上级职业工资-1%" />
-<i id="40002" img="IC0302" type="4" putPosition="1" effectType="7" effect="0.03" name="高级书柜" des1="上级职业工资-3%" />
-<i id="40003" img="IC0303" type="4" putPosition="1" effectType="6" effect="0.05" name="豪华书柜" des1="下级职业工资-5%" />
-<i id="40004" img="IC0305" type="4" putPosition="1" effectType="5" effect="0.01" name="普通床" des1="下级职业工资-1%" />
-<i id="40005" img="IC0306" type="4" putPosition="1" effectType="5" effect="0.03" name="舒适床" des1="下级职业工资-3%" />
-<i id="40006" img="IC0307" type="4" putPosition="1" effectType="7" effect="0.05" name="豪华床" des1="下级职业工资-5%" />
-<i id="40007" img="IC0308" type="4" putPosition="1" effectType="5" effect="0.01" name="普通屏风" des1="上级职业工资-1%" />
-<i id="40008" img="IC0309" type="4" putPosition="1" effectType="5" effect="0.03" name="高级屏风" des1="终极职业工资-3%" />
-<i id="40009" img="IC0310" type="4" putPosition="1" effectType="6" effect="0.05" name="豪华屏风" des1="终极职业工资-5%" />
-<i id="40010" img="IC0311" type="4" putPosition="1" effectType="6" effect="0.01" name="普通水壶" des1="终极职业工资-1%" />
-<i id="40011" img="IC0312" type="4" putPosition="1" effectType="7" effect="0.03" name="高级水壶" des1="上级职业工资-3%" />
-<i id="40012" img="IC0313" type="4" putPosition="1" effectType="6" effect="0.05" name="豪华水壶" des1="下级职业工资-5%" />
-<i id="40013" img="IC0314" type="4" putPosition="1" effectType="5" effect="0.01" name="普通衣柜" des1="上级职业工资-1%" />
-<i id="40014" img="IC0315" type="4" putPosition="1" effectType="5" effect="0.03" name="高级衣柜" des1="终极职业工资-3%" />
-<i id="40015" img="IC0316" type="4" putPosition="1" effectType="6" effect="0.05" name="豪华衣柜" des1="上级职业工资-5%" />
-<i id="40016" img="IC0317" type="4" putPosition="1" effectType="6" effect="0.01" name="普通地毯" des1="上级职业工资-1%" />
-<i id="40017" img="IC0318" type="4" putPosition="1" effectType="5" effect="0.05" name="豪华地毯" des1="上级职业工资-5%" />
-<i id="40018" img="IC0319" type="4" putPosition="1" effectType="5" effect="0.03" name="黑熊装饰" des1="终极职业工资-3%" />
-<i id="40019" img="IC0320" type="4" putPosition="1" effectType="7" effect="0.03" name="白熊装饰" des1="终极职业工资-3%" />
-<i id="40020" img="IC0321" type="4" putPosition="1" effectType="7" effect="0.01" name="普通武器架" des1="下级职业工资-1%" />
-<i id="40021" img="IC0322" type="4" putPosition="1" effectType="6" effect="0.03" name="高级武器架" des1="下级职业工资-3%" />
-<i id="40022" img="IC0323" type="4" putPosition="1" effectType="6" effect="0.03" name="南方铠甲" des1="终极职业工资-3%" />
-<i id="40023" img="IC0323" type="4" putPosition="1" effectType="5" effect="0.03" name="北方铠甲" des1="上级职业工资-3%" />
-<i id="40024" img="IC0326" type="4" putPosition="1" effectType="7" effect="0.01" name="绿榻榻米" des1="上级职业工资-1%" />
-<i id="40025" img="IC0369" type="4" putPosition="1" effectType="6" effect="0.01" name="粉榻榻米" des1="下级职业工资-1%" />
-<i id="40026" img="IC0327" type="4" putPosition="1" effectType="6" effect="0.03" name="双人榻榻米" des1="下级职业工资-3%" />
-<i id="40027" img="IC0328" type="4" putPosition="1" effectType="6" effect="0.03" name="温馨双人床" des1="上级职业工资-3%" />
-<i id="40028" img="IC0329" type="4" putPosition="1" effectType="7" effect="0.03" name="机械回转床" des1="终极职业工资-3%" />
-<i id="40029" img="IC0330" type="4" putPosition="1" effectType="5" effect="0.05" name="土豪床" des1="终极职业工资-5%" />
-<i id="40030" img="IC0332" type="4" putPosition="1" effectType="7" effect="0.01" name="小鱼缸" des1="下级职业工资-1%" />
-<i id="40031" img="IC0333" type="4" putPosition="1" effectType="7" effect="0.03" name="立方鱼缸" des1="上级职业工资-3%" />
-<i id="40032" img="IC0334" type="4" putPosition="1" effectType="5" effect="0.05" name="落地鱼缸" des1="上级职业工资-5%" />
-<i id="40033" img="IC0335" type="4" putPosition="2" name="阔叶植物" des1="白草每天产量+2" growID="50054" growDay="2" />
-<i id="40034" img="IC0336" type="4" putPosition="2" name="针叶植物" des1="绿草每天产量+3" growID="50052" growDay="3" />
-<i id="40035" img="IC0337" type="4" putPosition="2" name="小花盆栽" des1="绿草每天产量+3" growID="50052" growDay="3" />
-<i id="40036" img="IC0338" type="4" putPosition="2" name="大花盆栽" des1="白草每天产量+4" growID="50054" growDay="4" />
-<i id="40037" img="IC0339" type="4" putPosition="2" name="豪华盆栽" des1="水草每天产量+6" growID="50053" growDay="6" />
-<i id="40038" img="IC0340" type="4" putPosition="2" name="人体植物" des1="白草每天产量+4" growID="50054" growDay="4" />
-<i id="40039" img="IC0341" type="4" putPosition="1" effectType="6" effect="0.01" name="普通扫把" des1="终极职业工资-1%" />
-<i id="40040" img="IC0342" type="4" putPosition="1" effectType="7" effect="0.03" name="魔法扫帚" des1="上级职业工资-3%" />
-<i id="40041" img="IC0343" type="4" putPosition="1" effectType="7" effect="0.05" name="吸尘器" des1="上级职业工资-5%" />
-<i id="40042" img="IC0344" type="4" putPosition="1" effectType="7" effect="0.01" name="中式箱子" des1="上级职业工资-1%" />
-<i id="40043" img="IC0345" type="4" putPosition="1" effectType="5" effect="0.03" name="中式高级箱子" des1="终极职业工资-3%" />
-<i id="40044" img="IC0346" type="4" putPosition="1" effectType="6" effect="0.05" name="中式豪华箱子" des1="上级职业工资-5%" />
-<i id="40045" img="IC0347" type="4" putPosition="1" effectType="5" effect="0.01" name="欧式箱子" des1="上级职业工资-1%" />
-<i id="40046" img="IC0348" type="4" putPosition="1" effectType="7" effect="0.03" name="欧式高级箱子" des1="下级职业工资-3%" />
-<i id="40047" img="IC0349" type="4" putPosition="1" effectType="6" effect="0.05" name="欧式豪华箱子" des1="终极职业工资-5%" />
-<i id="40048" img="IC0350" type="4" putPosition="1" effectType="7" effect="0.01" name="哑铃" des1="上级职业工资-1%" />
-<i id="40049" img="IC0351" type="4" putPosition="1" effectType="5" effect="0.03" name="杠铃" des1="终极职业工资-3%" />
-<i id="40050" img="IC0352" type="4" putPosition="1" effectType="6" effect="0.05" name="健身套件" des1="终极职业工资-5%" />
-<i id="40051" img="IC0381" type="4" putPosition="4" effectType="11" effect="0.01" name="普通货架" des1="器官出售价格+1%" />
-<i id="40052" img="IC0382" type="4" putPosition="4" effectType="8" effect="0.03" name="高级货架" des1="宝石出售价格+3%" />
-<i id="40053" img="IC0383" type="4" putPosition="4" effectType="10" effect="0.05" name="豪华货架" des1="矿石出售价格+5%" />
-<i id="40054" img="IC0384" type="4" putPosition="4" effectType="9" effect="0.01" name="木制武器架" des1="宝石出售价格+1%" />
-<i id="40055" img="IC0385" type="4" putPosition="4" effectType="8" effect="0.03" name="铁制武器架" des1="宝石出售价格+3%" />
-<i id="40056" img="IC0386" type="4" putPosition="4" effectType="10" effect="0.05" name="豪华武器架" des1="器官出售价格+5%" />
-<i id="40057" img="IC0387" type="4" putPosition="4" effectType="8" effect="0.01" name="木制收银台" des1="器官出售价格+1%" />
-<i id="40058" img="IC0388" type="4" putPosition="4" effectType="10" effect="0.03" name="铁制收银台" des1="器官出售价格+3%" />
-<i id="40059" img="IC0389" type="4" putPosition="4" effectType="10" effect="0.05" name="豪华收银台" des1="矿石出售价格+5%" />
-<i id="40060" img="IC0390" type="4" putPosition="4" effectType="11" effect="0.01" name="小型金库" des1="宝石出售价格+1%" />
-<i id="40061" img="IC0391" type="4" putPosition="4" effectType="10" effect="0.03" name="大型金库" des1="宝石出售价格+3%" />
-<i id="40062" img="IC0392" type="4" putPosition="4" effectType="8" effect="0.05" name="豪华金库" des1="矿石出售价格+5%" />
-<i id="40063" img="IC0393" type="4" putPosition="4" effectType="9" effect="0.01" name="小型画桌" des1="宝石出售价格+1%" />
-<i id="40064" img="IC0394" type="4" putPosition="4" effectType="8" effect="0.03" name="大型画桌" des1="植物出售价格+3%" />
-<i id="40065" img="IC0395" type="4" putPosition="4" effectType="9" effect="0.05" name="豪华画桌" des1="宝石出售价格+5%" />
-<i id="40066" img="IC0396" type="4" putPosition="4" effectType="9" effect="0.01" name="小型box" des1="器官出售价格+1%" />
-<i id="40067" img="IC0397" type="4" putPosition="4" effectType="10" effect="0.03" name="大型box " des1="宝石出售价格+3%" />
-<i id="40068" img="IC0398" type="4" putPosition="4" effectType="11" effect="0.05" name="豪华box" des1="矿石出售价格+5%" />
-<i id="40069" img="IC0401" type="4" putPosition="4" effectType="9" effect="0.01" name="朴素地毯" des1="宝石出售价格+1%" />
-<i id="40070" img="IC0402" type="4" putPosition="4" effectType="10" effect="0.03" name="绮丽地毯" des1="矿石出售价格+3%" />
-<i id="40071" img="IC0403" type="4" putPosition="4" effectType="11" effect="0.05" name="豪华地毯" des1="植物出售价格+5%" />
-<i id="40072" img="IC0407" type="4" putPosition="4" effectType="9" effect="0.01" name="展示铠甲" des1="器官出售价格+1%" />
-<i id="40073" img="IC0408" type="4" putPosition="4" effectType="10" effect="0.03" name="二角铠甲" des1="矿石出售价格+3%" />
-<i id="40074" img="IC0409" type="4" putPosition="4" effectType="9" effect="0.05" name="金身铠甲" des1="宝石出售价格+5%" />
-<i id="40075" img="IC0410" type="4" putPosition="4" effectType="10" effect="0.05" name="军神铠甲" des1="宝石出售价格+5%" />
-<i id="40076" img="IC0411" type="4" putPosition="4" effectType="9" effect="0.05" name="杀神蜡像" des1="宝石出售价格+5%" />
-<i id="40077" img="IC0412" type="4" putPosition="4" effectType="10" effect="0.05" name="双剑士石像" des1="宝石出售价格+5%" />
-<i id="40078" img="IC0413" type="4" putPosition="4" effectType="10" effect="0.05" name="知识女神石像" des1="宝石出售价格+5%" />
-<i id="40079" img="IC0415" type="4" putPosition="4" effectType="10" effect="0.05" name="女裸体石像" des1="植物出售价格+5%" />
-<i id="40080" img="IC0416" type="4" putPosition="4" effectType="9" effect="0.01" name="男裸体石像" des1="植物出售价格+1%" />
-<i id="40081" img="IC0417" type="4" putPosition="4" effectType="11" effect="0.01" name="特洛伊木马" des1="植物出售价格+1%" />
-<i id="40082" img="IC0418" type="4" putPosition="4" effectType="11" effect="0.01" name="人形木偶" des1="宝石出售价格+1%" />
-<i id="40083" img="IC0419" type="4" putPosition="4" effectType="9" effect="0.03" name="滑梯" des1="器官出售价格+3%" />
-<i id="40084" img="IC0420" type="4" putPosition="4" effectType="8" effect="0.03" name="中式大炮" des1="植物出售价格+3%" />
-<i id="40085" img="IC0421" type="4" putPosition="4" effectType="10" effect="0.03" name="欧式大炮" des1="器官出售价格+3%" />
-<i id="40086" img="IC0422" type="4" putPosition="4" effectType="10" effect="0.01" name="淡水鱼池" des1="宝石出售价格+1%" />
-<i id="40087" img="IC0423" type="4" putPosition="4" effectType="10" effect="0.01" name="海水鱼池" des1="宝石出售价格+1%" />
-<i id="40088" img="IC0424" type="4" putPosition="4" effectType="8" effect="0.03" name="海狮鱼池" des1="矿石出售价格+3%" />
-<i id="40089" img="IC0425" type="4" putPosition="4" effectType="9" effect="0.03" name="人鱼鱼池" des1="矿石出售价格+3%" />
-<i id="40090" img="IC0426" type="4" putPosition="4" effectType="11" effect="0.01" name="普通书棚" des1="器官出售价格+1%" />
-<i id="40091" img="IC0427" type="4" putPosition="4" effectType="8" effect="0.03" name="高级书棚" des1="宝石出售价格+3%" />
-<i id="40092" img="IC0428" type="4" putPosition="4" effectType="9" effect="0.05" name="豪华书棚" des1="宝石出售价格+5%" />
-<i id="40093" img="IC0429" type="4" putPosition="4" effectType="9" effect="0.01" name="蜜罐" des1="器官出售价格+1%" />
-<i id="40094" img="IC0430" type="4" putPosition="4" effectType="9" effect="0.03" name="冷藏蜜罐" des1="器官出售价格+3%" />
-<i id="40095" img="IC0431" type="4" putPosition="4" effectType="9" effect="0.05" name="自动贩卖蜜罐" des1="植物出售价格+5%" />
-<i id="40096" img="IC0432" type="4" putPosition="4" effectType="11" effect="0.01" name="古董壶" des1="植物出售价格+1%" />
-<i id="40097" img="IC0433" type="4" putPosition="4" effectType="10" effect="0.03" name="水樽" des1="宝石出售价格+3%" />
-<i id="40098" img="IC0434" type="4" putPosition="4" effectType="8" effect="0.05" name="神之壶" des1="器官出售价格+5%" />
-<i id="40099" img="IC0405" type="4" putPosition="4" effectType="8" effect="0.03" name="飞猫" des1="器官出售价格+3%" />
-<i id="40100" img="IC0406" type="4" putPosition="4" effectType="9" effect="0.03" name="卡比" des1="宝石出售价格+3%" />
-<i id="40101" img="IC0441" type="4" putPosition="3" effectType="2" effect="3" name="合成壶" des1="植物掉落权值+3" />
-<i id="40102" img="IC0442" type="4" putPosition="3" effectType="2" effect="3" name="作业台" des1="植物掉落权值+3" />
-<i id="40103" img="IC0435" type="4" putPosition="3" effectType="1" effect="3" name="素材箱Ⅰ" des1="植物掉落权值+3" />
-<i id="40104" img="IC0436" type="4" putPosition="3" effectType="2" effect="3" name="素材箱Ⅱ" des1="器官掉落权值+3" />
-<i id="40105" img="IC0437" type="4" putPosition="3" effectType="4" effect="5" name="素材箱Ⅲ" des1="宝石掉落权值+5" />
-<i id="40106" img="IC0438" type="4" putPosition="3" effectType="2" effect="8" name="素材箱Ⅳ" des1="植物掉落权值+8" />
-<i id="40107" img="IC0523" type="4" putPosition="3" effectType="3" effect="3" name="冶炼工具" des1="宝石掉落权值+3" />
-<i id="40108" img="IC0444" type="4" putPosition="3" effectType="1" effect="5" name="熔炉" des1="矿物掉落权值+5" />
-<i id="40109" img="IC0445" type="4" putPosition="3" effectType="3" effect="5" name="熔炼灯" des1="器官掉落权值+5" />
-<i id="40110" img="IC0446" type="4" putPosition="3" effectType="3" effect="5" name="金床" des1="植物掉落权值+5" />
-<i id="40111" img="IC0447" type="4" putPosition="3" effectType="3" effect="3" name="樽Ⅰ" des1="植物掉落权值+3" />
-<i id="40112" img="IC0521" type="4" putPosition="3" effectType="1" effect="5" name="樽Ⅱ" des1="矿物掉落权值+5" />
-<i id="40113" img="IC0522" type="4" putPosition="3" effectType="1" effect="8" name="樽Ⅲ" des1="矿物掉落权值+8" />
-<i id="40114" img="IC0448" type="4" putPosition="3" effectType="3" effect="3" name="动物毛皮" des1="植物掉落权值+3" />
-<i id="40115" img="IC0449" type="4" putPosition="3" effectType="4" effect="5" name="熊猫毛皮" des1="矿物掉落权值+5" />
-<i id="40116" img="IC0450" type="4" putPosition="3" effectType="3" effect="5" name="地魔法阵" des1="宝石掉落权值+5" />
-<i id="40117" img="IC0451" type="4" putPosition="3" effectType="4" effect="5" name="水魔法阵" des1="植物掉落权值+5" />
-<i id="40118" img="IC0452" type="4" putPosition="3" effectType="3" effect="5" name="火魔法阵" des1="植物掉落权值+5" />
-<i id="40119" img="IC0453" type="4" putPosition="3" effectType="4" effect="5" name="风魔法阵" des1="矿物掉落权值+5" />
-<i id="40120" img="IC0454" type="4" putPosition="3" effectType="4" effect="5" name="光魔法阵" des1="矿物掉落权值+5" />
-<i id="40121" img="IC0455" type="4" putPosition="3" effectType="2" effect="5" name="暗魔法阵" des1="植物掉落权值+5" />
-<i id="40122" img="IC0456" type="4" putPosition="3" effectType="2" effect="3" name="裁缝台" des1="矿物掉落权值+3" />
-<i id="40123" img="IC0457" type="4" putPosition="3" effectType="4" effect="5" name="自动裁缝台" des1="宝石掉落权值+5" />
-<i id="40124" img="IC0458" type="4" putPosition="3" effectType="4" effect="8" name="机械裁缝台" des1="植物掉落权值+8" />
-<i id="40125" img="IC0459" type="4" putPosition="3" effectType="2" effect="3" name="制图机" des1="植物掉落权值+3" />
-<i id="40126" img="IC0460" type="4" putPosition="3" effectType="1" effect="5" name="高级制图机" des1="宝石掉落权值+5" />
-<i id="40127" img="IC0461" type="4" putPosition="3" effectType="4" effect="8" name="豪华制图机" des1="矿物掉落权值+8" />
-<i id="40128" img="IC0463" type="4" putPosition="3" effectType="3" effect="3" name="设计图羊皮纸" des1="矿物掉落权值+3" />
-<i id="40129" img="IC0464" type="4" putPosition="3" effectType="3" effect="5" name="魔法羊皮纸" des1="矿物掉落权值+5" />
-<i id="40130" img="IC0465" type="4" putPosition="3" effectType="4" effect="8" name="魔法投影羊皮纸" des1="宝石掉落权值+8" />
-<i id="40131" img="IC0466" type="4" putPosition="3" effectType="1" effect="3" name="灭火水桶" des1="矿物掉落权值+3" />
-<i id="40132" img="IC0467" type="4" putPosition="3" effectType="4" effect="5" name="灭火井" des1="矿物掉落权值+5" />
-<i id="40133" img="IC0468" type="4" putPosition="3" effectType="3" effect="8" name="灭火器" des1="植物掉落权值+8" />
-<i id="40134" img="IC0469" type="4" putPosition="3" effectType="3" effect="5" name="赤色合成壶" des1="矿物掉落权值+5" />
-<i id="40135" img="IC0470" type="4" putPosition="3" effectType="2" effect="5" name="魔法合成壶" des1="植物掉落权值+5" />
-<i id="40136" img="IC0471" type="4" putPosition="3" effectType="1" effect="8" name="不可思议合成壶" des1="植物掉落权值+8" />
-<i id="40137" img="IC0472" type="4" putPosition="3" effectType="1" effect="3" name="细菌培养槽" des1="矿物掉落权值+3" />
-<i id="40138" img="IC0473" type="4" putPosition="3" effectType="4" effect="5" name="细胞培养槽" des1="植物掉落权值+5" />
-<i id="40139" img="IC0474" type="4" putPosition="3" effectType="2" effect="8" name="魔法培养槽" des1="器官掉落权值+8" />
-<i id="40140" img="IC0475" type="4" putPosition="3" effectType="4" effect="3" name="研究机" des1="矿物掉落权值+3" />
-<i id="40141" img="IC0476" type="4" putPosition="3" effectType="1" effect="5" name="解刨机" des1="器官掉落权值+5" />
-<i id="40142" img="IC0477" type="4" putPosition="3" effectType="2" effect="8" name="手术台" des1="器官掉落权值+8" />
-<i id="40143" img="IC0478" type="4" putPosition="3" effectType="2" effect="3" name="矿物箱Ⅰ" des1="宝石掉落权值+3" />
-<i id="40144" img="IC0479" type="4" putPosition="3" effectType="3" effect="5" name="矿物箱Ⅱ" des1="矿物掉落权值+5" />
-<i id="40145" img="IC0480" type="4" putPosition="3" effectType="3" effect="8" name="矿物箱Ⅲ" des1="宝石掉落权值+8" />
-<i id="40146" img="IC0482" type="4" putPosition="2" name="初级种子" des1="水草每天产量+2" growID="50053" growDay="2" />
-<i id="40147" img="IC0483" type="4" putPosition="2" name="白菜幼苗" des1="香叶每天产量+6" growID="50051" growDay="6" />
-<i id="40148" img="IC0484" type="4" putPosition="2" name="赤根菜幼苗" des1="水草每天产量+4" growID="50053" growDay="4" />
-<i id="40149" img="IC0485" type="4" putPosition="2" name="紫叶菜幼苗" des1="绿草每天产量+6" growID="50052" growDay="6" />
-<i id="40150" img="IC0508" type="4" putPosition="2" name="巨大豆子幼苗" des1="白草每天产量+4" growID="50054" growDay="4" />
-<i id="40151" img="IC0509" type="4" putPosition="2" name="地衣野菜幼苗" des1="绿草每天产量+6" growID="50052" growDay="6" />
-<i id="40152" img="IC0486" type="4" putPosition="2" name="土窑" des1="绿草每天产量+3" growID="50052" growDay="3" />
-<i id="40153" img="IC0487" type="4" putPosition="2" name="石制火窑" des1="绿草每天产量+6" growID="50052" growDay="6" />
-<i id="40154" img="IC0488" type="4" putPosition="2" name="石制喷水器" des1="香叶每天产量+6" growID="50051" growDay="6" />
-<i id="40155" img="IC0489" type="4" putPosition="2" name="木制材料小屋" des1="水草每天产量+2" growID="50053" growDay="2" />
-<i id="40156" img="IC0490" type="4" putPosition="2" name="铁质材料小屋" des1="香叶每天产量+6" growID="50051" growDay="6" />
-<i id="40157" img="IC0491" type="4" putPosition="2" name="豪华材料小屋" des1="香叶每天产量+9" growID="50051" growDay="9" />
-<i id="40158" img="IC0492" type="4" putPosition="2" name="风车灌溉" des1="白草每天产量+2" growID="50054" growDay="2" />
-<i id="40159" img="IC0493" type="4" putPosition="2" name="庭院水池" des1="香叶每天产量+6" growID="50051" growDay="6" />
-<i id="40160" img="IC0494" type="4" putPosition="2" name="昆虫乐园" des1="绿草每天产量+6" growID="50052" growDay="6" />
-<i id="40161" img="IC0495" type="4" putPosition="2" name="木制秋千" des1="香叶每天产量+6" growID="50051" growDay="6" />
-<i id="40162" img="IC0496" type="4" putPosition="2" name="春天植物幼苗" des1="水草每天产量+6" growID="50053" growDay="6" />
-<i id="40163" img="IC0497" type="4" putPosition="2" name="秋天植物幼苗" des1="绿草每天产量+9" growID="50052" growDay="9" />
-<i id="40164" img="IC0498" type="4" putPosition="2" name="烤肉场" des1="香叶每天产量+6" growID="50051" growDay="6" />
-<i id="40165" img="IC0499" type="4" putPosition="2" name="餐饮台" des1="白草每天产量+4" growID="50054" growDay="4" />
-<i id="40166" img="IC0500" type="4" putPosition="2" name="豪华小屋" des1="水草每天产量+6" growID="50053" growDay="6" />
-<i id="40167" img="IC0501" type="4" putPosition="2" name="水井" des1="白草每天产量+4" growID="50054" growDay="4" />
-<i id="40168" img="IC0502" type="4" putPosition="2" name="参拜神社" des1="水草每天产量+2" growID="50053" growDay="2" />
-<i id="40169" img="IC0503" type="4" putPosition="2" name="马厩" des1="水草每天产量+4" growID="50053" growDay="4" />
-<i id="40170" img="IC0504" type="4" putPosition="2" name="普通帐篷" des1="香叶每天产量+3" growID="50051" growDay="3" />
-<i id="40171" img="IC0505" type="4" putPosition="2" name="高级帐篷" des1="绿草每天产量+6" growID="50052" growDay="6" />
-<i id="40172" img="IC0506" type="4" putPosition="2" name="药叶小屋" des1="水草每天产量+4" growID="50053" growDay="4" />
-<i id="40173" img="IC0507" type="4" putPosition="2" name="牛棚" des1="香叶每天产量+6" growID="50051" growDay="6" />
+<i id="40001" img="IC0301" type="4" putPosition="1" effectType="7" effect=".01" name="普通书柜" des1="下级职业工资-1%" />
+<i id="40002" img="IC0302" type="4" putPosition="1" effectType="7" effect=".03" name="高级书柜" des1="上级职业工资-3%" />
+<i id="40003" img="IC0303" type="4" putPosition="1" effectType="6" effect=".05" name="豪华书柜" des1="终极职业工资-5%" />
+<i id="40004" img="IC0305" type="4" putPosition="1" effectType="5" effect=".01" name="普通床" des1="下级职业工资-1%" />
+<i id="40005" img="IC0306" type="4" putPosition="1" effectType="5" effect=".03" name="舒适床" des1="终极职业工资-3%" />
+<i id="40006" img="IC0307" type="4" putPosition="1" effectType="7" effect=".05" name="豪华床" des1="下级职业工资-5%" />
+<i id="40007" img="IC0308" type="4" putPosition="1" effectType="5" effect=".01" name="普通屏风" des1="终极职业工资-1%" />
+<i id="40008" img="IC0309" type="4" putPosition="1" effectType="5" effect=".03" name="高级屏风" des1="终极职业工资-3%" />
+<i id="40009" img="IC0310" type="4" putPosition="1" effectType="6" effect=".05" name="豪华屏风" des1="终极职业工资-5%" />
+<i id="40010" img="IC0311" type="4" putPosition="1" effectType="6" effect=".01" name="普通水壶" des1="终极职业工资-1%" />
+<i id="40011" img="IC0312" type="4" putPosition="1" effectType="7" effect=".03" name="高级水壶" des1="终极职业工资-3%" />
+<i id="40012" img="IC0313" type="4" putPosition="1" effectType="6" effect=".05" name="豪华水壶" des1="下级职业工资-5%" />
+<i id="40013" img="IC0314" type="4" putPosition="1" effectType="5" effect=".01" name="普通衣柜" des1="终极职业工资-1%" />
+<i id="40014" img="IC0315" type="4" putPosition="1" effectType="5" effect=".03" name="高级衣柜" des1="上级职业工资-3%" />
+<i id="40015" img="IC0316" type="4" putPosition="1" effectType="6" effect=".05" name="豪华衣柜" des1="下级职业工资-5%" />
+<i id="40016" img="IC0317" type="4" putPosition="1" effectType="6" effect=".01" name="普通地毯" des1="终极职业工资-1%" />
+<i id="40017" img="IC0318" type="4" putPosition="1" effectType="5" effect=".05" name="豪华地毯" des1="下级职业工资-5%" />
+<i id="40018" img="IC0319" type="4" putPosition="1" effectType="5" effect=".03" name="黑熊装饰" des1="下级职业工资-3%" />
+<i id="40019" img="IC0320" type="4" putPosition="1" effectType="7" effect=".03" name="白熊装饰" des1="下级职业工资-3%" />
+<i id="40020" img="IC0321" type="4" putPosition="1" effectType="7" effect=".01" name="普通武器架" des1="终极职业工资-1%" />
+<i id="40021" img="IC0322" type="4" putPosition="1" effectType="6" effect=".03" name="高级武器架" des1="上级职业工资-3%" />
+<i id="40022" img="IC0323" type="4" putPosition="1" effectType="6" effect=".03" name="南方铠甲" des1="终极职业工资-3%" />
+<i id="40023" img="IC0323" type="4" putPosition="1" effectType="5" effect=".03" name="北方铠甲" des1="终极职业工资-3%" />
+<i id="40024" img="IC0326" type="4" putPosition="1" effectType="7" effect=".01" name="绿榻榻米" des1="下级职业工资-1%" />
+<i id="40025" img="IC0369" type="4" putPosition="1" effectType="6" effect=".01" name="粉榻榻米" des1="终极职业工资-1%" />
+<i id="40026" img="IC0327" type="4" putPosition="1" effectType="6" effect=".03" name="双人榻榻米" des1="上级职业工资-3%" />
+<i id="40027" img="IC0328" type="4" putPosition="1" effectType="6" effect=".03" name="温馨双人床" des1="下级职业工资-3%" />
+<i id="40028" img="IC0329" type="4" putPosition="1" effectType="7" effect=".03" name="机械回转床" des1="下级职业工资-3%" />
+<i id="40029" img="IC0330" type="4" putPosition="1" effectType="5" effect=".05" name="土豪床" des1="终极职业工资-5%" />
+<i id="40030" img="IC0332" type="4" putPosition="1" effectType="7" effect=".01" name="小鱼缸" des1="终极职业工资-1%" />
+<i id="40031" img="IC0333" type="4" putPosition="1" effectType="7" effect=".03" name="立方鱼缸" des1="上级职业工资-3%" />
+<i id="40032" img="IC0334" type="4" putPosition="1" effectType="5" effect=".05" name="落地鱼缸" des1="上级职业工资-5%" />
+<i id="40033" img="IC0335" type="4" putPosition="2" effectType="1" effect="3" name="阔叶植物" des1="绿草每天产量+3" growId="50051" growDay="3" />
+<i id="40034" img="IC0336" type="4" putPosition="2" effectType="1" effect="3" name="针叶植物" des1="绿草每天产量+3" growId="50051" growDay="3" />
+<i id="40035" img="IC0337" type="4" putPosition="2" effectType="2" effect="2" name="小花盆栽" des1="白草每天产量+2" growId="50054" growDay="2" />
+<i id="40036" img="IC0338" type="4" putPosition="2" effectType="4" effect="6" name="大花盆栽" des1="白草每天产量+4" growId="50051" growDay="4" />
+<i id="40037" img="IC0339" type="4" putPosition="2" effectType="2" effect="9" name="豪华盆栽" des1="香叶每天产量+9" growId="50052" growDay="6" />
+<i id="40038" img="IC0340" type="4" putPosition="2" effectType="3" effect="6" name="人体植物" des1="绿草每天产量+6" growId="50053" growDay="4" />
+<i id="40039" img="IC0341" type="4" putPosition="1" effectType="6" effect=".01" name="普通扫把" des1="下级职业工资-1%" />
+<i id="40040" img="IC0342" type="4" putPosition="1" effectType="7" effect=".03" name="魔法扫帚" des1="终极职业工资-3%" />
+<i id="40041" img="IC0343" type="4" putPosition="1" effectType="7" effect=".05" name="吸尘器" des1="下级职业工资-5%" />
+<i id="40042" img="IC0344" type="4" putPosition="1" effectType="7" effect=".01" name="中式箱子" des1="上级职业工资-1%" />
+<i id="40043" img="IC0345" type="4" putPosition="1" effectType="5" effect=".03" name="中式高级箱子" des1="下级职业工资-3%" />
+<i id="40044" img="IC0346" type="4" putPosition="1" effectType="6" effect=".05" name="中式豪华箱子" des1="终极职业工资-5%" />
+<i id="40045" img="IC0347" type="4" putPosition="1" effectType="5" effect=".01" name="欧式箱子" des1="上级职业工资-1%" />
+<i id="40046" img="IC0348" type="4" putPosition="1" effectType="7" effect=".03" name="欧式高级箱子" des1="下级职业工资-3%" />
+<i id="40047" img="IC0349" type="4" putPosition="1" effectType="6" effect=".05" name="欧式豪华箱子" des1="终极职业工资-5%" />
+<i id="40048" img="IC0350" type="4" putPosition="1" effectType="7" effect=".01" name="哑铃" des1="终极职业工资-1%" />
+<i id="40049" img="IC0351" type="4" putPosition="1" effectType="5" effect=".03" name="杠铃" des1="下级职业工资-3%" />
+<i id="40050" img="IC0352" type="4" putPosition="1" effectType="6" effect=".05" name="健身套件" des1="下级职业工资-5%" />
+<i id="40051" img="IC0381" type="4" putPosition="4" effectType="11" effect=".01" name="普通货架" des1="矿石出售价格+1%" />
+<i id="40052" img="IC0382" type="4" putPosition="4" effectType="8" effect=".03" name="高级货架" des1="植物出售价格+3%" />
+<i id="40053" img="IC0383" type="4" putPosition="4" effectType="10" effect=".05" name="豪华货架" des1="器官出售价格+5%" />
+<i id="40054" img="IC0384" type="4" putPosition="4" effectType="9" effect=".01" name="木制武器架" des1="植物出售价格+1%" />
+<i id="40055" img="IC0385" type="4" putPosition="4" effectType="8" effect=".03" name="铁制武器架" des1="器官出售价格+3%" />
+<i id="40056" img="IC0386" type="4" putPosition="4" effectType="10" effect=".05" name="豪华武器架" des1="矿石出售价格+5%" />
+<i id="40057" img="IC0387" type="4" putPosition="4" effectType="8" effect=".01" name="木制收银台" des1="矿石出售价格+1%" />
+<i id="40058" img="IC0388" type="4" putPosition="4" effectType="10" effect=".03" name="铁制收银台" des1="器官出售价格+3%" />
+<i id="40059" img="IC0389" type="4" putPosition="4" effectType="10" effect=".05" name="豪华收银台" des1="植物出售价格+5%" />
+<i id="40060" img="IC0390" type="4" putPosition="4" effectType="11" effect=".01" name="小型金库" des1="矿石出售价格+1%" />
+<i id="40061" img="IC0391" type="4" putPosition="4" effectType="10" effect=".03" name="大型金库" des1="宝石出售价格+3%" />
+<i id="40062" img="IC0392" type="4" putPosition="4" effectType="8" effect=".05" name="豪华金库" des1="宝石出售价格+5%" />
+<i id="40063" img="IC0393" type="4" putPosition="4" effectType="9" effect=".01" name="小型画桌" des1="宝石出售价格+1%" />
+<i id="40064" img="IC0394" type="4" putPosition="4" effectType="8" effect=".03" name="大型画桌" des1="植物出售价格+3%" />
+<i id="40065" img="IC0395" type="4" putPosition="4" effectType="9" effect=".05" name="豪华画桌" des1="植物出售价格+5%" />
+<i id="40066" img="IC0396" type="4" putPosition="4" effectType="9" effect=".01" name="小型box" des1="器官出售价格+1%" />
+<i id="40067" img="IC0397" type="4" putPosition="4" effectType="10" effect=".03" name="大型box " des1="宝石出售价格+3%" />
+<i id="40068" img="IC0398" type="4" putPosition="4" effectType="11" effect=".05" name="豪华box" des1="宝石出售价格+5%" />
+<i id="40069" img="IC0401" type="4" putPosition="4" effectType="9" effect=".01" name="朴素地毯" des1="宝石出售价格+1%" />
+<i id="40070" img="IC0402" type="4" putPosition="4" effectType="10" effect=".03" name="绮丽地毯" des1="器官出售价格+3%" />
+<i id="40071" img="IC0403" type="4" putPosition="4" effectType="11" effect=".05" name="豪华地毯" des1="植物出售价格+5%" />
+<i id="40072" img="IC0407" type="4" putPosition="4" effectType="9" effect=".01" name="展示铠甲" des1="器官出售价格+1%" />
+<i id="40073" img="IC0408" type="4" putPosition="4" effectType="10" effect=".03" name="二角铠甲" des1="植物出售价格+3%" />
+<i id="40074" img="IC0409" type="4" putPosition="4" effectType="9" effect=".05" name="金身铠甲" des1="矿石出售价格+5%" />
+<i id="40075" img="IC0410" type="4" putPosition="4" effectType="10" effect=".05" name="军神铠甲" des1="宝石出售价格+5%" />
+<i id="40076" img="IC0411" type="4" putPosition="4" effectType="9" effect=".05" name="杀神蜡像" des1="器官出售价格+5%" />
+<i id="40077" img="IC0412" type="4" putPosition="4" effectType="10" effect=".05" name="双剑士石像" des1="器官出售价格+5%" />
+<i id="40078" img="IC0413" type="4" putPosition="4" effectType="10" effect=".05" name="知识女神石像" des1="宝石出售价格+5%" />
+<i id="40079" img="IC0415" type="4" putPosition="4" effectType="10" effect=".05" name="女裸体石像" des1="器官出售价格+5%" />
+<i id="40080" img="IC0416" type="4" putPosition="4" effectType="9" effect=".01" name="男裸体石像" des1="宝石出售价格+1%" />
+<i id="40081" img="IC0417" type="4" putPosition="4" effectType="11" effect=".01" name="特洛伊木马" des1="矿石出售价格+1%" />
+<i id="40082" img="IC0418" type="4" putPosition="4" effectType="11" effect=".01" name="人形木偶" des1="矿石出售价格+1%" />
+<i id="40083" img="IC0419" type="4" putPosition="4" effectType="9" effect=".03" name="滑梯" des1="宝石出售价格+3%" />
+<i id="40084" img="IC0420" type="4" putPosition="4" effectType="8" effect=".03" name="中式大炮" des1="矿石出售价格+3%" />
+<i id="40085" img="IC0421" type="4" putPosition="4" effectType="10" effect=".03" name="欧式大炮" des1="矿石出售价格+3%" />
+<i id="40086" img="IC0422" type="4" putPosition="4" effectType="10" effect=".01" name="淡水鱼池" des1="器官出售价格+1%" />
+<i id="40087" img="IC0423" type="4" putPosition="4" effectType="10" effect=".01" name="海水鱼池" des1="宝石出售价格+1%" />
+<i id="40088" img="IC0424" type="4" putPosition="4" effectType="8" effect=".03" name="海狮鱼池" des1="器官出售价格+3%" />
+<i id="40089" img="IC0425" type="4" putPosition="4" effectType="9" effect=".03" name="人鱼鱼池" des1="植物出售价格+3%" />
+<i id="40090" img="IC0426" type="4" putPosition="4" effectType="11" effect=".01" name="普通书棚" des1="矿石出售价格+1%" />
+<i id="40091" img="IC0427" type="4" putPosition="4" effectType="8" effect=".03" name="高级书棚" des1="器官出售价格+3%" />
+<i id="40092" img="IC0428" type="4" putPosition="4" effectType="9" effect=".05" name="豪华书棚" des1="矿石出售价格+5%" />
+<i id="40093" img="IC0429" type="4" putPosition="4" effectType="9" effect=".01" name="蜜罐" des1="矿石出售价格+1%" />
+<i id="40094" img="IC0430" type="4" putPosition="4" effectType="9" effect=".03" name="冷藏蜜罐" des1="宝石出售价格+3%" />
+<i id="40095" img="IC0431" type="4" putPosition="4" effectType="9" effect=".05" name="自动贩卖蜜罐" des1="宝石出售价格+5%" />
+<i id="40096" img="IC0432" type="4" putPosition="4" effectType="11" effect=".01" name="古董壶" des1="器官出售价格+1%" />
+<i id="40097" img="IC0433" type="4" putPosition="4" effectType="10" effect=".03" name="水樽" des1="器官出售价格+3%" />
+<i id="40098" img="IC0434" type="4" putPosition="4" effectType="8" effect=".05" name="神之壶" des1="矿石出售价格+5%" />
+<i id="40099" img="IC0404" type="4" putPosition="4" effectType="8" effect=".03" name="招财猫" des1="器官出售价格+3%" />
+<i id="40100" img="IC0406" type="4" putPosition="4" effectType="9" effect=".03" name="卡比" des1="植物出售价格+3%" />
+<i id="40101" img="IC0441" type="4" putPosition="3" effectType="2" effect=".1" name="合成壶" des1="器官掉落数量+0.1" />
+<i id="40102" img="IC0442" type="4" putPosition="3" effectType="2" effect=".1" name="作业台" des1="矿物掉落数量+0.1" />
+<i id="40103" img="IC0435" type="4" putPosition="3" effectType="1" effect=".1" name="素材箱Ⅰ" des1="植物掉落数量+0.1" />
+<i id="40104" img="IC0436" type="4" putPosition="3" effectType="2" effect=".1" name="素材箱Ⅱ" des1="宝石掉落数量+0.1" />
+<i id="40105" img="IC0437" type="4" putPosition="3" effectType="4" effect=".2" name="素材箱Ⅲ" des1="器官掉落数量+0.2" />
+<i id="40106" img="IC0438" type="4" putPosition="3" effectType="2" effect=".3" name="素材箱Ⅳ" des1="宝石掉落数量+0.3" />
+<i id="40107" img="IC0523" type="4" putPosition="3" effectType="3" effect=".1" name="冶炼工具" des1="器官掉落数量+0.1" />
+<i id="40108" img="IC0444" type="4" putPosition="3" effectType="1" effect=".2" name="熔炉" des1="宝石掉落数量+0.2" />
+<i id="40109" img="IC0445" type="4" putPosition="3" effectType="3" effect=".2" name="熔炼灯" des1="矿物掉落数量+0.2" />
+<i id="40110" img="IC0446" type="4" putPosition="3" effectType="3" effect=".2" name="金床" des1="宝石掉落数量+0.2" />
+<i id="40111" img="IC0447" type="4" putPosition="3" effectType="3" effect=".1" name="樽Ⅰ" des1="宝石掉落数量+0.1" />
+<i id="40112" img="IC0521" type="4" putPosition="3" effectType="1" effect=".2" name="樽Ⅱ" des1="宝石掉落数量+0.2" />
+<i id="40113" img="IC0522" type="4" putPosition="3" effectType="1" effect=".3" name="樽Ⅲ" des1="矿物掉落数量+0.3" />
+<i id="40114" img="IC0448" type="4" putPosition="3" effectType="3" effect=".1" name="动物毛皮" des1="矿物掉落数量+0.1" />
+<i id="40115" img="IC0449" type="4" putPosition="3" effectType="4" effect=".2" name="熊猫毛皮" des1="矿物掉落数量+0.2" />
+<i id="40116" img="IC0450" type="4" putPosition="3" effectType="3" effect=".2" name="地魔法阵" des1="矿物掉落数量+0.2" />
+<i id="40117" img="IC0451" type="4" putPosition="3" effectType="4" effect=".2" name="水魔法阵" des1="宝石掉落数量+0.2" />
+<i id="40118" img="IC0452" type="4" putPosition="3" effectType="3" effect=".2" name="火魔法阵" des1="器官掉落数量+0.2" />
+<i id="40119" img="IC0453" type="4" putPosition="3" effectType="4" effect=".2" name="风魔法阵" des1="宝石掉落数量+0.2" />
+<i id="40120" img="IC0454" type="4" putPosition="3" effectType="4" effect=".2" name="光魔法阵" des1="器官掉落数量+0.2" />
+<i id="40121" img="IC0455" type="4" putPosition="3" effectType="2" effect=".2" name="暗魔法阵" des1="器官掉落数量+0.2" />
+<i id="40122" img="IC0456" type="4" putPosition="3" effectType="2" effect=".1" name="裁缝台" des1="矿物掉落数量+0.1" />
+<i id="40123" img="IC0457" type="4" putPosition="3" effectType="4" effect=".2" name="自动裁缝台" des1="矿物掉落数量+0.2" />
+<i id="40124" img="IC0458" type="4" putPosition="3" effectType="4" effect=".3" name="机械裁缝台" des1="宝石掉落数量+0.3" />
+<i id="40125" img="IC0459" type="4" putPosition="3" effectType="2" effect=".1" name="制图机" des1="植物掉落数量+0.1" />
+<i id="40126" img="IC0460" type="4" putPosition="3" effectType="1" effect=".2" name="高级制图机" des1="矿物掉落数量+0.2" />
+<i id="40127" img="IC0461" type="4" putPosition="3" effectType="4" effect=".3" name="豪华制图机" des1="宝石掉落数量+0.3" />
+<i id="40128" img="IC0463" type="4" putPosition="3" effectType="3" effect=".1" name="设计图羊皮纸" des1="器官掉落数量+0.1" />
+<i id="40129" img="IC0464" type="4" putPosition="3" effectType="3" effect=".2" name="魔法羊皮纸" des1="矿物掉落数量+0.2" />
+<i id="40130" img="IC0465" type="4" putPosition="3" effectType="4" effect=".3" name="魔法投影羊皮纸" des1="宝石掉落数量+0.3" />
+<i id="40131" img="IC0466" type="4" putPosition="3" effectType="1" effect=".1" name="灭火水桶" des1="宝石掉落数量+0.1" />
+<i id="40132" img="IC0467" type="4" putPosition="3" effectType="4" effect=".2" name="灭火井" des1="器官掉落数量+0.2" />
+<i id="40133" img="IC0468" type="4" putPosition="3" effectType="3" effect=".3" name="灭火器" des1="植物掉落数量+0.3" />
+<i id="40134" img="IC0469" type="4" putPosition="3" effectType="3" effect=".2" name="赤色合成壶" des1="宝石掉落数量+0.2" />
+<i id="40135" img="IC0470" type="4" putPosition="3" effectType="2" effect=".2" name="魔法合成壶" des1="植物掉落数量+0.2" />
+<i id="40136" img="IC0471" type="4" putPosition="3" effectType="1" effect=".3" name="不可思议合成壶" des1="矿物掉落数量+0.3" />
+<i id="40137" img="IC0472" type="4" putPosition="3" effectType="1" effect=".1" name="细菌培养槽" des1="器官掉落数量+0.1" />
+<i id="40138" img="IC0473" type="4" putPosition="3" effectType="4" effect=".2" name="细胞培养槽" des1="宝石掉落数量+0.2" />
+<i id="40139" img="IC0474" type="4" putPosition="3" effectType="2" effect=".3" name="魔法培养槽" des1="宝石掉落数量+0.3" />
+<i id="40140" img="IC0475" type="4" putPosition="3" effectType="4" effect=".1" name="研究机" des1="宝石掉落数量+0.1" />
+<i id="40141" img="IC0476" type="4" putPosition="3" effectType="1" effect=".2" name="解刨机" des1="器官掉落数量+0.2" />
+<i id="40142" img="IC0477" type="4" putPosition="3" effectType="2" effect=".3" name="手术台" des1="宝石掉落数量+0.3" />
+<i id="40143" img="IC0478" type="4" putPosition="3" effectType="2" effect=".1" name="矿物箱Ⅰ" des1="植物掉落数量+0.1" />
+<i id="40144" img="IC0479" type="4" putPosition="3" effectType="3" effect=".2" name="矿物箱Ⅱ" des1="植物掉落数量+0.2" />
+<i id="40145" img="IC0480" type="4" putPosition="3" effectType="3" effect=".3" name="矿物箱Ⅲ" des1="矿物掉落数量+0.3" />
+<i id="40146" img="IC0482" type="4" putPosition="2" effectType="2" effect="3" name="初级种子" des1="香叶每天产量+3" growId="50054" growDay="2" />
+<i id="40147" img="IC0483" type="4" putPosition="2" effectType="2" effect="4" name="白菜幼苗" des1="香叶每天产量+6" growId="50054" growDay="4" />
+<i id="40148" img="IC0484" type="4" putPosition="2" effectType="3" effect="4" name="赤根菜幼苗" des1="绿草每天产量+6" growId="50051" growDay="6" />
+<i id="40149" img="IC0485" type="4" putPosition="2" effectType="4" effect="6" name="紫叶菜幼苗" des1="水草每天产量+4" growId="50054" growDay="4" />
+<i id="40150" img="IC0508" type="4" putPosition="2" effectType="4" effect="4" name="巨大豆子幼苗" des1="白草每天产量+4" growId="50054" growDay="6" />
+<i id="40151" img="IC0509" type="4" putPosition="2" effectType="2" effect="4" name="地衣野菜幼苗" des1="香叶每天产量+6" growId="50052" growDay="6" />
+<i id="40152" img="IC0486" type="4" putPosition="2" effectType="3" effect="2" name="土窑" des1="香叶每天产量+3" growId="50052" growDay="3" />
+<i id="40153" img="IC0487" type="4" putPosition="2" effectType="2" effect="6" name="石制火窑" des1="香叶每天产量+6" growId="50051" growDay="6" />
+<i id="40154" img="IC0488" type="4" putPosition="2" effectType="3" effect="6" name="石制喷水器" des1="绿草每天产量+6" growId="50054" growDay="4" />
+<i id="40155" img="IC0489" type="4" putPosition="2" effectType="3" effect="3" name="木制材料小屋" des1="绿草每天产量+3" growId="50051" growDay="3" />
+<i id="40156" img="IC0490" type="4" putPosition="2" effectType="2" effect="6" name="铁质材料小屋" des1="白草每天产量+4" growId="50051" growDay="6" />
+<i id="40157" img="IC0491" type="4" putPosition="2" effectType="4" effect="6" name="豪华材料小屋" des1="香叶每天产量+9" growId="50052" growDay="9" />
+<i id="40158" img="IC0492" type="4" putPosition="2" effectType="4" effect="3" name="风车灌溉" des1="绿草每天产量+3" growId="50053" growDay="2" />
+<i id="40159" img="IC0493" type="4" putPosition="2" effectType="1" effect="4" name="庭院水池" des1="香叶每天产量+6" growId="50052" growDay="4" />
+<i id="40160" img="IC0494" type="4" putPosition="2" effectType="2" effect="4" name="昆虫乐园" des1="白草每天产量+4" growId="50051" growDay="6" />
+<i id="40161" img="IC0495" type="4" putPosition="2" effectType="4" effect="4" name="木制秋千" des1="水草每天产量+4" growId="50051" growDay="6" />
+<i id="40162" img="IC0496" type="4" putPosition="2" effectType="2" effect="9" name="春天植物幼苗" des1="香叶每天产量+9" growId="50051" growDay="9" />
+<i id="40163" img="IC0497" type="4" putPosition="2" effectType="2" effect="6" name="秋天植物幼苗" des1="水草每天产量+6" growId="50051" growDay="6" />
+<i id="40164" img="IC0498" type="4" putPosition="2" effectType="4" effect="6" name="烤肉场" des1="水草每天产量+4" growId="50052" growDay="4" />
+<i id="40165" img="IC0499" type="4" putPosition="2" effectType="3" effect="4" name="餐饮台" des1="绿草每天产量+6" growId="50053" growDay="4" />
+<i id="40166" img="IC0500" type="4" putPosition="2" effectType="2" effect="9" name="豪华小屋" des1="香叶每天产量+9" growId="50052" growDay="6" />
+<i id="40167" img="IC0501" type="4" putPosition="2" effectType="2" effect="4" name="水井" des1="香叶每天产量+6" growId="50052" growDay="4" />
+<i id="40168" img="IC0502" type="4" putPosition="2" effectType="3" effect="3" name="参拜神社" des1="绿草每天产量+3" growId="50054" growDay="3" />
+<i id="40169" img="IC0503" type="4" putPosition="2" effectType="1" effect="4" name="马厩" des1="白草每天产量+4" growId="50054" growDay="6" />
+<i id="40170" img="IC0504" type="4" putPosition="2" effectType="2" effect="2" name="普通帐篷" des1="白草每天产量+2" growId="50054" growDay="2" />
+<i id="40171" img="IC0505" type="4" putPosition="2" effectType="3" effect="4" name="高级帐篷" des1="白草每天产量+4" growId="50053" growDay="6" />
+<i id="40172" img="IC0506" type="4" putPosition="2" effectType="4" effect="4" name="药叶小屋" des1="香叶每天产量+6" growId="50052" growDay="4" />
+<i id="40173" img="IC0507" type="4" putPosition="2" effectType="3" effect="6" name="牛棚" des1="白草每天产量+4" growId="50054" growDay="6" />
 
 
 
