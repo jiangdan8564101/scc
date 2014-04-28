@@ -242,7 +242,7 @@
         [ comm addProfessionTime ];
         [ comm addProfessionSkillAP:enemyCreatures.count ];
         
-        float exp = 1;
+        float exp = 0;
         
         for ( int j = 0 ; j < enemyCreatures.count ; j++ )
         {
