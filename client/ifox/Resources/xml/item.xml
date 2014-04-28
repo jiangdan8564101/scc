@@ -441,12 +441,12 @@
 <i id="40030" img="IC0332" type="4" putPosition="1" effectType="7" effect=".01" name="小鱼缸" des1="终极职业工资-1%" />
 <i id="40031" img="IC0333" type="4" putPosition="1" effectType="7" effect=".03" name="立方鱼缸" des1="上级职业工资-3%" />
 <i id="40032" img="IC0334" type="4" putPosition="1" effectType="5" effect=".05" name="落地鱼缸" des1="上级职业工资-5%" />
-<i id="40033" img="IC0335" type="4" putPosition="2" effectType="1" effect="3" name="阔叶植物" des1="绿草每天产量+3" growId="50051" growDay="3" />
-<i id="40034" img="IC0336" type="4" putPosition="2" effectType="1" effect="3" name="针叶植物" des1="绿草每天产量+3" growId="50051" growDay="3" />
-<i id="40035" img="IC0337" type="4" putPosition="2" effectType="2" effect="2" name="小花盆栽" des1="白草每天产量+2" growId="50054" growDay="2" />
-<i id="40036" img="IC0338" type="4" putPosition="2" effectType="4" effect="6" name="大花盆栽" des1="白草每天产量+4" growId="50051" growDay="4" />
-<i id="40037" img="IC0339" type="4" putPosition="2" effectType="2" effect="9" name="豪华盆栽" des1="香叶每天产量+9" growId="50052" growDay="6" />
-<i id="40038" img="IC0340" type="4" putPosition="2" effectType="3" effect="6" name="人体植物" des1="绿草每天产量+6" growId="50053" growDay="4" />
+<i id="40033" img="IC0335" type="4" putPosition="2" name="阔叶植物" des1="绿草每天产量+3" growID="50051" growDay="3" />
+<i id="40034" img="IC0336" type="4" putPosition="2" name="针叶植物" des1="绿草每天产量+3" growID="50051" growDay="3" />
+<i id="40035" img="IC0337" type="4" putPosition="2" name="小花盆栽" des1="白草每天产量+2" growID="50054" growDay="2" />
+<i id="40036" img="IC0338" type="4" putPosition="2" name="大花盆栽" des1="白草每天产量+4" growID="50051" growDay="4" />
+<i id="40037" img="IC0339" type="4" putPosition="2" name="豪华盆栽" des1="香叶每天产量+9" growID="50052" growDay="6" />
+<i id="40038" img="IC0340" type="4" putPosition="2" name="人体植物" des1="绿草每天产量+6" growID="50053" growDay="4" />
 <i id="40039" img="IC0341" type="4" putPosition="1" effectType="6" effect=".01" name="普通扫把" des1="下级职业工资-1%" />
 <i id="40040" img="IC0342" type="4" putPosition="1" effectType="7" effect=".03" name="魔法扫帚" des1="终极职业工资-3%" />
 <i id="40041" img="IC0343" type="4" putPosition="1" effectType="7" effect=".05" name="吸尘器" des1="下级职业工资-5%" />
@@ -554,34 +554,34 @@
 <i id="40143" img="IC0478" type="4" putPosition="3" effectType="2" effect=".1" name="矿物箱Ⅰ" des1="植物掉落数量+0.1" />
 <i id="40144" img="IC0479" type="4" putPosition="3" effectType="3" effect=".2" name="矿物箱Ⅱ" des1="植物掉落数量+0.2" />
 <i id="40145" img="IC0480" type="4" putPosition="3" effectType="3" effect=".3" name="矿物箱Ⅲ" des1="矿物掉落数量+0.3" />
-<i id="40146" img="IC0482" type="4" putPosition="2" effectType="2" effect="3" name="初级种子" des1="香叶每天产量+3" growId="50054" growDay="2" />
-<i id="40147" img="IC0483" type="4" putPosition="2" effectType="2" effect="4" name="白菜幼苗" des1="香叶每天产量+6" growId="50054" growDay="4" />
-<i id="40148" img="IC0484" type="4" putPosition="2" effectType="3" effect="4" name="赤根菜幼苗" des1="绿草每天产量+6" growId="50051" growDay="6" />
-<i id="40149" img="IC0485" type="4" putPosition="2" effectType="4" effect="6" name="紫叶菜幼苗" des1="水草每天产量+4" growId="50054" growDay="4" />
-<i id="40150" img="IC0508" type="4" putPosition="2" effectType="4" effect="4" name="巨大豆子幼苗" des1="白草每天产量+4" growId="50054" growDay="6" />
-<i id="40151" img="IC0509" type="4" putPosition="2" effectType="2" effect="4" name="地衣野菜幼苗" des1="香叶每天产量+6" growId="50052" growDay="6" />
-<i id="40152" img="IC0486" type="4" putPosition="2" effectType="3" effect="2" name="土窑" des1="香叶每天产量+3" growId="50052" growDay="3" />
-<i id="40153" img="IC0487" type="4" putPosition="2" effectType="2" effect="6" name="石制火窑" des1="香叶每天产量+6" growId="50051" growDay="6" />
-<i id="40154" img="IC0488" type="4" putPosition="2" effectType="3" effect="6" name="石制喷水器" des1="绿草每天产量+6" growId="50054" growDay="4" />
-<i id="40155" img="IC0489" type="4" putPosition="2" effectType="3" effect="3" name="木制材料小屋" des1="绿草每天产量+3" growId="50051" growDay="3" />
-<i id="40156" img="IC0490" type="4" putPosition="2" effectType="2" effect="6" name="铁质材料小屋" des1="白草每天产量+4" growId="50051" growDay="6" />
-<i id="40157" img="IC0491" type="4" putPosition="2" effectType="4" effect="6" name="豪华材料小屋" des1="香叶每天产量+9" growId="50052" growDay="9" />
-<i id="40158" img="IC0492" type="4" putPosition="2" effectType="4" effect="3" name="风车灌溉" des1="绿草每天产量+3" growId="50053" growDay="2" />
-<i id="40159" img="IC0493" type="4" putPosition="2" effectType="1" effect="4" name="庭院水池" des1="香叶每天产量+6" growId="50052" growDay="4" />
-<i id="40160" img="IC0494" type="4" putPosition="2" effectType="2" effect="4" name="昆虫乐园" des1="白草每天产量+4" growId="50051" growDay="6" />
-<i id="40161" img="IC0495" type="4" putPosition="2" effectType="4" effect="4" name="木制秋千" des1="水草每天产量+4" growId="50051" growDay="6" />
-<i id="40162" img="IC0496" type="4" putPosition="2" effectType="2" effect="9" name="春天植物幼苗" des1="香叶每天产量+9" growId="50051" growDay="9" />
-<i id="40163" img="IC0497" type="4" putPosition="2" effectType="2" effect="6" name="秋天植物幼苗" des1="水草每天产量+6" growId="50051" growDay="6" />
-<i id="40164" img="IC0498" type="4" putPosition="2" effectType="4" effect="6" name="烤肉场" des1="水草每天产量+4" growId="50052" growDay="4" />
-<i id="40165" img="IC0499" type="4" putPosition="2" effectType="3" effect="4" name="餐饮台" des1="绿草每天产量+6" growId="50053" growDay="4" />
-<i id="40166" img="IC0500" type="4" putPosition="2" effectType="2" effect="9" name="豪华小屋" des1="香叶每天产量+9" growId="50052" growDay="6" />
-<i id="40167" img="IC0501" type="4" putPosition="2" effectType="2" effect="4" name="水井" des1="香叶每天产量+6" growId="50052" growDay="4" />
-<i id="40168" img="IC0502" type="4" putPosition="2" effectType="3" effect="3" name="参拜神社" des1="绿草每天产量+3" growId="50054" growDay="3" />
-<i id="40169" img="IC0503" type="4" putPosition="2" effectType="1" effect="4" name="马厩" des1="白草每天产量+4" growId="50054" growDay="6" />
-<i id="40170" img="IC0504" type="4" putPosition="2" effectType="2" effect="2" name="普通帐篷" des1="白草每天产量+2" growId="50054" growDay="2" />
-<i id="40171" img="IC0505" type="4" putPosition="2" effectType="3" effect="4" name="高级帐篷" des1="白草每天产量+4" growId="50053" growDay="6" />
-<i id="40172" img="IC0506" type="4" putPosition="2" effectType="4" effect="4" name="药叶小屋" des1="香叶每天产量+6" growId="50052" growDay="4" />
-<i id="40173" img="IC0507" type="4" putPosition="2" effectType="3" effect="6" name="牛棚" des1="白草每天产量+4" growId="50054" growDay="6" />
+<i id="40146" img="IC0482" type="4" putPosition="2" name="初级种子" des1="香叶每天产量+3" growID="50054" growDay="2" />
+<i id="40147" img="IC0483" type="4" putPosition="2" name="白菜幼苗" des1="香叶每天产量+6" growID="50054" growDay="4" />
+<i id="40148" img="IC0484" type="4" putPosition="2" name="赤根菜幼苗" des1="绿草每天产量+6" growID="50051" growDay="6" />
+<i id="40149" img="IC0485" type="4" putPosition="2" name="紫叶菜幼苗" des1="水草每天产量+4" growID="50054" growDay="4" />
+<i id="40150" img="IC0508" type="4" putPosition="2" name="巨大豆子幼苗" des1="白草每天产量+4" growID="50054" growDay="6" />
+<i id="40151" img="IC0509" type="4" putPosition="2" name="地衣野菜幼苗" des1="香叶每天产量+6" growID="50052" growDay="6" />
+<i id="40152" img="IC0486" type="4" putPosition="2" name="土窑" des1="香叶每天产量+3" growID="50052" growDay="3" />
+<i id="40153" img="IC0487" type="4" putPosition="2" name="石制火窑" des1="香叶每天产量+6" growID="50051" growDay="6" />
+<i id="40154" img="IC0488" type="4" putPosition="2" name="石制喷水器" des1="绿草每天产量+6" growID="50054" growDay="4" />
+<i id="40155" img="IC0489" type="4" putPosition="2" name="木制材料小屋" des1="绿草每天产量+3" growID="50051" growDay="3" />
+<i id="40156" img="IC0490" type="4" putPosition="2" name="铁质材料小屋" des1="白草每天产量+4" growID="50051" growDay="6" />
+<i id="40157" img="IC0491" type="4" putPosition="2" name="豪华材料小屋" des1="香叶每天产量+9" growID="50052" growDay="9" />
+<i id="40158" img="IC0492" type="4" putPosition="2" name="风车灌溉" des1="绿草每天产量+3" growID="50053" growDay="2" />
+<i id="40159" img="IC0493" type="4" putPosition="2" name="庭院水池" des1="香叶每天产量+6" growID="50052" growDay="4" />
+<i id="40160" img="IC0494" type="4" putPosition="2" name="昆虫乐园" des1="白草每天产量+4" growID="50051" growDay="6" />
+<i id="40161" img="IC0495" type="4" putPosition="2" name="木制秋千" des1="水草每天产量+4" growID="50051" growDay="6" />
+<i id="40162" img="IC0496" type="4" putPosition="2" name="春天植物幼苗" des1="香叶每天产量+9" growID="50051" growDay="9" />
+<i id="40163" img="IC0497" type="4" putPosition="2" name="秋天植物幼苗" des1="水草每天产量+6" growID="50051" growDay="6" />
+<i id="40164" img="IC0498" type="4" putPosition="2" name="烤肉场" des1="水草每天产量+4" growID="50052" growDay="4" />
+<i id="40165" img="IC0499" type="4" putPosition="2" name="餐饮台" des1="绿草每天产量+6" growID="50053" growDay="4" />
+<i id="40166" img="IC0500" type="4" putPosition="2" name="豪华小屋" des1="香叶每天产量+9" growID="50052" growDay="6" />
+<i id="40167" img="IC0501" type="4" putPosition="2" name="水井" des1="香叶每天产量+6" growID="50052" growDay="4" />
+<i id="40168" img="IC0502" type="4" putPosition="2" name="参拜神社" des1="绿草每天产量+3" growID="50054" growDay="3" />
+<i id="40169" img="IC0503" type="4" putPosition="2" name="马厩" des1="白草每天产量+4" growID="50054" growDay="6" />
+<i id="40170" img="IC0504" type="4" putPosition="2" name="普通帐篷" des1="白草每天产量+2" growID="50054" growDay="2" />
+<i id="40171" img="IC0505" type="4" putPosition="2" name="高级帐篷" des1="白草每天产量+4" growID="50053" growDay="6" />
+<i id="40172" img="IC0506" type="4" putPosition="2" name="药叶小屋" des1="香叶每天产量+6" growID="50052" growDay="4" />
+<i id="40173" img="IC0507" type="4" putPosition="2" name="牛棚" des1="白草每天产量+4" growID="50054" growDay="6" />
 
 
 
