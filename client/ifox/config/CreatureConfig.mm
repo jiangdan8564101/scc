@@ -126,6 +126,11 @@
     //RealBaseData.SP = RealBaseData.MaxSP;
     RealBaseData.FS = RealBaseData.MaxFS;
     
+    BaseData.HP = BaseData.MaxHP;
+    //BaseData.SP = BaseData.MaxSP;
+    BaseData.FS = BaseData.MaxFS;
+    
+    
     Dead = NO;
 }
 
@@ -314,11 +319,11 @@
             }
         }
         
-        RealBaseData.HP += item.HP;
+        RealBaseData.HP += item.MaxHP;
         RealBaseData.MaxHP += item.MaxHP;
-        RealBaseData.SP += item.SP;
+        RealBaseData.SP += item.MaxSP;
         RealBaseData.MaxSP += item.MaxSP;
-        RealBaseData.FS += item.FS;
+        RealBaseData.FS += item.MaxFS;
         RealBaseData.MaxFS += item.MaxFS;
         RealBaseData.PAtk += item.PAtk;
         RealBaseData.PDef += item.PDef;

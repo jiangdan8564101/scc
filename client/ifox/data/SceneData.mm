@@ -9,6 +9,7 @@
 #import "SceneData.h"
 #import "MapConfig.h"
 #import "PlayerData.h"
+#import "GameDataManager.h"
 
 @implementation SceneDataItem
 
@@ -332,11 +333,11 @@ SceneData* gSceneData = NULL;
 
 - ( void ) randomSPEnemy
 {
-    if ( [ PlayerData instance ].Day % 5 != 1 )
-    {
-        return;
-    }
-    
+//    if ( [ PlayerData instance ].Day % 5 != 1 )
+//    {
+//        return;
+//    }
+//    
     for ( int i = 0 ; i < Data.count ; ++i )
     {
         int key = [ [ Data.allKeys objectAtIndex:i ] intValue ];
@@ -349,15 +350,18 @@ SceneData* gSceneData = NULL;
             continue;
         }
         
-        int r = getRand( 0 , 500 );
+        int r = getRand( 0 , 11 );
+        
+        if ( [ [ GameDataManager instance ] getBuyItem ] )
+        {
+            r = getRand( 0 , 8 );
+        }
         
         item.SPEnemy = NO;
         
         if ( sub.SPEnemy.count )
         {
-            CreatureBaseIDPerNum* drop = [ sub.SPEnemy objectAtIndex:0 ];
-            
-            item.SPEnemy = r < drop.Per;
+            item.SPEnemy = r < 1;
         }
     }
 }

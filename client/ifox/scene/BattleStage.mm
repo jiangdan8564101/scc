@@ -558,7 +558,7 @@
     
     if ( v < 0 )
     {
-        v = 0;
+        v = 1;
     }
     
     int r = rand() % 100;
@@ -569,6 +569,10 @@
     }
     
     int c = com1.RealBaseData.Critical;
+    if ( c == 0 )
+    {
+        c = 1;
+    }
     r = rand() % 100;
     
     if ( r > c )
