@@ -188,7 +188,7 @@ static LoginUIHandler* gLoginUIHandler;
     
     NSString* displayName = [ [ [ NSBundle mainBundle ] infoDictionary ] objectForKey:@"CFBundleDisplayName" ];
     
-    if ( ![ displayName isEqualToString:@"威尔炼金工房" ] )
+    if ( ![ displayName isEqualToString:@"威尔的炼金工房" ] )
     {
         return NO;
     }
