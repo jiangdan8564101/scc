@@ -1787,7 +1787,10 @@
                 case STGE_CHARGE:
                 {
                     int hp = buff.Power;
-                    
+                    if ( hp <= 0 )
+                    {
+                        hp = 1;
+                    }
                     def.RealBaseData.HP -= hp;
                     int t = [ self getSelfTarget:defArray :def ];
                     [ arrayDef replaceObjectAtIndex:t withObject:[ NSNumber numberWithInt:-hp ] ];
@@ -1802,6 +1805,11 @@
                 case STGE_HATRED:
                 {
                     int hp = buff.Power;
+                    if ( hp <= 0 )
+                    {
+                        hp = 1;
+                    }
+                    
                     def.RealBaseData.HP -= hp;
                     def.RealBaseData.MaxHP -= hp;
                     
@@ -1817,6 +1825,11 @@
                 case STGE_MAXHP:
                 {
                     int hp = buff.Power;
+                    if ( hp <= 0 )
+                    {
+                        hp = 1;
+                    }
+                    
                     def.RealBaseData.HP -= hp;
                     def.RealBaseData.MaxHP -= hp;
                     
@@ -2104,6 +2117,10 @@
             hp = hp * hitRandom.Value * skill.Power;
         }
         
+        if ( hp <= 0 )
+        {
+            hp = 1;
+        }
         
         def.RealBaseData.HP -= hp;
         
@@ -2301,6 +2318,11 @@
             hp = hp * hitRandom.Value * skill.Power;
         }
         
+        if ( hp <= 0 )
+        {
+            hp = 1;
+        }
+        
         def.RealBaseData.HP -= hp;
         
         int hp1 = [ [ hpArrayDef objectAtIndex:i ] intValue ];
@@ -2368,6 +2390,11 @@
         else
         {
             hp = hp * hitRandom.Value * skill.Power;
+        }
+        
+        if ( hp <= 0 )
+        {
+            hp = 1;
         }
         
         def.RealBaseData.HP -= hp;
@@ -2471,6 +2498,11 @@
         
         int hp = def.RealBaseData.HP * skill.Power;
         
+        if ( hp <= 0 )
+        {
+            hp = 1;
+        }
+        
         def.RealBaseData.HP -= hp;
         
         [ hpArrayDef replaceObjectAtIndex:i withObject:[ NSNumber numberWithInt:-hp ] ];
@@ -2555,6 +2587,11 @@
         else
         {
             hp = hp * hitRandom.Value * skill.Power;
+        }
+        
+        if ( hp <= 0 )
+        {
+            hp = 1;
         }
         
         int t = [ self getSelfTarget:atkArray :atk ];
