@@ -106,7 +106,6 @@
 
 - ( void ) startFight
 {
-    
     [ UIView animateWithDuration:0.05f
                       animations:^{
                           view.transform = CGAffineTransformMakeScale(1.1f, 1.1f);

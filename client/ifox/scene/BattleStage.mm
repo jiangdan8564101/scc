@@ -678,6 +678,8 @@
         hp = 1;
     }
     
+    //hitType = BHS_MISS;
+    
     switch ( hitType )
     {
         case BHS_MISS:
@@ -690,7 +692,7 @@
             
             [ mapLayer battleLog:str ];
             
-            hp = 0;
+            hp = FIGHT_MISS;
         }
             break;
         case BHS_HIT:

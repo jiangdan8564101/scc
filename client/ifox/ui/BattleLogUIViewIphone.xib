@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1072" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -200,7 +200,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <view tag="200" contentMode="scaleToFill" id="yte-q6-6QS" customClass="BattleNumberView">
-                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <rect key="frame" x="32" y="20" width="2" height="2"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="4ZI-lq-PfY">
@@ -297,7 +297,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <view tag="200" contentMode="scaleToFill" id="kId-qY-XGq" customClass="BattleNumberView">
-                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <rect key="frame" x="32" y="20" width="2" height="2"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="SLH-e8-OMa">
@@ -394,7 +394,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <view tag="200" contentMode="scaleToFill" id="hLn-vq-cGh" customClass="BattleNumberView">
-                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <rect key="frame" x="32" y="20" width="2" height="2"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="WIu-Js-0nP">
@@ -491,7 +491,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <view tag="200" contentMode="scaleToFill" id="UPQ-z3-8mX" customClass="BattleNumberView">
-                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <rect key="frame" x="32" y="20" width="2" height="2"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="YeJ-8Q-OdG">
@@ -588,7 +588,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <view tag="200" contentMode="scaleToFill" id="NtN-Mf-Ebc" customClass="BattleNumberView">
-                            <rect key="frame" x="19" y="9" width="25" height="23"/>
+                            <rect key="frame" x="32" y="20" width="2" height="2"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </view>
                         <view tag="500" contentMode="scaleToFill" id="eRf-wp-BCl">

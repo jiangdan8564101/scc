@@ -191,7 +191,7 @@
 		98529CA317E752560092D5FE /* battleSdamage.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BA917E752540092D5FE /* battleSdamage.png */; };
 		98529CA417E752560092D5FE /* battleSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAA17E752540092D5FE /* battleSetting.png */; };
 		98529CA517E752560092D5FE /* battleSkill.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAB17E752540092D5FE /* battleSkill.png */; };
-		98529CA617E752560092D5FE /* battleSmiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAC17E752540092D5FE /* battleSmiss.png */; };
+		98529CA617E752560092D5FE /* battleMiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAC17E752540092D5FE /* battleMiss.png */; };
 		98529CA717E752560092D5FE /* battleSrecovery.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAD17E752540092D5FE /* battleSrecovery.png */; };
 		98529CA817E752560092D5FE /* battleStage.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAE17E752540092D5FE /* battleStage.png */; };
 		98529CA917E752560092D5FE /* battleStay.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAF17E752540092D5FE /* battleStay.png */; };
@@ -1133,7 +1133,7 @@
 		98529BA917E752540092D5FE /* battleSdamage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleSdamage.png; sourceTree = "<group>"; };
 		98529BAA17E752540092D5FE /* battleSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleSetting.png; sourceTree = "<group>"; };
 		98529BAB17E752540092D5FE /* battleSkill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleSkill.png; sourceTree = "<group>"; };
-		98529BAC17E752540092D5FE /* battleSmiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleSmiss.png; sourceTree = "<group>"; };
+		98529BAC17E752540092D5FE /* battleMiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleMiss.png; sourceTree = "<group>"; };
 		98529BAD17E752540092D5FE /* battleSrecovery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleSrecovery.png; sourceTree = "<group>"; };
 		98529BAE17E752540092D5FE /* battleStage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleStage.png; sourceTree = "<group>"; };
 		98529BAF17E752540092D5FE /* battleStay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleStay.png; sourceTree = "<group>"; };
@@ -2478,7 +2478,7 @@
 				98529BA917E752540092D5FE /* battleSdamage.png */,
 				98529BAA17E752540092D5FE /* battleSetting.png */,
 				98529BAB17E752540092D5FE /* battleSkill.png */,
-				98529BAC17E752540092D5FE /* battleSmiss.png */,
+				98529BAC17E752540092D5FE /* battleMiss.png */,
 				98529BAD17E752540092D5FE /* battleSrecovery.png */,
 				98529BAE17E752540092D5FE /* battleStage.png */,
 				98529BAF17E752540092D5FE /* battleStay.png */,
@@ -3889,7 +3889,7 @@
 				98529CAE17E752560092D5FE /* c1.png in Resources */,
 				98804A0F180299EA00DC764E /* alchemyBG.png in Resources */,
 				98529CF417E752560092D5FE /* select.png in Resources */,
-				98529CA617E752560092D5FE /* battleSmiss.png in Resources */,
+				98529CA617E752560092D5FE /* battleMiss.png in Resources */,
 				986B4FEE185B531100D05558 /* BG029D.jpg in Resources */,
 				98529CC217E752560092D5FE /* battleStageFailed.png in Resources */,
 				98FD670918F41F2A005C9F98 /* WorkWorkUpViewIphone5.xib in Resources */,
@@ -4722,6 +4722,10 @@
 		98A39C7C163E650000BDCE8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -4756,6 +4760,10 @@
 		98A39C7D163E650000BDCE8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -4789,6 +4797,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -4815,6 +4827,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;

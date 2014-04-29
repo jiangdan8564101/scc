@@ -59,6 +59,7 @@ const fint32    PLAYER_CACHE_COUNT = 4096;
 
 const fint32    MAX_PROFESSION_LEVEL = 8;
 
+const fint32    FIGHT_MISS = -77777;
 
 const fint32    GROUP_NULL = 0;
 const fint32    GROUP_PLAYER = 1;

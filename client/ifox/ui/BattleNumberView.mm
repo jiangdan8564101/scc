@@ -7,6 +7,7 @@
 //
 
 #import "BattleNumberView.h"
+#import "gameDefine.h"
 
 @implementation BattleNumberView
 @synthesize NumType;
@@ -18,6 +19,17 @@
 
 - ( void ) setNumber:( int )n
 {
+    if ( -n == FIGHT_MISS )
+    {
+        UIImageView* view = [ [ UIImageView alloc ] initWithImage:[ UIImage imageNamed:@"battleMiss" ] ];
+        [ self addSubview:view ];
+        [ view setCenter:CGPointMake( 0 , 0 ) ];
+        [ array addObject:view ];
+        [ view release ];
+        
+        return;
+    }
+    
     UIImageView* view1 = NULL;
     if ( n > 0 )
     {
