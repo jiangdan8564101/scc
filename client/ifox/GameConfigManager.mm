@@ -24,6 +24,7 @@
 #import "LevelUpPriceConfig.h"
 #import "HitConfig.h"
 #import "EffectConfig.h"
+#import "ProDiffConfig.h"
 
 @implementation GameConfigManager
 
@@ -43,6 +44,8 @@ GameConfigManager* gGameConfigManager = NULL;
 
 - ( void ) initConfig
 {
+    [ [ ProDiffConfig instance ] initConfig ];
+    
     [ [ SkillConfig instance ] initConfig ];
     [ [ MapConfig instance ] initConfig ];
     [ [ CreatureConfig instance ] initConfig ];
@@ -60,6 +63,7 @@ GameConfigManager* gGameConfigManager = NULL;
     [ [ LevelUpPriceConfig instance ] initConfig ];
     [ [ HitConfig instance ] initConfig ];
     [ [ EffectConfig instance ] initConfig ];
+    
 }
 
 

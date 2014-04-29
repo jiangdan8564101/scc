@@ -782,6 +782,7 @@
 		98CA97B2185A0E9C008D992D /* AlertUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CA97B1185A0E9C008D992D /* AlertUIView.xib */; };
 		98D0230A16A42D4B0025EC97 /* action in Resources */ = {isa = PBXBuildFile; fileRef = 98D0230916A42D4B0025EC97 /* action */; };
 		98D9D28A16FE92E700CDA4C0 /* logManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D9D28816FE905700CDA4C0 /* logManager.cpp */; };
+		98DA5FD2190F538300025B35 /* ProDiffConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98DA5FD1190F538300025B35 /* ProDiffConfig.mm */; };
 		98E3F632180D1137008BC29A /* QuestConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F631180D1137008BC29A /* QuestConfig.mm */; };
 		98E3F635180D2C2E008BC29A /* QuestData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F634180D2C2E008BC29A /* QuestData.mm */; };
 		98E6684616AA919A0014A0BB /* BattleMapScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98E6684516AA919A0014A0BB /* BattleMapScene.mm */; };
@@ -1946,6 +1947,8 @@
 		98D0230916A42D4B0025EC97 /* action */ = {isa = PBXFileReference; lastKnownFileType = folder; name = action; path = Resources/action; sourceTree = "<group>"; };
 		98D9D28816FE905700CDA4C0 /* logManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = logManager.cpp; sourceTree = "<group>"; };
 		98D9D28916FE905700CDA4C0 /* logManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logManager.h; sourceTree = "<group>"; };
+		98DA5FD0190F538300025B35 /* ProDiffConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProDiffConfig.h; sourceTree = "<group>"; };
+		98DA5FD1190F538300025B35 /* ProDiffConfig.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProDiffConfig.mm; sourceTree = "<group>"; };
 		98E3F630180D1137008BC29A /* QuestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestConfig.h; sourceTree = "<group>"; };
 		98E3F631180D1137008BC29A /* QuestConfig.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QuestConfig.mm; sourceTree = "<group>"; };
 		98E3F633180D2C2E008BC29A /* QuestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestData.h; sourceTree = "<group>"; };
@@ -3577,6 +3580,8 @@
 				98B02416188627CB00132AF4 /* LevelUpPriceConfig.mm */,
 				986DB70F1898EF0F00FB9422 /* EffectConfig.h */,
 				986DB7101898EF0F00FB9422 /* EffectConfig.mm */,
+				98DA5FD0190F538300025B35 /* ProDiffConfig.h */,
+				98DA5FD1190F538300025B35 /* ProDiffConfig.mm */,
 			);
 			path = config;
 			sourceTree = "<group>";
@@ -4660,6 +4665,7 @@
 				985EC346171EE5EA0089519B /* GameData.mm in Sources */,
 				988941D718E7EC16006C6167 /* PaymentIOS.mm in Sources */,
 				985EC349171EE62D0089519B /* PlayerCreatureData.mm in Sources */,
+				98DA5FD2190F538300025B35 /* ProDiffConfig.mm in Sources */,
 				98139E2C171FC2C700065093 /* PlayerData.mm in Sources */,
 				98361D491722AED8002A0473 /* BattleMovie.mm in Sources */,
 				9842DA92172E1C2D00090A84 /* BattleStage.mm in Sources */,

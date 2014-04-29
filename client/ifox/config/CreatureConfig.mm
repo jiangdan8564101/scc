@@ -12,6 +12,7 @@
 #import "PlayerData.h"
 #import "LevelUpPriceConfig.h"
 #import "ItemData.h"
+#import "ProDiffConfig.h"
 
 @implementation CreatureBaseIDPerNum
 
@@ -355,12 +356,26 @@
 - ( void ) updateProfessionSkillAndEquip
 {
     [ RealBaseData release ];
+    
+    ProDiffConfigData* proDiffData = [ [ ProDiffConfig instance ] getData:ProfessionID ];
     RealBaseData = BaseData.copy;
+    RealBaseData.HP *= proDiffData.HP;
+    RealBaseData.MaxHP *= proDiffData.HP;
+    RealBaseData.SP *= proDiffData.SP;
+    RealBaseData.MaxSP *= proDiffData.SP;
+    RealBaseData.PAtk *= proDiffData.PAtk;
+    RealBaseData.PDef *= proDiffData.PDef;
+    RealBaseData.MAtk *= proDiffData.MAtk;
+    RealBaseData.MDef *= proDiffData.MDef;
+    RealBaseData.Agile *= proDiffData.Agile;
+    RealBaseData.Lucky *= proDiffData.Lucky;
+    
     RealBaseData.CP = 0;
     
-    RealBaseData.Miss += RealBaseData.Agile / 3000.0f;
-    RealBaseData.Hit += RealBaseData.Lucky / 3000.0f;
+    RealBaseData.Miss += RealBaseData.Agile / 500.0f;
+    RealBaseData.Hit += RealBaseData.Lucky / 500.0f;
     RealBaseData.Critical += RealBaseData.Lucky / 5000.0f;
+    
     
     MainAttrType = 0;
     MainAttr = 0.0f;

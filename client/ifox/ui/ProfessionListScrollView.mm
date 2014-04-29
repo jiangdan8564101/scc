@@ -93,7 +93,7 @@
         s = 0;
     }
     
-    int e = s + 6 * 2;
+    int e = s + 6 * 4;
     
     if ( e > self.DataCount )
     {

@@ -257,10 +257,11 @@ static ProfessionUIHandler* gProfessionUIHandler;
     }
     
     NSMutableDictionary* dic = [ ProfessionConfig instance ].Dic;
-    NSArray* values = [ dic allValues ];
+    NSArray* values = getSortKeys( dic );
+    
     for ( fint32 i = 0 ; i < values.count ; ++i )
     {
-        ProfessionConfigData* data1 = [ values objectAtIndex:i ];
+        ProfessionConfigData* data1 = [ dic objectForKey:[ values objectAtIndex:i ] ];
         NSArray* allKeys = data1.Conditions.allKeys;
         
         ProfessionLevelData* ld = [ comm getProLevelData:data1.ID ];
