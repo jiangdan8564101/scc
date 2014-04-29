@@ -12,10 +12,10 @@
 
 
 
-- ( void ) setData:( CreatureCommonData* )c :( BOOL )b :( BOOL )sp
+- ( void ) setData:( CreatureCommonData* )c :( BOOL )b :( BOOL )s
 {
+    sp = s;
     comm = c;
-
     boss = b;
     
     NSString* str = [ NSString stringWithFormat:@"CB%@AA" , c.BattleAction && c.BattleAction.length ?  c.BattleAction : c.Action ];
@@ -78,11 +78,11 @@
     hpWidth = b ? rectBossHP.size.width : rectHP.size.width;
     [ self updateHpImageView ];
     
-    [ self setImageGrow:sp ];
+    [ self updateImageGrow ];
 }
 
 
-- ( void ) setImageGrow:( BOOL )sp
+- ( void ) updateImageGrow
 {
 //    CALayer* layer = [ imageView layer ];
 //    layer.borderColor = [ [ UIColor whiteColor ] CGColor ];
@@ -90,8 +90,10 @@
 
     if ( sp )
     {
-        imageView.layer.shadowColor = [ UIColor redColor ].CGColor;
-        imageView.layer.shadowOffset = CGSizeMake( 0 , 0 );
+        UIColor* color = [ UIColor colorWithRed:1.0f green:0.0f blue:0.0f alpha: timeSP ];
+        
+        imageView.layer.shadowColor = color.CGColor;
+        imageView.layer.shadowOffset = CGSizeMake( 1 , 1 );
         imageView.layer.shadowOpacity = 1.0f;
         imageView.layer.shadowRadius = 10.0f;
         
@@ -381,6 +383,30 @@
 {
     [ effect update:d ];
     [ numberView update:d ];
+    
+    if ( sp )
+    {
+        if ( addSP )
+        {
+            timeSP += d;
+        }
+        else
+        {
+            timeSP -= d;
+        }
+        
+        [ self updateImageGrow ];
+        
+        if ( timeSP >= 1.0f )
+        {
+            addSP = NO;
+        }
+        
+        if ( timeSP <= 0.0f )
+        {
+            addSP = YES;
+        }
+    }
 }
 
 

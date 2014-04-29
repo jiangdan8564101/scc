@@ -248,7 +248,7 @@
         {
             CreatureCommonData* comm1 = [ enemyCreatures objectAtIndex:j ];
             
-            if ( comm.Level < comm1.Level + 5 )
+            if ( comm.Level < comm1.Level + 3 )
             {
                 exp = ( 1 - ( comm.Level - comm1.Level ) * 0.2f ) * comm1.EXP;
 
@@ -729,6 +729,8 @@
             [ mapLayer battleLog:str ];
             
             [ LogUI fightEffectCritical ];
+            
+            hitRandom.ID = BRHS_HIT5;
         }
             break;
     }

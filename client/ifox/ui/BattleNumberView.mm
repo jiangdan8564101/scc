@@ -100,6 +100,14 @@
         }
     }
     
+    if ( [ name isEqualToString:@"bb" ] )
+    {
+        UIImageView* view = [ [ UIImageView alloc ] initWithImage:[ UIImage imageNamed:@"battleCritical" ] ];
+        [ self addSubview:view ];
+        [ view setCenter:CGPointMake( 0 , -view.frame.size.height * 1.1f ) ];
+        [ array addObject:view ];
+        [ view release ];
+    }
 }
 
 - ( void ) clearNumber

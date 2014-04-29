@@ -36,7 +36,9 @@
     UIEffectAction* effect;
     
     BOOL boss;
-    
+    BOOL sp;
+    float timeSP;
+    BOOL addSP;
     
     CreatureCommonData* comm;
 }

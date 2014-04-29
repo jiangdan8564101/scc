@@ -18,6 +18,9 @@
     BattleNumberView* numberViewOri;
     BattleNumberView* numberView;
     
+    UIImage* imageNormal;
+    UIImage* imageDead;
+    
     UIImageView* imageView;
     UIView* view;
     
