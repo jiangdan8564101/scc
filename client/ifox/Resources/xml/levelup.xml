@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <levelUp>
-<l id="1" des="威尔" hp="6" sp="1.2" cp=".2" pAtk="4.5" pDef="1" mAtk="4.5" mDef="1" agile="2" lucky="2" />
-<l id="2" des="月爁" hp="5" sp="1.2" cp=".2" pAtk="4" pDef="4" mAtk="4" mDef="4" agile="2" lucky="2" />
-<l id="3" des="艾米莉塔" hp="4.25" sp="1.7" cp=".2" pAtk="2.5" pDef="4" mAtk="6.5" mDef="5" agile="1.3" lucky="3" />
-<l id="4" des="塞维尔" hp="4.25" sp="1" cp=".2" pAtk="6" pDef="5" mAtk="2.5" mDef="5" agile="3.2" lucky="1.7" />
-<l id="5" des="雷格拉" hp="4.25" sp="1.2" cp=".2" pAtk="5" pDef="1" mAtk="5" mDef="1" agile="2" lucky="5" />
-<l id="6" des="络纱娜" hp="5" sp="1" cp=".2" pAtk="5" pDef="2" mAtk="4" mDef="4" agile="3" lucky="1" />
-<l id="9" des="神职侍女" hp="4.75" sp="1.4" cp=".2" pAtk="2.5" pDef="3" mAtk="6" mDef="5" agile="1.3" lucky="3" />
-<l id="12" des="水那" hp="4.25" sp="1.7" cp=".2" pAtk="2.5" pDef="4" mAtk="6.5" mDef="5" agile="1.3" lucky="3" />
-<l id="13" des="火狐" hp="5.25" sp="1.2" cp=".2" pAtk="4.5" pDef="4" mAtk="4" mDef="4" agile="3" lucky="3" />
-<l id="14" des="克莱尔" hp="4" sp="1" cp=".2" pAtk="6.5" pDef="5" mAtk="2.5" mDef="5" agile="4" lucky="2.5" />
-<l id="15" des="梅洛蒂亚娜" hp="5" sp="1.4" cp=".2" pAtk="4" pDef="3" mAtk="5" mDef="5" agile="2" lucky="2" />
-<l id="16" des="莎露媞" hp="5" sp="1" cp=".2" pAtk="5" pDef="2" mAtk="3" mDef="5" agile="2" lucky="5" />
-<l id="20" des="克尔安奴" hp="4.25" sp="1" cp=".2" pAtk="6" pDef="5" mAtk="2.5" mDef="5" agile="3.2" lucky="1.7" />
-<l id="21" des="幻兽" hp="5" sp="1.2" cp=".2" pAtk="5" pDef="4" mAtk="3" mDef="4" agile="3" lucky="3" />
-<l id="22" des="狐伯莲" hp="5" sp="1.2" cp=".2" pAtk="3" pDef="3" mAtk="3" mDef="3" agile="6" lucky="6" />
-<l id="23" des="雷龙" hp="5" sp="1.4" cp=".2" pAtk="4" pDef="4" mAtk="5" mDef="4" agile="2" lucky="3" />
-<l id="24" des="伊丽莎斯" hp="4.75" sp="1.4" cp=".2" pAtk="2.5" pDef="3" mAtk="5" mDef="5" agile="2" lucky="4" />
-<l id="25" des="死神" hp="5" sp="1.2" cp=".2" pAtk="5.5" pDef="3" mAtk="4.5" mDef="3" agile="3" lucky="4" />
-<l id="40" des="露丝" hp="5" sp="1.2" cp=".2" pAtk="5.5" pDef="5" mAtk="3" mDef="3" agile="4" lucky="3" />
-<l id="41" des="伊琳娜" hp="4.25" sp="1.4" cp=".2" pAtk="5" pDef="4" mAtk="5" mDef="4" agile="3" lucky="2" />
-<l id="42" des="伊夫琳" hp="5" sp="1.2" cp=".2" pAtk="5" pDef="4" mAtk="3" mDef="5" agile="2" lucky="5" />
-<l id="48" des="莉莉" hp="5" sp="1.2" cp=".2" pAtk="2.5" pDef="3" mAtk="3" mDef="6" agile="5" lucky="6" />
-<l id="49" des="莉莉" hp="5" sp="1.2" cp=".2" pAtk="3" pDef="3" mAtk="2.5" mDef="6" agile="6" lucky="5" />
-<l id="50" des="普罗阿" hp="4" sp="1.2" cp=".2" pAtk="4" pDef="3" mAtk="4" mDef="3" agile="8" lucky="10" />
-<l id="51" des="菲尼莉" hp="4.5" sp="1.5" cp=".2" pAtk="3" pDef="4" mAtk="6" mDef="5" agile="2" lucky="3" />
-<l id="60" des="女佣" hp="4.5" sp="1.2" cp=".2" pAtk="2.5" pDef="3" mAtk="4" mDef="6" agile="6" lucky="5" />
-<l id="61" des="女佣（邪恶）" hp="4.5" sp="1.2" cp=".2" pAtk="3" pDef="2" mAtk="3" mDef="8" agile="5" lucky="6" />
-<l id="62" des="纳斯塔西娅" hp="4.5" sp="1.4" cp=".2" pAtk="4" pDef="4" mAtk="5" mDef="4" agile="3" lucky="2" />
-<l id="64" des="依库瑞娅" hp="5" sp="1.2" cp=".2" pAtk="5.5" pDef="5" mAtk="3" mDef="3" agile="4" lucky="3" />
-<l id="70" des="男佣兵" hp="4.2" sp=".84" cp=".2" pAtk="3.15" pDef=".7" mAtk="3.15" mDef=".7" agile="1.4" lucky="1.4" />
-<l id="71" des="女佣兵" hp="3.5" sp=".84" cp=".2" pAtk="2.8" pDef="2.8" mAtk="2.8" mDef="2.8" agile="1.4" lucky="1.4" />
+
+<l type="1" des="威尔" maxHP="6" maxSP="1.2" maxFS=".2" cp=".5" pAtk="4.5" pDef="1" mAtk="4.5" mDef="1" agile="2" lucky="2" />
+<l type="2" des="月爁" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="4" pDef="4" mAtk="4" mDef="4" agile="2" lucky="2" />
+<l type="3" des="艾米莉塔" maxHP="4.25" maxSP="1.7" maxFS=".2" cp=".5" pAtk="2.5" pDef="4" mAtk="6.5" mDef="5" agile="1.3" lucky="3" />
+<l type="4" des="塞维尔" maxHP="4.25" maxSP="1" maxFS=".2" cp=".5" pAtk="6" pDef="5" mAtk="2.5" mDef="5" agile="3.2" lucky="1.7" />
+<l type="5" des="雷格拉" maxHP="4.25" maxSP="1.2" maxFS=".2" cp=".5" pAtk="5" pDef="1" mAtk="5" mDef="1" agile="2" lucky="5" />
+<l type="6" des="络纱娜" maxHP="5" maxSP="1" maxFS=".2" cp=".5" pAtk="5" pDef="2" mAtk="4" mDef="4" agile="3" lucky="1" />
+<l type="9" des="神职侍女" maxHP="4.75" maxSP="1.4" maxFS=".2" cp=".5" pAtk="2.5" pDef="3" mAtk="6" mDef="5" agile="1.3" lucky="3" />
+<l type="12" des="水那" maxHP="4.25" maxSP="1.7" maxFS=".2" cp=".5" pAtk="2.5" pDef="4" mAtk="6.5" mDef="5" agile="1.3" lucky="3" />
+<l type="13" des="火狐" maxHP="5.25" maxSP="1.2" maxFS=".2" cp=".5" pAtk="4.5" pDef="4" mAtk="4" mDef="4" agile="3" lucky="3" />
+<l type="14" des="克莱尔" maxHP="4" maxSP="1" maxFS=".2" cp=".5" pAtk="6.5" pDef="5" mAtk="2.5" mDef="5" agile="4" lucky="2.5" />
+<l type="15" des="梅洛蒂亚娜" maxHP="5" maxSP="1.4" maxFS=".2" cp=".5" pAtk="4" pDef="3" mAtk="5" mDef="5" agile="2" lucky="2" />
+<l type="16" des="莎露媞" maxHP="5" maxSP="1" maxFS=".2" cp=".5" pAtk="5" pDef="2" mAtk="3" mDef="5" agile="2" lucky="5" />
+<l type="20" des="克尔安奴" maxHP="4.25" maxSP="1" maxFS=".2" cp=".5" pAtk="6" pDef="5" mAtk="2.5" mDef="5" agile="3.2" lucky="1.7" />
+<l type="21" des="幻兽" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="5" pDef="4" mAtk="3" mDef="4" agile="3" lucky="3" />
+<l type="22" des="狐伯莲" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="3" pDef="3" mAtk="3" mDef="3" agile="6" lucky="6" />
+<l type="23" des="雷龙" maxHP="5" maxSP="1.4" maxFS=".2" cp=".5" pAtk="4" pDef="4" mAtk="5" mDef="4" agile="2" lucky="3" />
+<l type="24" des="伊丽莎斯" maxHP="4.75" maxSP="1.4" maxFS=".2" cp=".5" pAtk="2.5" pDef="3" mAtk="5" mDef="5" agile="2" lucky="4" />
+<l type="25" des="死神" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="5.5" pDef="3" mAtk="4.5" mDef="3" agile="3" lucky="4" />
+<l type="40" des="露丝" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="5.5" pDef="5" mAtk="3" mDef="3" agile="4" lucky="3" />
+<l type="41" des="伊琳娜" maxHP="4.25" maxSP="1.4" maxFS=".2" cp=".5" pAtk="5" pDef="4" mAtk="5" mDef="4" agile="3" lucky="2" />
+<l type="42" des="伊夫琳" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="5" pDef="4" mAtk="3" mDef="5" agile="2" lucky="5" />
+<l type="48" des="莉莉" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="2.5" pDef="3" mAtk="3" mDef="6" agile="5" lucky="6" />
+<l type="49" des="莉莉" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="3" pDef="3" mAtk="2.5" mDef="6" agile="6" lucky="5" />
+<l type="50" des="普罗阿" maxHP="4" maxSP="1.2" maxFS=".2" cp=".5" pAtk="4" pDef="3" mAtk="4" mDef="3" agile="8" lucky="10" />
+<l type="51" des="菲尼莉" maxHP="4.5" maxSP="1.5" maxFS=".2" cp=".5" pAtk="3" pDef="4" mAtk="6" mDef="5" agile="2" lucky="3" />
+<l type="60" des="女佣" maxHP="4.5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="2.5" pDef="3" mAtk="4" mDef="6" agile="6" lucky="5" />
+<l type="61" des="女佣（邪恶）" maxHP="4.5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="3" pDef="2" mAtk="3" mDef="8" agile="5" lucky="6" />
+<l type="62" des="纳斯塔西娅" maxHP="4.5" maxSP="1.4" maxFS=".2" cp=".5" pAtk="4" pDef="4" mAtk="5" mDef="4" agile="3" lucky="2" />
+<l type="64" des="依库瑞娅" maxHP="5" maxSP="1.2" maxFS=".2" cp=".5" pAtk="5.5" pDef="5" mAtk="3" mDef="3" agile="4" lucky="3" />
+<l type="70" des="男佣兵" maxHP="4.2" maxSP=".84" maxFS=".2" cp=".5" pAtk="3.15" pDef=".7" mAtk="3.15" mDef=".7" agile="1.4" lucky="1.4" />
+<l type="71" des="女佣兵" maxHP="3.5" maxSP=".84" maxFS=".2" cp=".5" pAtk="2.8" pDef="2.8" mAtk="2.8" mDef="2.8" agile="1.4" lucky="1.4" />
 </levelUp>
 
 
