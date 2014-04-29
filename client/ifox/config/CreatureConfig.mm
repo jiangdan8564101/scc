@@ -358,17 +358,56 @@
     [ RealBaseData release ];
     
     ProDiffConfigData* proDiffData = [ [ ProDiffConfig instance ] getData:ProfessionID ];
+    
     RealBaseData = BaseData.copy;
-    RealBaseData.HP *= proDiffData.HP;
-    RealBaseData.MaxHP *= proDiffData.HP;
-    RealBaseData.SP *= proDiffData.SP;
-    RealBaseData.MaxSP *= proDiffData.SP;
-    RealBaseData.PAtk *= proDiffData.PAtk;
-    RealBaseData.PDef *= proDiffData.PDef;
-    RealBaseData.MAtk *= proDiffData.MAtk;
-    RealBaseData.MDef *= proDiffData.MDef;
-    RealBaseData.Agile *= proDiffData.Agile;
-    RealBaseData.Lucky *= proDiffData.Lucky;
+    
+    CreatureCommonData* commBase = [ [ CreatureConfig instance ] getCommonData:ID ];
+    if ( commBase )
+    {
+        RealBaseData.HP -= commBase.BaseData.HP;
+        RealBaseData.MaxHP -= commBase.BaseData.MaxHP;
+        RealBaseData.SP -= commBase.BaseData.SP;
+        RealBaseData.MaxSP -= commBase.BaseData.MaxSP;
+        RealBaseData.PAtk -= commBase.BaseData.PAtk;
+        RealBaseData.PDef -= commBase.BaseData.PDef;
+        RealBaseData.MAtk -= commBase.BaseData.MAtk;
+        RealBaseData.MDef -= commBase.BaseData.MDef;
+        RealBaseData.Agile -= commBase.BaseData.Agile;
+        RealBaseData.Lucky -= commBase.BaseData.Lucky;
+        
+        RealBaseData.HP *= proDiffData.HP;
+        RealBaseData.MaxHP *= proDiffData.HP;
+        RealBaseData.SP *= proDiffData.SP;
+        RealBaseData.MaxSP *= proDiffData.SP;
+        RealBaseData.PAtk *= proDiffData.PAtk;
+        RealBaseData.PDef *= proDiffData.PDef;
+        RealBaseData.MAtk *= proDiffData.MAtk;
+        RealBaseData.MDef *= proDiffData.MDef;
+        RealBaseData.Agile *= proDiffData.Agile;
+        RealBaseData.Lucky *= proDiffData.Lucky;
+        
+        RealBaseData.HP += commBase.BaseData.HP;
+        RealBaseData.MaxHP += commBase.BaseData.MaxHP;
+        RealBaseData.SP += commBase.BaseData.SP;
+        RealBaseData.MaxSP += commBase.BaseData.MaxSP;
+        RealBaseData.PAtk += commBase.BaseData.PAtk;
+        RealBaseData.PDef += commBase.BaseData.PDef;
+        RealBaseData.MAtk += commBase.BaseData.MAtk;
+        RealBaseData.MDef += commBase.BaseData.MDef;
+        RealBaseData.Agile += commBase.BaseData.Agile;
+        RealBaseData.Lucky += commBase.BaseData.Lucky;
+    }
+    
+//    RealBaseData.HP *= proDiffData.HP;
+//    RealBaseData.MaxHP *= proDiffData.HP;
+//    RealBaseData.SP *= proDiffData.SP;
+//    RealBaseData.MaxSP *= proDiffData.SP;
+//    RealBaseData.PAtk *= proDiffData.PAtk;
+//    RealBaseData.PDef *= proDiffData.PDef;
+//    RealBaseData.MAtk *= proDiffData.MAtk;
+//    RealBaseData.MDef *= proDiffData.MDef;
+//    RealBaseData.Agile *= proDiffData.Agile;
+//    RealBaseData.Lucky *= proDiffData.Lucky;
     
     RealBaseData.CP = 0;
     

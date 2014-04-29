@@ -210,7 +210,7 @@ static InfoMonsterUIHandler* gInfoMonsterUIHandler;
     {
         label = (UILabel*)[ view viewWithTag:1020 + i ];
         
-        NSString* str = [ NSString stringWithFormat:@"%0.1f%%" , comm.RealAttrDefence[ i ] * 100.0f ];
+        NSString* str = [ NSString stringWithFormat:@"%0.0f%%" , comm.RealAttrDefence[ i ] * 100.0f ];
         //NSString* str1 = NSLocalizedString( str , nil );
         [ label setText:str ];
     }

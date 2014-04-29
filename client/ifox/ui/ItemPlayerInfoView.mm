@@ -57,7 +57,7 @@
     {
         label = (UILabel*)[ self viewWithTag:3702 + i ];
         
-        NSString* str = [ NSString stringWithFormat:@"%0.1f%%" , c.RealAttrDefence[ i ] * 100.0f ];
+        NSString* str = [ NSString stringWithFormat:@"%0.0f%%" , c.RealAttrDefence[ i ] * 100.0f ];
         //NSString* str1 = NSLocalizedString( str , nil );
         [ label setText:str ];
     }
