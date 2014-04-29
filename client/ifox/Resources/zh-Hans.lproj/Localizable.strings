@@ -96,7 +96,7 @@
 
 "EmployText" = "雇佣花费每月%d金";
 "NOCondition" = "无特殊条件，初期即可转职。";
-"ChangePro" = "转职成功！职业装备技能已卸下。";
+"ChangePro" = "转职成功，职业装备与技能已卸下。";
 "ChangeProError" = "转职凭证不足！";
 "Fire" = "是否确定要解雇？";
 "Notfire" = "不能解雇该角色。";
