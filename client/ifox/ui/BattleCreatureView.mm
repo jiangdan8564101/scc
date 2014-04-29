@@ -27,7 +27,7 @@
 - ( void ) updateData:( CreatureCommonData* )c
 {
     CGRect f = hpView.frame;
-    f.size.width = bgView.frame.size.width * ( c.RealBaseData.HP / c.RealBaseData.MaxHP );
+    f.size.width = bgView.frame.size.width * ( c.RealBaseData.HP / ( c.RealBaseData.MaxHP + 0.001f ) );
     
     if ( f.size.width < 0.05f )
     {
@@ -40,7 +40,7 @@
     [ hpView setFrame:f ];
     
     f = spView.frame;
-    f.size.width = bgView.frame.size.width * ( c.RealBaseData.SP / c.RealBaseData.MaxSP );
+    f.size.width = bgView.frame.size.width * ( c.RealBaseData.SP / ( c.RealBaseData.MaxSP + 0.001f ) );
     
     if ( f.size.width < 0.05f )
     {
@@ -53,7 +53,7 @@
     [ spView setFrame:f ];
     
     f = fsView.frame;
-    f.size.width = bgView.frame.size.width * ( c.RealBaseData.FS / (float)c.RealBaseData.MaxFS );
+    f.size.width = bgView.frame.size.width * ( c.RealBaseData.FS / ( c.RealBaseData.MaxFS + 0.001f ) );
     
     if ( f.size.width < 0.05f )
     {
