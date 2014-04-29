@@ -232,11 +232,16 @@ static ItemListUIHandler* gItemListUIHandler;
             break;
     }
     
+    ItemConfigData* item = [ [ ItemConfig instance ] getData:equipi ];
     
     if ( equipi != INVALID_ID && equipi )
     {
         [ [ ItemData instance ] addItem:equipi :1 ];
-        [ self updateItemStateNum:equipi ];
+        
+        if ( item.Type == selectTab )
+        {
+            [ self updateItemStateNum:equipi ];
+        }
         
         switch ( index )
         {

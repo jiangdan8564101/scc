@@ -1465,7 +1465,9 @@
         {
             BattleSprite* spr = [ BattleSprites objectAtIndex:i ];
             
-            if ( spr.Type == GSFT_Dig || spr.Type == GSFT_Collect || spr.Type == GSFT_Treasure || spr.Type == GSFT_Door1 || spr.Type == GSFT_Door2 || spr.Type == GSFT_Door3 )
+            BOOL dd = ![ sceneDataItem getDoor:[ Finder getIndex:spr.PosX :spr.PosY ] ] && ( spr.Type == GSFT_Door1 || spr.Type == GSFT_Door2 || spr.Type == GSFT_Door3 );
+            
+            if ( spr.Type == GSFT_Dig || spr.Type == GSFT_Collect || spr.Type == GSFT_Treasure || dd )
             {
                 BattleMapSprite* spr2 = [ self getSprite:spr.PosX :spr.PosY ];
                 spr1 = spr2;
