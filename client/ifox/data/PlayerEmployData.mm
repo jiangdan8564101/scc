@@ -194,7 +194,7 @@ PlayerEmployData* gPlayerEmployData = NULL;
     
     [ PlayerArray removeObjectAtIndex:i ];
     
-    [ [ PlayerData instance ] addGold:[ comm getEmployPrice ] ];
+    [ [ PlayerData instance ] addGold:-[ comm getEmployPrice ] ];
     
     [ [ PlayerData instance ] setEmployData:comm.ID ];
 }

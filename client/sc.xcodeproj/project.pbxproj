@@ -187,8 +187,8 @@
 		98529C9F17E752560092D5FE /* battlelv.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BA517E752540092D5FE /* battlelv.png */; };
 		98529CA017E752560092D5FE /* battlereadyattack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BA617E752540092D5FE /* battlereadyattack1.png */; };
 		98529CA117E752560092D5FE /* battlereadyattack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BA717E752540092D5FE /* battlereadyattack2.png */; };
-		98529CA217E752560092D5FE /* battleScritical.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BA817E752540092D5FE /* battleScritical.png */; };
-		98529CA317E752560092D5FE /* battleSdamage.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BA917E752540092D5FE /* battleSdamage.png */; };
+		98529CA217E752560092D5FE /* battleCritical.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BA817E752540092D5FE /* battleCritical.png */; };
+		98529CA317E752560092D5FE /* battleDamage.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BA917E752540092D5FE /* battleDamage.png */; };
 		98529CA417E752560092D5FE /* battleSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAA17E752540092D5FE /* battleSetting.png */; };
 		98529CA517E752560092D5FE /* battleSkill.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAB17E752540092D5FE /* battleSkill.png */; };
 		98529CA617E752560092D5FE /* battleMiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 98529BAC17E752540092D5FE /* battleMiss.png */; };
@@ -1129,8 +1129,8 @@
 		98529BA517E752540092D5FE /* battlelv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battlelv.png; sourceTree = "<group>"; };
 		98529BA617E752540092D5FE /* battlereadyattack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battlereadyattack1.png; sourceTree = "<group>"; };
 		98529BA717E752540092D5FE /* battlereadyattack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battlereadyattack2.png; sourceTree = "<group>"; };
-		98529BA817E752540092D5FE /* battleScritical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleScritical.png; sourceTree = "<group>"; };
-		98529BA917E752540092D5FE /* battleSdamage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleSdamage.png; sourceTree = "<group>"; };
+		98529BA817E752540092D5FE /* battleCritical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleCritical.png; sourceTree = "<group>"; };
+		98529BA917E752540092D5FE /* battleDamage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleDamage.png; sourceTree = "<group>"; };
 		98529BAA17E752540092D5FE /* battleSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleSetting.png; sourceTree = "<group>"; };
 		98529BAB17E752540092D5FE /* battleSkill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleSkill.png; sourceTree = "<group>"; };
 		98529BAC17E752540092D5FE /* battleMiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battleMiss.png; sourceTree = "<group>"; };
@@ -2474,8 +2474,8 @@
 				98529BA517E752540092D5FE /* battlelv.png */,
 				98529BA617E752540092D5FE /* battlereadyattack1.png */,
 				98529BA717E752540092D5FE /* battlereadyattack2.png */,
-				98529BA817E752540092D5FE /* battleScritical.png */,
-				98529BA917E752540092D5FE /* battleSdamage.png */,
+				98529BA817E752540092D5FE /* battleCritical.png */,
+				98529BA917E752540092D5FE /* battleDamage.png */,
 				98529BAA17E752540092D5FE /* battleSetting.png */,
 				98529BAB17E752540092D5FE /* battleSkill.png */,
 				98529BAC17E752540092D5FE /* battleMiss.png */,
@@ -3943,7 +3943,7 @@
 				986B5008185B531100D05558 /* SO007A.jpg in Resources */,
 				98B606EB184B2DB400A32651 /* proBG1.png in Resources */,
 				98FD66C818F41E82005C9F98 /* InfoQuestReportViewIphone.xib in Resources */,
-				98529CA217E752560092D5FE /* battleScritical.png in Resources */,
+				98529CA217E752560092D5FE /* battleCritical.png in Resources */,
 				98789CB11844D1D300842D0F /* TalkBg1.png in Resources */,
 				98529CE617E752560092D5FE /* importantTitle.png in Resources */,
 				98529CD517E752560092D5FE /* IC0404.png in Resources */,
@@ -4377,7 +4377,7 @@
 				98FD66C118F41E5F005C9F98 /* AlarmUIViewIphone5.xib in Resources */,
 				98FD66E018F41EB3005C9F98 /* ShopUIViewIphone.xib in Resources */,
 				98529C9A17E752560092D5FE /* battleHead2.png in Resources */,
-				98529CA317E752560092D5FE /* battleSdamage.png in Resources */,
+				98529CA317E752560092D5FE /* battleDamage.png in Resources */,
 				9847986D18E51E9900FAF126 /* bb8.png in Resources */,
 				98529C7717E752560092D5FE /* a8.png in Resources */,
 				98FD66BC18F41E55005C9F98 /* AlertUIViewIphone.xib in Resources */,
