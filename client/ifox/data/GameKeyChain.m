@@ -7,6 +7,7 @@
 //
 
 #import "GameKeyChain.h"
+#import <AdSupport/AdSupport.h>
 
 @implementation GameKeyChain
 
@@ -21,6 +22,12 @@
 
 + (void)save:(NSString *)service data:(id)data {
     //Get search dictionary
+    NSString *idfv = [ [ [ UIDevice currentDevice] identifierForVendor ] UUIDString ];
+    if ( idfv )
+    {
+        service = [ NSString stringWithFormat:@"%@.%@" , service , idfv ];
+    }
+    
     NSMutableDictionary *keychainQuery = [self getKeychainQuery:service];
     //Delete old item before add new item
     SecItemDelete((CFDictionaryRef)keychainQuery);
@@ -30,8 +37,14 @@
     SecItemAdd((CFDictionaryRef)keychainQuery, NULL);
 }
 
-+ (id)load:(NSString *)service {
++ (id)load:(NSString *)service
+{
     id ret = nil;
+    NSString *idfv = [ [ [ UIDevice currentDevice] identifierForVendor ] UUIDString ];
+    if ( idfv )
+    {
+        service = [ NSString stringWithFormat:@"%@.%@" , service , idfv ];
+    }
     NSMutableDictionary *keychainQuery = [self getKeychainQuery:service];
     //Configure the search setting
     [keychainQuery setObject:(id)kCFBooleanTrue forKey:( id)kSecReturnData];
