@@ -96,6 +96,8 @@ static ItemListUIHandler* gItemListUIHandler;
         
         [ skillCancelEquip[ i ] addTarget:self action:@selector(onCancelEquipSkillClick:) forControlEvents:UIControlEventTouchUpInside ];
     }
+    
+    selectArray = [ [ NSMutableArray alloc ] init ];
 }
 
 
@@ -350,14 +352,12 @@ static ItemListUIHandler* gItemListUIHandler;
 
 - ( void ) updateItemStateNum:( int )item
 {
-    NSMutableDictionary* dic = [ [ ItemData instance ] getType:selectTab ];
-    NSArray* allkeys = getSortKeys( dic );
     int i = 0;
     ItemListItem* item1 = [ itemScrollView getItem:i ];
     
     while ( item1 )
     {
-        PackItemData* data = [ dic objectForKey:[ allkeys objectAtIndex:item1.Index ] ];
+        PackItemData* data = [ selectArray objectAtIndex:item1.Index ];
         
         if ( data.ItemID == item )
         {
@@ -774,6 +774,7 @@ static ItemListUIHandler* gItemListUIHandler;
     
     if ( selectTab != ICDT_SKILL )
     {
+        [ selectArray removeAllObjects ];
         NSMutableDictionary* dic = [ [ ItemData instance ] getType:selectTab ];
         
         NSArray* allkeys = getSortKeys( dic );
@@ -782,7 +783,11 @@ static ItemListUIHandler* gItemListUIHandler;
         {
             PackItemData* data = [ dic objectForKey:[ allkeys objectAtIndex:i ] ];
             
-            [ itemScrollView addItem:data ];
+            if ( data.Number )
+            {
+                [ selectArray addObject:data ];
+                [ itemScrollView addItem:data ];
+            }
         }
     }
     else

@@ -49,6 +49,7 @@
     UIButton* skillEquip[ MAX_SKILL ];
     UIButton* skillCancelEquip[ MAX_SKILL ];
     
+    NSMutableArray* selectArray;
 }
 
 

@@ -170,9 +170,48 @@ static LoginUIHandler* gLoginUIHandler;
     [ UIView commitAnimations ];
 }
 
+- ( BOOL ) checkError
+{
+    NSString* version = [ [ [ NSBundle mainBundle ] infoDictionary ] objectForKey:(NSString*)kCFBundleVersionKey ];
+    
+    if ( ![ version isEqualToString:@"1.01" ] )
+    {
+        return NO;
+    }
+    
+    NSString* executableFile = [ [ [ NSBundle mainBundle ] infoDictionary ] objectForKey:(NSString *)kCFBundleExecutableKey ];
+    
+    if ( ![ executableFile isEqualToString:@"sc" ] )
+    {
+        return NO;
+    }
+    
+    NSString* displayName = [ [ [ NSBundle mainBundle ] infoDictionary ] objectForKey:@"CFBundleDisplayName" ];
+    
+    if ( ![ displayName isEqualToString:@"威尔炼金工房" ] )
+    {
+        return NO;
+    }
+    
+    NSString* ident = [ [ [ NSBundle mainBundle ] infoDictionary ] objectForKey:(NSString*)kCFBundleIdentifierKey ];
+    
+    if ( ![ ident isEqualToString:@"fox.sc" ] )
+    {
+        return NO;
+    }
 
+    return YES;
+}
 - ( void ) onLoadGame
 {
+    if ( ![ self checkError ] )
+    {
+         [ [ AlertUIHandler instance ] alert:NSLocalizedString( @"GameLoginError", nil ) ];
+        return;
+    }
+    
+    
+    
     BOOL b = [ [ GameDataManager instance ] readData ];
     
     if ( b )
