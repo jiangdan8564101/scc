@@ -320,12 +320,11 @@ static ProfessionUIHandler* gProfessionUIHandler;
     [ creatureScrollView clear ];
     
     NSMutableDictionary* dic = [ PlayerCreatureData instance ].PlayerDic;
-    
-    NSArray* values = [ dic allValues ];
+    NSArray* values = getSortKeys( dic );
     
     for ( fint32 i = 0 ; i < values.count ; ++i )
     {
-        CreatureCommonData* data = [ values objectAtIndex:i ];
+        CreatureCommonData* data = [ dic objectForKey:[ values objectAtIndex:i ] ];
         
         [ creatureScrollView addItem:data ];
     }
