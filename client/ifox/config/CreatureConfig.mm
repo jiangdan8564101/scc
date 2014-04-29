@@ -1031,8 +1031,15 @@ CreatureConfig* gCreatureConfig = NULL;
         commonData.EXP = [ [ attributeDict objectForKey:@"exp" ] intValue ];
         
         [ commonData.Name setString:[ attributeDict objectForKey:@"name" ] ];
-        [ commonData.Des setString:[ attributeDict objectForKey:@"des" ] ];
-        [ commonData.Action setString:[ attributeDict objectForKey:@"action" ] ];
+        
+        if ( [ attributeDict objectForKey:@"des" ] )
+        {
+            [ commonData.Des setString:[ attributeDict objectForKey:@"des" ] ];
+        }
+        if ( [ attributeDict objectForKey:@"action" ] )
+        {
+            [ commonData.Action setString:[ attributeDict objectForKey:@"action" ] ];
+        }
         
         if ( [ attributeDict objectForKey:@"battleAction" ] )
         {
