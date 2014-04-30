@@ -1177,7 +1177,7 @@ CreatureConfig* gCreatureConfig = NULL;
         
         ProfessionSkillData* data = [ commonDataLast.Skill objectForKey:[ NSNumber numberWithInt:s ] ];
         
-        SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:data.SkillID ];
+        SkillConfigData* skill = [ [ SkillConfig instance ] getSkill:s ];
         
         if ( !data )
         {

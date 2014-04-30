@@ -5,32 +5,96 @@
 <n id="2" action="002A" name="月爁" des="邻国-蒂森那弗洛狄出身的剑客。为了寻找某人而来到多拉，但作为异国者没有工匠证明不能探索。来到威尔工房后，作为护卫被雇佣。" level="1" maxHP="26" maxSP="4" maxFS="25" pAtk="18" pDef="18" mAtk="0" mDef="1" agile="4" lucky="5" hit=".91" miss=".008" critical=".051" move="1" cp="10" guest="0" ProID="1" ProLevel="1" command="0" levelUpType="2" characterType="6" employPrice="0" type="20" />
 <n id="3" action="003A" name="艾米莉塔" des="离家出走的强力魔法师。为了逃离政治婚姻而离家出走的工匠女儿，性格还是一个不懂世故的大家闺秀。对市井生活的一切都感到新鲜，十分开朗。" level="1" maxHP="18" maxSP="18" maxFS="25" pAtk="4" pDef="4" mAtk="18" mDef="2" agile="18" lucky="14" hit=".928" miss=".036" critical=".0528" move="1" cp="10" guest="0" ProID="3" ProLevel="1" command="0" levelUpType="3" characterType="7" employPrice="0" type="20" />
 <n id="4" action="004A" name="塞维尔" des="住在附近的精灵。因为寿命与生活方式跟人类存在很大差异，被公认为与人类不融的精灵族中少数对人类有兴趣，并积极寻找与人类共存的生活方法。" level="1" maxHP="17" maxSP="0" maxFS="25" pAtk="22" pDef="2" mAtk="0" mDef="5" agile="15" lucky="15" hit=".93" miss=".03" critical=".053" move="1" cp="10" guest="0" ProID="7" ProLevel="1" command="0" levelUpType="4" characterType="1" employPrice="0" type="21" />
-<n id="5" action="005A" name="雷格拉" des="主人公儿时玩伴，不同的是已经是名出色的炼金术师。" level="1" maxHP="18" maxSP="3" maxFS="25" pAtk="11" pDef="18" mAtk="5" mDef="3" agile="15" lucky="14" hit=".928" miss=".03" critical=".0528" move="4" cp="10" guest="0" ProID="10" ProLevel="1" command="0" levelUpType="5" characterType="2" employPrice="1772" type="20" event="1" />
-<n id="6" action="006A" name="络纱娜" des="管理工匠协会的妖艳领主。工匠会会长，掌柜着工匠协会的命脉。" level="1" maxHP="17" maxSP="8" maxFS="25" pAtk="12" pDef="17" mAtk="2" mDef="5" agile="16" lucky="15" hit=".93" miss=".032" critical=".053" move="4" cp="10" guest="0" ProID="10" ProLevel="1" command="0" levelUpType="6" characterType="3" employPrice="2160" type="20" imageOffsetX="30" event="1" />
+<n id="5" action="005A" name="雷格拉" des="主人公儿时玩伴，不同的是已经是名出色的炼金术师。" level="1" maxHP="18" maxSP="3" maxFS="25" pAtk="11" pDef="18" mAtk="5" mDef="3" agile="15" lucky="14" hit=".928" miss=".03" critical=".0528" move="4" cp="10" guest="0" ProID="10" ProLevel="1" command="0" levelUpType="5" characterType="2" employPrice="1772" type="20" event="1" >
+    <skill>
+        <s id="129" />
+    </skill>
+</n>
+<n id="6" action="006A" name="络纱娜" des="管理工匠协会的妖艳领主。工匠会会长，掌柜着工匠协会的命脉。" level="1" maxHP="17" maxSP="8" maxFS="25" pAtk="12" pDef="17" mAtk="2" mDef="5" agile="16" lucky="15" hit=".93" miss=".032" critical=".053" move="4" cp="10" guest="0" ProID="10" ProLevel="1" command="0" levelUpType="6" characterType="3" employPrice="2160" type="20" imageOffsetX="30" event="1" >
+    <skill>
+        <s id="127" />
+    </skill>
+</n>
 <n id="8" action="008A" name="汤" des="酒馆的老板，为人憨厚的大叔。" level="1" maxHP="100" maxSP="100" maxFS="25" hit=".9" miss="0" critical=".05" type="20" />
 <n id="9" action="009A" name="神职侍女" des="掌管神职的侍女，给人一种冰冷的感觉。" level="1" maxHP="19" maxSP="14" maxFS="25" pAtk="9" pDef="9" mAtk="18" mDef="3" agile="14" lucky="9" hit=".918" miss=".028" critical=".0518" move="1" cp="10" guest="0" ProID="4" ProLevel="1" command="0" levelUpType="9" characterType="2" employPrice="3298" type="20" />
-<n id="12" action="012A" name="水那" des="住在漂亮湖泊中柔弱的水精灵，性格文静，从来不会怀疑别人。" level="1" maxHP="14" maxSP="25" maxFS="25" pAtk="4" pDef="4" mAtk="20" mDef="5" agile="10" lucky="10" hit=".92" miss=".02" critical=".052" move="1" cp="10" guest="0" ProID="3" ProLevel="1" command="0" levelUpType="12" characterType="1" employPrice="3358" type="21" />
-<n id="13" action="013A" name="火狐" des="火焰神殿古老的守护者，性格稳重，但内心也有阴暗的一面。" level="1" maxHP="31" maxSP="4" maxFS="25" pAtk="21" pDef="21" mAtk="0" mDef="1" agile="27" lucky="13" hit=".926" miss=".054" critical=".0526" move="1" cp="10" guest="0" ProID="11" ProLevel="1" command="0" levelUpType="13" characterType="0" employPrice="1846" type="24" imageOffsetX="50" />
+<n id="12" action="012A" name="水那" des="住在漂亮湖泊中柔弱的水精灵，性格文静，从来不会怀疑别人。" level="1" maxHP="14" maxSP="25" maxFS="25" pAtk="4" pDef="4" mAtk="20" mDef="5" agile="10" lucky="10" hit=".92" miss=".02" critical=".052" move="1" cp="10" guest="0" ProID="3" ProLevel="1" command="0" levelUpType="12" characterType="1" employPrice="3358" type="21" >
+    <skill>
+        <s id="131" />
+    </skill>
+</n>
+<n id="13" action="013A" name="火狐" des="火焰神殿古老的守护者，性格稳重，但内心也有阴暗的一面。" level="1" maxHP="31" maxSP="4" maxFS="25" pAtk="21" pDef="21" mAtk="0" mDef="1" agile="27" lucky="13" hit=".926" miss=".054" critical=".0526" move="1" cp="10" guest="0" ProID="11" ProLevel="1" command="0" levelUpType="13" characterType="0" employPrice="1846" type="24" imageOffsetX="50" >
+    <skill>
+        <s id="130" />
+    </skill>
+</n>
 <n id="14" action="014A" name="克莱尔" des="多拉近郊森林中的双子木精灵的弟弟，好奇心强，喜欢自由，是个姐控。" level="1" maxHP="20" maxSP="5" maxFS="25" pAtk="18" pDef="10" mAtk="10" mDef="5" agile="13" lucky="12" hit=".924" miss=".026" critical=".0524" move="1" cp="10" guest="0" ProID="7" ProLevel="1" command="0" levelUpType="14" characterType="7" employPrice="1827" type="21" />
-<n id="15" action="015A" name="梅洛蒂亚娜" des="高傲的第八位天使。性格高傲，举手投足之间散发着高贵的气质。她的能力不是一般人类所能与之抗衡。" level="1" maxHP="28" maxSP="16" maxFS="25" pAtk="21" pDef="13" mAtk="21" mDef="4" agile="27" lucky="13" hit=".926" miss=".054" critical=".0526" move="1" cp="10" guest="0" ProID="13" ProLevel="1" command="0" levelUpType="15" characterType="3" employPrice="3338" type="22" />
-<n id="16" action="016A" name="莎露媞" des="睡魔族，栖息于多拉近郊的睡魔母系种的女孩。性格开朗，好奇心旺盛，经常干着盗贼的勾当。" level="1" maxHP="20" maxSP="5" maxFS="25" pAtk="9" pDef="9" mAtk="0" mDef="1" agile="20" lucky="20" hit=".94" miss=".04" critical=".054" move="1" cp="10" guest="0" ProID="6" ProLevel="1" command="0" levelUpType="16" characterType="4" employPrice="888" type="23" event="1" />
+<n id="15" action="015A" name="梅洛蒂亚娜" des="高傲的第八位天使。性格高傲，举手投足之间散发着高贵的气质。她的能力不是一般人类所能与之抗衡。" level="1" maxHP="28" maxSP="16" maxFS="25" pAtk="21" pDef="13" mAtk="21" mDef="4" agile="27" lucky="13" hit=".926" miss=".054" critical=".0526" move="1" cp="10" guest="0" ProID="13" ProLevel="1" command="0" levelUpType="15" characterType="3" employPrice="3338" type="22" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
+<n id="16" action="016A" name="莎露媞" des="睡魔族，栖息于多拉近郊的睡魔母系种的女孩。性格开朗，好奇心旺盛，经常干着盗贼的勾当。" level="1" maxHP="20" maxSP="5" maxFS="25" pAtk="9" pDef="9" mAtk="0" mDef="1" agile="20" lucky="20" hit=".94" miss=".04" critical=".054" move="1" cp="10" guest="0" ProID="6" ProLevel="1" command="0" levelUpType="16" characterType="4" employPrice="888" type="23" event="1" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
 <n id="20" action="020A" name="克尔安奴" des="多拉近郊森林中的双子木精灵的姐姐，好奇心强，喜欢自由，是个弟控。" level="1" maxHP="18" maxSP="0" maxFS="25" pAtk="19" pDef="10" mAtk="12" mDef="4" agile="22" lucky="13" hit=".926" miss=".044" critical=".0526" move="1" cp="10" guest="0" ProID="7" ProLevel="1" command="0" levelUpType="20" characterType="7" employPrice="1669" type="21" />
-<n id="21" action="021A" name="幻兽" des="湖底中栖息的巨大幻兽。" level="1" maxHP="24" maxSP="2" maxFS="25" pAtk="18" pDef="11" mAtk="0" mDef="1" agile="23" lucky="11" hit=".922" miss=".046" critical=".0522" move="1" cp="10" guest="0" ProID="2" ProLevel="1" command="0" levelUpType="21" characterType="6" employPrice="1797" type="24" imageOffsetX="80" />
-<n id="22" action="022A" name="狐伯莲" des="统治拥有极高开发价值矿脉的火山带的领主，高贵的幻兽种。在以锻造为生的人类中拥有很多传说，被当做神一般崇拜。" level="1" maxHP="15" maxSP="10" maxFS="25" pAtk="10" pDef="9" mAtk="13" mDef="2" agile="25" lucky="15" hit=".93" miss=".05" critical=".053" move="1" cp="10" guest="0" ProID="5" ProLevel="1" command="0" levelUpType="22" characterType="3" employPrice="2241" type="24" />
-<n id="23" action="023A" name="雷龙" des="栖息于多拉东北部山脉中的龙。一切都是谜团。" level="1" maxHP="31" maxSP="21" maxFS="25" pAtk="21" pDef="21" mAtk="21" mDef="3" agile="21" lucky="16" hit=".932" miss=".042" critical=".0532" move="1" cp="10" guest="0" ProID="12" ProLevel="1" command="0" levelUpType="23" characterType="6" employPrice="1767" type="24" />
-<n id="24" action="024A" name="伊丽莎斯" des="能歌善舞的第五位天使。可爱的面容，动听的歌声，有着从事吟游诗人的梦想。" level="1" maxHP="21" maxSP="10" maxFS="25" pAtk="8" pDef="8" mAtk="15" mDef="3" agile="10" lucky="8" hit=".916" miss=".02" critical=".0516" move="1" cp="10" guest="0" ProID="8" ProLevel="1" command="0" levelUpType="24" characterType="5" employPrice="3534" type="22" imageOffsetX="200" />
-<n id="25" action="025A" name="死神" des="最近在多拉附近徘徊的死神。十分残忍且神出鬼没，在工匠协会连同国内都令人畏惧。" level="1" maxHP="24" maxSP="14" maxFS="25" pAtk="10" pDef="14" mAtk="14" mDef="5" agile="24" lucky="24" hit=".948" miss=".048" critical=".0548" move="4" cp="10" guest="0" ProID="15" ProLevel="1" command="0" levelUpType="25" characterType="2" employPrice="4325" type="25" imageOffsetX="-200" event="1" />
+<n id="21" action="021A" name="幻兽" des="湖底中栖息的巨大幻兽。" level="1" maxHP="24" maxSP="2" maxFS="25" pAtk="18" pDef="11" mAtk="0" mDef="1" agile="23" lucky="11" hit=".922" miss=".046" critical=".0522" move="1" cp="10" guest="0" ProID="2" ProLevel="1" command="0" levelUpType="21" characterType="6" employPrice="1797" type="24" imageOffsetX="80" >
+    <skill>
+        <s id="131" />
+    </skill>
+</n>
+<n id="22" action="022A" name="狐伯莲" des="统治拥有极高开发价值矿脉的火山带的领主，高贵的幻兽种。在以锻造为生的人类中拥有很多传说，被当做神一般崇拜。" level="1" maxHP="15" maxSP="10" maxFS="25" pAtk="10" pDef="9" mAtk="13" mDef="2" agile="25" lucky="15" hit=".93" miss=".05" critical=".053" move="1" cp="10" guest="0" ProID="5" ProLevel="1" command="0" levelUpType="22" characterType="3" employPrice="2241" type="24" >
+<skill>
+    <s id="130" />
+</skill>
+</n>
+<n id="23" action="023A" name="雷龙" des="栖息于多拉东北部山脉中的龙。一切都是谜团。" level="1" maxHP="31" maxSP="21" maxFS="25" pAtk="21" pDef="21" mAtk="21" mDef="3" agile="21" lucky="16" hit=".932" miss=".042" critical=".0532" move="1" cp="10" guest="0" ProID="12" ProLevel="1" command="0" levelUpType="23" characterType="6" employPrice="1767" type="24" >
+    <skill>
+        <s id="132" />
+    </skill>
+</n>
+<n id="24" action="024A" name="伊丽莎斯" des="能歌善舞的第五位天使。可爱的面容，动听的歌声，有着从事吟游诗人的梦想。" level="1" maxHP="21" maxSP="10" maxFS="25" pAtk="8" pDef="8" mAtk="15" mDef="3" agile="10" lucky="8" hit=".916" miss=".02" critical=".0516" move="1" cp="10" guest="0" ProID="8" ProLevel="1" command="0" levelUpType="24" characterType="5" employPrice="3534" type="22" imageOffsetX="200" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
+<n id="25" action="025A" name="死神" des="最近在多拉附近徘徊的死神。十分残忍且神出鬼没，在工匠协会连同国内都令人畏惧。" level="1" maxHP="24" maxSP="14" maxFS="25" pAtk="10" pDef="14" mAtk="14" mDef="5" agile="24" lucky="24" hit=".948" miss=".048" critical=".0548" move="4" cp="10" guest="0" ProID="15" ProLevel="1" command="0" levelUpType="25" characterType="2" employPrice="4325" type="25" imageOffsetX="-200" event="1" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
 <n id="40" action="040A" name="露丝" des="被成为军神的神官战士。在战场上无人匹敌。" level="1" maxHP="31" maxSP="4" maxFS="25" pAtk="21" pDef="21" mAtk="0" mDef="1" agile="27" lucky="13" hit=".926" miss=".054" critical=".0526" move="1" cp="10" guest="0" ProID="11" ProLevel="1" command="0" levelUpType="40" characterType="1" employPrice="3840" type="20" />
 <n id="41" action="041A" name="伊琳娜" des="帝国小皇帝。" level="1" maxHP="27" maxSP="33" maxFS="25" pAtk="14" pDef="12" mAtk="28" mDef="3" agile="21" lucky="16" hit=".932" miss=".042" critical=".0532" move="1" cp="10" guest="0" ProID="12" ProLevel="1" command="0" levelUpType="41" characterType="4" employPrice="3486" type="20" />
 <n id="42" action="042A" name="伊夫琳" des="深凌之第5位契魔。" level="1" maxHP="24" maxSP="6" maxFS="25" pAtk="14" pDef="20" mAtk="0" mDef="1" agile="24" lucky="24" hit=".948" miss=".048" critical=".0548" move="1" cp="10" guest="0" ProID="16" ProLevel="1" command="0" levelUpType="42" characterType="2" employPrice="3840" type="23" />
 <n id="48" action="048A" name="莉莉" des="小恶魔。" level="1" maxHP="25" maxSP="12" maxFS="25" pAtk="18" pDef="6" mAtk="12" mDef="12" agile="30" lucky="21" hit=".942" miss=".06" critical=".0542" move="1" cp="10" guest="0" ProID="17" ProLevel="1" command="0" levelUpType="48" characterType="5" employPrice="4384" type="23" imageOffsetX="0" />
 <n id="49" action="049A" name="莉莉" des="小恶魔。" level="1" maxHP="25" maxSP="12" maxFS="25" pAtk="12" pDef="12" mAtk="18" mDef="6" agile="21" lucky="30" hit=".96" miss=".042" critical=".056" move="1" cp="10" guest="0" ProID="17" ProLevel="1" command="0" levelUpType="49" characterType="5" employPrice="4384" type="23" imageOffsetX="-100" />
 <n id="50" action="050A" name="普罗阿" des="上级魔族歪魔姬。持有空间扭曲的力量。" level="1" maxHP="16" maxSP="9" maxFS="25" pAtk="10" pDef="10" mAtk="8" mDef="5" agile="18" lucky="18" hit=".936" miss=".036" critical=".0536" move="4" cp="10" guest="0" ProID="9" ProLevel="1" command="0" levelUpType="50" characterType="1" employPrice="2834" type="23" />
-<n id="51" action="051A" name="菲尼莉" des="住在阳光山谷附近的精灵女王。魔力非常强大。" level="1" maxHP="22" maxSP="21" maxFS="25" pAtk="10" pDef="10" mAtk="21" mDef="4" agile="21" lucky="16" hit=".932" miss=".042" critical=".0532" move="4" cp="10" guest="0" ProID="14" ProLevel="1" command="0" levelUpType="51" characterType="0" employPrice="3506" type="21" />
-<n id="60" action="060A" name="女佣" des="第四位天使。万能的家务女佣。" level="1" maxHP="25" maxSP="12" maxFS="25" pAtk="12" pDef="12" mAtk="18" mDef="6" agile="30" lucky="21" hit=".942" miss=".06" critical=".0542" move="0" cp="0" guest="0" ProID="17" ProLevel="1" command="0" levelUpType="60" characterType="1" employPrice="4384" type="22" />
-<n id="61" action="061A" name="女佣（邪恶）" des="第四位天使。想着怎么毁灭世界。" level="1" maxHP="25" maxSP="12" maxFS="25" pAtk="10" pDef="12" mAtk="25" mDef="22" agile="16" lucky="21" hit=".942" miss=".032" critical=".0542" move="1" cp="10" guest="0" ProID="17" ProLevel="1" command="0" levelUpType="61" characterType="1" employPrice="4384" type="22" imageOffsetX="30" />
-<n id="62" action="062A" name="纳斯塔西娅" des="第五位见习天使。长着恶魔的翅膀，但是为性格开朗的天使。" level="1" maxHP="22" maxSP="15" maxFS="25" pAtk="21" pDef="21" mAtk="24" mDef="18" agile="21" lucky="16" hit=".932" miss=".042" critical=".0532" move="1" cp="10" guest="0" ProID="12" ProLevel="1" command="0" levelUpType="62" characterType="7" employPrice="3436" type="22" />
-<n id="64" action="064A" name="依库瑞娅" des="第三位天使，天使队长。沉默寡言。" level="1" maxHP="27" maxSP="4" maxFS="25" pAtk="21" pDef="19" mAtk="5" mDef="3" agile="27" lucky="13" hit=".926" miss=".054" critical=".0526" move="1" cp="10" guest="0" ProID="11" ProLevel="1" command="0" levelUpType="64" characterType="2" employPrice="3840" type="12" />
+<n id="51" action="051A" name="菲尼莉" des="住在阳光山谷附近的精灵女王。魔力非常强大。" level="1" maxHP="22" maxSP="21" maxFS="25" pAtk="10" pDef="10" mAtk="21" mDef="4" agile="21" lucky="16" hit=".932" miss=".042" critical=".0532" move="4" cp="10" guest="0" ProID="14" ProLevel="1" command="0" levelUpType="51" characterType="0" employPrice="3506" type="21" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
+<n id="60" action="060A" name="女佣" des="第四位天使。万能的家务女佣。" level="1" maxHP="25" maxSP="12" maxFS="25" pAtk="12" pDef="12" mAtk="18" mDef="6" agile="30" lucky="21" hit=".942" miss=".06" critical=".0542" move="0" cp="0" guest="0" ProID="17" ProLevel="1" command="0" levelUpType="60" characterType="1" employPrice="4384" type="22" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
+<n id="61" action="061A" name="女佣（邪恶）" des="第四位天使。想着怎么毁灭世界。" level="1" maxHP="25" maxSP="12" maxFS="25" pAtk="10" pDef="12" mAtk="25" mDef="22" agile="16" lucky="21" hit=".942" miss=".032" critical=".0542" move="1" cp="10" guest="0" ProID="17" ProLevel="1" command="0" levelUpType="61" characterType="1" employPrice="4384" type="22" imageOffsetX="30" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
+<n id="62" action="062A" name="纳斯塔西娅" des="第五位见习天使。长着恶魔的翅膀，但是为性格开朗的天使。" level="1" maxHP="22" maxSP="15" maxFS="25" pAtk="21" pDef="21" mAtk="24" mDef="18" agile="21" lucky="16" hit=".932" miss=".042" critical=".0532" move="1" cp="10" guest="0" ProID="12" ProLevel="1" command="0" levelUpType="62" characterType="7" employPrice="3436" type="22" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
+<n id="64" action="064A" name="依库瑞娅" des="第三位天使，天使队长。沉默寡言。" level="1" maxHP="27" maxSP="4" maxFS="25" pAtk="21" pDef="19" mAtk="5" mDef="3" agile="27" lucky="13" hit=".926" miss=".054" critical=".0526" move="1" cp="10" guest="0" ProID="11" ProLevel="1" command="0" levelUpType="64" characterType="2" employPrice="3840" type="12" >
+    <skill>
+        <s id="128" />
+    </skill>
+</n>
 <n id="70" action="070A" name="男佣兵" des="原工房都市的护卫，现在被工匠们雇佣。" level="1" maxHP="30" maxSP="3" maxFS="25" pAtk="18" pDef="16" mAtk="0" mDef="1" agile="17" lucky="15" hit=".93" miss=".034" critical=".053" move="1" cp="10" guest="0" ProID="1" ProLevel="1" command="0" levelUpType="70" characterType="5" employPrice="400" type="20" />
 <n id="71" action="071A" name="女佣兵" des="原工房都市的护卫，现在被工匠们雇佣。" level="1" maxHP="27" maxSP="3" maxFS="25" pAtk="18" pDef="16" mAtk="0" mDef="1" agile="17" lucky="15" hit=".93" miss=".034" critical=".053" move="1" cp="10" guest="0" ProID="1" ProLevel="1" command="0" levelUpType="71" characterType="5" employPrice="800" type="20" />
 <n id="85" action="085A" name="杂货店小妹" level="1" maxHP="28" maxSP="16" maxFS="25" pAtk="21" pDef="13" mAtk="21" mDef="4" agile="27" lucky="13" hit=".926" miss=".054" critical=".0526" move="1" cp="10" guest="0" ProID="1" ProLevel="1" command="0" type="20" />

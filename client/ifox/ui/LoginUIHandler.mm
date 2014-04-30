@@ -118,7 +118,7 @@ static LoginUIHandler* gLoginUIHandler;
     comm.Team = 0;
     
     [ [ PlayerEmployData instance ] employCreature:MAIN_PLAYER_ID2 ];
-    //[ [ PlayerEmployData instance ] employCreature:MAIN_PLAYER_ID3 ];
+    [ [ PlayerEmployData instance ] employCreature:MAIN_PLAYER_ID3 ];
     [ [ PlayerEmployData instance ] employCreature:MAIN_PLAYER_ID4 ];
     
     [ PlayerData instance ].Gold = 500;
@@ -148,7 +148,7 @@ static LoginUIHandler* gLoginUIHandler;
     
     if ( b )
     {
-        [ [AlarmUIHandler instance ] alarm:NSLocalizedString( @"GameLogin6", nil ) :self :@selector(onNewGame11) :nil :nil ];
+        [ [ AlarmUIHandler instance ] alarm:NSLocalizedString( @"GameLogin6", nil ) :self :@selector(onNewGame11) :nil :nil ];
     }
     else
     {

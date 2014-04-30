@@ -160,6 +160,11 @@ QuestData* gQuestData = NULL;
         
         if ( item && item.Per >= quest.CSerchPer )
         {
+            if ( quest.CSerchPer == 1.0f && !item.Complete )
+            {
+                return NO;
+            }
+            
             [ self setQuest:quest.QuestID :QDT_COMPLETE ];
             return YES;
         }

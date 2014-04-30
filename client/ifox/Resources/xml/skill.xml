@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<skill>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <skill>
 <s id="1" name="疾风斩" des1="威力 0 SP 0 CP 1 " des2="在我方回合优先发动攻击" icon="IC2087" effect="MVB001" sp="0" cp="1" trigger="3" target="5" triggerEffect="10" pro="1" ap="20" />
 <s id="2" name="猛击" des1="威力 12 SP 0 CP 1 " des2="对敌人造成1.2倍攻击" icon="IC2601" effect="MVB020" sp="0" cp="1" trigger="2" target="1" triggerEffect="1" pro="1" power="1.2" type="1" minDamage="5" ap="40" />
@@ -93,7 +92,6 @@
 <s id="130" name="浴火" des1="威力 0 SP 0 CP 1 " des2="冒险时可以探索火焰地形" icon="IC2028" sp="0" cp="1" trigger="3" target="4" triggerEffect="0" moveType="3" ap="120" />
 <s id="131" name="游泳" des1="威力 0 SP 0 CP 1 " des2="冒险时可以探索湖水地形" icon="IC2063" sp="0" cp="1" trigger="3" target="4" triggerEffect="0" moveType="2" ap="120" />
 <s id="132" name="避雷" des1="威力 0 SP 0 CP 1 " des2="冒险时可以探索雷电地形" icon="IC2010" sp="0" cp="1" trigger="3" target="4" triggerEffect="0" moveType="4" ap="120" />
-</skill>
 </skill>
 
 
