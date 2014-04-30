@@ -70,6 +70,7 @@ GameEventManager* gGameEventManager = NULL;
                     return;
                 }
                 
+                data = [ dic objectForKey:[ NSNumber numberWithInt:nextID ] ];
                 ActiveEvent = data;
             }
         }
