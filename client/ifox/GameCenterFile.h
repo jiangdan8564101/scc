@@ -33,7 +33,7 @@
 - (void) reportScore: (int64_t) score forCategory: (NSString*) category;
 
 - (void) showLeaderboard;
-- (void)leaderboardViewControllerDidFinish:(GKLeaderboardViewController *)viewController;
+- (void) leaderboardViewControllerDidFinish:(GKLeaderboardViewController *)viewController;
 - (void) reportAchievementIdentifier: (NSString*) identifier percentComplete: (float) percent;
 - (void) loadAchievements;
 - (GKAchievement*) getAchievementForIdentifier: (NSString*) identifier;

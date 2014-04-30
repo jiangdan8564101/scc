@@ -11,6 +11,7 @@
 #import "TalkUIHandler.h"
 #import "GameSceneManager.h"
 #import "CatUIHandler.h"
+#import "GameCenterFile.h"
 
 @implementation TimeUIHandler
 
@@ -41,6 +42,11 @@ static TimeUIHandler* gTimeUIHandler;
     button = (UIButton*)[ view viewWithTag:1002 ];
     [ button addTarget:self action:@selector(onCat) forControlEvents:UIControlEventTouchUpInside ];
     
+    button = (UIButton*)[ view viewWithTag:1003 ];
+    [ button addTarget:self action:@selector(onGameCenter) forControlEvents:UIControlEventTouchUpInside ];
+    
+    
+    
     [ view setCenter:CGPointMake( view.frame.size.width * 0.5f , view.frame.size.height * 0.5f ) ];
 }
 
@@ -65,6 +71,13 @@ static TimeUIHandler* gTimeUIHandler;
 - ( void ) onCat
 {
     [ [ CatUIHandler instance ] visible:YES ];
+}
+
+
+- ( void ) onGameCenter
+{
+    [ [ GameKitHelper sharedGameKitHelper ] showGameCenter ];
+    //[ [ GameKitHelper sharedGameKitHelper ] showLeaderboard ];
 }
 
 - ( void ) onGo1

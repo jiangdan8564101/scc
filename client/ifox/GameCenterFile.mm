@@ -7,6 +7,9 @@
 //
 
 #import "GameCenterFile.h"
+#import "cocos2d.h"
+
+extern UIWindow* gAppWindows;
 
 @implementation GameKitHelper
 
@@ -201,11 +204,9 @@ static UIViewController* currentModalViewController = nil;
     if (leaderboardController != nil) {
         leaderboardController.leaderboardDelegate = self;
         
-//        EAGLView* view = [ EAGLView sharedEGLView ];
-//        
-//        currentModalViewController = [[UIViewController alloc] init];
-//        [ view addSubview:currentModalViewController.view];
-//        [currentModalViewController presentModalViewController:leaderboardController animated:YES];
+        currentModalViewController = [[UIViewController alloc] init];
+        [ gAppWindows addSubview:currentModalViewController.view];
+        [currentModalViewController presentModalViewController:leaderboardController animated:YES];
     }
     
 }
@@ -232,13 +233,10 @@ static UIViewController* currentModalViewController = nil;
     {
         matchshow.matchmakerDelegate = self;
   
-        
-//        EAGLView* view = [ EAGLView sharedEGLView ];
-//        
-//        currentModalViewController = [[UIViewController alloc] init];
-//        [ view addSubview:currentModalViewController.view];
-//        [ currentModalViewController presentViewController: matchshow animated: YES
-//                                               completion:nil];
+        currentModalViewController = [[UIViewController alloc] init];
+        [ gAppWindows addSubview:currentModalViewController.view];
+        [ currentModalViewController presentViewController: matchshow animated: YES
+                                               completion:nil];
     }
     
 }
@@ -327,12 +325,10 @@ static UIViewController* currentModalViewController = nil;
         achievements.achievementDelegate = self;
         achievements.viewState = GKGameCenterViewControllerStateAchievements;
         
-//        EAGLView* view = [ EAGLView sharedEGLView ];
-//        
-//        currentModalViewController = [[UIViewController alloc] init];
-//        [ view addSubview:currentModalViewController.view];
-//        [ currentModalViewController presentViewController: achievements animated: YES
-//                         completion:nil];
+        currentModalViewController = [[UIViewController alloc] init];
+        [ gAppWindows addSubview:currentModalViewController.view];
+        [ currentModalViewController presentViewController: achievements animated: YES
+                         completion:nil];
     }
     [achievements release];
 }
@@ -346,12 +342,10 @@ static UIViewController* currentModalViewController = nil;
     {
         gameCenterController.gameCenterDelegate = self;
         
-//        EAGLView* view = [ EAGLView sharedEGLView ];
-//        
-//        currentModalViewController = [[UIViewController alloc] init];
-//        [view addSubview:currentModalViewController.view];
-//        [currentModalViewController presentViewController: gameCenterController animated: YES
-//                                               completion:nil];
+        currentModalViewController = [[UIViewController alloc] init];
+        [ gAppWindows addSubview:currentModalViewController.view];
+        [currentModalViewController presentViewController: gameCenterController animated: YES
+                                               completion:nil];
     }
 }
 - (void)gameCenterViewControllerDidFinish:(GKGameCenterViewController
@@ -440,7 +434,7 @@ static UIViewController* currentModalViewController = nil;
                                       }
                                     }];
                                      */
-             //}
+            // }
          }
      }];
     return nil;

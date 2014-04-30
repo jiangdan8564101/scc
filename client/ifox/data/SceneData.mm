@@ -10,6 +10,7 @@
 #import "MapConfig.h"
 #import "PlayerData.h"
 #import "GameDataManager.h"
+#import "GameCenterFile.h"
 
 @implementation SceneDataItem
 
@@ -337,7 +338,11 @@ SceneData* gSceneData = NULL;
 //    {
 //        return;
 //    }
-//    
+//
+    
+    int last = completeCount;
+    completeCount = 0;
+    
     for ( int i = 0 ; i < Data.count ; ++i )
     {
         int key = [ [ Data.allKeys objectAtIndex:i ] intValue ];
@@ -349,6 +354,8 @@ SceneData* gSceneData = NULL;
         {
             continue;
         }
+        
+        completeCount++;
         
         int r = getRand( 0 , 11 );
         
@@ -363,6 +370,11 @@ SceneData* gSceneData = NULL;
         {
             item.SPEnemy = r < 1;
         }
+    }
+    
+    //if ( last && last != completeCount )
+    {
+        [ [ GameKitHelper sharedGameKitHelper ] reportScore:completeCount forCategory:@"level" ];
     }
 }
 

@@ -37,12 +37,13 @@
 - ( void ) setDoor:( int )index;
 - ( BOOL ) getDoor:( int )index;
 
+
 @end
 
 
 @interface SceneData : GameData
 {
-
+    int completeCount;
 }
 
 @property( nonatomic , assign ) NSMutableDictionary* Data;

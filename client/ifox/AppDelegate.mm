@@ -15,6 +15,8 @@
 #import <StoreKit/SKPaymentQueue.h>
 #import "GameUIManager.h"
 
+UIWindow* gAppWindows = NULL;
+
 Resource gActualResource;
 
 @implementation AppController
@@ -48,6 +50,7 @@ Resource gActualResource;
 	window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [ window_ setBackgroundColor:[ UIColor clearColor ] ];
     
+    gAppWindows = window_;
     
 	// Create an CCGLView with a RGB565 color buffer, and a depth buffer of 0-bits
 	CCGLView *glView = [CCGLView viewWithFrame:[window_ bounds]

@@ -15,6 +15,7 @@
 #import "PlayerCreatureData.h"
 #import "AlertUIHandler.h"
 #import "LevelUpPriceConfig.h"
+#import "GameCenterFile.h"
 
 @implementation PlayerData
 
@@ -241,7 +242,15 @@ PlayerData* gPlayerData = NULL;
     Gold += goldCount;
     
     GoPay = 0;
-    SellGold = 0;
+    
+    if ( SellGold >= MAX_GOLD )
+    {
+        SellGold = MAX_GOLD;
+    }
+    
+    [ [ GameKitHelper sharedGameKitHelper ] reportScore:SellGold forCategory:@"gold" ];
+    
+    //SellGold = 0;
 }
 
 
