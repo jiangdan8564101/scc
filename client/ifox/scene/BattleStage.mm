@@ -668,7 +668,14 @@
     float ad = com2.RealAttrDefence[ attr ];
     float per2 = ( 1.0f + com1.MainAttr ) * ( 1.0f - ad );
     
-    float finalDamage = baseDamage * per1 * per2 * monster[ com2.Type ];
+    float mt = monster[ com2.Type ];
+    
+    if ( !mt )
+    {
+        mt = 1.0f;
+    }
+    
+    float finalDamage = baseDamage * per1 * per2 * 1.0f;
     
     return finalDamage;
 }
