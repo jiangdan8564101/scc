@@ -87,7 +87,7 @@ const fint32    HP_ITEM = 60001;
 const fint32    GOLD_ITEM = 52000;
 
 const fint32    MAX_HP = 999;
-const fint32    MAX_GOLD = 9999999;
+const fint32    MAX_GOLD = 999999999;
 
 enum gameSpriteMapType
 {

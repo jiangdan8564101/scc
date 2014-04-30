@@ -342,7 +342,7 @@
                                                 }
                                                 else if ( hit == BRHS_HIT5 )
                                                 {
-                                                    numberView.transform = CGAffineTransformMakeScale(1.99f, 1.99f);
+                                                    numberView.transform = CGAffineTransformMakeScale(1.69f, 1.69f);
                                                 }
                                                 else
                                                 {
@@ -358,7 +358,7 @@
                                                                       }
                                                                       else if ( hit == BRHS_HIT5 )
                                                                       {
-                                                                          numberView.transform = CGAffineTransformMakeScale(2.0f, 2.0f);
+                                                                          numberView.transform = CGAffineTransformMakeScale(1.7f, 1.7f);
                                                                       }
                                                                       else
                                                                       {
