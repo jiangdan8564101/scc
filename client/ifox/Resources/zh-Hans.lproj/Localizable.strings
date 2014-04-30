@@ -56,9 +56,16 @@
 "FightEXP" = "<font color=#ff9600>%@</font>获得了%d点经验。<br>";
 "FightLevelUp" = "<font color=#ff9600>%@</font>升级了！<br>";
 "FightDropGold" = "获得了<font color=#FFFF00>%d枚金币</font>！<br>";
-"FightDrop" = "获得了战利品<font color=#00FF00>%@*%d</font>！<br>";
-"FightCollect" = "采集到了<font color=#00FF00>%@*%d</font>！<br>";
-"FightDig" = "挖掘到了<font color=#00FF00>%@*%d</font>！<br>";
+
+"FightColor0" = "<font color=#FFFFFF>【%@*%d】</font>！<br>";
+"FightColor1" = "<font color=#FFFFFF>【%@*%d】</font>！<br>";
+"FightColor2" = "<font color=#00FF00>【%@*%d】</font>！<br>";
+"FightColor3" = "<font color=#99FFFF>【%@*%d】</font>！<br>";
+"FightColor4" = "<font color=#CC00FF>【%@*%d】</font>！<br>";
+
+"FightDrop" = "获得了战利品";
+"FightCollect" = "采集到了";
+"FightDig" = "挖掘到了";
 
 "FightBut" = "攻击，但是";
 
@@ -68,7 +75,7 @@
 "FightBuff4" = "<font color=#ff9600>%@</font>因为【%@】效果，恢复了<font color=#00FF00>%d</font>HP。<br>";
 "FightBuff5" = "<font color=#ff9600>%@</font>因为【%@】效果，恢复了<font color=#00FF00>%d</font>SP。<br>";
 
-"GetTreasure" = "获得了<font color=#00FF00>%@*%d</font>！<br>";
+"GetTreasure" = "获得了";
 "OpenTreasure" = "<font color=#00FF00>发现了宝箱！</font><br>";
 "OpenDoor" = "<font color=#00FF00>门已打开！以后可以进入该区域了。</font><br>";
 

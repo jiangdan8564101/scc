@@ -1568,10 +1568,14 @@
             
             [ self addItem:item :c ];
             
-            NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"FightCollect" , nil ) , data.Name , c ];
+            NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"FightCollect" , nil ) ];
             
             [ sceneDataItem setCollect:drop.ID ];
             
+            [ self battleLog:str ];
+            
+            NSString* str1 = [ NSString stringWithFormat:@"FightColor%d" , data.Color ];
+            str = [ NSString localizedStringWithFormat:NSLocalizedString( str1 , nil ) , data.Name , c ];
             [ self battleLog:str ];
             
             return;
@@ -1623,6 +1627,10 @@
             
             [ sceneDataItem setDig:drop.ID ];
             
+            [ self battleLog:str ];
+            
+            NSString* str1 = [ NSString stringWithFormat:@"FightColor%d" , data.Color ];
+            str = [ NSString localizedStringWithFormat:NSLocalizedString( str1 , nil ) , data.Name , c ];
             [ self battleLog:str ];
             
             return;
@@ -1712,7 +1720,7 @@
                         DropGold += data.Sell;
                         [ [ PlayerData instance ] addGold:data.Sell ];
                         
-                        NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"FightHitGold" , nil ) , data.Sell ];
+                        NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"FightDropGold" , nil ) , data.Sell ];
                         
                         [ self battleLog:str ];
                     }
@@ -1722,10 +1730,14 @@
                         
                         [ self addItem:drop.ID :drop.Num ];
                         
-                        NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"GetTreasure" , nil ) , data.Name , drop.Num ];
+                        NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"GetTreasure" , nil ) ];
                         
                         [ sceneDataItem setCollect:drop.ID ];
                         
+                        [ self battleLog:str ];
+                        
+                        NSString* str1 = [ NSString stringWithFormat:@"FightColor%d" , data.Color ];
+                        str = [ NSString localizedStringWithFormat:NSLocalizedString( str1 , nil ) , data.Name , drop.Num ];
                         [ self battleLog:str ];
                     }
                     

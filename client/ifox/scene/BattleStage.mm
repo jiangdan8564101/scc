@@ -302,8 +302,13 @@
             [ [ ItemData instance ] addItem:comm1.FirstDrop :comm1.FirstDropNum ];
             [ mapLayer addItem:comm1.FirstDrop :comm1.FirstDropNum ];
             
-            NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"FightDrop" , nil ) , data.Name , comm1.FirstDropNum ];
+            NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"FightDrop" , nil ) ];
             [ mapLayer battleLog:str ];
+            
+            NSString* str1 = [ NSString stringWithFormat:@"FightColor%d" , data.Color ];
+            str = [ NSString localizedStringWithFormat:NSLocalizedString( str1 , nil ) , data.Name , comm1.FirstDropNum ];
+            [ mapLayer battleLog:str ];
+            
             [ mapLayer setEnemy:comm1.ID ];
             continue;
         }
@@ -359,7 +364,11 @@
                     [ [ ItemData instance ] addItem:item :c ];
                     [ mapLayer addItem:item :c ];
                     
-                    NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"FightDrop" , nil ) , data.Name , c ];
+                    NSString* str = [ NSString localizedStringWithFormat:NSLocalizedString( @"FightDrop" , nil ) ];
+                    [ mapLayer battleLog:str ];
+                    
+                    NSString* str1 = [ NSString stringWithFormat:@"FightColor%d" , data.Color ];
+                    str = [ NSString localizedStringWithFormat:NSLocalizedString( str1 , nil ) , data.Name , c ];
                     [ mapLayer battleLog:str ];
                 }
                 

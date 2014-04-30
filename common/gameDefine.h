@@ -375,6 +375,14 @@ enum CreatureProfessionType
     CPT_BRAVE = 20, // 勇者
 };
 
+enum ItemConfigDataColor
+{
+    ICDC_COLOR1 = 1,
+    ICDC_COLOR2,
+    ICDC_COLOR3,
+    ICDC_COLOR4,
+    ICDC_COLOR5
+};
 
 enum ItemConfigDataType
 {

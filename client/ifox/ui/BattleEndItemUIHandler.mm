@@ -117,18 +117,10 @@ static BattleEndItemUIHandler* gBattleEndItemUIHandler;
                 PackItemData* itemData = [ [ ItemData instance ] getItem:itemID ];
                 ItemConfigData* configData = [ [ ItemConfig instance ] getData:itemData.ItemID ];
                 
-                if ( configData.ID == GOLD_ITEM || configData.ID == SPECIAL_ITEM )
+                if ( configData.Color > ICDC_COLOR3 )
                 {
                     imageView1.hidden = NO;
                     imageView2.hidden = YES;
-                    
-                    UILabel* labelName = (UILabel*)[ view1 viewWithTag:100 ];
-                    [ labelName setTextColor:[ UIColor yellowColor ]  ];
-                }
-                else
-                {
-                    UILabel* labelName = (UILabel*)[ view1 viewWithTag:100 ];
-                    [ labelName setTextColor:[ UIColor whiteColor ]  ];
                 }
                 
                 if ( itemData )
@@ -146,6 +138,22 @@ static BattleEndItemUIHandler* gBattleEndItemUIHandler;
                     
                     UIImageView* image = (UIImageView*)[ view1 viewWithTag:400 ];
                     image.hidden = NO;
+                    
+                    switch ( configData.Color )
+                    {
+                        case 2:
+                            [ labelName setTextColor:[ UIColor colorWithRed:0.0f green:1.0f blue:0.0f alpha:1.0f ] ];
+                            break;
+                        case 3:
+                            [ labelName setTextColor:[ UIColor colorWithRed:0.6f green:1.0f blue:1.0f alpha:1.0f ] ];
+                            break;
+                        case 4:
+                            [ labelName setTextColor:[ UIColor colorWithRed:0.8f green:0.0f blue:1.0f alpha:1.0f ] ];
+                            break;
+                        default:
+                            [ labelName setTextColor:[ UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f ] ];
+                            break;
+                    }
                 }
                 
             }
