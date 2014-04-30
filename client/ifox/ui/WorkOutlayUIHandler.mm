@@ -277,6 +277,7 @@ static WorkOutlayUIHandler* gWorkOutlayUIHandler;
     goldCount += [ PlayerData instance ].SellGold;
     goldCount += goldEmploy;
     
+    
     [ label JumpNumber:goldEmploy :1.0f :NULL :NULL ];
     
     label = ( UILabelNumber* )[ view viewWithTag:2000 ];

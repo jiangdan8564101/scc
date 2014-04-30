@@ -9,6 +9,7 @@
 #import "ItemData.h"
 #import "PlayerData.h"
 #import "CreatureConfig.h"
+#import "GameCenterFile.h"
 
 @implementation PackItemData
 {
@@ -173,6 +174,8 @@
         
         [ PlayerData instance ].SellGold += sell * n;
         [ PlayerData instance ].Gold += sell * n;
+        
+        //[ [ GameKitHelper sharedGameKitHelper ] reportScore:[ PlayerData instance ].SellGold forCategory:@"gold" ];
     }
     
 }

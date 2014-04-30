@@ -372,7 +372,7 @@ SceneData* gSceneData = NULL;
         }
     }
     
-    //if ( last && last != completeCount )
+    if ( last && last != completeCount )
     {
         [ [ GameKitHelper sharedGameKitHelper ] reportScore:completeCount forCategory:@"level" ];
     }

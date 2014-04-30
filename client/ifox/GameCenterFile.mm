@@ -1,10 +1,4 @@
-//
-//  GameConfigLoader.m
-//  ixyhz
-//
-//  Created by fox1 on 12-8-6.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
-//
+
 
 #import "GameCenterFile.h"
 #import "cocos2d.h"
@@ -33,7 +27,7 @@ static UIViewController* currentModalViewController = nil;
     Class gcClass = (NSClassFromString(@"GKLocalPlayer"));
     
     // check if the device is running iOS 4.1 or later
-    NSString *reqSysVer =@"5.0";
+    NSString *reqSysVer =@"4.3";
     NSString *currSysVer = [[UIDevice currentDevice] systemVersion];
     BOOL osVersionSupported = ([currSysVer compare:reqSysVer
                                            options:NSNumericSearch] != NSOrderedAscending);
@@ -45,12 +39,12 @@ static UIViewController* currentModalViewController = nil;
     if ((self = [super init])) {
         gameCenterAvailable = [self isGameCenterAvailable];
         if (gameCenterAvailable) {
-//            NSNotificationCenter *nc =
-//            [NSNotificationCenter defaultCenter];
-//            [nc addObserver:self
-//                   selector:@selector(authenticationChanged)
-//                       name:GKPlayerAuthenticationDidChangeNotificationName
-//                     object:nil];
+            NSNotificationCenter *nc =
+            [NSNotificationCenter defaultCenter];
+            [nc addObserver:self
+                   selector:@selector(authenticationChanged)
+                       name:GKPlayerAuthenticationDidChangeNotificationName
+                     object:nil];
             if ( [GKLocalPlayer localPlayer].isAuthenticated )
             {
                 
@@ -128,25 +122,7 @@ static UIViewController* currentModalViewController = nil;
     
     if ([GKLocalPlayer localPlayer].authenticated == NO)
     {
-        [[GKLocalPlayer localPlayer] authenticateWithCompletionHandler:^(NSError *error)
-        {
-            if (error == nil)
-            {
-                //[ self reportAchievementIdentifier:@"a0" percentComplete:100 ];
-                //[ self reportScore:90000 forCategory:@"points" ];
-                //[ self showLeaderboard ];
-                //[ self showGameCenter ];
-                //[ self showAchievements ];
-                if( accountID && accountID != [GKLocalPlayer localPlayer].playerID)
-                {
-                    //[ GKNotificationBanner showBannerWithTitle:@"Attention!" message:@"Your account is changed!" completionHandler:nil ];
-                }
-            }
-            else
-            {
-                
-            }
-        }];
+        [[GKLocalPlayer localPlayer] authenticateWithCompletionHandler:nil ];
     }
     else
     {
@@ -185,6 +161,9 @@ static UIViewController* currentModalViewController = nil;
 
 - (void) reportScore: (int64_t) score forCategory: (NSString*) category
 {
+    [ self authenticateLocalUser ];
+    if( !gameCenterAvailable || currentModalViewController || ![ GKLocalPlayer localPlayer].authenticated ) return;
+    
     GKScore *scoreReporter = [[[GKScore alloc] initWithCategory:category] autorelease];
     scoreReporter.value = score;
     
@@ -335,8 +314,10 @@ static UIViewController* currentModalViewController = nil;
 
 - (void)showGameCenter
 {
-    [[GameKitHelper sharedGameKitHelper] authenticateLocalUser];
-    if( !gameCenterAvailable || currentModalViewController ) return;
+    [ [ GameKitHelper sharedGameKitHelper] authenticateLocalUser ];
+    
+    if( !gameCenterAvailable || currentModalViewController || ![ GKLocalPlayer localPlayer].authenticated ) return;
+    
     GKGameCenterViewController *gameCenterController = [[GKGameCenterViewController alloc] init];
     if(gameCenterController != nil)
     {
