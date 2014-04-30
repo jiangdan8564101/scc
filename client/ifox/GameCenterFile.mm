@@ -142,7 +142,7 @@ static UIViewController* currentModalViewController = nil;
      {
          if ( !error )
          {
-             [ self showGameCenter ];
+             //[ self showGameCenter ];
          }
          else
          {

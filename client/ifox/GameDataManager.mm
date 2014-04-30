@@ -48,6 +48,15 @@ int gCreatureID = MAIN_PLAYER_ID;
     
     NSMutableDictionary* dic = [ NSMutableDictionary dictionary ];
     
+    
+    NSString *idfv = [ [ [ UIDevice currentDevice] identifierForVendor ] UUIDString ];
+    if ( idfv )
+    {
+        NSData* data111 = [ NSKeyedArchiver archivedDataWithRootObject:idfv ];
+        [ dic setObject:data111 forKey:@"idfv" ];
+    }
+    
+    
     NSData* data1 = [ NSKeyedArchiver archivedDataWithRootObject:[ PlayerCreatureData instance ].PlayerDic  ];
     [ dic setObject:data1 forKey:@"creatures" ];
     
@@ -188,6 +197,18 @@ int gCreatureID = MAIN_PLAYER_ID;
         {
 
             return NO;
+        }
+        
+        NSData* data111 = [ dic objectForKey:@"idfv" ];
+        NSString* stridfv = [ NSKeyedUnarchiver unarchiveObjectWithData:data111 ];
+        
+        NSString *idfv = [ [ [ UIDevice currentDevice] identifierForVendor ] UUIDString ];
+        if ( stridfv && idfv )
+        {
+            if ( ![ stridfv isEqualToString:idfv ] )
+            {
+                return NO;
+            }
         }
 
         NSData* data1 = [ dic objectForKey:@"creatures" ];

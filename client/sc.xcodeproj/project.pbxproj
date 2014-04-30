@@ -893,6 +893,7 @@
 		98FD674918F422A7005C9F98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FD674818F422A7005C9F98 /* Default-568h@2x.png */; };
 		98FD674B18F422AE005C9F98 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FD674A18F422AE005C9F98 /* Default~iphone.png */; };
 		98FD674D18F422BC005C9F98 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FD674C18F422BC005C9F98 /* Default@2x.png */; };
+		98FE8EA21911631900265F88 /* VerificationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98FE8EA11911631900265F88 /* VerificationController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2079,6 +2080,8 @@
 		98FD674818F422A7005C9F98 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		98FD674A18F422AE005C9F98 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "Resources/Default~iphone.png"; sourceTree = "<group>"; };
 		98FD674C18F422BC005C9F98 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		98FE8EA01911631900265F88 /* VerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerificationController.h; path = ifox/VerificationController.h; sourceTree = SOURCE_ROOT; };
+		98FE8EA11911631900265F88 /* VerificationController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VerificationController.mm; path = ifox/VerificationController.mm; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2176,6 +2179,8 @@
 				98A39C77163E650000BDCE8D /* AppDelegate.mm */,
 				9827CF9516A1BAD400D4C2FD /* AppViewController.h */,
 				9827CF9616A1BAD400D4C2FD /* AppViewController.mm */,
+				98FE8EA01911631900265F88 /* VerificationController.h */,
+				98FE8EA11911631900265F88 /* VerificationController.mm */,
 				98DA047D191090B600BD0BDF /* GameCenterFile.h */,
 				98DA047E191090B600BD0BDF /* GameCenterFile.mm */,
 				9827CF7E16A181F700D4C2FD /* base */,
@@ -4636,6 +4641,7 @@
 				9864B8B716A289B1006B1A9A /* WorldMapUIHandler.mm in Sources */,
 				9864B8BE16A28B54006B1A9A /* WorldMapScene.mm in Sources */,
 				984518C41850C85A00B400C2 /* InfoQuestItem.mm in Sources */,
+				98FE8EA21911631900265F88 /* VerificationController.mm in Sources */,
 				9864B90816A2945D006B1A9A /* WorldMapView.mm in Sources */,
 				981ED58916A59455009214CF /* WorkMapScene.mm in Sources */,
 				98F8CE5F16A595CA00FCB508 /* WorkMapUIHandler.mm in Sources */,

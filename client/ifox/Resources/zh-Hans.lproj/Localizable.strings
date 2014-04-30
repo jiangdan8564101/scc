@@ -179,6 +179,8 @@
 
 "Alchemy" = "合成成功！";
 "BuySuccess" = "购买成功！";
+"BuyFailed" = "购买失败！";
+
 
 "GameLogin1" = "是否观看开场剧情";
 "GameLogin2" = "是";

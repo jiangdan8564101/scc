@@ -14,12 +14,14 @@
 {
     NSMutableArray* products;
     
+    int buyCount;
     BOOL buy;
 }
 
 - ( NSMutableArray* ) getList;
 - ( void ) getList:( NSMutableArray* )arr;
 - ( void ) buyGoods:( int ) index;
+- ( void ) complete;
 
 + ( PaymentIOS* ) instance;
 
