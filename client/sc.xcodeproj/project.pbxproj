@@ -782,6 +782,7 @@
 		98CA97B2185A0E9C008D992D /* AlertUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CA97B1185A0E9C008D992D /* AlertUIView.xib */; };
 		98D0230A16A42D4B0025EC97 /* action in Resources */ = {isa = PBXBuildFile; fileRef = 98D0230916A42D4B0025EC97 /* action */; };
 		98D9D28A16FE92E700CDA4C0 /* logManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D9D28816FE905700CDA4C0 /* logManager.cpp */; };
+		98DA047F191090B600BD0BDF /* GameCenterFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98DA047E191090B600BD0BDF /* GameCenterFile.mm */; };
 		98DA5FD2190F538300025B35 /* ProDiffConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98DA5FD1190F538300025B35 /* ProDiffConfig.mm */; };
 		98E3F632180D1137008BC29A /* QuestConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F631180D1137008BC29A /* QuestConfig.mm */; };
 		98E3F635180D2C2E008BC29A /* QuestData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F634180D2C2E008BC29A /* QuestData.mm */; };
@@ -1947,6 +1948,8 @@
 		98D0230916A42D4B0025EC97 /* action */ = {isa = PBXFileReference; lastKnownFileType = folder; name = action; path = Resources/action; sourceTree = "<group>"; };
 		98D9D28816FE905700CDA4C0 /* logManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = logManager.cpp; sourceTree = "<group>"; };
 		98D9D28916FE905700CDA4C0 /* logManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logManager.h; sourceTree = "<group>"; };
+		98DA047D191090B600BD0BDF /* GameCenterFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCenterFile.h; path = ifox/GameCenterFile.h; sourceTree = SOURCE_ROOT; };
+		98DA047E191090B600BD0BDF /* GameCenterFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameCenterFile.mm; path = ifox/GameCenterFile.mm; sourceTree = SOURCE_ROOT; };
 		98DA5FD0190F538300025B35 /* ProDiffConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProDiffConfig.h; sourceTree = "<group>"; };
 		98DA5FD1190F538300025B35 /* ProDiffConfig.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProDiffConfig.mm; sourceTree = "<group>"; };
 		98E3F630180D1137008BC29A /* QuestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestConfig.h; sourceTree = "<group>"; };
@@ -2171,6 +2174,8 @@
 				98A39C77163E650000BDCE8D /* AppDelegate.mm */,
 				9827CF9516A1BAD400D4C2FD /* AppViewController.h */,
 				9827CF9616A1BAD400D4C2FD /* AppViewController.mm */,
+				98DA047D191090B600BD0BDF /* GameCenterFile.h */,
+				98DA047E191090B600BD0BDF /* GameCenterFile.mm */,
 				9827CF7E16A181F700D4C2FD /* base */,
 				9827CF9A16A1BC5E00D4C2FD /* audio */,
 				98A39CA0163E782800BDCE8D /* GameConfigManager.h */,
@@ -4659,6 +4664,7 @@
 				98EA0B5E16CB51600020D260 /* BattleSpriteAction.mm in Sources */,
 				98EA0B6C16CBA9670020D260 /* BattleTopUIHandler.mm in Sources */,
 				989AC5FA18701A7A004067E8 /* InfoEmployUIHandler.mm in Sources */,
+				98DA047F191090B600BD0BDF /* GameCenterFile.mm in Sources */,
 				98BA7B671898A55D00022318 /* UIEffectAction.mm in Sources */,
 				981DBCD816CDF4CE00C4A63C /* BattleNetHandler.mm in Sources */,
 				985EC342171EDF3B0089519B /* GameUnit.m in Sources */,
