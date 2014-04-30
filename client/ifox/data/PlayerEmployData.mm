@@ -13,6 +13,7 @@
 #import "SceneData.h"
 #import "EventData.h"
 #import "EventConfig.h"
+#import "GameDataManager.h"
 
 extern int gCreatureID;
 
@@ -78,6 +79,14 @@ PlayerEmployData* gPlayerEmployData = NULL;
             [ PlayerArray addObject:comm ];
             [ comm release ];
         }
+        
+        if ( [ [ GameDataManager instance ] getBuyItem ] && ![ [ PlayerCreatureData instance ] getCommonDataWithID:16 ] )
+        {
+            CreatureCommonData* comm = [ self CreateCreature:16 ];
+            [ PlayerArray addObject:comm ];
+            [ comm release ];
+        }
+        
         return;
     }
     
@@ -90,6 +99,15 @@ PlayerEmployData* gPlayerEmployData = NULL;
     comm = [ self CreateCreature:71 ];
     [ PlayerArray addObject:comm ];
     [ comm release ];
+    
+    if ( [ [ GameDataManager instance ] getBuyItem ] && ![ [ PlayerCreatureData instance ] getCommonDataWithID:16 ] )
+    {
+        CreatureCommonData* comm = [ self CreateCreature:16 ];
+        [ PlayerArray addObject:comm ];
+        [ comm release ];
+    }
+    
+    
     
     NSMutableDictionary* data = [ CreatureConfig instance ].NpcDic;
     
@@ -138,13 +156,12 @@ PlayerEmployData* gPlayerEmployData = NULL;
         
         if ( event.ComEmploy )
         {
-            CreatureCommonData* comm = [ self CreateCreature:event.ComEmploy ];
-            
-            if ( [ [ PlayerCreatureData instance ] getCommonDataWithID:comm.ID ] )
+            if ( [ [ PlayerCreatureData instance ] getCommonDataWithID:event.ComEmploy ] )
             {
-                [ comm release ];
                 continue;
             }
+            
+            CreatureCommonData* comm = [ self CreateCreature:event.ComEmploy ];
             
             [ PlayerArray addObject:comm ];
             [ comm release ];

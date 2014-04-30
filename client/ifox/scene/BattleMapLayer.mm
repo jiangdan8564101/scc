@@ -2115,6 +2115,7 @@
     EnemyCreatures = NULL;
     SPEnemyCreatures = NULL;
     
+    
     leader = NULL;
     leaderMove = 0;
     leaderStep = 0;

@@ -289,6 +289,9 @@ BattleMapScene* gBattleMapScene = NULL;
         }
     }
     
+    CreatureCommonData* commonData1 = [ [ PlayerCreatureData instance ] getCommonDataWithID:MAIN_PLAYER_ID16 ];
+    [ commonData1 resetData ];
+    
     [ [ BattleTopUIHandler instance ] visible:NO ];
     
     [ [ BattleLogUIHandler instance ] endFight ];

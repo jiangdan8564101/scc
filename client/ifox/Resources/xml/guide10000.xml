@@ -1,13 +1,13 @@
 <root >
     
     <guide id="10000" checkScene="battle" mask="1" next="-1" >
-        <g creatureRight="2" actionRight="A" fadeInMiddleRight="0.75" nameID="2" str="「！！这种压迫的感觉！」" alert="【死神】出现！"/>
-        <g creatureRight="2" actionRight="B" nameID="2" str="随机事件已触发。"  sound="D0718" />
+        <g creatureRight="2" actionRight="A" fadeInRight="0.75" nameID="2" str="「！！这种压迫的感觉！」" alert="【死神】出现！"/>
+        <g creatureRight="2" actionRight="B" nameID="2" str="随机事件已触发。" sound="D0718" />
         <g creatureRight="2" actionRight="B" nameID="2" str="达成某些特殊条件后会触发随机事件，完成随机事件后会触发剧情，并获得奖励。" />
     </guide>
     
     <guide id="10001" checkScene="battle" mask="1" next="-1" >
-        <g creatureRight="2" actionRight="A" fadeInMiddleRight="0.75" nameID="2" str="......" />
+        <g creatureMiddle="25" actionMiddle="A" fadeInMiddleRight="0.75" nameID="25" str="......" />
     </guide>
     
     <guide id="10002" checkScene="battle" activeScene="world" mask="1" next="-1" >
