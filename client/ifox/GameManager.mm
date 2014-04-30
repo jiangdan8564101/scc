@@ -79,7 +79,7 @@
     employTime += delay;
     
     
-    if ( employTime > 120.0f )
+    if ( employTime > 180.0f )
     {
         employTime = 0.0f;
         [ PlayerEmployData instance ].Reload = YES;

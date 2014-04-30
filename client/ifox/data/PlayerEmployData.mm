@@ -80,12 +80,19 @@ PlayerEmployData* gPlayerEmployData = NULL;
             [ comm release ];
         }
         
-        if ( [ [ GameDataManager instance ] getBuyItem ] && ![ [ PlayerCreatureData instance ] getCommonDataWithID:16 ] )
-        {
-            CreatureCommonData* comm = [ self CreateCreature:16 ];
-            [ PlayerArray addObject:comm ];
-            [ comm release ];
-        }
+//        if ( [ [ GameDataManager instance ] getBuyItem ] && ![ [ PlayerCreatureData instance ] getCommonDataWithID:16 ] )
+//        {
+//            CreatureCommonData* comm = [ self CreateCreature:16 ];
+//            [ PlayerArray addObject:comm ];
+//            [ comm release ];
+//        }
+//        
+//        if ( [ PlayerData instance ].Year > 1 && ![ [ PlayerCreatureData instance ] getCommonDataWithID:6 ] )
+//        {
+//            CreatureCommonData* comm = [ self CreateCreature:6 ];
+//            [ PlayerArray addObject:comm ];
+//            [ comm release ];
+//        }
         
         return;
     }
@@ -107,7 +114,18 @@ PlayerEmployData* gPlayerEmployData = NULL;
         [ comm release ];
     }
     
-    
+    if ( [ PlayerData instance ].Year > 1 && ![ [ PlayerCreatureData instance ] getCommonDataWithID:5 ] )
+    {
+        CreatureCommonData* comm = [ self CreateCreature:5 ];
+        [ PlayerArray addObject:comm ];
+        [ comm release ];
+    }
+    if ( [ PlayerData instance ].Year > 2 && ![ [ PlayerCreatureData instance ] getCommonDataWithID:6 ] )
+    {
+        CreatureCommonData* comm = [ self CreateCreature:6 ];
+        [ PlayerArray addObject:comm ];
+        [ comm release ];
+    }
     
     NSMutableDictionary* data = [ CreatureConfig instance ].NpcDic;
     

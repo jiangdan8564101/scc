@@ -219,7 +219,7 @@ BattleMapScene* gBattleMapScene = NULL;
     
     [ self activeLayer:0 ];
     
-    [ [ PlayerData instance ] goDate:1 ];
+    //[ [ PlayerData instance ] goDate:1 ];
     
     SPMap = YES;
 }
