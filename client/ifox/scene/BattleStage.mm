@@ -675,7 +675,7 @@
         mt = 1.0f;
     }
     
-    float finalDamage = baseDamage * per1 * per2 * 1.0f;
+    float finalDamage = baseDamage * per1 * per2 * mt;
     
     return finalDamage;
 }
