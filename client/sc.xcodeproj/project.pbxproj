@@ -783,6 +783,7 @@
 		98D0230A16A42D4B0025EC97 /* action in Resources */ = {isa = PBXBuildFile; fileRef = 98D0230916A42D4B0025EC97 /* action */; };
 		98D9D28A16FE92E700CDA4C0 /* logManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D9D28816FE905700CDA4C0 /* logManager.cpp */; };
 		98DA047F191090B600BD0BDF /* GameCenterFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98DA047E191090B600BD0BDF /* GameCenterFile.mm */; };
+		98DA04811910A6DA00BD0BDF /* gamecenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DA04801910A6DA00BD0BDF /* gamecenter.png */; };
 		98DA5FD2190F538300025B35 /* ProDiffConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98DA5FD1190F538300025B35 /* ProDiffConfig.mm */; };
 		98E3F632180D1137008BC29A /* QuestConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F631180D1137008BC29A /* QuestConfig.mm */; };
 		98E3F635180D2C2E008BC29A /* QuestData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F634180D2C2E008BC29A /* QuestData.mm */; };
@@ -1950,6 +1951,7 @@
 		98D9D28916FE905700CDA4C0 /* logManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logManager.h; sourceTree = "<group>"; };
 		98DA047D191090B600BD0BDF /* GameCenterFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCenterFile.h; path = ifox/GameCenterFile.h; sourceTree = SOURCE_ROOT; };
 		98DA047E191090B600BD0BDF /* GameCenterFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameCenterFile.mm; path = ifox/GameCenterFile.mm; sourceTree = SOURCE_ROOT; };
+		98DA04801910A6DA00BD0BDF /* gamecenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamecenter.png; sourceTree = "<group>"; };
 		98DA5FD0190F538300025B35 /* ProDiffConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProDiffConfig.h; sourceTree = "<group>"; };
 		98DA5FD1190F538300025B35 /* ProDiffConfig.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProDiffConfig.mm; sourceTree = "<group>"; };
 		98E3F630180D1137008BC29A /* QuestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestConfig.h; sourceTree = "<group>"; };
@@ -2661,6 +2663,7 @@
 		98529BD417E752550092D5FE /* button */ = {
 			isa = PBXGroup;
 			children = (
+				98DA04801910A6DA00BD0BDF /* gamecenter.png */,
 				981AC93A18E26F120092B9B8 /* LoginGameStart.png */,
 				981AC93B18E26F120092B9B8 /* LoginLoadData.png */,
 				98529BD517E752550092D5FE /* backButton.png */,
@@ -4108,6 +4111,7 @@
 				98FD671418F41F43005C9F98 /* WorldMapUIViewIphone.xib in Resources */,
 				98529D4517E752560092D5FE /* MI020.png in Resources */,
 				986B244717ECB66100E7924B /* worldDiscovery.png in Resources */,
+				98DA04811910A6DA00BD0BDF /* gamecenter.png in Resources */,
 				9847987418E51E9900FAF126 /* bbb4.png in Resources */,
 				98EA36E6185C8AC5001E08E9 /* EV001CA.jpg in Resources */,
 				98FD672518F41F5F005C9F98 /* AlchemyUIViewIphone5.xib in Resources */,

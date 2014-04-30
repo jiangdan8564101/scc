@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <map>
 <m id="1" name="工房都市多拉" story="5" workRank="0" >
     <s id="99" name="小狐狸的宝藏" lv="1" >
-        <t id="301" num="1" per="100" />
-        <t id="302" num="1" per="100" />
-        <t id="303" num="1" per="100" />
-        <t id="304" num="1" per="100" />
-        <t id="305" num="1" per="100" />
-        <t id="306" num="1" per="100" />
-        <t id="307" num="1" per="100" />
-        <t id="308" num="1" per="100" />
-        <t id="309" num="1" per="100" />
-        <t id="310" num="1" per="100" />
-        <t id="311" num="1" per="20" />
-        <t id="312" num="1" per="20" />
-        <t id="313" num="1" per="20" />
-        <t id="314" num="1" per="20" />
-        <t id="315" num="1" per="20" />
-        <t id="316" num="1" per="20" />
-        <t id="317" num="1" per="20" />
-        <t id="318" num="1" per="8" />
-        <t id="319" num="1" per="8" />
-        <t id="320" num="1" per="8" />
+        <t id="301" num="1" per="50" />
+        <t id="302" num="1" per="50" />
+        <t id="303" num="1" per="50" />
+        <t id="304" num="1" per="50" />
+        <t id="305" num="1" per="50" />
+        <t id="306" num="1" per="50" />
+        <t id="307" num="1" per="50" />
+        <t id="308" num="1" per="50" />
+        <t id="309" num="1" per="50" />
+        <t id="310" num="1" per="50" />
+        <t id="311" num="1" per="10" />
+        <t id="312" num="1" per="10" />
+        <t id="313" num="1" per="10" />
+        <t id="314" num="1" per="10" />
+        <t id="315" num="1" per="10" />
+        <t id="316" num="1" per="10" />
+        <t id="317" num="1" per="10" />
+        <t id="318" num="1" per="4" />
+        <t id="319" num="1" per="4" />
+        <t id="320" num="1" per="4" />
         <t id="60009" num="1" per="100" />
         <t id="60010" num="1" per="100" />
         <t id="60011" num="1" per="100" />
