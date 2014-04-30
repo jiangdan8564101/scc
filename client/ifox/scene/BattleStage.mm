@@ -480,7 +480,9 @@
 {
     for ( int i = 0 ; i < arr.count ; ++i )
     {
-        if ( [ self hasBuffWithEffect:[ def objectAtIndex:[ [ arr objectAtIndex:i ] intValue ] ] :STGE_HATRED ] )
+        CreatureCommonData* comm = [ def objectAtIndex:[ [ arr objectAtIndex:i ] intValue ] ];
+        
+        if ( [ self hasBuffWithEffect:comm :STGE_HATRED ] && !comm.Dead )
         {
             return i;
         }

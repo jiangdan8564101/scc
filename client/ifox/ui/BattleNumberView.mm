@@ -108,6 +108,8 @@
         [ array addObject:view ];
         [ view release ];
     }
+    
+    [ self.superview.superview addSubview:self.superview ];
 }
 
 - ( void ) clearNumber
