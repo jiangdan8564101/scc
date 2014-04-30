@@ -34,6 +34,8 @@
 @property ( nonatomic ) int Key , Rank , Quality;
 @property ( nonatomic ) int ProLevel;
 
+@property ( nonatomic ) int Color;
+
 @property ( nonatomic ) float* MonsterDamage;
 @property ( nonatomic ) float* AttrDefence;
 

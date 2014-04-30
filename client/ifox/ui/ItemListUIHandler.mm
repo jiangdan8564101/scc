@@ -140,6 +140,7 @@ static ItemListUIHandler* gItemListUIHandler;
     PackItemData* data = [ [ ItemData instance ] getItem:selectItem.ItemID ];
     
     CreatureCommonData* comm = [ [ PlayerCreatureData instance ] getCommonData:selectCreature.CreatureID ];
+    ItemConfigData* item = [ [ ItemConfig instance ] getData:data.ItemID ];
     
     int index = button.tag - 3100;
     int equipi = INVALID_ID;
@@ -158,7 +159,7 @@ static ItemListUIHandler* gItemListUIHandler;
     
     
     
-    if ( !data.Number )
+    if ( !data.Number || ( item.Type == ICDT_WEAPON && item.ProLevel > [ comm getProfessionLevel ] ) )
     {
         playSound( PST_ERROR );
         return;
@@ -185,7 +186,6 @@ static ItemListUIHandler* gItemListUIHandler;
     
     [ [ ItemData instance ] removeItem:selectItem.ItemID :1 ];
     
-    ItemConfigData* item = [ [ ItemConfig instance ] getData:data.ItemID ];
     
     switch ( index )
     {
@@ -518,6 +518,22 @@ static ItemListUIHandler* gItemListUIHandler;
         
         [ namelabel setText:[ NSString stringWithFormat:@"【 %@ 】", item.Name ] ];
         [ deslabel setText:str2 ];
+        
+        switch ( item.Color )
+        {
+            case 2:
+                [ namelabel setTextColor:[ UIColor colorWithRed:0.0f green:1.0f blue:0.0f alpha:1.0f ] ];
+                break;
+            case 3:
+                [ namelabel setTextColor:[ UIColor colorWithRed:0.6f green:1.0f blue:1.0f alpha:1.0f ] ];
+                break;
+            case 4:
+                [ namelabel setTextColor:[ UIColor colorWithRed:0.8f green:0.0f blue:1.0f alpha:1.0f ] ];
+                break;
+            default:
+                [ namelabel setTextColor:[ UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f ] ];
+                break;
+        }
         
         for ( int i = 0 ; i < item.Skill.count ; ++i )
         {

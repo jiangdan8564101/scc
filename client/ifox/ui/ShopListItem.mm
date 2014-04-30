@@ -37,10 +37,29 @@
         sell = sell + sell * [ PlayerData instance ].WorkItemEffect[ ICDET_SELL1 + config.Type2 - 1 ];
     }
     
+
+    
     Num = [ [ ShopUIHandler instance ] getShopItemNum:ItemID ];
     [ num2 setText:[ NSString stringWithFormat:@"%d" , [ ShopUIHandler instance ].BuyMode ? config.Buy : sell ] ];
     [ num1 setText:[ NSString stringWithFormat:@"%d" , n ] ];
     [ name setText:config.Name ];
+    
+    
+    switch ( config.Color )
+    {
+        case 2:
+            [ name setTextColor:[ UIColor colorWithRed:0.0f green:1.0f blue:0.0f alpha:1.0f ] ];
+            break;
+        case 3:
+            [ name setTextColor:[ UIColor colorWithRed:0.6f green:1.0f blue:1.0f alpha:1.0f ] ];
+            break;
+        case 4:
+            [ name setTextColor:[ UIColor colorWithRed:0.8f green:0.0f blue:1.0f alpha:1.0f ] ];
+            break;
+        default:
+            [ name setTextColor:[ UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f ] ];
+            break;
+    }
     
     [ num3 setText:[ NSString stringWithFormat:@"%d" , Num ] ];
     [ num4 setText:[ NSString stringWithFormat:@"%d" , [ ShopUIHandler instance ].BuyMode ? Num * config.Buy : Num * sell ] ];

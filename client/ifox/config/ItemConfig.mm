@@ -19,6 +19,7 @@
 @synthesize MonsterDamage , AttrDefence;
 @synthesize ID , Type , Type2 , AutoSell , WeaponType , ArmorType , Img , Name , Des1 , Des2 , Skill , Sell , Buy , PutPosition;
 @synthesize Key , Rank;
+@synthesize Color;
 @synthesize ProLevel;
 
 
@@ -147,6 +148,8 @@ ItemConfig* gItemConfig = NULL;
         commonData.WeaponType = [ [ attributeDict objectForKey:@"wt" ] intValue ];
         commonData.ArmorType = [ [ attributeDict objectForKey:@"at" ] intValue ];
         
+        commonData.Color = [ [ attributeDict objectForKey:@"color" ] intValue ];
+        
         commonData.MaxHP = [ [ attributeDict objectForKey:@"maxHP" ] floatValue ];
         commonData.HP = [ [ attributeDict objectForKey:@"hp" ] floatValue ];
         commonData.MaxSP = [ [ attributeDict objectForKey:@"maxSP" ] floatValue ];
@@ -167,8 +170,8 @@ ItemConfig* gItemConfig = NULL;
         commonData.Guest = [ [ attributeDict objectForKey:@"guest" ] floatValue ];
         commonData.AutoSell = [ [ attributeDict objectForKey:@"autoSell" ] floatValue ];
         
-        commonData.MainAttrType = [ [ attributeDict objectForKey:@"mainP" ] floatValue ];
-        commonData.MainAttr = [ [ attributeDict objectForKey:@"main" ] intValue ];
+        commonData.MainAttrType = [ [ attributeDict objectForKey:@"main" ] intValue ];
+        commonData.MainAttr = [ [ attributeDict objectForKey:@"mainP" ] floatValue ];
         
         commonData.MonsterDamage[ GCT_FLY ] = [ [ attributeDict objectForKey:@"bFly" ] floatValue ];
         commonData.MonsterDamage[ GCT_DEAD ] = [ [ attributeDict objectForKey:@"bDead" ] floatValue ];

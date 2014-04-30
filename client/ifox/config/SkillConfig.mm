@@ -168,15 +168,6 @@ SkillConfig* gSkillConfig = NULL;
         data.MonsterDamage[ GCT_DEFENCER ] = [ [ attributeDict objectForKey:@"cDefencer" ] floatValue ];
         data.MonsterDamage[ GCT_OTHER ] = [ [ attributeDict objectForKey:@"cOther" ] floatValue ];
         
-        
-        for ( int i = 0 ; i < GCT_COUNT ; ++i )
-        {
-            if ( !data.MonsterDamage[ i ] )
-            {
-                data.MonsterDamage[ i ] = 1.0f;
-            }
-        }
-        
         [ dic setObject:data forKey:[ NSNumber numberWithInt:data.SkillID ] ];
         
         [ data release ];

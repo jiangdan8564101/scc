@@ -14,6 +14,7 @@
 {
     
 }
-    
-    
+
+- ( void ) update:( float )delay;
+
 @end

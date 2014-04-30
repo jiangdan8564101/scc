@@ -121,14 +121,47 @@ static AlchemyUIHandler* gAlchemyUIHandler;
                 AlchemyConfigData* data1 = [ dic objectForKey:obj1 ];
                 AlchemyConfigData* data2 = [ dic objectForKey:obj2 ];
                 
-                if ( data1.Rank < data2.Rank )
+                ItemConfigData* item1 = [ [ ItemConfig instance ] getData:data1.ItemID ];
+                ItemConfigData* item2 = [ [ ItemConfig instance ] getData:data2.ItemID ];
+                
+                if ( item1.Color < item2.Color )
                 {
                     return (NSComparisonResult)NSOrderedDescending;
                 }
                 
-                if ( data1.Rank > data2.Rank )
+                if ( item1.Color > item2.Color )
                 {
                     return (NSComparisonResult)NSOrderedAscending;
+                }
+                
+                if ( item1.Color == item2.Color )
+                {
+                    if ( item1.WeaponType < item2.WeaponType )
+                    {
+                        return (NSComparisonResult)NSOrderedDescending;
+                    }
+                    if ( item1.WeaponType > item2.WeaponType )
+                    {
+                        return (NSComparisonResult)NSOrderedAscending;
+                    }
+
+                    if ( item1.PutPosition < item2.PutPosition )
+                    {
+                        return (NSComparisonResult)NSOrderedDescending;
+                    }
+                    if ( item1.PutPosition > item2.PutPosition )
+                    {
+                        return (NSComparisonResult)NSOrderedAscending;
+                    }
+                    
+                    if ( item1.Type2 < item2.Type2 )
+                    {
+                        return (NSComparisonResult)NSOrderedDescending;
+                    }
+                    if ( item1.Type2 > item2.Type2 )
+                    {
+                        return (NSComparisonResult)NSOrderedAscending;
+                    }
                 }
                 
                 return (NSComparisonResult)NSOrderedSame;
@@ -277,6 +310,22 @@ static AlchemyUIHandler* gAlchemyUIHandler;
     [ namelabel setText:[ NSString stringWithFormat:@"【 %@ 】", item.Name ] ];
     [ des1label setText:str2 ];
     
+    switch ( item.Color )
+    {
+        case 2:
+            [ namelabel setTextColor:[ UIColor colorWithRed:0.0f green:1.0f blue:0.0f alpha:1.0f ] ];
+            break;
+        case 3:
+            [ namelabel setTextColor:[ UIColor colorWithRed:0.6f green:1.0f blue:1.0f alpha:1.0f ] ];
+            break;
+        case 4:
+            [ namelabel setTextColor:[ UIColor colorWithRed:0.8f green:0.0f blue:1.0f alpha:1.0f ] ];
+            break;
+        default:
+            [ namelabel setTextColor:[ UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f ] ];
+            break;
+    }
+
     
     for ( int i = 0 ; i < item.Skill.count ; ++i )
     {
@@ -548,4 +597,11 @@ static AlchemyUIHandler* gAlchemyUIHandler;
 }
 
 
+- ( void ) update:(float)delay
+{
+    [ scrollView update:delay ];
+}
+
+
 @end
+

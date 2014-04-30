@@ -33,10 +33,25 @@
     
     if ( ic.Quality )
     {
-        NSString* str = [ NSString stringWithFormat:@"Quality%d" , ic.Quality ];
-        NSString* str1 = NSLocalizedString( str , nil );
+        //NSString* str = [ NSString stringWithFormat:@"Quality%d" , ic.Quality ];
+        //NSString* str1 = NSLocalizedString( str , nil );
         
-        [ label setLabelText:str1 ];
+        switch ( ic.Color )
+        {
+            case 2:
+                [ label setTextColor:[ UIColor colorWithRed:0.0f green:1.0f blue:0.0f alpha:1.0f ] ];
+                break;
+            case 3:
+                [ label setTextColor:[ UIColor colorWithRed:0.6f green:1.0f blue:1.0f alpha:1.0f ] ];
+                break;
+            case 4:
+                [ label setTextColor:[ UIColor colorWithRed:0.8f green:0.0f blue:1.0f alpha:1.0f ] ];
+                break;
+            default:
+                [ label setTextColor:[ UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f ] ];
+                break;
+        }
+        //[ label setLabelText:str1 ];
     }
     
     UIImageView* iv = ( UIImageView* )[ self viewWithTag:300 ];

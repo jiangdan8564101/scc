@@ -29,6 +29,15 @@
     return count;
 }
 
+- ( void ) update:( float )delay
+{
+    for ( int i = 0 ; i < array.count ; ++i )
+    {
+        AlchemyUIItem* item = [ array objectAtIndex:i ];
+        [ item update:delay ];
+    }
+}
+
 - ( void ) updateContentSize
 {
     if ( !self.DataCount )

@@ -12,11 +12,13 @@
 
 @interface AlchemyUIItem : UIFastScrollViewItem
 {
-    
+    UIButton* touchDonw;
+    float timeTouch;
 }
 
 @property( nonatomic ) int AlchemyID , Num;
 
 - ( void ) updateCanAlchemy;
+- ( void ) update:( float )delay;
 
 @end

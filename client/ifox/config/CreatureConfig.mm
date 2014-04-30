@@ -334,11 +334,8 @@
         RealBaseData.Guest += item.Guest;
         RealBaseData.Command += item.Command;
         
-        if ( item.MainAttrType )
-        {
-            MainAttrType = item.MainAttrType;
-            MainAttr = item.MainAttr;
-        }
+        MainAttrType = item.MainAttrType;
+        MainAttr = item.MainAttr;
         
         for ( int i = 0 ; i < GCA_COUNT ; ++i )
         {

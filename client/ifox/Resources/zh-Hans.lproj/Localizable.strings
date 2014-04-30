@@ -158,11 +158,13 @@
 "WeaponType11" = "【爪子】";
 "WeaponType12" = "【剑】";
 
-
+"Quality0" = "D";
 "Quality1" = "C";
 "Quality2" = "B";
 "Quality3" = "A";
 "Quality4" = "S";
+"Quality5" = "SS";
+"Quality6" = "SSS";
 
 "GameSpeed1" = "速度X1";
 "GameSpeed2" = "速度X2";

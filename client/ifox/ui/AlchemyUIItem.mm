@@ -49,8 +49,26 @@
         [ self setNew:itemData.newItem ];
     }
     
+    [ button1 addTarget:self action:@selector( onCancel ) forControlEvents:UIControlEventTouchUpOutside ];
+    [ button1 addTarget:self action:@selector( onCancel ) forControlEvents:UIControlEventTouchCancel ];
+    [ button2 addTarget:self action:@selector( onCancel ) forControlEvents:UIControlEventTouchUpOutside ];
+    [ button2 addTarget:self action:@selector( onCancel ) forControlEvents:UIControlEventTouchCancel ];
+    
+    [ button1 addTarget:self action:@selector( onTouchDown: ) forControlEvents:UIControlEventTouchDown ];
+    [ button2 addTarget:self action:@selector( onTouchDown: ) forControlEvents:UIControlEventTouchDown ];
+    
     [ button1 addTarget:self action:@selector( onAdd ) forControlEvents:UIControlEventTouchUpInside ];
     [ button2 addTarget:self action:@selector( onDec ) forControlEvents:UIControlEventTouchUpInside ];
+}
+
+- ( void ) onTouchDown:( UIButton* )b
+{
+    touchDonw = b;
+}
+
+- ( void ) onCancel
+{
+    touchDonw = NULL;
 }
 
 
@@ -61,13 +79,33 @@
     
     BOOL b = [ [ AlchemyUIHandler instance ] canAlchemyItem:AlchemyID ];
     
+    AlchemyConfigData* config = [ [ AlchemyConfig instance ] getAlchemy:AlchemyID ];
+    ItemConfigData* config1 = [ [ ItemConfig instance ] getData:config.ItemID ];
+    
     if ( b )
     {
-        [ name setTextColor:[ UIColor whiteColor ] ];
+        switch ( config1.Color )
+        {
+            case 2:
+                [ name setTextColor:[ UIColor colorWithRed:0.0f green:1.0f blue:0.0f alpha:1.0f ] ];
+                break;
+            case 3:
+                [ name setTextColor:[ UIColor colorWithRed:0.6f green:1.0f blue:1.0f alpha:1.0f ] ];
+                break;
+            case 4:
+                [ name setTextColor:[ UIColor colorWithRed:0.8f green:0.0f blue:1.0f alpha:1.0f ] ];
+                break;
+            default:
+                [ name setTextColor:[ UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f ] ];
+                break;
+        }
+
+        //[ num setTextColor:[ UIColor whiteColor ] ];
     }
     else
     {
-        [ name setTextColor:[ UIColor redColor ] ];
+        [ name setTextColor:[ UIColor colorWithRed:0.5f green:0.5f blue:0.5f alpha:1.0f ] ];
+        //[ num setTextColor:[ UIColor colorWithRed:0.3f green:0.3f blue:0.3f alpha:1.0f ] ];
     }
 }
 
@@ -104,6 +142,13 @@
 
 - ( void ) onAdd
 {
+    touchDonw = NULL;
+    
+    if ( timeTouch > 1.0f )
+    {
+        return;
+    }
+    
     Num++;
     
     [ self updateData ];
@@ -112,6 +157,13 @@
 
 - ( void ) onDec
 {
+    touchDonw = NULL;
+    
+    if ( timeTouch > 1.0f )
+    {
+        return;
+    }
+    
     Num--;
     
     if ( Num < 0 )
@@ -123,7 +175,55 @@
     [ self setNew:NO ];
 }
 
-
+- ( void ) update:( float )delay
+{
+    if ( touchDonw )
+    {
+        timeTouch += delay;
+    }
+    
+    if ( touchDonw && timeTouch > 1.0f )
+    {
+        UIButton* button1 = (UIButton*)[ self viewWithTag:504 ];
+        UIButton* button2 = (UIButton*)[ self viewWithTag:505 ];
+        
+        if ( touchDonw == button1 )
+        {
+            Num++;
+            
+            [ self updateData ];
+            [ self setNew:NO ];
+            
+            BOOL b = [ [ AlchemyUIHandler instance ] canAlchemyItem:AlchemyID ];
+            if ( !b )
+            {
+                Num--;
+                
+                if ( Num < 0 )
+                {
+                    Num = 0;
+                }
+                
+                [ self updateData ];
+                [ self setNew:NO ];
+            }
+        }
+        
+        if ( touchDonw == button2 )
+        {
+            Num--;
+            
+            if ( Num < 0 )
+            {
+                Num = 0;
+            }
+            
+            [ self updateData ];
+            [ self setNew:NO ];
+        }
+        
+    }
+}
 
 - ( void ) setSelect:( BOOL )b
 {

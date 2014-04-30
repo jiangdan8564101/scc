@@ -242,7 +242,7 @@
         [ comm addProfessionTime ];
         [ comm addProfessionSkillAP:enemyCreatures.count ];
         
-        float exp = 0;
+        float exp = 0.3f;
         
         for ( int j = 0 ; j < enemyCreatures.count ; j++ )
         {
@@ -478,9 +478,9 @@
 
 - ( int ) getOneTarget:( NSArray* )arr :(NSArray*)def
 {
-    for ( int i = 0 ; i < arr.count ; ++i )
+    for ( int i = 0 ; i < def.count ; ++i )
     {
-        CreatureCommonData* comm = [ def objectAtIndex:[ [ arr objectAtIndex:i ] intValue ] ];
+        CreatureCommonData* comm = [ def objectAtIndex:i ];
         
         if ( [ self hasBuffWithEffect:comm :STGE_HATRED ] && !comm.Dead )
         {
