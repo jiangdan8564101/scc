@@ -1,11 +1,11 @@
-<quest>
+﻿<quest>
 	
 	
     <q id="1" story="1" next="2" rank="C" img="MI004" name="【探索】精灵森林" owner="【工匠协会】" time="" des="【工匠协会】的最终试炼，需要监督官陪同接受委托" cdes="探索【精灵森林】的【平静的森林】" ci0="" ci1="" cserch="101" cserchper="0.1" calchemy="" cgroundlv="" cshoplv="" chomelv="" cworklv="" ckill0="" ckillnum0="" ckill1="" ckillnum1="" cgold="" comGold="100" comi0="" cominum0="" comi1="" comi2="" comi3=""/>
-    <q id="2" rank="C" story="10" img="MI004" name="【探索】精灵森林" owner="【工匠协会】" des="精灵森林的试炼" cdes="探索【精灵森林】的【不归的黑暗空洞】" cserch="105" cserchper="1.0" comGold="10000" comi0="20312" cominum0="1" comi1="20280" cominum1="1" />
-    <q id="3" rank="C" workRank="1" img="MI003" name="【探索】斯塞提卡湖" owner="【工匠协会】" des="斯塞提卡湖的试炼" cdes="探索【斯塞提卡湖】的【卡伦契约的河道】" cserch="205" cserchper="1.0" comGold="20000" comi0="20311" cominum0="1" comi1="20279" cominum1="1" />
+    <q id="2" rank="C" story="10" img="MI004" name="【探索】精灵森林" owner="【工匠协会】" des="精灵森林的试炼" cdes="探索【精灵森林】的【不归的黑暗空洞】" cserch="105" cserchper="1.0" comGold="10000" comi0="20274" cominum0="1" comi1="20234" cominum1="1" />
+    <q id="3" rank="C" workRank="1" img="MI003" name="【探索】斯塞提卡湖" owner="【工匠协会】" des="斯塞提卡湖的试炼" cdes="探索【斯塞提卡湖】的【卡伦契约的河道】" cserch="205" cserchper="1.0" comGold="20000" comi0="20250" cominum0="1" comi1="20278" cominum1="1" />
     <q id="4" rank="C" workRank="2" img="MI006" name="【探索】忏悔森林" owner="【工匠协会】" des="忏悔森林的试炼" cdes="探索【忏悔森林】的【睡魔的藏身处】" cserch="305" cserchper="1.0" comGold="30000" comi0="20310" cominum0="1" comi1="20278" cominum1="1" />
-    <q id="5" rank="C" workRank="3" img="MI010" name="【探索】废弃教堂" owner="【工匠协会】" des="废弃教堂的试炼" cdes="探索【废弃教堂】的【圣天兽的山路】" cserch="405" cserchper="1.0" comGold="40000" comi0="20309" cominum0="1" comi1="20277" cominum1="1" />
+    <q id="5" rank="C" workRank="3" img="MI010" name="【探索】废弃教堂" owner="【工匠协会】" des="废弃教堂的试炼" cdes="探索【废弃教堂】的【圣天兽的山路】" cserch="405" cserchper="1.0" comGold="40000" comi0="20307" cominum0="1" comi1="20277" cominum1="1" />
     <q id="6" rank="C" workRank="4" img="MI008" name="【探索】言语树林" owner="【工匠协会】" des="言语树林的试炼" cdes="探索【言语树林】的【追忆之乡】】" cserch="505" cserchper="1.0" comGold="50000" comi0="20308" cominum0="1" comi1="20276" cominum1="1" />
     <q id="7" rank="C" workRank="5" img="MI013" name="【探索】神龙湖" owner="【工匠协会】" des="神龙湖的试炼" cdes="探索【神龙湖】的【清澈的西湖畔】" cserch="605" cserchper="1.0" comGold="60000" comi0="20307" cominum0="1" comi1="20275" cominum1="1" />
     <q id="8" rank="C" workRank="6" img="MI011" name="【探索】Rosean山脉" owner="【工匠协会】" des="Rosean山脉的试炼" cdes="探索【Rosean山脉】的【巨人族矿床】" cserch="705" cserchper="1.0" comGold="70000" comi0="20306" cominum0="1" comi1="20274" cominum1="1" />
