@@ -188,7 +188,6 @@ static UIViewController* currentModalViewController = nil;
 
 - (void) reportScore: (int64_t) score forCategory: (NSString*) category
 {
-    [ self authenticateLocalUser ];
     if( !gameCenterAvailable || currentModalViewController || ![ GKLocalPlayer localPlayer].authenticated ) return;
     
     GKScore *scoreReporter = [[[GKScore alloc] initWithCategory:category] autorelease];

@@ -50,14 +50,14 @@ int gCreatureID = MAIN_PLAYER_ID;
     
     NSMutableDictionary* dic = [ NSMutableDictionary dictionary ];
     
-    
+#ifndef DEBUG
     NSString *idfv = [ [ [ UIDevice currentDevice] identifierForVendor ] UUIDString ];
     if ( idfv )
     {
         NSData* data111 = [ NSKeyedArchiver archivedDataWithRootObject:idfv ];
         [ dic setObject:data111 forKey:@"idfv" ];
     }
-    
+#endif
     
     NSData* data1 = [ NSKeyedArchiver archivedDataWithRootObject:[ PlayerCreatureData instance ].PlayerDic  ];
     [ dic setObject:data1 forKey:@"creatures" ];
@@ -199,10 +199,10 @@ int gCreatureID = MAIN_PLAYER_ID;
         
         if ( !dic )
         {
-
             return NO;
         }
         
+#ifndef DEBUG
         NSData* data111 = [ dic objectForKey:@"idfv" ];
         NSString* stridfv = [ NSKeyedUnarchiver unarchiveObjectWithData:data111 ];
         
@@ -214,7 +214,7 @@ int gCreatureID = MAIN_PLAYER_ID;
                 return NO;
             }
         }
-
+#endif
         NSData* data1 = [ dic objectForKey:@"creatures" ];
         NSMutableDictionary* creatures = [ NSKeyedUnarchiver unarchiveObjectWithData:data1 ];
         NSArray* arr = creatures.allValues;
@@ -277,14 +277,14 @@ int gCreatureID = MAIN_PLAYER_ID;
             [ [ EventData instance ].Dic setObject:[ NSNumber numberWithInt:v ] forKey:[ NSNumber numberWithInt:q ] ];
         }
         
-        
+#ifdef DEBUG
 //        [ [ ItemData instance ] addItem:SPECIAL_ITEM:1 ];
-        
 //        for ( int i = 0 ; i < [ ItemConfig instance ].ItemDic.count ; i++ )
 //        {
 //            ItemConfigData* datacc = [ [ ItemConfig instance ].ItemDic.allValues objectAtIndex: i ];
 //            [ [ ItemData instance ] addItem:datacc.ID :99 ];
 //        }
+#endif
         
 //        [ [ ItemData instance ] addItem:99 :10 ];
 //        [ [ ItemData instance ] addItem:50005 :10 ];

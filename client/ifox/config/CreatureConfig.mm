@@ -720,7 +720,7 @@
     [ Skill release ]; Skill = NULL;
     Skill = [ [ NSMutableDictionary alloc ] init ];
     
-    
+#ifdef DEBUG
     // 测试技能
 
 //    for ( int i = 0 ; i < 200 ; ++i )
@@ -745,6 +745,7 @@
 //        
 //    }
     
+#endif
     
     for ( int i = 0 ; i < c ; i++ )
     {
