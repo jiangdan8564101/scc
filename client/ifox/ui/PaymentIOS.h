@@ -22,6 +22,7 @@
 - ( void ) getList:( NSMutableArray* )arr;
 - ( void ) buyGoods:( int ) index;
 - ( void ) complete;
+- ( void ) error;
 
 + ( PaymentIOS* ) instance;
 

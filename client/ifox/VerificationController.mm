@@ -357,6 +357,10 @@ static VerificationController *singleton;
 
         [ [ PaymentIOS instance ] complete ];
     }
+    else
+    {
+        [ [ PaymentIOS instance ] error ];
+    }
 }
 
 

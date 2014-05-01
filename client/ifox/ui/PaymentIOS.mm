@@ -113,6 +113,12 @@ static PaymentIOS* paymentIOS;
     buy = NO;
 }
 
+- ( void ) error
+{
+    [ [ AlertUIHandler instance ] alert:NSLocalizedString( @"BuyFailed" , nil ) ];
+    buy = NO;
+}
+
 - (void)failedTransaction:(SKPaymentTransaction *)transaction
 {
     NSLog(@"transaction.error.code:%@", transaction.error.localizedDescription );

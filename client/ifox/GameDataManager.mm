@@ -37,6 +37,8 @@ int gCreatureID = MAIN_PLAYER_ID;
 
     NSString* filename = [ path stringByAppendingPathComponent:KEY_USERDATA ];
     
+    NSLog( @"datapath%@" , filename );
+    
     NSMutableDictionary* dic1 = [ NSMutableDictionary dictionaryWithContentsOfFile:filename ];
     
     if ( !dic1 )
@@ -142,6 +144,8 @@ int gCreatureID = MAIN_PLAYER_ID;
     NSString* path = [ paths objectAtIndex:0 ];
     
     NSString* filename = [ path stringByAppendingPathComponent:KEY_USERDATA ];
+    
+    NSLog( @"datapath%@" , filename );
     
     if ( filename )
     {
@@ -272,6 +276,9 @@ int gCreatureID = MAIN_PLAYER_ID;
             
             [ [ EventData instance ].Dic setObject:[ NSNumber numberWithInt:v ] forKey:[ NSNumber numberWithInt:q ] ];
         }
+        
+        
+//        [ [ ItemData instance ] addItem:SPECIAL_ITEM:1 ];
         
 //        for ( int i = 0 ; i < [ ItemConfig instance ].ItemDic.count ; i++ )
 //        {
