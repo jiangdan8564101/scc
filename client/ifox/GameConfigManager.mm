@@ -41,9 +41,12 @@ GameConfigManager* gGameConfigManager = NULL;
     return gGameConfigManager;
 }
 
+extern void saveDat1();
 
 - ( void ) initConfig
 {
+    saveDat1();
+    
     [ [ ProDiffConfig instance ] initConfig ];
     
     [ [ SkillConfig instance ] initConfig ];

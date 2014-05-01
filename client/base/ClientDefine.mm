@@ -83,9 +83,9 @@ void saveXML( NSString* name , NSString* input , NSString* output )
 }
 
 
-void saveDat()
+void saveDat1()
 {
-#ifdef DEUBG
+#ifdef DEBUG
     NSFileManager* fileManager = [ NSFileManager defaultManager ];
     NSError* error = nil;
     NSArray* fileList = [ fileManager contentsOfDirectoryAtPath:@"/Users/fox/Desktop/scc/client/ifox/Resources/xml" error:&error ];
@@ -107,8 +107,6 @@ void saveDat()
 
 NSData* loadXML( NSString* name )
 {
-    saveDat();
-    
     if( USEXMLDATA )
     {
         NSString* path = [ [ NSBundle mainBundle ] pathForResource:name ofType:@"dat" inDirectory:XML_DATA_PATH ];
@@ -154,8 +152,6 @@ NSData* loadXML( NSString* name )
 
 NSData* loadXMLScene( NSString* name )
 {
-    saveDat();
-    
     if( USEXMLDATA )
     {
         NSString* path = [ [ NSBundle mainBundle ] pathForResource:name ofType:@"dat" inDirectory:SCENE_DATA_PATH ];
