@@ -173,7 +173,8 @@
         }
         
         [ PlayerData instance ].SellGold += sell * n;
-        [ PlayerData instance ].Gold += sell * n;
+        
+        [ [ PlayerData instance ] addGold:sell * n ];
         
         //[ [ GameKitHelper sharedGameKitHelper ] reportScore:[ PlayerData instance ].SellGold forCategory:@"gold" ];
     }
@@ -189,11 +190,11 @@
     
     ItemConfigData* dd = [ [ ItemConfig instance ] getData:i ];
     
-    if ( [ PlayerData instance ].Gold >= dd.Buy * n )
+    if ( [ PlayerData instance ].getGold >= dd.Buy * n )
     {
         [ self addItem:i :n ];
         
-        [ PlayerData instance ].Gold -= dd.Buy * n;
+        [ [ PlayerData instance ] addGold:-dd.Buy * n ];
     }
     
 }

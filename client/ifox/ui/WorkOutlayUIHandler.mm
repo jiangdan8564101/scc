@@ -170,7 +170,7 @@ static WorkOutlayUIHandler* gWorkOutlayUIHandler;
     if ( isShowPay )
     {
         UILabelNumber* label = (UILabelNumber*)[ view viewWithTag:3001 ];
-        [ label JumpNumber:[ PlayerData instance ].Gold :1.0f :self :@selector( onJumpOver1 ) ];
+        [ label JumpNumber:[ PlayerData instance ].getGold :1.0f :self :@selector( onJumpOver1 ) ];
     }
 }
 

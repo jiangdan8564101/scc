@@ -16,12 +16,17 @@
     
     float workItemEffect[ ICDET_COUNT ];
     
+    int gold1;
+    int gold2;
+    
+    int money1;
+    int money2;
 }
 
 @property ( nonatomic ) int Story;
 @property ( nonatomic ) int GoPay;
 @property ( nonatomic ) int Year , Month , Day;
-@property ( nonatomic ) int Money , Gold , SellGold;
+@property ( nonatomic ) int SellGold;
 @property ( nonatomic ) float BattleSpeed;
 @property ( nonatomic ) int* WorkLevel;
 @property ( nonatomic ) int WorkRank , AssessRank , AlchemyRank;
@@ -42,6 +47,12 @@
 - ( int ) getDay;
 - ( void ) pay;
 - ( void ) addGold:( int )g;
+- ( int ) getGold;
+- ( void ) setGold:( int )g;
+
+- ( void ) addMoney:( int )g;
+- ( int ) getMoney;
+- ( void ) setMoney:( int )g;
 
 - ( void ) goDate:( int )d;
 - ( BOOL ) canWorkLevelUp:( int )t;

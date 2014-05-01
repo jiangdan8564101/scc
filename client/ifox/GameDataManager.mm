@@ -102,8 +102,8 @@ int gCreatureID = MAIN_PLAYER_ID;
     // player data
     
     NSMutableArray* array2 = [ NSMutableArray array ];
-    [ array2 addObject:[ NSNumber numberWithInt:[ PlayerData instance ].Gold ] ];
-    [ array2 addObject:[ NSNumber numberWithInt:[ PlayerData instance ].Money ] ];
+    [ array2 addObject:[ NSNumber numberWithInt:[ PlayerData instance ].getMoney ] ];
+    [ array2 addObject:[ NSNumber numberWithInt:[ PlayerData instance ].getGold ] ];
     
     for ( int i = 0 ; i < WUT_COUNT ; ++i )
     {
@@ -330,8 +330,8 @@ int gCreatureID = MAIN_PLAYER_ID;
         
         data1 = [ dic objectForKey:@"user" ];
         arr = [ NSKeyedUnarchiver unarchiveObjectWithData:data1 ];
-        [ PlayerData instance ].Gold = [ [ arr objectAtIndex:0 ] intValue ];
-        [ PlayerData instance ].Money = [ [ arr objectAtIndex:1 ] intValue ];
+        [ [ PlayerData instance ] setGold:[ [ arr objectAtIndex:0 ] intValue ] ];
+        [ [ PlayerData instance ] setMoney:[ [ arr objectAtIndex:1 ] intValue ] ];
         
         for ( int i = 0 ; i < WUT_COUNT ; ++i )
         {

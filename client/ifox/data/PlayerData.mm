@@ -22,7 +22,7 @@
 @synthesize Story;
 @synthesize GoPay;
 @synthesize Year , Month , Day;
-@synthesize Gold , SellGold , Money;
+@synthesize SellGold;
 @synthesize WorkLevel , WorkRank , AlchemyRank , AssessRank;
 @synthesize Employ , Monster , WorkItem;
 @synthesize WorkItemEffect;
@@ -64,7 +64,9 @@ PlayerData* gPlayerData = NULL;
     dayData[ 10 ] = 30;
     dayData[ 11 ] = 31;
     
-    Gold = 0;
+    gold1 = 0;
+    gold2 = 0;
+    
     Story = 1;
     
     BattleSpeed = 1;
@@ -239,7 +241,7 @@ PlayerData* gPlayerData = NULL;
         goldCount -= [ comm getEmployPrice ];
     }
     
-    Gold += goldCount;
+    [ self addGold:goldCount ];
     
     GoPay = 0;
     
@@ -290,9 +292,37 @@ PlayerData* gPlayerData = NULL;
 
 - ( void ) addGold:( int )g
 {
-    Gold += g;
+    int gold = gold1 + gold2 + g;
+    
+    gold1 = gold / 2;
+    gold2 = gold - gold1;
+}
+- ( int ) getGold
+{
+    return gold1 + gold2;
+}
+- ( void ) setGold:( int )g
+{
+    gold1 = g / 2;
+    gold2 = g - gold1;
 }
 
+- ( void ) addMoney:( int )g
+{
+    int money = money1 + money2 + g;
+    
+    money1 = money / 2;
+    money2 = money - money1;
+}
+- ( int ) getMoney
+{
+    return money1 + money2;
+}
+- ( void ) setMoney:( int )g
+{
+    money1 = g / 2;
+    money2 = g - money1;
+}
 
 - ( BOOL ) canWorkLevelUp:( int )t
 {
@@ -319,9 +349,9 @@ PlayerData* gPlayerData = NULL;
     PackItemData* packData0 = [ [ ItemData instance ] getItem:data.Item0 ];
     PackItemData* packData1 = [ [ ItemData instance ] getItem:data.Item1 ];
     
-    BOOL b = ( packData0.Number >= data.Num0 && packData1.Number >= data.Num1 && [ PlayerData instance ].Gold >= data.Gold );
+    BOOL b = ( packData0.Number >= data.Num0 && packData1.Number >= data.Num1 && [ PlayerData instance ].getGold >= data.Gold );
     
-    if ( [ PlayerData instance ].Gold < data.Gold )
+    if ( [ PlayerData instance ].getGold < data.Gold )
     {
         [ [ AlertUIHandler instance ] alert:NSLocalizedString( @"NotGold", nil )  ];
         return b;

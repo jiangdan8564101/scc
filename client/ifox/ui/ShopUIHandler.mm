@@ -299,7 +299,7 @@ static ShopUIHandler* gShopUIHandler;
         BuyMode ? gold -= config.Buy * num : gold += sell * num;
     }
     
-    [ goldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].Gold ] ];
+    [ goldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].getGold ] ];
     
     if ( BuyMode )
     {
@@ -317,7 +317,7 @@ static ShopUIHandler* gShopUIHandler;
         }
     }
     
-    if ( [ PlayerData instance ].Gold + gold < 0 )
+    if ( [ PlayerData instance ].getGold + gold < 0 )
     {
         [ userGoldLabel setTextColor:[ UIColor redColor ] ];
         canBuy = NO;
@@ -328,7 +328,7 @@ static ShopUIHandler* gShopUIHandler;
         canBuy = YES;
     }
     
-    [ userGoldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].Gold + gold ] ];
+    [ userGoldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].getGold + gold ] ];
 }
 
 

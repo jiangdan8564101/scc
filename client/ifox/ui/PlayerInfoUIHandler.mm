@@ -223,7 +223,7 @@ static PlayerInfoUIHandler* gPlayerInfoUIHandler;
 
 - ( void ) updateGold
 {
-    [ goldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].Gold ] ];
+    [ goldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].getGold ] ];
 }
 
 - ( void ) scrollViewDidEndDecelerating:( UIScrollView* )sv

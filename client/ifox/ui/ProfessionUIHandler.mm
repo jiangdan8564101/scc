@@ -207,7 +207,7 @@ static ProfessionUIHandler* gProfessionUIHandler;
     [ conLabel setText:str ];
     [ desLabel setText:data.Des ];
     [ con1Label setText:data1.Name ];
-    [ goldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ] .Gold ] ];
+    [ goldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].getGold ] ];
 }
 
 

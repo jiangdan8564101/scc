@@ -171,7 +171,7 @@ static WorkWorkUIHandler* gWorkWorkUIHandler;
     [ label setText:[NSString stringWithFormat:@"%d" , [ PlayerData instance ].AlchemyRank ] ];
     
     label = (UILabel*)[ view viewWithTag:1303 ];
-    [ label setText:[NSString stringWithFormat:@"%d" , [ PlayerData instance ].Gold ] ];
+    [ label setText:[NSString stringWithFormat:@"%d" , [ PlayerData instance ].getGold ] ];
     
     [ self updateLevel ];
 }

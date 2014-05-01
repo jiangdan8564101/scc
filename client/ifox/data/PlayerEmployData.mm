@@ -256,7 +256,7 @@ PlayerEmployData* gPlayerEmployData = NULL;
 {
     CreatureCommonData* comm = [ PlayerArray objectAtIndex:i ];
     
-    if ( [ PlayerData instance ].Gold >= [ comm getEmployPrice ] )
+    if ( [ PlayerData instance ].getGold >= [ comm getEmployPrice ] )
     {
         return YES;
     }

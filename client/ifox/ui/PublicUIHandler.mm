@@ -62,7 +62,7 @@ static PublicUIHandler* gPublicUIHandler;
 
 - ( void ) updateGold
 {
-    [ goldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].Gold ] ];
+    [ goldLabel setText:[ NSString stringWithFormat:@"%d" , [ PlayerData instance ].getGold ] ];
 }
 
 
