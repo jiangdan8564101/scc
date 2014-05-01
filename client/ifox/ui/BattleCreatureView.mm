@@ -185,7 +185,7 @@ static void changeRGBA(int *red,int *green,int *blue,int *alpha, const float* f)
 - ( void ) updateData:( CreatureCommonData* )c
 {
     CGRect f = hpView.frame;
-    f.size.width = bgView.frame.size.width * ( c.RealBaseData.HP / ( c.RealBaseData.MaxHP + 0.001f ) );
+    f.size.width = bgView.frame.size.width * ( c.RealBaseData.HP / ( c.RealBaseData.MaxHP ) );
     
     if ( f.size.width < 0.05f )
     {
@@ -198,7 +198,16 @@ static void changeRGBA(int *red,int *green,int *blue,int *alpha, const float* f)
     [ hpView setFrame:f ];
     
     f = spView.frame;
-    f.size.width = bgView.frame.size.width * ( c.RealBaseData.SP / ( c.RealBaseData.MaxSP + 0.001f ) );
+    
+    if ( c.RealBaseData.MaxSP == 0 )
+    {
+        f.size.width = bgView.frame.size.width;
+    }
+    else
+    {
+        f.size.width = bgView.frame.size.width * ( c.RealBaseData.SP / ( c.RealBaseData.MaxSP ) );
+    }
+    
     
     if ( f.size.width < 0.05f )
     {
@@ -211,7 +220,7 @@ static void changeRGBA(int *red,int *green,int *blue,int *alpha, const float* f)
     [ spView setFrame:f ];
     
     f = fsView.frame;
-    f.size.width = bgView.frame.size.width * ( c.RealBaseData.FS / ( c.RealBaseData.MaxFS + 0.001f ) );
+    f.size.width = bgView.frame.size.width * ( c.RealBaseData.FS / ( c.RealBaseData.MaxFS ) );
     
     if ( f.size.width < 0.05f )
     {
