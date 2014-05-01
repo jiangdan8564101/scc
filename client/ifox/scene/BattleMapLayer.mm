@@ -330,25 +330,7 @@
         }
     }
     
-    
-    NSString* path = [ [ NSBundle mainBundle ] pathForResource:@"sp" ofType:@"xml" inDirectory:SCENE_PATH ];
-    
-    if ( !path )
-    {
-        return;
-    }
-    
-    NSFileHandle* file = [ NSFileHandle fileHandleForReadingAtPath:path ];
-    
-    if ( !file )
-    {
-        return;
-    }
-    
-    NSData* data = [ file readDataToEndOfFile ];
-    [ file closeFile ];
-    
-    //NSData* data = loadXML( [ NSString stringWithFormat:@"%@%d" , SCENE_PATH , i ] );
+    NSData* data = loadXMLScene( @"sp" );
     
     if ( !data )
     {
@@ -372,7 +354,7 @@
     [ self loadMap ];
     [ self loadPath ];
     
-    path = [ NSString stringWithFormat:@"%@/%@.png" , MAP_PATH , Mask ];
+    NSString* path = [ NSString stringWithFormat:@"%@/%@.png" , MAP_PATH , Mask ];
     
     [ [ CCTextureCache sharedTextureCache ] addImageAsync:path target:self selector:@selector( onLoadMaskTexture: ) ];
     
@@ -439,24 +421,7 @@
     subSceneMap = [ [ MapConfig instance ] getSubSceneMap:i ];
     sceneDataItem = [ [ SceneData instance ] getSceneData:i ];
     
-    NSString* path = [ [ NSBundle mainBundle ] pathForResource:[ NSString stringWithFormat:@"%d" , i ] ofType:@"xml" inDirectory:SCENE_PATH ];
-    
-    if ( !path )
-    {
-        return;
-    }
-    
-    NSFileHandle* file = [ NSFileHandle fileHandleForReadingAtPath:path ];
-    
-    if ( !file )
-    {
-        return;
-    }
-    
-    NSData* data = [ file readDataToEndOfFile ];
-    [ file closeFile ];
-    
-    //NSData* data = loadXML( [ NSString stringWithFormat:@"%@%d" , SCENE_PATH , i ] );
+    NSData* data = loadXMLScene( [ NSString stringWithFormat:@"%d" , i ] );
     
     if ( !data )
     {
@@ -480,7 +445,7 @@
     [ self loadMap ];
     [ self loadPath ];
     
-    path = [ NSString stringWithFormat:@"%@/%@.png" , MAP_PATH , Mask ];
+    NSString* path = [ NSString stringWithFormat:@"%@/%@.png" , MAP_PATH , Mask ];
     
     [ [ CCTextureCache sharedTextureCache ] addImageAsync:path target:self selector:@selector( onLoadMaskTexture: ) ];
     

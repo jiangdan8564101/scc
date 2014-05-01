@@ -380,6 +380,7 @@
 		98593C0D189F43AB00611552 /* b-.png in Resources */ = {isa = PBXBuildFile; fileRef = 98593C0A189F43AB00611552 /* b-.png */; };
 		98593C0E189F43AB00611552 /* c+.png in Resources */ = {isa = PBXBuildFile; fileRef = 98593C0B189F43AB00611552 /* c+.png */; };
 		98593C0F189F43AB00611552 /* xiyou.png in Resources */ = {isa = PBXBuildFile; fileRef = 98593C0C189F43AB00611552 /* xiyou.png */; };
+		98594CC31911E6BA00C70500 /* dat in Resources */ = {isa = PBXBuildFile; fileRef = 98594CC21911E6BA00C70500 /* dat */; };
 		985EC342171EDF3B0089519B /* GameUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 985EC341171EDF3A0089519B /* GameUnit.m */; };
 		985EC346171EE5EA0089519B /* GameData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 985EC345171EE5EA0089519B /* GameData.mm */; };
 		985EC349171EE62D0089519B /* PlayerCreatureData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 985EC348171EE62D0089519B /* PlayerCreatureData.mm */; };
@@ -1329,6 +1330,7 @@
 		98593C0A189F43AB00611552 /* b-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b-.png"; sourceTree = "<group>"; };
 		98593C0B189F43AB00611552 /* c+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c+.png"; sourceTree = "<group>"; };
 		98593C0C189F43AB00611552 /* xiyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiyou.png; sourceTree = "<group>"; };
+		98594CC21911E6BA00C70500 /* dat */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dat; path = Resources/dat; sourceTree = "<group>"; };
 		985EC340171EDF3A0089519B /* GameUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameUnit.h; sourceTree = "<group>"; };
 		985EC341171EDF3A0089519B /* GameUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameUnit.m; sourceTree = "<group>"; };
 		985EC344171EE5EA0089519B /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
@@ -3095,6 +3097,7 @@
 				9822D6CC188191C30088C261 /* Default-Portrait@2x~ipad.png */,
 				9822D6CD188191C30088C261 /* Default~ipad.png */,
 				98FC4E7317D33034002B2A00 /* Localizable.strings */,
+				98594CC21911E6BA00C70500 /* dat */,
 				98BA7B681898AED800022318 /* effect */,
 				982FEC0A17D6205B00222BB5 /* head */,
 				982FEC0B17D6205C00222BB5 /* icon */,
@@ -4056,6 +4059,7 @@
 				98FD673118F41F77005C9F98 /* LoginUIViewIphone5.xib in Resources */,
 				98529CD017E752560092D5FE /* CP000DA.png in Resources */,
 				98529D4B17E752560092D5FE /* MI029.png in Resources */,
+				98594CC31911E6BA00C70500 /* dat in Resources */,
 				98FD671018F41F3A005C9F98 /* WorkOutlayViewIphone.xib in Resources */,
 				98529D0917E752560092D5FE /* publicEmploy.png in Resources */,
 				9864B88316A2689F006B1A9A /* CityMapUIView.xib in Resources */,

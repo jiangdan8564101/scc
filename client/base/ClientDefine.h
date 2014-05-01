@@ -23,6 +23,8 @@ extern float        GAME_SPEED;
 #define             MAP_PATH @"map/"
 #define             SOUND_PATH @"sound/"
 #define             XML_PATH @"xml/"
+#define             XML_DATA_PATH @"dat/"
+#define             SCENE_DATA_PATH @"dat/scene/"
 #define             SCENE_PATH @"xml/scene/"
 #define             GUIDE_PATH @"xml/guide/"
 #define             HEAD_PATH @"head/"
@@ -42,6 +44,7 @@ enum PlaySoundType
 
 extern void playSound( int n );
 
+extern NSData* loadXMLScene( NSString* name );
 extern NSData* loadXML( NSString* name );
 extern NSArray* getSortKeys( NSDictionary* dic );
 extern int getRand( int min , int max );
