@@ -239,9 +239,6 @@
     {
         CreatureCommonData* comm = [ selfCreatures objectAtIndex:i ];
         
-        [ comm addProfessionTime ];
-        [ comm addProfessionSkillAP:enemyCreatures.count ];
-        
         float exp = 0.3f;
         
         for ( int j = 0 ; j < enemyCreatures.count ; j++ )
@@ -262,6 +259,9 @@
         if ( !comm.Dead )
         {
             comm.EXP += exp;
+            
+            [ comm addProfessionTime ];
+            [ comm addProfessionSkillAP:enemyCreatures.count ];
         }
         
         

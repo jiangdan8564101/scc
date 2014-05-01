@@ -191,6 +191,7 @@
         
         if ( data.Time == proTime )
         {
+            //data.Time = 0;
             data.Level++;
             return YES;
         }
