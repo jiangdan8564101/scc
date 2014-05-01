@@ -72,7 +72,7 @@ const fint32    MAIN_PLAYER_ID2 = 2;
 const fint32    MAIN_PLAYER_ID3 = 3;
 const fint32    MAIN_PLAYER_ID4 = 4;
 const fint32    MAIN_PLAYER_ID16 = 16;
-const fint32    FREE_MODE_STORY = 21;
+const fint32    FREE_MODE_STORY = 15;
 
 const fint32    SPECIAL_ITEM = 99;
 

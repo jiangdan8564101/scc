@@ -276,15 +276,7 @@ int gCreatureID = MAIN_PLAYER_ID;
             
             [ [ EventData instance ].Dic setObject:[ NSNumber numberWithInt:v ] forKey:[ NSNumber numberWithInt:q ] ];
         }
-        
-#ifdef DEBUG
-//        [ [ ItemData instance ] addItem:SPECIAL_ITEM:1 ];
-//        for ( int i = 0 ; i < [ ItemConfig instance ].ItemDic.count ; i++ )
-//        {
-//            ItemConfigData* datacc = [ [ ItemConfig instance ].ItemDic.allValues objectAtIndex: i ];
-//            [ [ ItemData instance ] addItem:datacc.ID :99 ];
-//        }
-#endif
+ 
         
 //        [ [ ItemData instance ] addItem:99 :10 ];
 //        [ [ ItemData instance ] addItem:50005 :10 ];
@@ -391,7 +383,19 @@ int gCreatureID = MAIN_PLAYER_ID;
         
         [ [ PlayerData instance ] updateWorkItemEffect ];
         
-        //[ PlayerData instance ].Gold = 88888;
+        
+#ifdef DEBUG
+        //        [ [ ItemData instance ] addItem:SPECIAL_ITEM:1 ];
+        //        for ( int i = 0 ; i < [ ItemConfig instance ].ItemDic.count ; i++ )
+        //        {
+        //            ItemConfigData* datacc = [ [ ItemConfig instance ].ItemDic.allValues objectAtIndex: i ];
+        //            [ [ ItemData instance ] addItem:datacc.ID :99 ];
+        //        }
+        //[ [ PlayerEmployData instance ] employCreature:3 ];
+        //[ PlayerData instance ].Gold = 1111111;
+#endif
+        
+        
         
         //[ PlayerData instance ].WorkRank = 13;
         //[ PlayerData instance ].Story = 14;

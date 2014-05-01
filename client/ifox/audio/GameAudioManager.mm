@@ -41,7 +41,7 @@
         [ music initSoundHandler:playing :@"mp3" ];
         music.delegate = NULL;
         [ music setEnableRate:YES ];
-        [ music setRate:1.0f + ( GAME_SPEED - 1 ) * 0.25f ];
+        [ music setRate:1.0f + ( GAME_SPEED - 1 ) * 0.13f ];
         
         [ music setLoop:YES ];
         [ music setVolume: Enabled ? musicVolume : 0 ];
