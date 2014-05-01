@@ -85,6 +85,7 @@ void saveXML( NSString* name , NSString* input , NSString* output )
 
 void saveDat()
 {
+#ifdef DEUBG
     NSFileManager* fileManager = [ NSFileManager defaultManager ];
     NSError* error = nil;
     NSArray* fileList = [ fileManager contentsOfDirectoryAtPath:@"/Users/fox/Desktop/scc/client/ifox/Resources/xml" error:&error ];
@@ -99,13 +100,14 @@ void saveDat()
     {
         saveXML( [ fileList objectAtIndex:i ] , @"/Users/fox/Desktop/scc/client/ifox/Resources/xml/scene" , @"/Users/fox/Desktop/scc/client/ifox/Resources/dat/scene" );
     }
+#endif
 }
 
 #define USEXMLDATA 1
 
 NSData* loadXML( NSString* name )
 {
-    //saveDat();
+    saveDat();
     
     if( USEXMLDATA )
     {

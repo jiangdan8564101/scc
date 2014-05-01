@@ -66,21 +66,12 @@ GuideConfig* gGuideConfig = NULL;
 
 - ( void ) loadFile:( NSString* )str
 {
-    NSString* path = [ [ NSBundle mainBundle ] pathForResource:str ofType:@"xml" inDirectory:XML_PATH ];
+    NSData* data = loadXML( str );
     
-    if ( !path )
+    if ( !data )
     {
         return;
     }
-    
-    NSFileHandle* file = [ NSFileHandle fileHandleForReadingAtPath:path ];
-    if ( !file )
-    {
-        return;
-    }
-    
-    NSData* data = [ file readDataToEndOfFile ];
-    [ file closeFile ];
     
     NSXMLParser* parser = [ [ NSXMLParser alloc] initWithData:data ];
     [ parser setDelegate:self ];

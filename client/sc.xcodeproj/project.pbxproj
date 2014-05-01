@@ -90,7 +90,6 @@
 		98361D491722AED8002A0473 /* BattleMovie.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98361D481722AED8002A0473 /* BattleMovie.mm */; };
 		98383CC61838B80900A07188 /* professionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98383CC51838B80900A07188 /* professionButton.png */; };
 		9842DA92172E1C2D00090A84 /* BattleStage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9842DA91172E1C2D00090A84 /* BattleStage.mm */; };
-		9842DA9D172E641600090A84 /* xml in Resources */ = {isa = PBXBuildFile; fileRef = 9842DA9C172E641600090A84 /* xml */; };
 		9842DAA0172E94D800090A84 /* ActionConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9842DA9F172E94D800090A84 /* ActionConfig.mm */; };
 		984518B31850BA6500B400C2 /* InfoQuestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 984518B21850BA6500B400C2 /* InfoQuestView.xib */; };
 		984518BA1850BA8C00B400C2 /* infoBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 984518B51850BA8C00B400C2 /* infoBG.png */; };
@@ -1027,7 +1026,6 @@
 		98383CC51838B80900A07188 /* professionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = professionButton.png; sourceTree = "<group>"; };
 		9842DA90172E1C2C00090A84 /* BattleStage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleStage.h; sourceTree = "<group>"; };
 		9842DA91172E1C2D00090A84 /* BattleStage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BattleStage.mm; sourceTree = "<group>"; };
-		9842DA9C172E641600090A84 /* xml */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xml; path = Resources/xml; sourceTree = "<group>"; };
 		9842DA9E172E94D800090A84 /* ActionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionConfig.h; sourceTree = "<group>"; };
 		9842DA9F172E94D800090A84 /* ActionConfig.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ActionConfig.mm; sourceTree = "<group>"; };
 		984518B21850BA6500B400C2 /* InfoQuestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoQuestView.xib; sourceTree = "<group>"; };
@@ -3103,7 +3101,6 @@
 				982FEC0B17D6205C00222BB5 /* icon */,
 				98572CB817CA1BDE003A1CE8 /* creature */,
 				988B29561792711F0043603E /* sound */,
-				9842DA9C172E641600090A84 /* xml */,
 				98E6685B16AB00320014A0BB /* map */,
 				98D0230916A42D4B0025EC97 /* action */,
 				98529B7317E752540092D5FE /* ui */,
@@ -4211,7 +4208,6 @@
 				98529CAC17E752560092D5FE /* battlevs.png in Resources */,
 				98529C9717E752560092D5FE /* battleend2.png in Resources */,
 				98529D2217E752560092D5FE /* workWorkUIwallRoom2.png in Resources */,
-				9842DA9D172E641600090A84 /* xml in Resources */,
 				98FD66D918F41EA4005C9F98 /* ProfessionUIViewIphone5.xib in Resources */,
 				986B4FB9185B531100D05558 /* BG006B.jpg in Resources */,
 				986B4FB8185B531100D05558 /* BG006A.jpg in Resources */,
